@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Images | My Octopress Blog]]></title>
+  <link href="http://fusion94.github.io/blog/categories/images/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T16:45:45-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Halo/Dive]]></title>
+    <link href="http://fusion94.github.io/blog/2012/08/19/halo-slash-dive/"/>
+    <updated>2012-08-19T17:16:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2012/08/19/halo-slash-dive</id>
+    <content type="html"><![CDATA[<p>While everyone wants to be on a HALO/Dive team there&rsquo;s a lot of work involved. Here&rsquo;s part of
+the pain.</p>
+
+<p>{% img /images/blog/random/halo_dive.jpeg %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Infantry Way]]></title>
+    <link href="http://fusion94.github.io/blog/2012/08/17/the-infantry-way/"/>
+    <updated>2012-08-17T23:48:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2012/08/17/the-infantry-way</id>
+    <content type="html"><![CDATA[<p>True Story.</p>
+
+<p>{% img /images/blog/random/infantry_way.jpeg %}</p>
+]]></content>
+  </entry>
+  
+</feed>

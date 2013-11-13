@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: General | My Octopress Blog]]></title>
+  <link href="http://fusion94.github.io/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T16:45:45-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Curiosity Playlist]]></title>
+    <link href="http://fusion94.github.io/blog/2012/08/30/curiosity-playlist/"/>
+    <updated>2012-08-30T07:36:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2012/08/30/curiosity-playlist</id>
+    <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
+
+<p>{% spotify spotify:user:fusion94:playlist:4Hgp2StCXF6OTJLl4rv6Z2 %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Halo/Dive]]></title>
+    <link href="http://fusion94.github.io/blog/2012/08/19/halo-slash-dive/"/>
+    <updated>2012-08-19T17:16:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2012/08/19/halo-slash-dive</id>
+    <content type="html"><![CDATA[<p>While everyone wants to be on a HALO/Dive team there&rsquo;s a lot of work involved. Here&rsquo;s part of
+the pain.</p>
+
+<p>{% img /images/blog/random/halo_dive.jpeg %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Infantry Way]]></title>
+    <link href="http://fusion94.github.io/blog/2012/08/17/the-infantry-way/"/>
+    <updated>2012-08-17T23:48:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2012/08/17/the-infantry-way</id>
+    <content type="html"><![CDATA[<p>True Story.</p>
+
+<p>{% img /images/blog/random/infantry_way.jpeg %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Greatest Show on Earth]]></title>
+    <link href="http://fusion94.github.io/blog/2012/08/17/the-greatest-show-on-earth/"/>
+    <updated>2012-08-17T21:04:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2012/08/17/the-greatest-show-on-earth</id>
+    <content type="html"><![CDATA[<p>The Greatest Show On Earth 320kph / 200mph Street Race &ndash; &lsquo;ISLE of MAN&rsquo; TT</p>
+
+<p>{% vimeo 46856767 %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Command Line Port Scanner OSX]]></title>
+    <link href="http://fusion94.github.io/blog/2009/01/06/command-line-port-scanner-osx/"/>
+    <updated>2009-01-06T09:34:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2009/01/06/command-line-port-scanner-osx</id>
+    <content type="html"><![CDATA[<p>Who knew that OS X has a command line port scanner? I for one didn&rsquo;t. I&rsquo;ve always just used the Network Utility version. Here&rsquo;s how to access it.</p>
+
+<p>As the superuser run this:</p>
+
+<p>{% codeblock %}
+ln /Applications/Utilities/Network\ Utility.app/Contents/Resources/stroke /bin/stroke
+chmod uo+x /bin/stroke
+{% endcodeblock %}</p>
+
+<p>Then as any user you can call it from the terminal as such:</p>
+
+<p>{% codeblock %}
+stroke address startPort endPort`
+{% endcodeblock %}</p>
+
+<p>So to check your local machine do:</p>
+
+<p>{% codeblock %}
+stroke 127.0.0.1 0 1024
+{% endcodeblock %}</p>
+
+<p>You should see output that looks similar to this:</p>
+
+<p>{% codeblock %}
+Port Scanning host: 127.0.0.1</p>
+
+<pre><code>     Open TCP Port:         80              http
+     Open TCP Port:         631             ipp
+</code></pre>
+
+<p>{% endcodeblock %}</p>
+]]></content>
+  </entry>
+  
+</feed>

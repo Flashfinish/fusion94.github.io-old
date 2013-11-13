@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | My Octopress Blog]]></title>
+  <link href="http://fusion94.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T16:45:45-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HowTo Tweet New Posts in Octopress]]></title>
+    <link href="http://fusion94.github.io/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
+    <updated>2013-01-13T07:10:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
+    <content type="html"><![CDATA[<p>Thanks to a <a href="http://prydoni.us/blog/2012/04/29/tweet-new-posts-in-octopress/">blog post</a> from <a href="http://prydoni.us/blog/">Adnan Abdulhussein</a>, I can now auto-tweet new blog posts on my <a href="http://octopress.org">Octopress</a> blog.</p>
+
+<p>I used his original blog post as a guideline but his method was a bit dated and here&rsquo;s the process I used to get this functionality working.</p>
+
+<!-- more -->
+
+
+<p>The basic idea works this way, when you create a post it prints the tweet message you give it and a link to the post in a <code>tweet_queue</code> file. When you deploy, it simply reads this file and tweets what’s in there line-by-line. This also means you can create multiple posts at a time, and they will all be tweeted at the same time when you deploy you blog.</p>
+
+<h4>Create an application on Twitter</h4>
+
+<p>Head over to <a href="https://dev.twitter.com/apps/new">https://dev.twitter.com/apps/new</a>, sign in and create a Twitter application for your blog.</p>
+
+<p>In <em>Settings:</em> ensure <em>read</em> and <em>write</em> access is <strong>enabled</strong>.</p>
+
+<p>In <em>Details:</em> take note of the following details:</p>
+
+<ul>
+<li>Consumer Key</li>
+<li>Consumer Secret</li>
+<li>Access Token</li>
+<li>Access Token Secret</li>
+</ul>
+
+
+<h4>Install the gem</h4>
+
+<p>We&rsquo;ll be using the Twitter gem to update statues. So first things first, so go ahead and put this in your <code>Gemfile</code> in the development group::</p>
+
+<p>{% codeblock Installing the twitter gem %}
+gem &lsquo;twitter&rsquo;
+{% endcodeblock %}</p>
+
+<p>Then from a terminal run <code>bundle install</code> to install the gem.</p>
+
+<h4>Configure Twitter</h4>
+
+<p>Open up your <code>Rakefile</code> and add the following up near the top with the other requires:</p>
+
+<p>{% codeblock Adding Rakefile requires %}
+require &ldquo;twitter&rdquo;
+{% endcodeblock %}</p>
+
+<p>While you have the <code>Rakefile</code> open add the following lines after the <code>server_port</code> line:</p>
+
+<p>{% codeblock Configuring Rakefile for Twitter %}</p>
+
+<h1>Twitter config (for tweeting posts)</h1>
+
+<p>Twitter.configure do |config|
+  config.consumer_key = &ldquo;YOUR_CONSUMER_KEY&rdquo;
+  config.consumer_secret = &ldquo;YOUR_CONSUMER_SECRET&rdquo;
+  config.oauth_token = &ldquo;YOUR_OAUTH_TOKEN&rdquo;
+  config.oauth_token_secret = &ldquo;YOUR_OAUTH_TOKEN_SECRET&rdquo;
+end</p>
+
+<h1>URL of your blog e.g. <a href="http://fusion94.org/blog/">http://fusion94.org/blog/</a></h1>
+
+<h1>MAKE SURE THERE IS A TRAILING SLASH, otherwise the linking won&rsquo;t work</h1>
+
+<p>blog_url = &ldquo;YOUR_BLOG_URL&rdquo;
+{% endcodeblock %}</p>
+
+<p>Replacing <code>YOUR_*</code> with the details from your Twitter app.</p>
+
+<p>Make sure there is a trailing slash (slash at the end of the URL) for the <code>blog_url</code>. It needs this because it appends the date-name combo of the post to form the URL of the post.</p>
+
+<h4>Modify the ‘new_post’ rake task</h4>
+
+<p>Look for the <code>:new_post</code> rake task in the <code>Rakefile</code>. this should be around lines 106 or so. Replace the task with the following:</p>
+
+<p>{% codeblock Configuring new_post rake task %}</p>
+
+<h1>usage rake new_post[my-new-post] or rake new_post[&lsquo;my new post&rsquo;] or rake new_post (defaults to &ldquo;new-post&rdquo;)</h1>
+
+<p>desc &ldquo;Begin a new post in #{source_dir}/#{posts_dir}&rdquo;
+task :new_post, :title, :tweet do |t, args|
+  raise &ldquo;### You haven&rsquo;t set anything up yet. First run <code>rake install</code> to set up an Octopress theme.&rdquo; unless File.directory?(source_dir)
+  mkdir_p &ldquo;#{source_dir}/#{posts_dir}&rdquo;
+  args.with_defaults(:title => &lsquo;new-post&rsquo;, :tweet => &lsquo;&rsquo;)
+  title = args.title
+  filename = &ldquo;#{source_dir}/#{posts_dir}/#{Time.now.strftime(&lsquo;%Y-%m-%d&rsquo;)}&ndash;#{title.to_url}.#{new_post_ext}&rdquo;
+  if File.exist?(filename)</p>
+
+<pre><code>abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+</code></pre>
+
+<p>  end
+  puts &ldquo;Creating new post: #{filename}&rdquo;
+  open(filename, &lsquo;w&rsquo;) do |post|</p>
+
+<pre><code>post.puts "---"
+post.puts "layout: post"
+post.puts "title: \"#{title.gsub(/&amp;/,'&amp;amp;')}\""
+post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+post.puts "comments: true"
+post.puts "categories: "
+post.puts "---"
+</code></pre>
+
+<p>  end
+  tweet = args.tweet
+  if not tweet == &lsquo;&rsquo;</p>
+
+<pre><code># add to twitter status queue
+puts 'Adding post to tweet queue, it will be tweeted after deploying.'
+open('tweet_queue', 'a') do |file|
+  file.puts "#{tweet} - #{blog_url}#{Time.now.strftime('%Y/%m/%d')}/#{title.to_url}/"
+end
+</code></pre>
+
+<p>  end
+end
+{% endcodeblock %}</p>
+
+<p>If you already have a modified task, the only changes are the task declaration <code>(task :new_post, :title, :tweet do |t, args|)</code> and the last few lines starting with <code>tweet = args.tweet.</code></p>
+
+<h4>Setup tweet on deploy</h4>
+
+<p>Look for the <code>:deploy task</code> in the <code>Rakefile</code> this should be around lines 232 or so. Replace the task with the following:</p>
+
+<p>{% codeblock Confguring deploy to tweet %}
+desc &ldquo;Default deploy task&rdquo;
+task :deploy do
+  # Check if preview posts exist, which should not be published
+  if File.exists?(&ldquo;.preview-mode&rdquo;)</p>
+
+<pre><code>puts "## Found posts in preview mode, regenerating files ..."
+File.delete(".preview-mode")
+Rake::Task[:generate].execute
+</code></pre>
+
+<p>  end</p>
+
+<p>  Rake::Task[:copydot].invoke(source_dir, public_dir)
+  Rake::Task[&ldquo;#{deploy_default}&rdquo;].execute</p>
+
+<p>  # Tweet
+  next if not File.exists? &lsquo;tweet_queue&rsquo;
+  puts &ldquo;Tweeting&hellip;&rdquo;
+  client = Twitter::Client.new
+  open(&lsquo;tweet_queue&rsquo;, &lsquo;r&rsquo;) do |file|</p>
+
+<pre><code>while (line = file.gets)
+  puts "Tweeting '#{line.gsub("\n", "")}' for @#{client.current_user.screen_name}..."
+  Twitter.update line
+end
+</code></pre>
+
+<p>  end
+  puts &ldquo;Deleting queue&hellip;&rdquo;
+  rm &lsquo;tweet_queue&rsquo;
+end
+{% endcodeblock %}</p>
+
+<p>Or indeed just add the last couple of lines starting with <code># Tweet</code>.</p>
+
+<h4>Usage</h4>
+
+<p>The only change here is you’ll need to specify a separate message for the tweet when you create the post. This is the best way to give you the option of choosing whether you want to tweet the post or not. It also allows you to add @’s and #’s to the tweet message separately from the post title.</p>
+
+<p>Here’s an example:</p>
+
+<p>The first section is the title of the post while the second section is the tweet that will go out along with the URL to the blog post.</p>
+
+<p>{% codeblock rake new_post usage %}
+rake new_post[&ldquo;HowTo Tweet New Posts in Octopress&rdquo;,&ldquo;HowTo Tweet New Posts in Octopress @twitter&rdquo;]
+{% endcodeblock %}</p>
+
+<p>And here&rsquo;s the message generated after the <code>rake new_post</code> task is run.</p>
+
+<p>{% codeblock rake new_post message %}
+mkdir -p source/<em>posts
+Creating new post: source/</em>posts/2013-01-13-howto-tweet-new-posts-in-octopress.markdown
+Adding post to tweet queue, it will be tweeted after deploying.
+{% endcodeblock %}</p>
+
+<p>Now all that&rsquo;s left to do is create your post and then run <code>rake generate &amp;&amp; rake deploy</code>. Your post will be deployed and your tweet will be sent.</p>
+
+<h4>Conclusion</h4>
+
+<p>And that&rsquo;s it. Pretty simple eh? Have fun tweeting and blogging from Octopress.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This post will be tweeted]]></title>
+    <link href="http://fusion94.github.io/blog/2013/01/13/this-post-will-be-tweeted/"/>
+    <updated>2013-01-13T07:03:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/13/this-post-will-be-tweeted</id>
+    <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Recent Comments as an Asides]]></title>
+    <link href="http://fusion94.github.io/blog/2013/01/11/recent-comments-as-an-asides/"/>
+    <updated>2013-01-11T16:39:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/11/recent-comments-as-an-asides</id>
+    <content type="html"><![CDATA[<p>This short tutorial will teach you in creating a &ldquo;Recent Comments&rdquo; asides for the Octopress sidebar if you&rsquo;re using Disqus as your commenting system.</p>
+
+<p><strong>Step 1:</strong> Let’s create a new aside. Create a new file named <code>recent_comments.html</code> under <code>source/_includes/custom/asides</code></p>
+
+<!-- more -->
+
+
+<p><strong>Step 2:</strong> Add the following code</p>
+
+<p>{% codeblock recent_comments.html %}
+<section>
+  <h1>Recent Comments</h1>
+  <div id="dsq-recentcomments" class="dsq-widget"><script type="text/javascript" src="http://disqus.com/forums/{{ site.disqus_short_name }}/recent_comments_widget.js?hide_avatars=1"></script></div>
+</section>
+{% endcodeblock %}</p>
+
+<p>Here are the parameters you can use for comments :</p>
+
+<ul>
+<li>hide_avatars : hides the avatar in comments (values : 0, 1)</li>
+<li>num_items : number of comments to show</li>
+<li>excerpt_length : number of characters to show for each comment</li>
+</ul>
+
+
+<p><strong>Step 3:</strong> Add the aside to <code>_config.yml</code></p>
+
+<p>{% codeblock %}
+default_asides: [custom/asides/links.html, asides/recent_posts.html, custom/asides/recent_comments.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+{% endcodeblock %}</p>
+
+<p><strong>Step 4:</strong> Rebuild your site</p>
+
+<p>{% codeblock %}
+rake generate &amp;&amp; rake deploy
+{% endcodeblock %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Drafts]]></title>
+    <link href="http://fusion94.github.io/blog/2013/01/07/octopress-drafts/"/>
+    <updated>2013-01-07T16:13:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/07/octopress-drafts</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve really enjoyed my recent conversion to <a href="http://octopress.org">Octopress</a> but do wish that it by default had a &ldquo;drafts&rdquo; mode so that one can write a post over time. This was really bugging me as I was trying to import old posts from awhile back and the workaround was kind of a pain in the ass.</p>
+
+<!-- more -->
+
+
+<p>Today of course I located this <a href="http://neverstopbuilding.net/how-to-enhance-your-octopress-draft-and-heroku-deploy-process/">post</a> by <a href="http://neverstopbuilding.net">Jason Fox</a> and used it as a reference.</p>
+
+<h2>Creating a new draft</h2>
+
+<p>{% codeblock Creating new Octopress Draft %}
+rake new_draft[&ldquo;Octopress Drafts&rdquo;]
+{% endcodeblock %}</p>
+
+<p>This tasks does essentially what the <code>new_post</code> task does except it:</p>
+
+<ul>
+<li>Puts the file in a _drafts directory.</li>
+<li>Eliminates the date from both the file name and the yaml front matter.</li>
+<li>Adds published: false to the front matter.</li>
+</ul>
+
+
+<p>Here&rsquo;s the code for the <code>rakefile</code></p>
+
+<p>{% codeblock Creating new Octopress Draft %}</p>
+
+<h1>usage rake new_draft[&ldquo;my new draft&rdquo;]</h1>
+
+<p>desc &ldquo;Begin a new draft in #{source_dir}/#{drafts_dir}&rdquo;
+task :new_draft, :title do |t, args|
+  if args.title</p>
+
+<pre><code>title = args.title
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>title = get_stdin("Enter a title for your post: ")
+</code></pre>
+
+<p>  end
+  raise &ldquo;### You haven&rsquo;t set anything up yet. First run <code>rake install</code> to set up an Octopress theme.&rdquo; unless File.directory?(source_dir)
+  mkdir_p &ldquo;#{source_dir}/#{drafts_dir}&rdquo;
+  filename = &ldquo;#{source_dir}/#{drafts_dir}/#{title.to_url}.#{new_post_ext}&rdquo;
+  if File.exist?(filename)</p>
+
+<pre><code>abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+</code></pre>
+
+<p>  end
+  puts &ldquo;Creating new draft: #{filename}&rdquo;
+  open(filename, &lsquo;w&rsquo;) do |post|</p>
+
+<pre><code>post.puts "---"
+post.puts "layout: post"
+post.puts "title: \"#{title.gsub(/&amp;/,'&amp;amp;')}\""
+post.puts "comments: true"
+post.puts "published: false"
+post.puts "categories: "
+post.puts "---"
+</code></pre>
+
+<p>  end
+end
+{% endcodeblock %}</p>
+
+<h2>Publishing an existing draft</h2>
+
+<p>{% codeblock Publishing an existing Octopress Draft %}
+rake publish_draft
+{% endcodeblock %}</p>
+
+<p>This task lists all of the draft posts, prompting you to select one. After you select one it:</p>
+
+<ul>
+<li>Adds the current date to the file name and front matter.</li>
+<li>Removes the published: false item.</li>
+<li>Moves the post to the _posts directory.</li>
+</ul>
+
+
+<p>Here&rsquo;s the code for the <code>rakefile</code></p>
+
+<p>{% codeblock Publishing an existing Octopress Draft %}</p>
+
+<h1>usage rake publish_draft</h1>
+
+<p>desc &ldquo;Select a draft to publish from #{source_dir}/#{drafts_dir} on the current date.&rdquo;
+task :publish_draft do
+  drafts_path = &ldquo;#{source_dir}/#{drafts_dir}&rdquo;
+  drafts = Dir.glob(&ldquo;#{drafts_path}/*.#{new_post_ext}&rdquo;)
+  drafts.each_with_index do |draft, index|</p>
+
+<pre><code>begin
+  content = File.read(draft)
+  if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
+    data = YAML.load($1)
+  end
+rescue =&gt; e
+  puts "Error reading file #{draft}: #{e.message}"
+rescue SyntaxError =&gt; e
+  puts "YAML Exception reading #{draft}: #{e.message}"
+end
+puts "  [#{index}]  #{data['title']}"
+</code></pre>
+
+<p>  end
+  puts &ldquo;Publish which draft? &rdquo;
+  answer = STDIN.gets.chomp
+  if /\d+/.match(answer) and not drafts[answer.to_i].nil?</p>
+
+<pre><code>mkdir_p "#{source_dir}/#{posts_dir}"
+source = drafts[answer.to_i]
+filename = source.gsub(/#{drafts_path}\//, '')
+dest = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{filename}"
+puts "Publishing post to: #{dest}"
+File.open(source) { |source_file|
+  contents = source_file.read
+  contents.gsub!(/^published: false$/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}")
+  File.open(dest, "w+") { |f| f.write(contents) }
+}
+FileUtils.rm(source)
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>puts "Index not found!"
+</code></pre>
+
+<p>  end
+end
+{% endcodeblock %}</p>
+
+<p>This way you can compose draft posts at will. Then when you are ready you can publish them and they will appear that you “published” that post on that day.</p>
+
+<p>Here&rsquo;s the full code for the <code>rakefile</code> which you can just put at the bottom.</p>
+
+<p>{% codeblock Creating new Octopress Draft %}</p>
+
+<h1>usage rake new_draft[&ldquo;my new draft&rdquo;]</h1>
+
+<p>desc &ldquo;Begin a new draft in #{source_dir}/#{drafts_dir}&rdquo;
+task :new_draft, :title do |t, args|
+  if args.title</p>
+
+<pre><code>title = args.title
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>title = get_stdin("Enter a title for your post: ")
+</code></pre>
+
+<p>  end
+  raise &ldquo;### You haven&rsquo;t set anything up yet. First run <code>rake install</code> to set up an Octopress theme.&rdquo; unless File.directory?(source_dir)
+  mkdir_p &ldquo;#{source_dir}/#{drafts_dir}&rdquo;
+  filename = &ldquo;#{source_dir}/#{drafts_dir}/#{title.to_url}.#{new_post_ext}&rdquo;
+  if File.exist?(filename)</p>
+
+<pre><code>abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+</code></pre>
+
+<p>  end
+  puts &ldquo;Creating new draft: #{filename}&rdquo;
+  open(filename, &lsquo;w&rsquo;) do |post|</p>
+
+<pre><code>post.puts "---"
+post.puts "layout: post"
+post.puts "title: \"#{title.gsub(/&amp;/,'&amp;amp;')}\""
+post.puts "comments: true"
+post.puts "published: false"
+post.puts "categories: "
+post.puts "---"
+</code></pre>
+
+<p>  end
+end</p>
+
+<h1>usage rake publish_draft</h1>
+
+<p>desc &ldquo;Select a draft to publish from #{source_dir}/#{drafts_dir} on the current date.&rdquo;
+task :publish_draft do
+  drafts_path = &ldquo;#{source_dir}/#{drafts_dir}&rdquo;
+  drafts = Dir.glob(&ldquo;#{drafts_path}/*.#{new_post_ext}&rdquo;)
+  drafts.each_with_index do |draft, index|</p>
+
+<pre><code>begin
+  content = File.read(draft)
+  if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
+    data = YAML.load($1)
+  end
+rescue =&gt; e
+  puts "Error reading file #{draft}: #{e.message}"
+rescue SyntaxError =&gt; e
+  puts "YAML Exception reading #{draft}: #{e.message}"
+end
+puts "  [#{index}]  #{data['title']}"
+</code></pre>
+
+<p>  end
+  puts &ldquo;Publish which draft? &rdquo;
+  answer = STDIN.gets.chomp
+  if /\d+/.match(answer) and not drafts[answer.to_i].nil?</p>
+
+<pre><code>mkdir_p "#{source_dir}/#{posts_dir}"
+source = drafts[answer.to_i]
+filename = source.gsub(/#{drafts_path}\//, '')
+dest = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{filename}"
+puts "Publishing post to: #{dest}"
+File.open(source) { |source_file|
+  contents = source_file.read
+  contents.gsub!(/^published: false$/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}")
+  File.open(dest, "w+") { |f| f.write(contents) }
+}
+FileUtils.rm(source)
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>puts "Index not found!"
+</code></pre>
+
+<p>  end
+end
+{% endcodeblock %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bye-Bye Tumblr, Hello Octopress]]></title>
+    <link href="http://fusion94.github.io/blog/2013/01/05/bye-bye-tumblr/"/>
+    <updated>2013-01-05T14:27:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/05/bye-bye-tumblr</id>
+    <content type="html"><![CDATA[<p>This is my first post published using <a href="http://octopress.org">Octopress</a> after several years of using either <a href="http://drupal.org">Drupal</a> and/or <a href="http://tumblr.com">tumblr</a> and I’d like to share the reasons why I chose to move from a blogging platform and switch to a statically generated site.</p>
+
+<p>Yes, because what you are reading is pure static old-school HTML, generated by Octopress on my MacBook Pro. Also to note is that everything here is being served by GitHub through the Pages feature, completely free.</p>
+
+<!-- more -->
+
+
+<ul>
+<li>Octopress sports a clean responsive theme written in semantic HTML5, focused on readability and friendliness toward mobile devices.</li>
+<li>Code blogging is easy and beautiful. Embed code (with Solarized styling) in your posts from gists, jsFiddle or from your filesystem.</li>
+<li>Third party integration is simple with built-in support for Twitter, Pinboard, Delicious, GitHub Repositories, Disqus Comments and Google Analytics.</li>
+<li>It&rsquo;s easy to use. A collection of rake tasks simplifies development and makes deploying a cinch.</li>
+<li>Ships with great plug-ins some original and others from the Jekyll community — tested and improved.</li>
+</ul>
+
+
+<h3>Ease of Use</h3>
+
+<p><a href="http://octopress.org">Octopress</a> is a framework built upon <a href="http://github.com/mojombo/jekyll">Jekyll</a>, the Ruby static site generator that powers GitHub Pages.</p>
+
+<p>Jekyll takes a content directory, parses all the articles and pages through a Markdown converter and generates a static website that can be served with almost anything.</p>
+
+<p>Octopress leverages all the power of Jekyll adding a great HTML5 template, mobile ready, and a lot of features like archives, an xml sitemap, code highlighting, external services integration (Twitter, Github, Google+, Facebook), and much much more.</p>
+
+<p>This solution makes your website really fast because there’s no dynamic code that runs on the server and no databases.</p>
+
+<h3>3rd Party Plugins</h3>
+
+<p>Octopress has a wealth of <a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">3rd Party Plugins</a> that will allow you to do most anything you want to do.</p>
+
+<h3>Themes</h3>
+
+<p>Octopress also has quite a few <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Themes</a> for you to use and to customize.</p>
+
+<h3>Open Source</h3>
+
+<p>Best of all is that Octopress is Open Source and licensed under The MIT License.</p>
+]]></content>
+  </entry>
+  
+</feed>

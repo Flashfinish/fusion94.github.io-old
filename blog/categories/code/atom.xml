@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Code | My Octopress Blog]]></title>
+  <link href="http://fusion94.github.io/blog/categories/code/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T16:45:45-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Drupal Themes Mission Statement]]></title>
+    <link href="http://fusion94.github.io/blog/2008/01/29/drupal-themes-mission-statement/"/>
+    <updated>2008-01-29T09:33:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2008/01/29/drupal-themes-mission-statement</id>
+    <content type="html"><![CDATA[<p>In some <a href="http://drupal.org/project/Themes">Drupal Themes</a> there is support for displaying the &ldquo;Mission Statement&rdquo; across all pages and in others this support is limited to the &ldquo;Front Page&rdquo; or &ldquo;Main Page&rdquo;.</p>
+
+<p>If you are ever using one of the themes with limited mission statement support and want to display the mission statement across all pages you can use this to do so.</p>
+
+<p>In template.php add the following to the bottom of the file:</p>
+
+<p><code>function _phptemplate_variables($hook, $vars = array()) {
+  // Make custom variables available to theme templates
+  switch ($hook) {</p>
+
+<pre><code>// Send new variable $custom_mission to page.tpl.php
+case 'page':
+  $vars['custom_mission'] = variable_get('site_mission', '');
+  break;
+</code></pre>
+
+<p>  }
+  return $vars;
+}
+</code></p>
+
+<p>Then in page.tpl.php change:</p>
+
+<p><code>&lt;?php if ($mission) { ?><h3 id="mission">&lt;?php print $mission ?></h3>&lt;?php } ?></code>
+to be</p>
+
+<p><code>&lt;?php if ($custom_mission) { ?><h3 id="mission">&lt;?php print $custom_mission ?></h3>&lt;?php } ?></code></p>
+
+<p>These 2 changes should allow the &ldquo;Mission Statement&rdquo; to be displayed across all pages.</p>
+]]></content>
+  </entry>
+  
+</feed>

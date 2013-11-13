@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Compass Module 3-Axis HMC5883L | My Octopress Blog]]></title>
+  <link href="http://fusion94.github.io/blog/categories/compass-module-3-axis-hmc5883l/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T16:45:45-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Arduino + Compass Module 3-Axis HMC5883L]]></title>
+    <link href="http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/"/>
+    <updated>2012-11-29T13:14:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l</id>
+    <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
+all interested then please subscribe to the RSS feed.</div>
+
+
+<h3>Background</h3>
+
+<p>In this blogpost we&rsquo;re going to deal with the <a href="http://www.parallax.com/tabid/768/ProductID/779/Default.aspx">Compass Module 3-Axis HMC5883L</a> from Parallax and how to
+integrate it into an Arduino.</p>
+
+<p>The Compass Module 3-Axis HMC5883L is designed for low-field magnetic sensing with a digital interface.
+This compact sensor fits into small projects such as UAVs and robot navigation systems.</p>
+
+<!-- more -->
+
+
+<p>The sensor converts any magnetic field to a differential voltage output on 3 axes. This voltage shift
+is the raw digital output value, which can then be used to calculate headings or sense magnetic fields
+coming from different directions. Example code in PBASIC, Spin, and C are provided in the downloads.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+<li>Measures Earth’s magnetic fields</li>
+<li>3-axis magnetoresistive sensor</li>
+<li>Wide magnetic field range (+/-8 gauss)</li>
+<li>1 to 2 degree compass heading accuracy</li>
+<li>Precision in-axis sensitivity and linearity</li>
+<li>I2C digital Interface</li>
+<li>Fast 160 Hz maximum output rate</li>
+<li>Designed for use with a large variety of microcontrollers with different voltage requirements</li>
+</ul>
+
+
+<p><strong>Application Notes:</strong></p>
+
+<ul>
+<li>Auto and personal navigation</li>
+<li>UAV systems</li>
+<li>Robotic navigation</li>
+<li>Location-based services (LBS)</li>
+</ul>
+
+
+<p><strong>Key Specifications:</strong></p>
+
+<ul>
+<li>Power Requirements: 2.7 to 6.5 VDC</li>
+<li>Communication Interface: I2C (up to 400 kHz)</li>
+<li>Operating temperature: -22 to +185 °F (-30 to +85 °C)</li>
+<li>Dimensions: 0.725 x 0.650 in (1.8 x 1.7 cm)</li>
+</ul>
+
+
+<h3>What It Can Do</h3>
+
+<ul>
+<li>Measures the earth’s magnetic field in three axes, with a 1–2 degree accuracy</li>
+<li>Provides individual readings for each axis, which may be used separately or together for 3D calculations</li>
+<li>Measures raw strength (gauss) of a nearby magnetic source</li>
+</ul>
+
+
+<p>The 3-Axis Compass module measures magnetic fields in three directions – or axes, labeled X, Y, and Z.
+In its most simple form, the module can be used as a basic compass to find earth’s magnetic north.</p>
+
+<p>The compass module can also sense the relative strength of a nearby magnetic source, such as those
+caused by magnets or electric fields. As the sensor detects magnetism in three dimensions, it can
+determine relative distance and direction to these sources.</p>
+
+<p>{% img /images/blog/compass/Compass-2.png %}</p>
+
+<p>Compasses are commonly uses with accelerometers, where the data from both the compass and
+accelerometer can provide extended information.</p>
+
+<p>One application of adding an accelerometer is to compensate for any tilt of the compass. As with
+most any compass, the reading is affected if the compass is not level.</p>
+
+<p><strong>Hardware Required</strong></p>
+
+<ul>
+<li>Arduino Board</li>
+<li>(1) Compass Module 3-Axis HMC5883L</li>
+<li>breadboard</li>
+<li>hook-up wire</li>
+</ul>
+
+
+<p><strong>Circuit</strong></p>
+
+<p>{% img /images/blog/compass/Compass-3.png %}</p>
+
+<p>Connect the 5V and GND pins of the compass to the power and ground ports on the Arduino. Connect
+analog pin 4 of the Arduino to the SDA (Data) out pin of the compass, and analog pin 5 to the SCL
+(Clock) out pin.</p>
+
+<p>The picture below shows you essentially how the circuit should be laid out.</p>
+
+<p>{% img /images/blog/compass/Compass-6_0.png %}</p>
+
+<p>Don’t forget that your Arduino must be connected to your computer in order for it to transmit serial
+data and don’t forget to set the Baud Rate of your serial connection to be 9600.</p>
+
+<p><strong>The Code</strong></p>
+
+<p>{% codeblock Compass Module 3-Axis HMC5883L code for Arduino %}
+/*
+   Compass Module 3-Axis HMC5883L</p>
+
+<p>   Read the Compass Module 3-Axis HMC5883L and prints them over the serial connection to the computer.</p>
+
+<p>   The circuit:</p>
+
+<pre><code>* SDA (Data) output of compass to analog pin 4
+* SCL (Clock) output of compass to analog pin 5
+* +V of accelerometer to +5V
+* GND of accelerometer to ground
+</code></pre>
+
+<p>   created 29 Nov 2012
+   by Tony Guntharp</p>
+
+<p> */</p>
+
+<h1>include</h1>
+
+<h1>define Addr 0x1E               // 7-bit address of HMC5883 compass</h1>
+
+<p>void setup() {
+  Serial.begin(9600);
+  delay(100);                   // Power up delay
+  Wire.begin();</p>
+
+<p>  // Set operating mode to continuous
+  Wire.beginTransmission(Addr);
+  Wire.write(byte(0x02));
+  Wire.write(byte(0x00));
+  Wire.endTransmission();
+}</p>
+
+<p>void loop() {
+  int x, y, z;</p>
+
+<p>  // Initiate communications with compass
+  Wire.beginTransmission(Addr);
+  Wire.write(byte(0x03));       // Send request to X MSB register
+  Wire.endTransmission();</p>
+
+<p>  Wire.requestFrom(Addr, 6);    // Request 6 bytes; 2 bytes per axis
+  if(Wire.available() &lt;=6) {    // If 6 bytes available</p>
+
+<pre><code>x = Wire.read() &lt;&lt; 8 | Wire.read();
+z = Wire.read() &lt;&lt; 8 | Wire.read();
+y = Wire.read() &lt;&lt; 8 | Wire.read();
+</code></pre>
+
+<p>  }</p>
+
+<p>  // Print raw values
+  Serial.print(&ldquo;X=&rdquo;);
+  Serial.print(x);
+  Serial.print(&ldquo;, Y=&rdquo;);
+  Serial.print(y);
+  Serial.print(&ldquo;, Z=&rdquo;);
+  Serial.println(z);</p>
+
+<p>  delay(500);
+}
+{% endcodeblock %}</p>
+
+<p>At the end of uploading and running the code listed above you will start to see some serial output
+like in the image below.</p>
+
+<p>{% img /images/blog/compass/compass_results.png %}</p>
+
+<p>Here’s a picture of the actual circuit built.</p>
+
+<p>{% img /images/blog/compass/compass_circuit.png %}</p>
+
+<p><strong>Source Code</strong></p>
+
+<p><a href="https://github.com/fusion94/HMC5883L_Arduino">Github</a></p>
+
+<p>In a follow up blog post I’ll discuss how you can use both the Compass Module 3-Axis HMC5883L in
+conjunction with the Memsic 2125 Dual-axis Accelerometer to compensate for any tilt of the compass.</p>
+]]></content>
+  </entry>
+  
+</feed>
