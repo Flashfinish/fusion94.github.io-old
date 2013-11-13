@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Twitter | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/twitter/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -47,9 +47,9 @@
 
 <p>We&rsquo;ll be using the Twitter gem to update statues. So first things first, so go ahead and put this in your <code>Gemfile</code> in the development group::</p>
 
-<p>{% codeblock Installing the twitter gem %}
-gem &lsquo;twitter&rsquo;
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Installing the twitter gem </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem &lsquo;twitter&rsquo;</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Then from a terminal run <code>bundle install</code> to install the gem.</p>
 
@@ -57,29 +57,45 @@ gem &lsquo;twitter&rsquo;
 
 <p>Open up your <code>Rakefile</code> and add the following up near the top with the other requires:</p>
 
-<p>{% codeblock Adding Rakefile requires %}
-require &ldquo;twitter&rdquo;
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Adding Rakefile requires </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>require &ldquo;twitter&rdquo;</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>While you have the <code>Rakefile</code> open add the following lines after the <code>server_port</code> line:</p>
 
-<p>{% codeblock Configuring Rakefile for Twitter %}</p>
-
-<h1>Twitter config (for tweeting posts)</h1>
-
-<p>Twitter.configure do |config|
-  config.consumer_key = &ldquo;YOUR_CONSUMER_KEY&rdquo;
-  config.consumer_secret = &ldquo;YOUR_CONSUMER_SECRET&rdquo;
-  config.oauth_token = &ldquo;YOUR_OAUTH_TOKEN&rdquo;
-  config.oauth_token_secret = &ldquo;YOUR_OAUTH_TOKEN_SECRET&rdquo;
-end</p>
-
-<h1>URL of your blog e.g. <a href="http://fusion94.org/blog/">http://fusion94.org/blog/</a></h1>
-
-<h1>MAKE SURE THERE IS A TRAILING SLASH, otherwise the linking won&rsquo;t work</h1>
-
-<p>blog_url = &ldquo;YOUR_BLOG_URL&rdquo;
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Configuring Rakefile for Twitter </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>Twitter config (for tweeting posts)&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;p>Twitter.configure do |config|
+</span><span class='line'>  config.consumer_key = &ldquo;YOUR_CONSUMER_KEY&rdquo;
+</span><span class='line'>  config.consumer_secret = &ldquo;YOUR_CONSUMER_SECRET&rdquo;
+</span><span class='line'>  config.oauth_token = &ldquo;YOUR_OAUTH_TOKEN&rdquo;
+</span><span class='line'>  config.oauth_token_secret = &ldquo;YOUR_OAUTH_TOKEN_SECRET&rdquo;
+</span><span class='line'>end&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>URL of your blog e.g. &lt;a href="http://fusion94.org/blog/">http://fusion94.org/blog/&lt;/a>&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>MAKE SURE THERE IS A TRAILING SLASH, otherwise the linking won&rsquo;t work&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;p>blog_url = &ldquo;YOUR_BLOG_URL&rdquo;</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Replacing <code>YOUR_*</code> with the details from your Twitter app.</p>
 
@@ -89,49 +105,91 @@ end</p>
 
 <p>Look for the <code>:new_post</code> rake task in the <code>Rakefile</code>. this should be around lines 106 or so. Replace the task with the following:</p>
 
-<p>{% codeblock Configuring new_post rake task %}</p>
-
-<h1>usage rake new_post[my-new-post] or rake new_post[&lsquo;my new post&rsquo;] or rake new_post (defaults to &ldquo;new-post&rdquo;)</h1>
-
-<p>desc &ldquo;Begin a new post in #{source_dir}/#{posts_dir}&rdquo;
-task :new_post, :title, :tweet do |t, args|
-  raise &ldquo;### You haven&rsquo;t set anything up yet. First run <code>rake install</code> to set up an Octopress theme.&rdquo; unless File.directory?(source_dir)
-  mkdir_p &ldquo;#{source_dir}/#{posts_dir}&rdquo;
-  args.with_defaults(:title => &lsquo;new-post&rsquo;, :tweet => &lsquo;&rsquo;)
-  title = args.title
-  filename = &ldquo;#{source_dir}/#{posts_dir}/#{Time.now.strftime(&lsquo;%Y-%m-%d&rsquo;)}&ndash;#{title.to_url}.#{new_post_ext}&rdquo;
-  if File.exist?(filename)</p>
-
-<pre><code>abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
-</code></pre>
-
-<p>  end
-  puts &ldquo;Creating new post: #{filename}&rdquo;
-  open(filename, &lsquo;w&rsquo;) do |post|</p>
-
-<pre><code>post.puts "---"
-post.puts "layout: post"
-post.puts "title: \"#{title.gsub(/&amp;/,'&amp;amp;')}\""
-post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-post.puts "comments: true"
-post.puts "categories: "
-post.puts "---"
-</code></pre>
-
-<p>  end
-  tweet = args.tweet
-  if not tweet == &lsquo;&rsquo;</p>
-
-<pre><code># add to twitter status queue
-puts 'Adding post to tweet queue, it will be tweeted after deploying.'
-open('tweet_queue', 'a') do |file|
-  file.puts "#{tweet} - #{blog_url}#{Time.now.strftime('%Y/%m/%d')}/#{title.to_url}/"
-end
-</code></pre>
-
-<p>  end
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Configuring new_post rake task </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>usage rake new_post[my-new-post] or rake new_post[&lsquo;my new post&rsquo;] or rake new_post (defaults to &ldquo;new-post&rdquo;)&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;p>desc &ldquo;Begin a new post in #{source_dir}/#{posts_dir}&rdquo;
+</span><span class='line'>task :new_post, :title, :tweet do |t, args|
+</span><span class='line'>  raise &ldquo;### You haven&rsquo;t set anything up yet. First run &lt;code>rake install&lt;/code> to set up an Octopress theme.&rdquo; unless File.directory?(source_dir)
+</span><span class='line'>  mkdir_p &ldquo;#{source_dir}/#{posts_dir}&rdquo;
+</span><span class='line'>  args.with_defaults(:title => &lsquo;new-post&rsquo;, :tweet => &lsquo;&rsquo;)
+</span><span class='line'>  title = args.title
+</span><span class='line'>  filename = &ldquo;#{source_dir}/#{posts_dir}/#{Time.now.strftime(&lsquo;%Y-%m-%d&rsquo;)}&ndash;#{title.to_url}.#{new_post_ext}&rdquo;
+</span><span class='line'>  if File.exist?(filename)&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  end
+</span><span class='line'>  puts &ldquo;Creating new post: #{filename}&rdquo;
+</span><span class='line'>  open(filename, &lsquo;w&rsquo;) do |post|&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>post.puts "---"
+</span><span class='line'>post.puts "layout: post"
+</span><span class='line'>post.puts "title: \"#{title.gsub(/&amp;/,'&amp;amp;')}\""
+</span><span class='line'>post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+</span><span class='line'>post.puts "comments: true"
+</span><span class='line'>post.puts "categories: "
+</span><span class='line'>post.puts "---"
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  end
+</span><span class='line'>  tweet = args.tweet
+</span><span class='line'>  if not tweet == &lsquo;&rsquo;&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code># add to twitter status queue
+</span><span class='line'>puts 'Adding post to tweet queue, it will be tweeted after deploying.'
+</span><span class='line'>open('tweet_queue', 'a') do |file|
+</span><span class='line'>  file.puts "#{tweet} - #{blog_url}#{Time.now.strftime('%Y/%m/%d')}/#{title.to_url}/"
+</span><span class='line'>end
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  end
+</span><span class='line'>end</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>If you already have a modified task, the only changes are the task declaration <code>(task :new_post, :title, :tweet do |t, args|)</code> and the last few lines starting with <code>tweet = args.tweet.</code></p>
 
@@ -139,39 +197,69 @@ end
 
 <p>Look for the <code>:deploy task</code> in the <code>Rakefile</code> this should be around lines 232 or so. Replace the task with the following:</p>
 
-<p>{% codeblock Confguring deploy to tweet %}
-desc &ldquo;Default deploy task&rdquo;
-task :deploy do
-  # Check if preview posts exist, which should not be published
-  if File.exists?(&ldquo;.preview-mode&rdquo;)</p>
-
-<pre><code>puts "## Found posts in preview mode, regenerating files ..."
-File.delete(".preview-mode")
-Rake::Task[:generate].execute
-</code></pre>
-
-<p>  end</p>
-
-<p>  Rake::Task[:copydot].invoke(source_dir, public_dir)
-  Rake::Task[&ldquo;#{deploy_default}&rdquo;].execute</p>
-
-<p>  # Tweet
-  next if not File.exists? &lsquo;tweet_queue&rsquo;
-  puts &ldquo;Tweeting&hellip;&rdquo;
-  client = Twitter::Client.new
-  open(&lsquo;tweet_queue&rsquo;, &lsquo;r&rsquo;) do |file|</p>
-
-<pre><code>while (line = file.gets)
-  puts "Tweeting '#{line.gsub("\n", "")}' for @#{client.current_user.screen_name}..."
-  Twitter.update line
-end
-</code></pre>
-
-<p>  end
-  puts &ldquo;Deleting queue&hellip;&rdquo;
-  rm &lsquo;tweet_queue&rsquo;
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Confguring deploy to tweet </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>desc &ldquo;Default deploy task&rdquo;
+</span><span class='line'>task :deploy do
+</span><span class='line'>  # Check if preview posts exist, which should not be published
+</span><span class='line'>  if File.exists?(&ldquo;.preview-mode&rdquo;)&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>puts "## Found posts in preview mode, regenerating files ..."
+</span><span class='line'>File.delete(".preview-mode")
+</span><span class='line'>Rake::Task[:generate].execute
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  end&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  Rake::Task[:copydot].invoke(source_dir, public_dir)
+</span><span class='line'>  Rake::Task[&ldquo;#{deploy_default}&rdquo;].execute&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  # Tweet
+</span><span class='line'>  next if not File.exists? &lsquo;tweet_queue&rsquo;
+</span><span class='line'>  puts &ldquo;Tweeting&hellip;&rdquo;
+</span><span class='line'>  client = Twitter::Client.new
+</span><span class='line'>  open(&lsquo;tweet_queue&rsquo;, &lsquo;r&rsquo;) do |file|&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>while (line = file.gets)
+</span><span class='line'>  puts "Tweeting '#{line.gsub("\n", "")}' for @#{client.current_user.screen_name}..."
+</span><span class='line'>  Twitter.update line
+</span><span class='line'>end
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  end
+</span><span class='line'>  puts &ldquo;Deleting queue&hellip;&rdquo;
+</span><span class='line'>  rm &lsquo;tweet_queue&rsquo;
+</span><span class='line'>end</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Or indeed just add the last couple of lines starting with <code># Tweet</code>.</p>
 
@@ -183,17 +271,19 @@ end
 
 <p>The first section is the title of the post while the second section is the tweet that will go out along with the URL to the blog post.</p>
 
-<p>{% codeblock rake new_post usage %}
-rake new_post[&ldquo;HowTo Tweet New Posts in Octopress&rdquo;,&ldquo;HowTo Tweet New Posts in Octopress @twitter&rdquo;]
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>rake new_post usage </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post[&ldquo;HowTo Tweet New Posts in Octopress&rdquo;,&ldquo;HowTo Tweet New Posts in Octopress @twitter&rdquo;]</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>And here&rsquo;s the message generated after the <code>rake new_post</code> task is run.</p>
 
-<p>{% codeblock rake new_post message %}
-mkdir -p source/<em>posts
-Creating new post: source/</em>posts/2013-01-13-howto-tweet-new-posts-in-octopress.markdown
-Adding post to tweet queue, it will be tweeted after deploying.
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>rake new_post message </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>mkdir -p source/&lt;em>posts
+</span><span class='line'>Creating new post: source/&lt;/em>posts/2013-01-13-howto-tweet-new-posts-in-octopress.markdown
+</span><span class='line'>Adding post to tweet queue, it will be tweeted after deploying.</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Now all that&rsquo;s left to do is create your post and then run <code>rake generate &amp;&amp; rake deploy</code>. Your post will be deployed and your tweet will be sent.</p>
 

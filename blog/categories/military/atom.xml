@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Military | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/military/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<p>While everyone wants to be on a HALO/Dive team there&rsquo;s a lot of work involved. Here&rsquo;s part of
 the pain.</p>
 
-<p>{% img /images/blog/random/halo_dive.jpeg %}</p>
+<p><img src="/images/blog/random/halo_dive.jpeg"></p>
 ]]></content>
   </entry>
   
@@ -32,7 +32,7 @@ the pain.</p>
     <id>http://fusion94.github.io/blog/2012/08/17/the-infantry-way</id>
     <content type="html"><![CDATA[<p>True Story.</p>
 
-<p>{% img /images/blog/random/infantry_way.jpeg %}</p>
+<p><img src="/images/blog/random/infantry_way.jpeg"></p>
 ]]></content>
   </entry>
   

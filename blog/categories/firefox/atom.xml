@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Firefox | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/firefox/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -20,7 +20,7 @@
     <id>http://fusion94.github.io/blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
     <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
 
-<p>{% img left /images/blog/firefox/firefoxOS-app-days.png %}</p>
+<p><img class="left" src="/images/blog/firefox/firefoxOS-app-days.png"></p>
 
 <p>I&rsquo;ll be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> on Saturday, January 19, 2013 being held at the Computer History Museum in Mountain View, California.</p>
 

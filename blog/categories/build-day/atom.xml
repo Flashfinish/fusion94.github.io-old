@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Build Day | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/build-day/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,7 +19,7 @@
     <updated>2013-01-13T05:46:00-08:00</updated>
     <id>http://fusion94.github.io/blog/2013/01/13/openrov-build-day</id>
     <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
-{% img right /images/blog/openrov/openrov_icon.jpeg 120 120 %}
+<img class="right" src="/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
 The <a href="http://wiki.openrov.com">OpenROV Wiki</a> is really starting to fill out: <a href="http://wiki.openrov.com/index.php/Assembly#Step_by_step_instructions">Step by Step Instructions</a></p>
 
 <p>That&rsquo;s the best place to start. The goal is for each section of the build to have:</p>
@@ -66,9 +66,6 @@ Berkeley CA<br></p>
 <p><strong>What is OpenROV</strong></p>
 
 <p>OpenROV is a  Do It Yourself telerobotics community centered around underwater exploration and education. We have developed a low-cost telerobotic submarine that can be built with mostly off-the-shelf parts. The goal of OpenROV is to democratize exploration by allowing anyone to explore and study underwater environments.</p>
-
-<p>Here&rsquo;s a short video of it in action.
-{% vimeo 44088059 %}</p>
 ]]></content>
   </entry>
   

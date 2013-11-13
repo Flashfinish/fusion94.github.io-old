@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 3D Printing | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/3d-printing/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -38,7 +38,7 @@ the issue of not properly securing the BeagleBone.</p>
 
 <p>Here is a photo of Version One:</p>
 
-<p>{% img /images/blog/openrov/openrov_holder_v1.jpg %}</p>
+<p><img src="/images/blog/openrov/openrov_holder_v1.jpg"></p>
 
 <p><strong>Version Two (V2)</strong></p>
 
@@ -49,7 +49,7 @@ Version Two also takes less than 40 minutes to print.</p>
 
 <p>Here is a photo of Version Two:</p>
 
-<p>{% img /images/blog/openrov/openrov_holder_v2.jpg %}</p>
+<p><img src="/images/blog/openrov/openrov_holder_v2.jpg"></p>
 
 <p>In the end either stand is perfect for working with the OpenROV BeagleBone and OpenROV Cape. It is suitable for sitting on your desk, or for mounting to a wall. You can download everything related to it at:</p>
 

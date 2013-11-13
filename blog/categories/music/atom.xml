@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Music | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/music/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,8 +19,6 @@
     <updated>2012-08-30T07:36:00-07:00</updated>
     <id>http://fusion94.github.io/blog/2012/08/30/curiosity-playlist</id>
     <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
-
-<p>{% spotify spotify:user:fusion94:playlist:4Hgp2StCXF6OTJLl4rv6Z2 %}</p>
 ]]></content>
   </entry>
   

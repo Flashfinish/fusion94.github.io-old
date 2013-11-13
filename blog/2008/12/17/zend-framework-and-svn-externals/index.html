@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Zend Framework and svn:externals - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="The majority of the work I&rsquo;ve been involved with at Skyfire has involved the Zend Framework. When I first got there they were downloading the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fusion94.github.io/blog/2008/12/17/zend-framework-and-svn-externals">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:fusion94.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Zend Framework and Svn:externals</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-17T23:41:00-08:00" pubdate data-updated="true">Dec 17<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
+
+<p>I had used svn:externals quite a bit while at <a href="http://contentcircles.com">Content Circles</a> to pull down vendor branches and decided to re-implement this at <a href="http://www.skyfire.com">Skyfire</a>.</p>
+
+<p>In case you aren&rsquo;t aware of <a href="http://svnbook.red-bean.com/nightly/en/svn-book.html#svn.advanced.externals">svn:externals</a> here&rsquo;s a bit of a description.</p>
+
+<blockquote><p>An externals definition is a mapping of a local directory to the URL—and ideally a particular revision—of a versioned directory. In Subversion, you declare externals definitions in groups using the svn:externals property. You can create or modify this property using svn propset or svn propedit. It can be set on any versioned directory, and its value describes both the external repository location and the client-side directory to which that location should be checked out.</p>
+
+<p>The convenience of the svn:externals property is that once it is set on a versioned directory, everyone who checks out a working copy with that directory also gets the benefit of the externals definition. In other words, once one person has made the effort to define the nested working copy structure, no one else has to bother—Subversion will, after checking out the original working copy, automatically also check out the external working copies.</p></blockquote>
+
+<p>To implement this is fairly easy and straightforward. Lets say that we have two (2) Zend Framework projects that we want to implement this with and our project repository layout looks like this:</p>
+
+<pre>code/
+    branches/
+        reporting/
+            application/
+            library/
+            web/
+        corporate/
+            application/
+            library/
+            web/
+    tags/
+    trunk/
+</pre>
+
+
+
+
+<ol>
+<li>Navigate to the top level of the branches directory and run:
+
+<code>svn propedit svn:externals reporting/library/.</code>
+
+<li>This will open an editor session. To pull in the external revision of Zend Framework just type in:
+
+<code>Zend http://framework.zend.com/svn/framework/standard/tags/release-1.7.1/library/Zend/</code>
+
+<li>Save and exit.
+<li>Now update the repository and commit:
+<code>svn update
+svn commit
+</code>
+</ol>
+
+
+<p>Now our project repository will look something like this:</p>
+
+<pre>code/
+    branches/
+        reporting/
+            application/
+            library/
+                Zend/
+            web/
+        corporate/
+            application/
+            library/
+            web/
+    tags/
+    trunk/
+</pre>
+
+
+<p>With the tagged release of the 1.7.1 version of Zend Framework nestled inside the library directory of the reporting branch.</p>
+
+<p>Also to note is that using this method you can set different branches to pull in different versions of the Zend Framework for production or legacy sake. For example the reporting branch pulls down the 1.7.1 version for use but we could pull in the 1.0.1 version for the corporate branch by executing this:</p>
+
+<ol>
+<li>Navigate to the top level of the branches directory and run:
+
+<code>svn propedit svn:externals corporate/library/.</code>
+
+<li>This will open an editor session. To pull in the external revision of Zend Framework just type in:
+
+<code>Zend http://framework.zend.com/svn/framework/standard/tags/release-1.0.1/library/Zend/</code>
+
+<li>Save and exit.
+<li>Now update the repository and commit:
+<code>svn update
+svn commit
+</code>
+</ol>
+
+
+<p>We now have Zend Framework 1.0.1 pulled down for use for the corporate branch.</p>
+
+<p>If you ever get confused as to which version you&rsquo;ve got pulled down you can just open up Zend/Version.php and take a look at the <code>const VERSION = &ldquo;x.x.x &rdquo;;</code> string.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-17T23:41:00-08:00" pubdate data-updated="true">Dec 17<span>th</span>, 2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/php/'>PHP</a>, <a class='category' href='/blog/categories/svn/'>SVN</a>, <a class='category' href='/blog/categories/snippets/'>Snippets</a>, <a class='category' href='/blog/categories/software-engineering/'>Software Engineering</a>, <a class='category' href='/blog/categories/zend-framework/'>Zend Framework</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fusion94.github.io/blog/2008/12/17/zend-framework-and-svn-externals/" data-via="" data-counturl="http://fusion94.github.io/blog/2008/12/17/zend-framework-and-svn-externals/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2008/12/17/phillip-fulmer-and-ut/" title="Previous Post: Phillip Fulmer & UT">&laquo; Phillip Fulmer & UT</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2008/12/18/bootcamp-tip/" title="Next Post: BootCamp Tip">BootCamp Tip &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/">How to Enable Developer Settings on Android 4.2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/01/custom-character-generator-for-lcd-panels/">Custom Character Generator for LCD Panels</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/">Kandan an Open Source Alternative to HipChat</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/16/clahub-clas-done-right/">CLAHub - CLA's Done Right</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/15/legendary-for-ios/">Legendary for iOS</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

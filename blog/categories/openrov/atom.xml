@@ -4,7 +4,7 @@
   <title><![CDATA[Category: OpenROV | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/openrov/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,7 +19,7 @@
     <updated>2013-01-13T05:46:00-08:00</updated>
     <id>http://fusion94.github.io/blog/2013/01/13/openrov-build-day</id>
     <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
-{% img right /images/blog/openrov/openrov_icon.jpeg 120 120 %}
+<img class="right" src="/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
 The <a href="http://wiki.openrov.com">OpenROV Wiki</a> is really starting to fill out: <a href="http://wiki.openrov.com/index.php/Assembly#Step_by_step_instructions">Step by Step Instructions</a></p>
 
 <p>That&rsquo;s the best place to start. The goal is for each section of the build to have:</p>
@@ -66,9 +66,6 @@ Berkeley CA<br></p>
 <p><strong>What is OpenROV</strong></p>
 
 <p>OpenROV is a  Do It Yourself telerobotics community centered around underwater exploration and education. We have developed a low-cost telerobotic submarine that can be built with mostly off-the-shelf parts. The goal of OpenROV is to democratize exploration by allowing anyone to explore and study underwater environments.</p>
-
-<p>Here&rsquo;s a short video of it in action.
-{% vimeo 44088059 %}</p>
 ]]></content>
   </entry>
   
@@ -97,7 +94,7 @@ the issue of not properly securing the BeagleBone.</p>
 
 <p>Here is a photo of Version One:</p>
 
-<p>{% img /images/blog/openrov/openrov_holder_v1.jpg %}</p>
+<p><img src="/images/blog/openrov/openrov_holder_v1.jpg"></p>
 
 <p><strong>Version Two (V2)</strong></p>
 
@@ -108,7 +105,7 @@ Version Two also takes less than 40 minutes to print.</p>
 
 <p>Here is a photo of Version Two:</p>
 
-<p>{% img /images/blog/openrov/openrov_holder_v2.jpg %}</p>
+<p><img src="/images/blog/openrov/openrov_holder_v2.jpg"></p>
 
 <p>In the end either stand is perfect for working with the OpenROV BeagleBone and OpenROV Cape. It is suitable for sitting on your desk, or for mounting to a wall. You can download everything related to it at:</p>
 
@@ -130,9 +127,9 @@ Version Two also takes less than 40 minutes to print.</p>
     <content type="html"><![CDATA[<p>I was visiting David and Eric over at the Rainbow Mansion not too long and was able to
 snag a couple of photos of the first OpenROV design. This is Serial #001.</p>
 
-<p>{% img /images/blog/openrov/openrov001_1.jpg %}</p>
+<p><img src="/images/blog/openrov/openrov001_1.jpg"></p>
 
-<p>{% img /images/blog/openrov/openrov001_2.jpg %}</p>
+<p><img src="/images/blog/openrov/openrov001_2.jpg"></p>
 ]]></content>
   </entry>
   

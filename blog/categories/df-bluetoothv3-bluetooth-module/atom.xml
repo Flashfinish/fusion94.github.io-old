@@ -4,7 +4,7 @@
   <title><![CDATA[Category: DF-BluetoothV3 Bluetooth module | My Octopress Blog]]></title>
   <link href="http://fusion94.github.io/blog/categories/df-bluetoothv3-bluetooth-module/atom.xml" rel="self"/>
   <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-12T16:45:45-08:00</updated>
+  <updated>2013-11-12T16:48:56-08:00</updated>
   <id>http://fusion94.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -68,7 +68,7 @@ by a clear and bright LED which is used to display module status and connection 
 Search state (high 104ms 342ms 2.9Hz cycle flicker) connection status (high 104ms period 2s 0.5Hz
 flashing), LINK state: paired ). It has build-in on-board antenna which provides high quality signals.</p>
 
-<p>{% img /images/blog/bluetooth/bt1.png %}</p>
+<p><img src="/images/blog/bluetooth/bt1.png"></p>
 
 <p>DIP switch is designed to set the module status, LED Off to turn off the LINK light to enter power
 saving mode, AT Mode allows the module to enter AT command mode, AT commands can modify the baud rate
@@ -94,7 +94,7 @@ and the master and slave mode.</p>
 </ul>
 
 
-<p>{% img /images/blog/bluetooth/setup_one.png %}</p>
+<p><img src="/images/blog/bluetooth/setup_one.png"></p>
 
 <p><strong>Setup Two</strong></p>
 
@@ -104,7 +104,7 @@ and the master and slave mode.</p>
 </ul>
 
 
-<p>{% img /images/blog/bluetooth/setup_two.png %}</p>
+<p><img src="/images/blog/bluetooth/setup_two.png"></p>
 
 <div class="warning">Please note that when you use the Romeo-All in one Controller (Arduino Compatible Atmega 328) (V1.0) 
 then you're going to have to install the <a href="http://www.ftdichip.com/Drivers/VCP.htm">FTDI Drivers</a>.</div>
@@ -123,57 +123,88 @@ the computer  communicating with a Bluetooth module is now just simple serial co
 <p>Detail steps depend on the operating system. Followings are from Mac OS X. Choose the Set Up Bluetooth
 Devices menu item. Select the Bluetooth_V3 item.</p>
 
-<p>{% img /images/blog/bluetooth/bluetooth_setup.jpeg %}</p>
+<p><img src="/images/blog/bluetooth/bluetooth_setup.jpeg"></p>
 
 <p>The default passcode of the Bluetooth module is ’1234.’ When you are prompted use the passcode.</p>
 
-<p>{% img /images/blog/bluetooth/passcode.jpeg %}</p>
+<p><img src="/images/blog/bluetooth/passcode.jpeg"></p>
 
 <p>When the pairing is completed successfully the window below will be shown.</p>
 
-<p>{% img /images/blog/bluetooth/pairing_sucess.jpeg %}</p>
+<p><img src="/images/blog/bluetooth/pairing_sucess.jpeg"></p>
 
 <p><strong>The Code</strong></p>
 
-<p>{% codeblock DF-BluetoothV3 Bluetooth module code for Arduino %}
-/*</p>
-
-<p> DF-BluetoothV3 Bluetooth module</p>
-
-<p> Intefaces the DF-BluetoothV3 Bluetooth module with most Arduino contollers.</p>
-
-<p> When the DF-Bluetooth is used on Arduino, please make sure you disconnect the
- DF-Bluetooth module before uploading any code to your Arduino. It won’t burn
- your Arduino, but the uploading will fail as the DF-Bluetooth module occupying
- the TX/RX pins.</p>
-
-<ul>
-<li>Copyright &copy; 2012 by Tony Guntharp. All Rights Reserved.</li>
-<li>Licensed under the terms of the Apache Public License</li>
-<li>Please see the LICENSE included with this distribution for details.</li>
-</ul>
-
-
-<p> */</p>
-
-<p>void setup() {
-  // Initialize serial communications: Set serial baud rate to 9600
-  Serial.begin(9600);        <br/>
-}</p>
-
-<p>void loop() {
-  // Print out our Hello World string followed by a newline
-  Serial.print(&ldquo;Hello World from the DF-BluetoothV3 Bluetooth module&rdquo;);      <br/>
-  Serial.println();
-  // 1 second delay
-  delay(1000);                <br/>
-}
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>DF-BluetoothV3 Bluetooth module code for Arduino </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/*&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p> DF-BluetoothV3 Bluetooth module&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p> Intefaces the DF-BluetoothV3 Bluetooth module with most Arduino contollers.&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p> When the DF-Bluetooth is used on Arduino, please make sure you disconnect the
+</span><span class='line'> DF-Bluetooth module before uploading any code to your Arduino. It won’t burn
+</span><span class='line'> your Arduino, but the uploading will fail as the DF-Bluetooth module occupying
+</span><span class='line'> the TX/RX pins.&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;ul>
+</span><span class='line'>&lt;li>Copyright &copy; 2012 by Tony Guntharp. All Rights Reserved.&lt;/li>
+</span><span class='line'>&lt;li>Licensed under the terms of the Apache Public License&lt;/li>
+</span><span class='line'>&lt;li>Please see the LICENSE included with this distribution for details.&lt;/li>
+</span><span class='line'>&lt;/ul>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>&lt;p> */&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>void setup() {
+</span><span class='line'>  // Initialize serial communications: Set serial baud rate to 9600
+</span><span class='line'>  Serial.begin(9600);        &lt;br/>
+</span><span class='line'>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>void loop() {
+</span><span class='line'>  // Print out our Hello World string followed by a newline
+</span><span class='line'>  Serial.print(&ldquo;Hello World from the DF-BluetoothV3 Bluetooth module&rdquo;);      &lt;br/>
+</span><span class='line'>  Serial.println();
+</span><span class='line'>  // 1 second delay
+</span><span class='line'>  delay(1000);                &lt;br/>
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>At the end of uploading and running the code listed above you will start to see some serial output
 like in the image below.</p>
 
-<p>{% img /images/blog/bluetooth/bt_results.png %}</p>
+<p><img src="/images/blog/bluetooth/bt_results.png"></p>
 
 <p><strong>Source Code</strong></p>
 
