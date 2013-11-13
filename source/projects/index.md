@@ -16,13 +16,3 @@ As such I'm contributing and publishing as much as my work as I can over on GitH
 If you'd like to show your support, donations of alcoholic beverages are much appreciated. You can also endorse me using the link above and help me earn badges and geek credentials on Coderwall.</p>
 
 {% githubrepo kandanapp/kandan %}
-
-{% githubrepo kandanapp/kandanapp.github.com %}
-
-{% githubrepo kandanapp/kandan-count %}
-
-{% githubrepo kandanapp/kandan-count-dev %}
-
-{% githubrepo kandanapp/hubot-kandan %}
-
-{% githubrepo kandanapp/hubot-kandan-app %}
