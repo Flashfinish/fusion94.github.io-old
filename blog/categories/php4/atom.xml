@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: PHP4 | fusion94]]></title>
+  <link href="http://fusion94.github.io/blog/categories/php4/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T18:40:21-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 4.4.8 Released]]></title>
+    <link href="http://fusion94.github.io/blog/2008/01/04/php-4-4-8-released/"/>
+    <updated>2008-01-04T14:21:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2008/01/04/php-4-4-8-released</id>
+    <content type="html"><![CDATA[<p>PHP 4.4.8 has now been <a href="http://www.php.net/downloads.php#v4">released</a>.</p>
+
+<p>This release wraps up all the outstanding patches for the PHP 4.4 series, and is therefore the last normal PHP 4.4 release.</p>
+
+<p>For a full list of changes in PHP 4.4.8, see the <a href="http://www.php.net/ChangeLog-4.php#4.4.8">ChangeLog</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHP4 End of Life]]></title>
+    <link href="http://fusion94.github.io/blog/2007/07/13/php4-end-of-life/"/>
+    <updated>2007-07-13T06:41:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2007/07/13/php4-end-of-life</id>
+    <content type="html"><![CDATA[<p>The <a href="http://php.net">PHP Team</a> formally announced today that PHP4 will be discontinued as of 12/31/2007.</p>
+
+<p>More information can be located <a href="http://www.php.net/index.php#2007-07-13-1">here</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

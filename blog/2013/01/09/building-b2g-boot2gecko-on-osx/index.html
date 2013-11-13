@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Building B2G (Boot2Gecko) on OSX - fusion94</title>
+  <meta name="author" content="fusion94">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="fusion94" type="application/atom+xml">
+
+  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-83223-8']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body   >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">fusion94</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Blog</a></li>
+                <li><a href="/blog/archives">Archives</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="http://google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:fusion94.github.io">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9">
+    <article class="hentry" role="article">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-09T10:37:00-08:00" pubdate data-updated="true">Jan 9<span>th</span>, 2013</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fusion94.github.io">Comments</a>
+        
+      </p>
+    
+    
+    <h1 class="entry-title">
+        Building B2G (Boot2Gecko) on OSX
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix"><p>So I&rsquo;ve been interested in the <a href="https://wiki.mozilla.org/B2G">Boot2Gecko</a> project for awhile and wanted to see if I could get an app running on <a href="http://www.appgyver.com/steroids">Steroids</a> that would run under B2G.</p>
+
+<p>To accomplish this I needed to get the B2G desktop emulator up and running so I could actually develop something.</p>
+
+<p>Below is the method I had to use to get it up and running with OSX (Mountain Lion).</p>
+
+<!-- more -->
+
+
+<h2>Prerequisites</h2>
+
+<p>You will need the following installed to get started.</p>
+
+<ul>
+<li>Git</li>
+<li>Brew</li>
+<li>Autoconf</li>
+<li>Yasm</li>
+</ul>
+
+
+<p>For this to build properly you&rsquo;re going to have to force <code>brew</code> to download and install <code>autoconf-2.13</code>. This can be accomplished by placing the <code>autoconf.rb</code> code listed below into your Formula folder located at <code>/usr/local/Library/Formula/</code>.</p>
+
+<figure class='code'><figcaption><span>autoconf.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;formula&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">Autoconf</span> <span class="o">&lt;</span> <span class="no">Formula</span>
+</span><span class='line'>  <span class="n">url</span> <span class="s1">&#39;http://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz&#39;</span>
+</span><span class='line'>  <span class="n">homepage</span> <span class="s1">&#39;http://www.gnu.org/software/autoconf/&#39;</span>
+</span><span class='line'>  <span class="n">md5</span> <span class="s1">&#39;9de56d4a161a723228220b0f425dc711&#39;</span><span class="sb">`</span>
+</span><span class='line'>
+</span><span class='line'><span class="sb">  def install</span>
+</span><span class='line'><span class="sb">    system &quot;./configure&quot;, &quot;--program-suffix=213&quot;,</span>
+</span><span class='line'><span class="sb">                          &quot;--prefix=</span><span class="si">#{</span><span class="n">prefix</span><span class="si">}</span><span class="sb">&quot;,</span>
+</span><span class='line'><span class="sb">                          &quot;--infodir=</span><span class="si">#{</span><span class="n">info</span><span class="si">}</span><span class="sb">&quot;</span>
+</span><span class='line'><span class="sb">    system &quot;make install&quot;</span>
+</span><span class='line'><span class="sb">  end</span>
+</span><span class='line'><span class="sb">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Once this is accomplished just use <code>brew</code> to install both <code>autoconf</code> and <code>yasm</code></p>
+
+<figure class='code'><figcaption><span>Installing prerequisites using brew </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>brew install autoconf
+</span><span class='line'>
+</span><span class='line'>brew install yasm</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Getting the code</h2>
+
+<p>There are two different pieces needed to get the desktop emulator up and running. First there is Mozilla-central. This will contain the b2g executable. The second component needed is gaia. This is the user interface for the b2g phone.</p>
+
+<figure class='code'><figcaption><span>Getting the code </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>// Get mozilla-central repo and save it to folder called mozilla-central
+</span><span class='line'>git clone https://github.com/mozilla/mozilla-central.git
+</span><span class='line'>
+</span><span class='line'>// Get gaia repo and save to folder called gaia
+</span><span class='line'>git clone https://github.com/mozilla-b2g/gaia.git gaia</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Building Mozilla Central</h2>
+
+<p><strong>Create a mozconfig</strong></p>
+
+<p>You will need to create a mozconfig file before building. cd into the mozilla-central directory and create a file called “mozconfig”. Then add the following to it and save.</p>
+
+<figure class='code'><figcaption><span>mozconfig </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>mk_add_options MOZ_OBJDIR=../build
+</span><span class='line'>mk_add_options MOZ_MAKE_FLAGS="-j9 -s"
+</span><span class='line'>
+</span><span class='line'>ac_add_options --enable-application=b2g
+</span><span class='line'>ac_add_options --disable-libjpeg-turbo
+</span><span class='line'> 
+</span><span class='line'># This option is required if you want to be able to run Gaia's tests
+</span><span class='line'>ac_add_options --enable-tests
+</span><span class='line'>
+</span><span class='line'># turn on mozTelephony/mozSms interfaces
+</span><span class='line'>ac_add_options --enable-b2g-ril</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>Build</strong></p>
+
+<p>While still in the mozilla-central directory build the source code. Now go get a beer or some coffee as this will take a long time.</p>
+
+<figure class='code'><figcaption><span>Building Mozilla Central </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>make -f client.mk build</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When complete you should see a build folder outside of your mozilla-central directory.</p>
+
+<h2>Building Gaia</h2>
+
+<p>Now that we have mozilla-central working we need to build a profile for gaia. Navigate into the gaia directory that was created when doing a git clone from above. Now we can build with the following command.</p>
+
+<figure class='code'><figcaption><span>Building Gaia </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>make</span></code></pre></td></tr></table></div></figure>
+
+
+<p>A lot of stuff will happen but if everything works out you should have a “profile” folder in your gaia directory.</p>
+
+<h2>Running the emulator</h2>
+
+<p>To run thhe b2g emulator you&rsquo;re going to need to pass in the profile generated in the gaia folder.</p>
+
+<figure class='code'><figcaption><span>Running the Emulator </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd build/dist/B2G.app/Contents/MacOS/
+</span><span class='line'>
+</span><span class='line'>./b2g -profile /path/to/gaia/profile</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Conclusion</h2>
+
+<p>It really wasn&rsquo;t that hard to get this up and running under OSX. In a future blog post I&rsquo;ll discuss getting a <a href="http://www.appgyver.com/steroids">Steroids</a> application un and running under B2G but for now here are a few screenshots.</p>
+
+<p><strong>B2G Lock Screen</strong></p>
+
+<p><img src="/images/blog/b2g-1/b2g_lock_screen.png"></p>
+
+<p><strong>B2G Home Screen</strong></p>
+
+<p><img src="/images/blog/b2g-1/b2g_home_screen.png"></p>
+
+<p><strong>B2G Marketplace</strong></p>
+
+<p><img src="/images/blog/b2g-1/b2g_marketplace.png"></p>
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">fusion94</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-09T10:37:00-08:00" pubdate data-updated="true">Jan 9<span>th</span>, 2013</time>
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx/" data-via="fusion94" data-counturl="http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2013/01/07/octopress-drafts/" title="Previous Post: Octopress Drafts">&laquo; Octopress Drafts</a></li>
+            
+            
+            <li class="next"><a href="/blog/2013/01/10/titanium-studio-issues/" title="Next Post: Titanium Studio Issues">Titanium Studio Issues &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
+  </div>
+</div>
+
+        </div>
+      </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2013 - fusion94<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/mjhea0/octoplate">Octoplate</a></span>.
+  </small>
+  <a href="#" id="back">Back to Top</a>
+</p>
+
+<nav id="bottom" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+</nav>
+
+</div>
+</footer>
+    <script src="/javascripts/libs/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'fusion94org';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx/';
+        var disqus_url = 'http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+    </div>
+  </body>
+</html>

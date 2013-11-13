@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Zend Studio | fusion94]]></title>
+  <link href="http://fusion94.github.io/blog/categories/zend-studio/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T18:40:21-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ANT and Zend Studio]]></title>
+    <link href="http://fusion94.github.io/blog/2009/01/12/ant-and-zend-studio/"/>
+    <updated>2009-01-12T08:25:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2009/01/12/ant-and-zend-studio</id>
+    <content type="html"><![CDATA[<p>Zend Studio for Eclipse is a commercial edition of Eclipse plus the PDT plugin and various other additions. Unfortunately Zend decided to disable the Ant plugin in it&rsquo;s distribution of the Eclipse platform. Nonetheless if you&rsquo;d like to run Ant scripts or simple Phing scripts it would be really useful to be able to use the Ant integration of Eclipse.</p>
+
+<p><b>Preparation</b>
+First you need to make sure that the Eclipse Java Development Tools are available in Zend Studio for Eclipse.</p>
+
+<ul> 
+<li>From the Help menu click Software Updates > Manage Configuration. 
+<li>Check for the entry Eclipse Java Development Tools. 
+</ul>
+
+
+<p>If the entry is not listed or disabled, you need to install the Eclipse feature.</p>
+
+<ul>
+<li>From the Help menu click Software Updates > Find and Install. 
+<li>Click Search for new features to install. 
+<li>Check Europa Discovery Site and click Next. 
+<li>Select Java Development Tools and click Finish to install the feature. 
+<li>Restart Zend Studio for Eclipse. 
+</ul>
+
+
+<p><b>How to enable the Ant integration</b>
+Now it gets a little tricky.</p>
+
+<ul>
+<li>From the File menu click New > Project. 
+<li>Check Show All Wizards. 
+<img src="http://fusion94.github.io/images/zend-ant/1.jpg">
+<li>In the Wizards text field enter Ant, select Java Project from Existing Ant Buildfile and click Next. 
+<img src="http://fusion94.github.io/images/zend-ant/2.jpg">
+<li>You will be asked to enable Ant Development - confirm with Yes. 
+<img src="http://fusion94.github.io/images/zend-ant/3.jpg">
+<li>Now you can cancel the new Java Project - Ant has been activated. 
+</ul>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>

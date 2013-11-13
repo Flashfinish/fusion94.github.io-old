@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Internet | fusion94]]></title>
+  <link href="http://fusion94.github.io/blog/categories/internet/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T18:40:21-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dumping PacBell/SBC/AT&T]]></title>
+    <link href="http://fusion94.github.io/blog/2007/06/07/dumping-pacbell-sbc-at-and-t/"/>
+    <updated>2007-06-07T12:05:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2007/06/07/dumping-pacbell-sbc-at-and-t</id>
+    <content type="html"><![CDATA[<p>And this is the reason.</p>
+
+<center>
+<a href="http://www.speedtest.net"><img src="http://www.speedtest.net/result/136962327.png"/></a>
+</center>
+
+
+<p>Comcast Triple Play is much faster.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux.com | fusion94]]></title>
+  <link href="http://fusion94.github.io/blog/categories/linux-dot-com/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T18:40:21-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Linux.com ColdStorage Article]]></title>
+    <link href="http://fusion94.github.io/blog/1999/08/20/linux-com-coldstorage-article/"/>
+    <updated>1999-08-20T10:18:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/1999/08/20/linux-com-coldstorage-article</id>
+    <content type="html"><![CDATA[<p>There&rsquo;s an <a href="http://linux.omnipotent.net/article.php?article_id=3649">article</a> up over at Linux.com that talks a bit about ColdStorage. Not too much info but it does give a brief overview.</p>
+]]></content>
+  </entry>
+  
+</feed>

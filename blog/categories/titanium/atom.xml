@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Titanium | fusion94]]></title>
+  <link href="http://fusion94.github.io/blog/categories/titanium/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-12T18:40:21-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Legendary for iOS]]></title>
+    <link href="http://fusion94.github.io/blog/2013/01/15/legendary-for-ios/"/>
+    <updated>2013-01-15T06:40:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/15/legendary-for-ios</id>
+    <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
+
+<p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>
+
+<p>As an aside this is <strong>only</strong> the mobile client side of the application. There&rsquo;s a server side component as well that will also be open sourced later this week.</p>
+
+<!-- more -->
+
+
+<p>Below is all the data from the README.md on <a href="http://github.com">GitHub</a></p>
+
+<hr />
+
+<h3>Description</h3>
+
+<p>Legendary displays catchphrases and memorable quotes from the character Barney Stinson.</p>
+
+<p>Browse and discover the only collection of Barney Stinson quotes available on the iPhone!</p>
+
+<p>Who is Barney Stinson?</p>
+
+<ul>
+<li>He is a womanizer, favors suits, laser tag, and uses the words &ldquo;awesome&rdquo; and &ldquo;legendary&rdquo; frequently.</li>
+<li>Barney is almost always seen wearing a suit and makes great use of his catchphrase, &ldquo;Suit up!&rdquo;, often modifying it for a particular situation (i.e., &ldquo;Snowsuit up!&rdquo; while making an igloo in Central Park, or &ldquo;Flight suit up!&rdquo; when he dresses as a &ldquo;kick a** fighter pilot&rdquo; for Halloween, or &ldquo;Slut Up!&rdquo; when Lily and Robin get ready to go to a high school prom, or when he says &ldquo;Space suit up Ted, &lsquo;cause you&rsquo;re going to the moon,&rdquo; in the episode where Ted may or may not have a threesome).</li>
+</ul>
+
+
+<h3>What&rsquo;s New in Version 1.2</h3>
+
+<ul>
+<li>All New 5 Suit Rating System</li>
+<li>Quotes are broken down by season</li>
+<li>All new popular system</li>
+<li>Randomize function</li>
+</ul>
+
+
+<h3>Coming Soon:</h3>
+
+<ul>
+<li>Search Functionality</li>
+<li>Ability to send to friend</li>
+<li>Ability to send to Twitter</li>
+<li>Ability to send to Facebook</li>
+</ul>
+
+
+<p>Follow us on Twitter:
+<a href="http://twitter.com/legendaryapp">@legendaryapp</a></p>
+
+<p>You can always download a binary in the <a href="https://itunes.apple.com/us/app/legendary/id317444914?mt=8">iTunes Store</a></p>
+
+<h3>Screenshots:</h3>
+
+<p><img src="/images/blog/legendary/screenshots/legendary1.jpg">
+<img src="/images/blog/legendary/screenshots/legendary2.jpg">
+<img src="/images/blog/legendary/screenshots/legendary3.jpg">
+<img src="/images/blog/legendary/screenshots/legendary4.jpg">
+<img src="/images/blog/legendary/screenshots/legendary5.jpg"></p>
+
+<h3>The Details:</h3>
+
+<p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment.</p>
+
+<h3>Contributing:</h3>
+
+<p>If you care to contribute at all then please see the <a href="https://github.com/fusion94/Legendary/blob/master/CONTRIBUTING.md">CONTRIBUTING File</a> for more details.</p>
+
+<h3>License:</h3>
+
+<p>This application is licensed under the Mozilla Public License Version 2.0. Please see the <a href="https://github.com/fusion94/Legendary/blob/master/LICENSE">LICENSE File</a> for more details.</p>
+]]></content>
+  </entry>
+  
+</feed>
