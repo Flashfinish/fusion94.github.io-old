@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Xcode | fusion94]]></title>
+  <link href="http://fusion94.github.io/blog/categories/xcode/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
+    <link href="http://fusion94.github.io/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
+    <updated>2008-06-11T09:58:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
+
+<p>Go to /Applications/Utilities and open Terminal.app and enter the following code:</p>
+
+<p><code>defaults write com.apple.Xcode PBXCustomTemplateMacroDefinitions &lsquo;{&ldquo;ORGANIZATIONNAME&rdquo;=&ldquo;SomeOther Co.&rdquo;;}&rsquo;</code></p>
+
+<p>Make sure you replace SomeOtherCo. with whatever name you want. I used:</p>
+
+<p><code>defaults write com.apple.Xcode PBXCustomTemplateMacroDefinitions &lsquo;{&ldquo;ORGANIZATIONNAME&rdquo;=&ldquo;damagestudios.net&rdquo;;}&rsquo;</code></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Arduino + Compass Module 3-Axis HMC5883L - fusion94</title>
+  <meta name="author" content="fusion94">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="fusion94" type="application/atom+xml">
+
+  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-83223-8']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body   >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">fusion94</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Blog</a></li>
+                <li><a href="/blog/archives">Archives</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="http://google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:fusion94.github.io">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9">
+    <article class="hentry" role="article">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2012-11-29T13:14:00-08:00" pubdate data-updated="true">Nov 29<span>th</span>, 2012</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fusion94.github.io">Comments</a>
+        
+      </p>
+    
+    
+    <h1 class="entry-title">
+        Arduino + Compass Module 3-Axis HMC5883L
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix"><div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
+all interested then please subscribe to the RSS feed.</div>
+
+
+<h3>Background</h3>
+
+<p>In this blogpost we&rsquo;re going to deal with the <a href="http://www.parallax.com/tabid/768/ProductID/779/Default.aspx">Compass Module 3-Axis HMC5883L</a> from Parallax and how to
+integrate it into an Arduino.</p>
+
+<p>The Compass Module 3-Axis HMC5883L is designed for low-field magnetic sensing with a digital interface.
+This compact sensor fits into small projects such as UAVs and robot navigation systems.</p>
+
+<!-- more -->
+
+
+<p>The sensor converts any magnetic field to a differential voltage output on 3 axes. This voltage shift
+is the raw digital output value, which can then be used to calculate headings or sense magnetic fields
+coming from different directions. Example code in PBASIC, Spin, and C are provided in the downloads.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+<li>Measures Earth’s magnetic fields</li>
+<li>3-axis magnetoresistive sensor</li>
+<li>Wide magnetic field range (+/-8 gauss)</li>
+<li>1 to 2 degree compass heading accuracy</li>
+<li>Precision in-axis sensitivity and linearity</li>
+<li>I2C digital Interface</li>
+<li>Fast 160 Hz maximum output rate</li>
+<li>Designed for use with a large variety of microcontrollers with different voltage requirements</li>
+</ul>
+
+
+<p><strong>Application Notes:</strong></p>
+
+<ul>
+<li>Auto and personal navigation</li>
+<li>UAV systems</li>
+<li>Robotic navigation</li>
+<li>Location-based services (LBS)</li>
+</ul>
+
+
+<p><strong>Key Specifications:</strong></p>
+
+<ul>
+<li>Power Requirements: 2.7 to 6.5 VDC</li>
+<li>Communication Interface: I2C (up to 400 kHz)</li>
+<li>Operating temperature: -22 to +185 °F (-30 to +85 °C)</li>
+<li>Dimensions: 0.725 x 0.650 in (1.8 x 1.7 cm)</li>
+</ul>
+
+
+<h3>What It Can Do</h3>
+
+<ul>
+<li>Measures the earth’s magnetic field in three axes, with a 1–2 degree accuracy</li>
+<li>Provides individual readings for each axis, which may be used separately or together for 3D calculations</li>
+<li>Measures raw strength (gauss) of a nearby magnetic source</li>
+</ul>
+
+
+<p>The 3-Axis Compass module measures magnetic fields in three directions – or axes, labeled X, Y, and Z.
+In its most simple form, the module can be used as a basic compass to find earth’s magnetic north.</p>
+
+<p>The compass module can also sense the relative strength of a nearby magnetic source, such as those
+caused by magnets or electric fields. As the sensor detects magnetism in three dimensions, it can
+determine relative distance and direction to these sources.</p>
+
+<p><img src="/images/blog/compass/Compass-2.png"></p>
+
+<p>Compasses are commonly uses with accelerometers, where the data from both the compass and
+accelerometer can provide extended information.</p>
+
+<p>One application of adding an accelerometer is to compensate for any tilt of the compass. As with
+most any compass, the reading is affected if the compass is not level.</p>
+
+<p><strong>Hardware Required</strong></p>
+
+<ul>
+<li>Arduino Board</li>
+<li>(1) Compass Module 3-Axis HMC5883L</li>
+<li>breadboard</li>
+<li>hook-up wire</li>
+</ul>
+
+
+<p><strong>Circuit</strong></p>
+
+<p><img src="/images/blog/compass/Compass-3.png"></p>
+
+<p>Connect the 5V and GND pins of the compass to the power and ground ports on the Arduino. Connect
+analog pin 4 of the Arduino to the SDA (Data) out pin of the compass, and analog pin 5 to the SCL
+(Clock) out pin.</p>
+
+<p>The picture below shows you essentially how the circuit should be laid out.</p>
+
+<p><img src="/images/blog/compass/Compass-6_0.png"></p>
+
+<p>Don’t forget that your Arduino must be connected to your computer in order for it to transmit serial
+data and don’t forget to set the Baud Rate of your serial connection to be 9600.</p>
+
+<p><strong>The Code</strong></p>
+
+<figure class='code'><figcaption><span>Compass Module 3-Axis HMC5883L code for Arduino </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/*
+</span><span class='line'>   Compass Module 3-Axis HMC5883L
+</span><span class='line'>   
+</span><span class='line'>   Read the Compass Module 3-Axis HMC5883L and prints them over the serial connection to the computer.
+</span><span class='line'>   
+</span><span class='line'>   The circuit:
+</span><span class='line'>    * SDA (Data) output of compass to analog pin 4
+</span><span class='line'>    * SCL (Clock) output of compass to analog pin 5
+</span><span class='line'>    * +V of accelerometer to +5V
+</span><span class='line'>    * GND of accelerometer to ground
+</span><span class='line'>
+</span><span class='line'>   created 29 Nov 2012
+</span><span class='line'>   by Tony Guntharp
+</span><span class='line'>
+</span><span class='line'> */
+</span><span class='line'>#include 
+</span><span class='line'>
+</span><span class='line'>#define Addr 0x1E               // 7-bit address of HMC5883 compass
+</span><span class='line'>
+</span><span class='line'>void setup() {
+</span><span class='line'>  Serial.begin(9600);
+</span><span class='line'>  delay(100);                   // Power up delay
+</span><span class='line'>  Wire.begin();
+</span><span class='line'>  
+</span><span class='line'>  // Set operating mode to continuous
+</span><span class='line'>  Wire.beginTransmission(Addr); 
+</span><span class='line'>  Wire.write(byte(0x02));
+</span><span class='line'>  Wire.write(byte(0x00));
+</span><span class='line'>  Wire.endTransmission();
+</span><span class='line'>}
+</span><span class='line'>
+</span><span class='line'>void loop() {
+</span><span class='line'>  int x, y, z;
+</span><span class='line'>
+</span><span class='line'>  // Initiate communications with compass
+</span><span class='line'>  Wire.beginTransmission(Addr);
+</span><span class='line'>  Wire.write(byte(0x03));       // Send request to X MSB register
+</span><span class='line'>  Wire.endTransmission();
+</span><span class='line'>
+</span><span class='line'>  Wire.requestFrom(Addr, 6);    // Request 6 bytes; 2 bytes per axis
+</span><span class='line'>  if(Wire.available() &lt;=6) {    // If 6 bytes available
+</span><span class='line'>    x = Wire.read() &lt;&lt; 8 | Wire.read();
+</span><span class='line'>    z = Wire.read() &lt;&lt; 8 | Wire.read();
+</span><span class='line'>    y = Wire.read() &lt;&lt; 8 | Wire.read();
+</span><span class='line'>  }
+</span><span class='line'>  
+</span><span class='line'>  // Print raw values
+</span><span class='line'>  Serial.print("X=");
+</span><span class='line'>  Serial.print(x);
+</span><span class='line'>  Serial.print(", Y=");
+</span><span class='line'>  Serial.print(y);
+</span><span class='line'>  Serial.print(", Z=");
+</span><span class='line'>  Serial.println(z);
+</span><span class='line'>  
+</span><span class='line'>  delay(500);
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>At the end of uploading and running the code listed above you will start to see some serial output
+like in the image below.</p>
+
+<p><img src="/images/blog/compass/compass_results.png"></p>
+
+<p>Here’s a picture of the actual circuit built.</p>
+
+<p><img src="/images/blog/compass/compass_circuit.png"></p>
+
+<p><strong>Source Code</strong></p>
+
+<p><a href="https://github.com/fusion94/HMC5883L_Arduino">Github</a></p>
+
+<p>In a follow up blog post I’ll discuss how you can use both the Compass Module 3-Axis HMC5883L in
+conjunction with the Memsic 2125 Dual-axis Accelerometer to compensate for any tilt of the compass.</p>
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">fusion94</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2012-11-29T13:14:00-08:00" pubdate data-updated="true">Nov 29<span>th</span>, 2012</time>
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/" data-via="fusion94" data-counturl="http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/" title="Previous Post: Arduino + Memsic 2125 Dual-axis Accelerometer">&laquo; Arduino + Memsic 2125 Dual-axis Accelerometer</a></li>
+            
+            
+            <li class="next"><a href="/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/" title="Next Post: Arduino + DF-BluetoothV3 Bluetooth module">Arduino + DF-BluetoothV3 Bluetooth module &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
+  </div>
+</div>
+
+        </div>
+      </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2013 - fusion94<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/mjhea0/octoplate">Octoplate</a></span>.
+  </small>
+  <a href="#" id="back">Back to Top</a>
+</p>
+
+<nav id="bottom" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+</nav>
+
+</div>
+</footer>
+    <script src="/javascripts/libs/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'fusion94org';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/';
+        var disqus_url = 'http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+    </div>
+  </body>
+</html>

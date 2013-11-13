@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Memsic 2125 Dual-axis Accelerometer | fusion94]]></title>
+  <link href="http://fusion94.github.io/blog/categories/memsic-2125-dual-axis-accelerometer/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Arduino + Memsic 2125 Dual-axis Accelerometer]]></title>
+    <link href="http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
+    <updated>2012-11-28T15:50:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
+    <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
+all interested then please subscribe to the RSS feed.</div>
+
+
+<h3>Background</h3>
+
+<p>In this blogpost we&rsquo;re going to deal with the <a href="http://learn.parallax.com/KickStart/28017">Memsic 2125 Dual-axis Accelerometer</a> from Parallax and how to integrate
+it into an Arduino.</p>
+
+<p>The Memsic 2125 is a low cost, dual-axis thermal accelerometer capable of measuring tilt, acceleration, rotation,
+and vibration with a range of ±3 g. For integration into existing applications, the Memsic 2125 is electrically
+compatible with other popular accelerometers.</p>
+
+<!-- more -->
+
+
+<p>Memsic provides the 2125 in a surface-mount format. Parallax mounts the circuit on a through-hole providing all
+I/O connections so it can easily be inserted on a breadboard or through-hole prototype area.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+<li>Measures ±3 g on each axis</li>
+<li>Simple pulse output of g-force for each axis</li>
+<li>Convenient 6-pin 0.1" spacing DIP module</li>
+<li>Analog output fo temperature (Tout pin)</li>
+<li>Low current at 3.3 or 5 V operation: less than 4 mA at 5 VDC</li>
+</ul>
+
+
+<p><strong>Sample Applications:</strong></p>
+
+<ul>
+<li>Dual-axis tilt sensing for autonomous robotics applications</li>
+<li>Single-axis rotational position sensing</li>
+<li>Movement/Lack-of-movement sensing for alarm systems</li>
+<li>R/C hobby projects such as autopilots</li>
+</ul>
+
+
+<p><strong>Key Specifications:</strong></p>
+
+<ul>
+<li>Power requirements: +3.3 to +5 VDC</li>
+<li>Communication: TTL/CMOS compatible 100 Hz PWM output signal with duty cycle proportional to acceleration</li>
+<li>Dimensions: 0.42 x 0.42 x 0.45 in (10.7 x 10.7 x 11.8 mm)</li>
+<li>Operating temp range: 32 to +158 °F (0 to +70 °C)</li>
+</ul>
+
+
+<h3>What It Can Do</h3>
+
+<ul>
+<li>Measures tilt in two axes: forward and back, or side to side</li>
+<li>Registers sudden changes in motion
+*Detects even small amounts of vibration and motion</li>
+</ul>
+
+
+<p>The Memsic 2125 Dual-axis Accelerometer is sensitive to the gravitational pull of the earth, allowing it to measure
+tilt, vibration, motion, and acceleration. The sensor provides independent outputs for two axes, labeled X and Y:</p>
+
+<ul>
+<li>The X axis measures tilt or acceleration forward and back (direction of arrow)</li>
+<li>The Y axis measures tilt or acceleration side to side</li>
+</ul>
+
+
+<p><img src="/images/blog/memsic2125/Memsic2125-2.png"></p>
+
+<p>The Memsic 2125 module registers the constant pull of earth’s gravity. This is specified as 1g (g for gravity). For
+the Memsic sensor, the value of 1g is always some positive number, and is about half way between the highest and
+lowest readings the module is capable of reporting.</p>
+
+<p>As a tilt sensor, the Memsic 2125 detects when the module is not level. The output of the sensor indicates the amount
+of inclination. As a acceleration or vibration sensor, the sensor measures the g-forces acting on it. The greater the
+g-force, the higher the acceleration or vibration.</p>
+
+<p>The X and Y axis output of the Memsic 2125 is a pulse that has a period of (that is, it repeats) 100 times a second
+(100 Hz). The width of the pulse represents the instantaneous g-force. By measuring the width of the pulse, you can
+derive – with high accuracy – the g-force of either axis.</p>
+
+<p><img src="/images/blog/memsic2125/Memsic2125-3.png"></p>
+
+<p><strong>Hardware Required</strong></p>
+
+<ul>
+<li>Arduino Board</li>
+<li>(1) Memsic 2125 Accelerometer</li>
+<li>breadboard</li>
+<li>hook-up wire</li>
+</ul>
+
+
+<p><strong>Circuit</strong></p>
+
+<p><img src="/images/blog/memsic2125/Mx2125_PINOUT.png"></p>
+
+<p>Use the small triangle on the Memsic to properly orient the sensor on your breadboard. Connect the 5V and GND pins
+of the Memsic 2125 to the power and ground ports on the Arduino. Connect digital pin 2 of the Arduino to the X out
+pin of the accelerometer, and digital pin 3 to the Y out pin.</p>
+
+<p>The picture below shows you essentially how the circuit should be laid out.</p>
+
+<p><img src="/images/blog/memsic2125/Memsic2125-7.png"></p>
+
+<p>Don&rsquo;t forget that your Arduino must be connected to your computer in order for it to transmit serial data and
+don&rsquo;t forget to set the Baud Rate of your serial connection to be 9600.</p>
+
+<p><strong>The Code</strong></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Memsic 2125 two-axis accelerometer code for Arduino </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/*
+</span><span class='line'>   Memsic2125&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>   Read the Memsic 2125 two-axis accelerometer and prints them over the serial connection to the
+</span><span class='line'>   computer.&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>   The circuit:&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>* X output of accelerometer to digital pin 2
+</span><span class='line'>* Y output of accelerometer to digital pin 3
+</span><span class='line'>* +V of accelerometer to +5V
+</span><span class='line'>* GND of accelerometer to ground
+</span><span class='line'>
+</span><span class='line'>* Copyright (c) 2012 by Tony Guntharp. All Rights Reserved.
+</span><span class='line'>* Licensed under the terms of the Apache Public License
+</span><span class='line'>* Please see the LICENSE included with this distribution for details.
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p> */&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p> // these constants won&rsquo;t change:
+</span><span class='line'>const int xPin = 2;     // X output of the accelerometer
+</span><span class='line'>const int yPin = 3;     // Y output of the accelerometer&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>void setup() {
+</span><span class='line'>  // initialize serial communications:
+</span><span class='line'>  Serial.begin(9600);
+</span><span class='line'>  // initialize the pins connected to the accelerometer
+</span><span class='line'>  // as inputs:
+</span><span class='line'>  pinMode(xPin, INPUT);
+</span><span class='line'>  pinMode(yPin, INPUT);
+</span><span class='line'>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>void loop() {
+</span><span class='line'>  // variables to read the pulse widths:
+</span><span class='line'>  int pulseX, pulseY;
+</span><span class='line'>  // variables to contain the resulting accelerations
+</span><span class='line'>  int accelerationX, accelerationY;&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  // read pulse from x- and y-axes:
+</span><span class='line'>  pulseX = pulseIn(xPin,HIGH);&lt;br/>
+</span><span class='line'>  pulseY = pulseIn(yPin,HIGH);&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  // convert the pulse width into acceleration
+</span><span class='line'>  // accelerationX and accelerationY are in milli-g&rsquo;s:
+</span><span class='line'>  // earth&rsquo;s gravity is 1000 milli-g&rsquo;s, or 1g.
+</span><span class='line'>  accelerationX = ((pulseX / 10) &ndash; 500) * 8;
+</span><span class='line'>  accelerationY = ((pulseY / 10) &ndash; 500) * 8;&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  // print the acceleration
+</span><span class='line'>  Serial.print(accelerationX);
+</span><span class='line'>  // print a tab character:
+</span><span class='line'>  Serial.print(&ldquo;\t&rdquo;);
+</span><span class='line'>  Serial.print(accelerationY);
+</span><span class='line'>  Serial.println();&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>  delay(100);
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>At the end of uploading and running the code listed above you will start to see some serial output like in the
+image below.</p>
+
+<p><img src="/images/blog/memsic2125/memsic2125_results.png"></p>
+
+<p>Here&rsquo;s a picture of the actual circuit built.</p>
+
+<p><img src="/images/blog/memsic2125/layout.png"></p>
+
+<p>In a follow up blog post I&rsquo;ll discuss how by using additional math, you can use the values provided by the
+accelerometer to convert to actual g-forces or degrees of tilt.</p>
+
+<p><strong>Source Code</strong></p>
+
+<p><a href="https://github.com/fusion94/Memsic2125_Arduino">Github</a></p>
+]]></content>
+  </entry>
+  
+</feed>
