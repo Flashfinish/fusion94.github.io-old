@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: GeekRave | fusion94]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/geekrave/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.github.io/blog/categories/geekrave/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -22,30 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[GeekRave 3.0 & Community]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2001/02/12/geekrave-3-0-and-community/"/>
     <updated>2001-02-12T22:55:00-08:00</updated>
     <id>http://fusion94.org/blog/2001/02/12/geekrave-3-0-and-community</id>
-=======
-    <link href="http://fusion94.github.io/blog/2001/02/12/geekrave-3-0-and-community/"/>
-    <updated>2001-02-12T22:55:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2001/02/12/geekrave-3-0-and-community</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>GeekRave 3.0 at the Commodore Ballroom up in Vancouver kicked ass. Got to meet sellout &amp; mux from #e. San was the headlining DJ and pics of the event can be found here. San&rsquo;s Latest CD has been ripped to mp3 and is available for download from the files section. Be forewarned that it&rsquo;s a 134MB tarball as a single mp3 ripped at 256. Also included is the playlist.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[GeekRave 2.5]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2000/10/29/geekrave-2-5/"/>
     <updated>2000-10-29T21:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2000/10/29/geekrave-2-5</id>
-=======
-    <link href="http://fusion94.github.io/blog/2000/10/29/geekrave-2-5/"/>
-    <updated>2000-10-29T21:31:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2000/10/29/geekrave-2-5</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>I missed GeekRave 2.0 which really sucked but will be attending GeekRave 2.5</p>
 
 <p><strong>GeekRave 2.5 Event @ Geek Pride Festival</strong></p>

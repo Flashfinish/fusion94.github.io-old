@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Apple | fusion94]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.github.io/blog/categories/apple/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Comcast and the Airport Extreme Base Station]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/02/14/comcast-and-the-airport-extreme-base-station/"/>
     <updated>2008-02-14T20:01:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/14/comcast-and-the-airport-extreme-base-station</id>
-=======
-    <link href="http://fusion94.github.io/blog/2008/02/14/comcast-and-the-airport-extreme-base-station/"/>
-    <updated>2008-02-14T20:01:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/02/14/comcast-and-the-airport-extreme-base-station</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>Awhile back I picked up an Airport Extreme Base Station to replace a Linksys Wireless Access Point. Unfortunately I was brain-dead while getting everything setup and couldn&rsquo;t get it to talk to the Comcast Cable Modem so I ended up putting it behind the Linksys WAP and turning off the Wireless on the Linksys device.</p>
 
 <p>Tonight I fixed the issue. Turns out I needed to turn off the Cable Modem (as well as remove the built-in battery backup) for a few minutes while keeping the AEBS turned off. This allowed for the Comcast Modem to clear both the MAC address of the Linksys and the IP addresses. Next I turned on the Cable modem, waited till it had a good connection then turned on the AEBS. The AEBS was then able to pick up a valid IP address and everything was good to go.</p>

@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mobile | fusion94]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/mobile/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.github.io/blog/categories/mobile/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Legendary for iOS]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/15/legendary-for-ios/"/>
     <updated>2013-01-15T06:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/15/legendary-for-ios</id>
-=======
-    <link href="http://fusion94.github.io/blog/2013/01/15/legendary-for-ios/"/>
-    <updated>2013-01-15T06:40:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/15/legendary-for-ios</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
 
 <p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>
@@ -107,15 +94,9 @@
   
   <entry>
     <title type="html"><![CDATA[Titanium Studio Issues]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/10/titanium-studio-issues/"/>
     <updated>2013-01-10T00:41:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/10/titanium-studio-issues</id>
-=======
-    <link href="http://fusion94.github.io/blog/2013/01/10/titanium-studio-issues/"/>
-    <updated>2013-01-10T00:41:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/10/titanium-studio-issues</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>I just installed the latest Titanium Studio from Appcelerator and a Titanium Update window pops up when I open TiStudio and asks me to install Titanium CLI and Alloy.</p>
 
 <p>When I press the install button a dialog pops up that says &ldquo;Titanium wants to make changes. Provide your password to allow installation&rdquo;. I enter my password and TiStudio tells me that my password is incorrect and TiStudio asks me to enter it again.</p>
@@ -135,15 +116,9 @@
   
   <entry>
     <title type="html"><![CDATA[Building B2G (Boot2Gecko) on OSX]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
     <updated>2013-01-09T10:37:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
-=======
-    <link href="http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
-    <updated>2013-01-09T10:37:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>So I&rsquo;ve been interested in the <a href="https://wiki.mozilla.org/B2G">Boot2Gecko</a> project for awhile and wanted to see if I could get an app running on <a href="http://www.appgyver.com/steroids">Steroids</a> that would run under B2G.</p>
 
 <p>To accomplish this I needed to get the B2G desktop emulator up and running so I could actually develop something.</p>
@@ -316,21 +291,12 @@
   
   <entry>
     <title type="html"><![CDATA[Yahoo! Tomfoolery…aka Asshats.]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/06/22/yahoo-tomfooleryaka-asshats/"/>
     <updated>2007-06-22T13:50:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/06/22/yahoo-tomfooleryaka-asshats</id>
     <content type="html"><![CDATA[<p>I believe this image says it all.</p>
 
 <p><img src="http://fusion94.org/images/yahoo_asshats.png" alt="Yahoo Asshats" /></p>
-=======
-    <link href="http://fusion94.github.io/blog/2007/06/22/yahoo-tomfooleryaka-asshats/"/>
-    <updated>2007-06-22T13:50:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2007/06/22/yahoo-tomfooleryaka-asshats</id>
-    <content type="html"><![CDATA[<p>I believe this image says it all.</p>
-
-<p><img src="http://fusion94.github.io/images/yahoo_asshats.png" alt="Yahoo Asshats" /></p>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Technically, using simple math&hellip;that&rsquo;s 1 phone not 7 you asshats. This is why google is kicking your collective asses.</p>
 ]]></content>

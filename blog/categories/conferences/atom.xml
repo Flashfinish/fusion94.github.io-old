@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Conferences | fusion94]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/conferences/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.github.io/blog/categories/conferences/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Campus Party 2008]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/21/campus-party-2008/"/>
     <updated>2008-12-21T17:54:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/21/campus-party-2008</id>
-=======
-    <link href="http://fusion94.github.io/blog/2008/12/21/campus-party-2008/"/>
-    <updated>2008-12-21T17:54:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/12/21/campus-party-2008</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>I&rsquo;ve been meaning to post about this for some time but have been rather slack in doing so.</p>
 
 <p>Back in August I was invited to talk at <a href="http://www.campus-party.es/">Campus Party 2008</a> which took place at the Valencia Exhibition Center in Valencia, Spain from July 28 &ndash; August 3 to give a talk about the History of <a href="http://sf.net">SourceForge</a>.</p>
@@ -60,17 +47,10 @@
 
 <p>Here are a few photos of the trip.</p>
 
-<<<<<<< HEAD
 <p><a href="http://fusion94.org/images/spain/DSC_0049.jpg" rel="lightshow[Spain][Schedule Slide]"><img src="http://fusion94.org/images/spain/DSC_0049-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0052.jpg" rel="lightshow[Spain][My Talk]"><img src="http://fusion94.org/images/spain/DSC_0052-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0058.jpg" rel="lightshow[Spain][Camping Area]"><img src="http://fusion94.org/images/spain/DSC_0058-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0238.jpg" rel="lightshow[Spain][Marcus Hardt, Jon Maddog Hall, me, Luis Ibáñez, Rasmus Lerdorf, Rafa Saez]"><img src="http://fusion94.org/images/spain/DSC_0238-tn.jpg"></a></p>
-=======
-<p><a href="http://fusion94.github.io/images/spain/DSC_0049.jpg" rel="lightshow[Spain][Schedule Slide]"><img src="http://fusion94.github.io/images/spain/DSC_0049-tn.jpg"></a>
-<a href="http://fusion94.github.io/images/spain/DSC_0052.jpg" rel="lightshow[Spain][My Talk]"><img src="http://fusion94.github.io/images/spain/DSC_0052-tn.jpg"></a>
-<a href="http://fusion94.github.io/images/spain/DSC_0058.jpg" rel="lightshow[Spain][Camping Area]"><img src="http://fusion94.github.io/images/spain/DSC_0058-tn.jpg"></a>
-<a href="http://fusion94.github.io/images/spain/DSC_0238.jpg" rel="lightshow[Spain][Marcus Hardt, Jon Maddog Hall, me, Luis Ibáñez, Rasmus Lerdorf, Rafa Saez]"><img src="http://fusion94.github.io/images/spain/DSC_0238-tn.jpg"></a></p>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Here&rsquo;s a media interview that I did after my talk.</p>
 
@@ -83,15 +63,9 @@
   
   <entry>
     <title type="html"><![CDATA[Linux Expo return]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/1999/05/24/linux-expo-return/"/>
     <updated>1999-05-24T23:49:00-07:00</updated>
     <id>http://fusion94.org/blog/1999/05/24/linux-expo-return</id>
-=======
-    <link href="http://fusion94.github.io/blog/1999/05/24/linux-expo-return/"/>
-    <updated>1999-05-24T23:49:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/1999/05/24/linux-expo-return</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>So I&rsquo;ve returned from Linux Expo. It was a fairly decent experience as I got to meet up with Stephen Tweedie who is one of the authors of the ext2 file system. He pointed me in the right direction as far as Matisse Porting goes.</p>
 
 <p>I also got to meet <a href="http://dibona.com">Chris DiBona</a> and <a href="http://occy.net">Trae McCombs</a> while at the show. They are both employees of <a href="http://varesearch.com">VA Research</a> and are both pretty cool.</p>
@@ -102,15 +76,9 @@
   
   <entry>
     <title type="html"><![CDATA[Linux Expo]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/1999/04/19/linux-expo/"/>
     <updated>1999-04-19T16:53:00-07:00</updated>
     <id>http://fusion94.org/blog/1999/04/19/linux-expo</id>
-=======
-    <link href="http://fusion94.github.io/blog/1999/04/19/linux-expo/"/>
-    <updated>1999-04-19T16:53:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/1999/04/19/linux-expo</id>
->>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>So it appears as though I&rsquo;ll be attending Linux Expo in North Carolina which is scheduled to run from May 19th through the 22nd. I&rsquo;ll be going as a representative of <a href="http://fresher.com">Fresher</a> and will be talking to several people about porting Matisse over to the linux platform.</p>
 ]]></content>
   </entry>
