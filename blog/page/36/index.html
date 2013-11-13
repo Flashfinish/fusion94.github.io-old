@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
@@ -9,7 +8,6 @@
   <meta name="author" content="fusion94">
 
   
-  <meta name="description" content="Well I finally upgraded to MT 3.16. I was using the early early 3.0 developers edition. Hopefully this means I&rsquo;ll be motivated to actually post &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,17 +17,15 @@
 
   
   <link rel="canonical" href="http://fusion94.github.io/blog/page/36">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="fusion94" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -46,49 +42,62 @@
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">fusion94</a></h1>
-  
-    <h2>Random posts about Hardware/Software</h2>
-  
-</hgroup>
+  <body   >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">fusion94</a>
+        </div>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:fusion94.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/projects">Projects</a></li>
-  <li><a href="/about/index.html">About</a></li>    
-</ul>
-
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Blog</a></li>
+                <li><a href="/blog/archives">Archives</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="http://google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:fusion94.github.io">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
 </nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9">
+    <div class="blog-index">
       
-  <header>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2005/05/25/mt-upgrade/">MT Upgrade</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -98,20 +107,24 @@
 
 
 
-  
 
 
-<time datetime="2005-05-25T16:48:00-07:00" pubdate data-updated="true">May 25<span>th</span>, 2005</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-05-25T16:48:00-07:00" pubdate data-updated="true">May 25<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/05/25/mt-upgrade/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2005/05/25/mt-upgrade/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2005/05/25/mt-upgrade/">MT Upgrade</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>Well I finally upgraded to MT 3.16. I was using the early early 3.0 developers edition. Hopefully this means I&rsquo;ll be motivated to actually post.</p>
+  <div class="entry-content clearfix"><p>Well I finally upgraded to MT 3.16. I was using the early early 3.0 developers edition. Hopefully this means I&rsquo;ll be motivated to actually post.</p>
 
 <p>But don&rsquo;t count on that.</p>
 </div>
@@ -119,17 +132,14 @@
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2005/05/25/asshats/">Asshats…</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -139,20 +149,24 @@
 
 
 
-  
 
 
-<time datetime="2005-05-25T13:08:00-07:00" pubdate data-updated="true">May 25<span>th</span>, 2005</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-05-25T13:08:00-07:00" pubdate data-updated="true">May 25<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/05/25/asshats/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2005/05/25/asshats/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2005/05/25/asshats/">Asshats…</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>I swear to god some of the people (i.e. clients) I have to deal with while in the course of executing my job are complete asshats.</p>
+  <div class="entry-content clearfix"><p>I swear to god some of the people (i.e. clients) I have to deal with while in the course of executing my job are complete asshats.</p>
 
 <p>I&rsquo;ve never seen such a collective group of dysfunctional losers in my life. For the most part to a man (or woman as the case may be) they are complete whackjobs in dire need of 2 to the back of the head.</p>
 
@@ -162,17 +176,14 @@
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2005/05/25/medal-of-honor-pacific-assault/">Medal of Honor - Pacific Assault</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -182,20 +193,24 @@
 
 
 
-  
 
 
-<time datetime="2005-05-25T12:59:00-07:00" pubdate data-updated="true">May 25<span>th</span>, 2005</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-05-25T12:59:00-07:00" pubdate data-updated="true">May 25<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/05/25/medal-of-honor-pacific-assault/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2005/05/25/medal-of-honor-pacific-assault/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2005/05/25/medal-of-honor-pacific-assault/">Medal of Honor - Pacific Assault</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>So&hellip;I&rsquo;ve played all the Medal of Honor Series of games in both multi-player and single-player mode and have loved every one of them.</p>
+  <div class="entry-content clearfix"><p>So&hellip;I&rsquo;ve played all the Medal of Honor Series of games in both multi-player and single-player mode and have loved every one of them.</p>
 
 <p>Well EA released MoH &ndash; Pacific Assault back on Nov. 9th of 2004 and I had pre-ordered it but had yet to install/play it until last night and can I just say wow. It&rsquo;s even better than the European Theater versions of the game. The graphics are far superior and the gameplay (at least in single-player mode) is even better.</p>
 
@@ -207,17 +222,14 @@
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2005/05/24/darwin-award-candidates/">Darwin Award Candidates</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -227,20 +239,24 @@
 
 
 
-  
 
 
-<time datetime="2005-05-24T10:46:00-07:00" pubdate data-updated="true">May 24<span>th</span>, 2005</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-05-24T10:46:00-07:00" pubdate data-updated="true">May 24<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/05/24/darwin-award-candidates/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2005/05/24/darwin-award-candidates/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2005/05/24/darwin-award-candidates/">Darwin Award Candidates</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>survival of the fittest&hellip;</p>
+  <div class="entry-content clearfix"><p>survival of the fittest&hellip;</p>
 
 <blockquote>24 May 2005
 LIGHT-SABRE DUEL PUTS TWO IN HOSPITAL
@@ -260,17 +276,14 @@ Police say a third person present at the incident was questioned.</blockquote>
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2004/11/17/5-year-anniversary/">5 Year Anniversary</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -280,36 +293,37 @@ Police say a third person present at the incident was questioned.</blockquote>
 
 
 
-  
 
 
-<time datetime="2004-11-17T10:39:00-08:00" pubdate data-updated="true">Nov 17<span>th</span>, 2004</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-11-17T10:39:00-08:00" pubdate data-updated="true">Nov 17<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/11/17/5-year-anniversary/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2004/11/17/5-year-anniversary/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2004/11/17/5-year-anniversary/">5 Year Anniversary</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>5 years ago today we (<a href="http://precision.org">Uriah</a>, <a href="http://dtype.org">Drew</a>, <a href="http://perdue.net">Tim</a> and <a href="http://fusion94.org">I</a>) unveiled <a href="http://sourceforge.net">SourceForge</a> to the world. It&rsquo;s hard to believe that it&rsquo;s been 5 years already as it seems like yesterday that we were crammed into our conference room over on Bordeaux banging on hardware and software and thinking &hellip; <em>&ldquo;no way is this launching at comdex&rdquo;</em>. Well we did and the rest is history.</p>
+  <div class="entry-content clearfix"><p>5 years ago today we (<a href="http://precision.org">Uriah</a>, <a href="http://dtype.org">Drew</a>, <a href="http://perdue.net">Tim</a> and <a href="http://fusion94.org">I</a>) unveiled <a href="http://sourceforge.net">SourceForge</a> to the world. It&rsquo;s hard to believe that it&rsquo;s been 5 years already as it seems like yesterday that we were crammed into our conference room over on Bordeaux banging on hardware and software and thinking &hellip; <em>&ldquo;no way is this launching at comdex&rdquo;</em>. Well we did and the rest is history.</p>
 </div>
   
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2004/09/17/trivia/">Trivia…</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -319,36 +333,37 @@ Police say a third person present at the incident was questioned.</blockquote>
 
 
 
-  
 
 
-<time datetime="2004-09-17T23:34:00-07:00" pubdate data-updated="true">Sep 17<span>th</span>, 2004</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-09-17T23:34:00-07:00" pubdate data-updated="true">Sep 17<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/09/17/trivia/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2004/09/17/trivia/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2004/09/17/trivia/">Trivia…</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>All three members of the 700 home run club (Babe Ruth, Hank Aaron, and Barry Bonds) hit their 700th home run in the third inning.</p>
+  <div class="entry-content clearfix"><p>All three members of the 700 home run club (Babe Ruth, Hank Aaron, and Barry Bonds) hit their 700th home run in the third inning.</p>
 </div>
   
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2004/09/17/700/">700</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -358,20 +373,24 @@ Police say a third person present at the incident was questioned.</blockquote>
 
 
 
-  
 
 
-<time datetime="2004-09-17T23:06:00-07:00" pubdate data-updated="true">Sep 17<span>th</span>, 2004</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-09-17T23:06:00-07:00" pubdate data-updated="true">Sep 17<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/09/17/700/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2004/09/17/700/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2004/09/17/700/">700</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>The pic says it all.</p>
+  <div class="entry-content clearfix"><p>The pic says it all.</p>
 
 <p><img src="/images/bonds700.jpg"/></p>
 </div>
@@ -379,17 +398,14 @@ Police say a third person present at the incident was questioned.</blockquote>
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2004/09/04/i-never-told-you-what-i-do-for-a-living/">I Never Told You What I Do for a Living</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -399,20 +415,24 @@ Police say a third person present at the incident was questioned.</blockquote>
 
 
 
-  
 
 
-<time datetime="2004-09-04T10:51:00-07:00" pubdate data-updated="true">Sep 4<span>th</span>, 2004</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-09-04T10:51:00-07:00" pubdate data-updated="true">Sep 4<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/09/04/i-never-told-you-what-i-do-for-a-living/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2004/09/04/i-never-told-you-what-i-do-for-a-living/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2004/09/04/i-never-told-you-what-i-do-for-a-living/">I Never Told You What I Do for a Living</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>well never again,and never again
+  <div class="entry-content clearfix"><p>well never again,and never again
 they gave us two shots to the back of the head
 and we&rsquo;re all dead now.</p>
 </div>
@@ -420,17 +440,14 @@ and we&rsquo;re all dead now.</p>
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2004/08/19/tool-modified/">Tool Modified</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -440,20 +457,24 @@ and we&rsquo;re all dead now.</p>
 
 
 
-  
 
 
-<time datetime="2004-08-19T23:02:00-07:00" pubdate data-updated="true">Aug 19<span>th</span>, 2004</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-08-19T23:02:00-07:00" pubdate data-updated="true">Aug 19<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/08/19/tool-modified/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2004/08/19/tool-modified/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2004/08/19/tool-modified/">Tool Modified</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>So I&rsquo;ve modified one of the tools that the online activists are distributing to disrupt the GOP websites.</p>
+  <div class="entry-content clearfix"><p>So I&rsquo;ve modified one of the tools that the online activists are distributing to disrupt the GOP websites.</p>
 
 <p>Now it&rsquo;ll disrupt their own website. Get it <a target="new" href="http://fusion94.org/bhhb.pl">here</a>.</p>
 
@@ -470,17 +491,14 @@ and we&rsquo;re all dead now.</p>
   
 
 
-    </article>
-  
-  
-    <article>
+        </article>
       
-  <header>
+      
+        <article class="post">
+          
+  <header class="page-header">
     
-      <h1 class="entry-title"><a href="/blog/2004/08/19/online-activists-lash-out/">Online Activists Lash Out</a></h1>
-    
-    
-      <p class="meta">
+      <p class="meta text-muted text-uppercase">
         
 
 
@@ -490,20 +508,24 @@ and we&rsquo;re all dead now.</p>
 
 
 
-  
 
 
-<time datetime="2004-08-19T22:36:00-07:00" pubdate data-updated="true">Aug 19<span>th</span>, 2004</time>
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-08-19T22:36:00-07:00" pubdate data-updated="true">Aug 19<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/08/19/online-activists-lash-out/#disqus_thread"
              data-disqus-identifier="http://fusion94.github.io/blog/2004/08/19/online-activists-lash-out/">Comments</a>
         
       </p>
     
+    
+      <h1 class="entry-title"><a href="/blog/2004/08/19/online-activists-lash-out/">Online Activists Lash Out</a></h1>
+    
   </header>
 
 
-  <div class="entry-content"><p>So a group of online-activists (I refuse to call them hackers) are planning an online protest during the Republican National Convention.</p>
+  <div class="entry-content clearfix"><p>So a group of online-activists (I refuse to call them hackers) are planning an online protest during the Republican National Convention.</p>
 
 <p>They are providing scripts that will target GOP sites with Denial of Service attacks. This for the most part is very stupid in my opinion. These people refer to themselves as &ldquo;hackers&rdquo; yet are providing tools that destroy the very heart of Hacking. Free Speech and Freedom of Expression. Worse is the fact that they are doing it under an umbrella of secrecy.</p>
 
@@ -515,101 +537,43 @@ and we&rsquo;re all dead now.</p>
   
 
 
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/37/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/35/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/">How to Enable Developer Settings on Android 4.2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/01/custom-character-generator-for-lcd-panels/">Custom Character Generator for LCD Panels</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/">Kandan an Open Source Alternative to HipChat</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/01/16/clahub-clas-done-right/">CLAHub - CLA&#8217;s Done Right</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/01/15/legendary-for-ios/">Legendary for iOS</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/fusion94">@fusion94</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'fusion94',
-            count: 10,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-<section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/101024956573508432752?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
+        </article>
+      
     </div>
+
+    <ul class="pager">
+      
+        <li class="previous"><a href="/blog/page/37/">&larr;&nbsp;Older</a></li>
+      
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+        <li class="next"><a href="/blog/page/35/">Newer&nbsp;&rarr;</a></li>
+      
+    </ul>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - fusion94 -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+
+</div>
+
+        </div>
+      </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2013 - fusion94<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/mjhea0/octoplate">Octoplate</a></span>.
+  </small>
+  <a href="#" id="back">Back to Top</a>
 </p>
 
+<nav id="bottom" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+</nav>
+
+</div>
 </footer>
-  
+    <script src="/javascripts/libs/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
 
 <script type="text/javascript">
       var disqus_shortname = 'fusion94org';
@@ -619,7 +583,7 @@ and we&rsquo;re all dead now.</p>
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
@@ -661,5 +625,6 @@ and we&rsquo;re all dead now.</p>
 
 
 
-</body>
+    </div>
+  </body>
 </html>
