@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tragedy | fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/tragedy/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/blog/categories/tragedy/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[WTC]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2001/09/11/wtc/"/>
     <updated>2001-09-11T20:37:00-07:00</updated>
     <id>http://fusion94.org/blog/2001/09/11/wtc</id>
+=======
+    <link href="http://fusion94.github.io/blog/2001/09/11/wtc/"/>
+    <updated>2001-09-11T20:37:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2001/09/11/wtc</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>I was up all night playing Anarchy Online last night and was still playing this morning at 7:00am PST when the canadian called me on my cell. At first I was like wtf is he doing calling me at this time of the morning? When I answered the phone the first thing out of his mouth was &ldquo;turn on CNN&rdquo;.</p>
 
 <p>So I did. And was amazed/shocked by what I was seeing. It was unbelievable. After a few minutes I was called him back to find out what was going on down south and he mentioned that him and mej were glued to the TV. I jumped on the bike  and hit 101 at about 120mph. I do believe that that&rsquo;s the fastest I&rsquo;ve ever made it from SF to San Jose.</p>

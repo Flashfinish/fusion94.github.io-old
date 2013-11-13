@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Spotify | fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/spotify/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/blog/categories/spotify/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Curiosity Playlist]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/08/30/curiosity-playlist/"/>
     <updated>2012-08-30T07:36:00-07:00</updated>
     <id>http://fusion94.org/blog/2012/08/30/curiosity-playlist</id>
+=======
+    <link href="http://fusion94.github.io/blog/2012/08/30/curiosity-playlist/"/>
+    <updated>2012-08-30T07:36:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2012/08/30/curiosity-playlist</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
 ]]></content>
   </entry>

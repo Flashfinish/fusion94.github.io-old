@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: LCD Panels | fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/lcd-panels/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/blog/categories/lcd-panels/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
     <updated>2013-02-01T07:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
+    <updated>2013-02-01T07:23:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
 
 <p>As part of that upcoming blog post I&rsquo;m announcing a Custom Character Generator for LCD Panels.</p>

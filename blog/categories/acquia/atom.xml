@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Acquia | fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/acquia/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/blog/categories/acquia/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Updating the Site]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/17/updating-the-site/"/>
     <updated>2008-12-17T12:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/updating-the-site</id>
+=======
+    <link href="http://fusion94.github.io/blog/2008/12/17/updating-the-site/"/>
+    <updated>2008-12-17T12:31:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2008/12/17/updating-the-site</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>This site has been running on a Drupal 5 codebase for quite some time. This morning I took the time to upgrade to Drupal 6.8 then upgraded to the lastest version of the Acquia Network Community Server.</p>
 
 <p>So far it&rsquo;s gone well and has been relatively drama free. There are some older Drupal 5 modules that I need to update to get full functionality back so if you see any issues please use the contact form to drop me a note and let me know.</p>

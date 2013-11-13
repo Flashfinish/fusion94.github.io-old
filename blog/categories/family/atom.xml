@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Family | fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/family/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/blog/categories/family/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,12 +22,21 @@
   
   <entry>
     <title type="html"><![CDATA[Engagement Party]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/05/21/engagement-party/"/>
     <updated>2007-05-21T18:09:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/05/21/engagement-party</id>
     <content type="html"><![CDATA[<p>Some friends of both Nicole and I threw us an engagement party on Saturday night. Here is a photo of the two of us from the party.</p>
 
 <p><img src="http://fusion94.org/images/nic_and_i_engagement.jpg  " alt="Nicole and I" /></p>
+=======
+    <link href="http://fusion94.github.io/blog/2007/05/21/engagement-party/"/>
+    <updated>2007-05-21T18:09:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2007/05/21/engagement-party</id>
+    <content type="html"><![CDATA[<p>Some friends of both Nicole and I threw us an engagement party on Saturday night. Here is a photo of the two of us from the party.</p>
+
+<p><img src="http://fusion94.github.io/images/nic_and_i_engagement.jpg  " alt="Nicole and I" /></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 ]]></content>
   </entry>
   

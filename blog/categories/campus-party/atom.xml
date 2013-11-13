@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Campus Party | fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/campus-party/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/blog/categories/campus-party/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Campus Party 2008]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/21/campus-party-2008/"/>
     <updated>2008-12-21T17:54:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/21/campus-party-2008</id>
+=======
+    <link href="http://fusion94.github.io/blog/2008/12/21/campus-party-2008/"/>
+    <updated>2008-12-21T17:54:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2008/12/21/campus-party-2008</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>I&rsquo;ve been meaning to post about this for some time but have been rather slack in doing so.</p>
 
 <p>Back in August I was invited to talk at <a href="http://www.campus-party.es/">Campus Party 2008</a> which took place at the Valencia Exhibition Center in Valencia, Spain from July 28 &ndash; August 3 to give a talk about the History of <a href="http://sf.net">SourceForge</a>.</p>
@@ -47,10 +60,17 @@
 
 <p>Here are a few photos of the trip.</p>
 
+<<<<<<< HEAD
 <p><a href="http://fusion94.org/images/spain/DSC_0049.jpg" rel="lightshow[Spain][Schedule Slide]"><img src="http://fusion94.org/images/spain/DSC_0049-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0052.jpg" rel="lightshow[Spain][My Talk]"><img src="http://fusion94.org/images/spain/DSC_0052-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0058.jpg" rel="lightshow[Spain][Camping Area]"><img src="http://fusion94.org/images/spain/DSC_0058-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0238.jpg" rel="lightshow[Spain][Marcus Hardt, Jon Maddog Hall, me, Luis Ibáñez, Rasmus Lerdorf, Rafa Saez]"><img src="http://fusion94.org/images/spain/DSC_0238-tn.jpg"></a></p>
+=======
+<p><a href="http://fusion94.github.io/images/spain/DSC_0049.jpg" rel="lightshow[Spain][Schedule Slide]"><img src="http://fusion94.github.io/images/spain/DSC_0049-tn.jpg"></a>
+<a href="http://fusion94.github.io/images/spain/DSC_0052.jpg" rel="lightshow[Spain][My Talk]"><img src="http://fusion94.github.io/images/spain/DSC_0052-tn.jpg"></a>
+<a href="http://fusion94.github.io/images/spain/DSC_0058.jpg" rel="lightshow[Spain][Camping Area]"><img src="http://fusion94.github.io/images/spain/DSC_0058-tn.jpg"></a>
+<a href="http://fusion94.github.io/images/spain/DSC_0238.jpg" rel="lightshow[Spain][Marcus Hardt, Jon Maddog Hall, me, Luis Ibáñez, Rasmus Lerdorf, Rafa Saez]"><img src="http://fusion94.github.io/images/spain/DSC_0238-tn.jpg"></a></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Here&rsquo;s a media interview that I did after my talk.</p>
 

@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Fedora | fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/fedora/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/blog/categories/fedora/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Announcing Fedora 7 (Moonshine)]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/05/31/announcing-fedora-7-moonshine/"/>
     <updated>2007-05-31T08:32:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/05/31/announcing-fedora-7-moonshine</id>
+=======
+    <link href="http://fusion94.github.io/blog/2007/05/31/announcing-fedora-7-moonshine/"/>
+    <updated>2007-05-31T08:32:00-07:00</updated>
+    <id>http://fusion94.github.io/blog/2007/05/31/announcing-fedora-7-moonshine</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>Fedora 7 (Moonshine) is now out to the general public.</p>
 
 <p>This release includes significant new versions of many key components and technologies:</p>

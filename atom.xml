@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[fusion94]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2013-11-13T07:01:01-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.github.io/atom.xml" rel="self"/>
+  <link href="http://fusion94.github.io/"/>
+  <updated>2013-11-13T06:45:55-08:00</updated>
+  <id>http://fusion94.github.io/</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[How to enable developer settings on Android 4.2]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
     <updated>2013-02-06T13:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
+    <updated>2013-02-06T13:23:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>So for whatever reason Google has chosen to hide the developer settings in the latest version of Jelly Bean. Here&rsquo;s how to get them back.</p>
 
 <p>There&rsquo;s a pretty easy way to re-enable developer setttings and here&rsquo;s how to do it.</p>
@@ -33,9 +46,15 @@
   
   <entry>
     <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
     <updated>2013-02-01T07:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
+    <updated>2013-02-01T07:23:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
 
 <p>As part of that upcoming blog post I&rsquo;m announcing a Custom Character Generator for LCD Panels.</p>
@@ -61,9 +80,15 @@
   
   <entry>
     <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
     <updated>2013-01-24T23:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
+    <updated>2013-01-24T23:40:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<div class="info">Say Goodbye to inefficient meetinngs and email threads. Get your team off of AIM, Google Talk, Skype or IRC.</div>
 
 
@@ -112,7 +137,11 @@
 </ul>
 
 
+<<<<<<< HEAD
 <p>You can also email us at <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#x6b;&#97;&#x6e;&#100;&#x61;&#110;&#97;&#x70;&#x70;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#107;&#x61;&#x6e;&#x64;&#x61;&#110;&#97;&#x70;&#x70;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></p>
+=======
+<p>You can also email us at <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#107;&#97;&#x6e;&#x64;&#x61;&#110;&#97;&#112;&#112;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x6b;&#97;&#110;&#x64;&#97;&#110;&#97;&#x70;&#x70;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <h3>Conclusion</h3>
 
@@ -122,9 +151,15 @@
   
   <entry>
     <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/"/>
     <updated>2013-01-16T08:06:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/16/clahub-clas-done-right</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/16/clahub-clas-done-right/"/>
+    <updated>2013-01-16T08:06:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/16/clahub-clas-done-right</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
 
 
@@ -263,9 +298,15 @@
   
   <entry>
     <title type="html"><![CDATA[Legendary for iOS]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/15/legendary-for-ios/"/>
     <updated>2013-01-15T06:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/15/legendary-for-ios</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/15/legendary-for-ios/"/>
+    <updated>2013-01-15T06:40:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/15/legendary-for-ios</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
 
 <p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>
@@ -320,11 +361,19 @@
 
 <h3>Screenshots:</h3>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/legendary/screenshots/legendary1.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary2.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary3.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary4.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary5.jpg"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary1.jpg">
+<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary2.jpg">
+<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary3.jpg">
+<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary4.jpg">
+<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary5.jpg"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <h3>The Details:</h3>
 
@@ -342,9 +391,15 @@
   
   <entry>
     <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/infoboxes-using-css/"/>
     <updated>2013-01-13T16:22:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/infoboxes-using-css</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css/"/>
+    <updated>2013-01-13T16:22:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
 
 <p>These <code>InfoBoxes</code> were used to display notes, warnings and the like whenever it seemed appropriate. Here are links to the original macros from Confluence.</p>
@@ -878,12 +933,21 @@
   
   <entry>
     <title type="html"><![CDATA[Firefox OS App Day - Silicon Valley]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
     <updated>2013-01-13T08:32:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
     <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
 
 <p><img class="left" src="http://fusion94.org/images/blog/firefox/firefoxOS-app-days.png"></p>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
+    <updated>2013-01-13T08:32:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
+    <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
+
+<p><img class="left" src="http://fusion94.github.io/images/blog/firefox/firefoxOS-app-days.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>I&rsquo;ll be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> on Saturday, January 19, 2013 being held at the Computer History Museum in Mountain View, California.</p>
 
@@ -931,15 +995,25 @@
 </ul>
 
 
+<<<<<<< HEAD
 <p>As I mentioned earlier I will be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> but unfortunately will have to leave at lunch time as I&rsquo;ll be heading up to Berkeley for the <a href="http://fusion94.org/blog/2013/01/13/openrov-build-day/">OpenROV Build Day Event</a>.</p>
+=======
+<p>As I mentioned earlier I will be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> but unfortunately will have to leave at lunch time as I&rsquo;ll be heading up to Berkeley for the <a href="http://fusion94.github.io/blog/2013/01/13/openrov-build-day/">OpenROV Build Day Event</a>.</p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[HowTo Tweet New Posts in Octopress]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
     <updated>2013-01-13T07:10:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
+    <updated>2013-01-13T07:10:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>Thanks to a <a href="http://prydoni.us/blog/2012/04/29/tweet-new-posts-in-octopress/">blog post</a> from <a href="http://prydoni.us/blog/">Adnan Abdulhussein</a>, I can now auto-tweet new blog posts on my <a href="http://octopress.org">Octopress</a> blog.</p>
 
 <p>I used his original blog post as a guideline but his method was a bit dated and here&rsquo;s the process I used to get this functionality working.</p>
@@ -1178,20 +1252,34 @@
   
   <entry>
     <title type="html"><![CDATA[This post will be tweeted]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/"/>
     <updated>2013-01-13T07:03:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/13/this-post-will-be-tweeted/"/>
+    <updated>2013-01-13T07:03:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/13/this-post-will-be-tweeted</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenROV Build Day]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/openrov-build-day/"/>
     <updated>2013-01-13T05:46:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/openrov-build-day</id>
     <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
 <img class="right" src="http://fusion94.org/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/13/openrov-build-day/"/>
+    <updated>2013-01-13T05:46:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/13/openrov-build-day</id>
+    <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
+<img class="right" src="http://fusion94.github.io/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 The <a href="http://wiki.openrov.com">OpenROV Wiki</a> is really starting to fill out: <a href="http://wiki.openrov.com/index.php/Assembly#Step_by_step_instructions">Step by Step Instructions</a></p>
 
 <p>That&rsquo;s the best place to start. The goal is for each section of the build to have:</p>
@@ -1243,9 +1331,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Recent Comments as an Asides]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides/"/>
     <updated>2013-01-11T16:39:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/11/recent-comments-as-an-asides/"/>
+    <updated>2013-01-11T16:39:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/11/recent-comments-as-an-asides</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>This short tutorial will teach you in creating a &ldquo;Recent Comments&rdquo; asides for the Octopress sidebar if you&rsquo;re using Disqus as your commenting system.</p>
 
 <p><strong>Step 1:</strong> Let’s create a new aside. Create a new file named <code>recent_comments.html</code> under <code>source/_includes/custom/asides</code></p>
@@ -1292,9 +1386,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Firearm Ownership in the US]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/10/firearm-ownership-in-the-us/"/>
     <updated>2013-01-10T11:00:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/10/firearm-ownership-in-the-us</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/10/firearm-ownership-in-the-us/"/>
+    <updated>2013-01-10T11:00:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/10/firearm-ownership-in-the-us</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<div class="error">This post will probably piss people off. From both sides of the equation.</div>
 
 
@@ -1411,9 +1511,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Titanium Studio Issues]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/10/titanium-studio-issues/"/>
     <updated>2013-01-10T00:41:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/10/titanium-studio-issues</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/10/titanium-studio-issues/"/>
+    <updated>2013-01-10T00:41:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/10/titanium-studio-issues</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>I just installed the latest Titanium Studio from Appcelerator and a Titanium Update window pops up when I open TiStudio and asks me to install Titanium CLI and Alloy.</p>
 
 <p>When I press the install button a dialog pops up that says &ldquo;Titanium wants to make changes. Provide your password to allow installation&rdquo;. I enter my password and TiStudio tells me that my password is incorrect and TiStudio asks me to enter it again.</p>
@@ -1434,9 +1540,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Building B2G (Boot2Gecko) on OSX]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
     <updated>2013-01-09T10:37:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
+    <updated>2013-01-09T10:37:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>So I&rsquo;ve been interested in the <a href="https://wiki.mozilla.org/B2G">Boot2Gecko</a> project for awhile and wanted to see if I could get an app running on <a href="http://www.appgyver.com/steroids">Steroids</a> that would run under B2G.</p>
 
 <p>To accomplish this I needed to get the B2G desktop emulator up and running so I could actually develop something.</p>
@@ -1592,6 +1704,7 @@ Berkeley CA<br></p>
 
 <p><strong>B2G Lock Screen</strong></p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/b2g-1/b2g_lock_screen.png"></p>
 
 <p><strong>B2G Home Screen</strong></p>
@@ -1601,14 +1714,31 @@ Berkeley CA<br></p>
 <p><strong>B2G Marketplace</strong></p>
 
 <p><img src="http://fusion94.org/images/blog/b2g-1/b2g_marketplace.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/b2g-1/b2g_lock_screen.png"></p>
+
+<p><strong>B2G Home Screen</strong></p>
+
+<p><img src="http://fusion94.github.io/images/blog/b2g-1/b2g_home_screen.png"></p>
+
+<p><strong>B2G Marketplace</strong></p>
+
+<p><img src="http://fusion94.github.io/images/blog/b2g-1/b2g_marketplace.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Drafts]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/07/octopress-drafts/"/>
     <updated>2013-01-07T16:13:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/07/octopress-drafts</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/07/octopress-drafts/"/>
+    <updated>2013-01-07T16:13:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/07/octopress-drafts</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>I&rsquo;ve really enjoyed my recent conversion to <a href="http://octopress.org">Octopress</a> but do wish that it by default had a &ldquo;drafts&rdquo; mode so that one can write a post over time. This was really bugging me as I was trying to import old posts from awhile back and the workaround was kind of a pain in the ass.</p>
 
 <!-- more -->
@@ -1917,9 +2047,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Bye-Bye Tumblr, Hello Octopress]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/05/bye-bye-tumblr/"/>
     <updated>2013-01-05T14:27:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/05/bye-bye-tumblr</id>
+=======
+    <link href="http://fusion94.github.io/blog/2013/01/05/bye-bye-tumblr/"/>
+    <updated>2013-01-05T14:27:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2013/01/05/bye-bye-tumblr</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>This is my first post published using <a href="http://octopress.org">Octopress</a> after several years of using either <a href="http://drupal.org">Drupal</a> and/or <a href="http://tumblr.com">tumblr</a> and I’d like to share the reasons why I chose to move from a blogging platform and switch to a statically generated site.</p>
 
 <p>Yes, because what you are reading is pure static old-school HTML, generated by Octopress on my MacBook Pro. Also to note is that everything here is being served by GitHub through the Pages feature, completely free.</p>
@@ -1962,9 +2098,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Arduino + DF-BluetoothV3 Bluetooth module]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
     <updated>2012-12-08T13:27:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
+=======
+    <link href="http://fusion94.github.io/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
+    <updated>2012-12-08T13:27:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<div class="info">NOTE: This blog post is part of a series of blog posts on how to build electronic circuits. If you’re 
 at all interested then please subscribe to the RSS feed.</div>
 
@@ -2015,7 +2157,11 @@ by a clear and bright LED which is used to display module status and connection 
 Search state (high 104ms 342ms 2.9Hz cycle flicker) connection status (high 104ms period 2s 0.5Hz
 flashing), LINK state: paired ). It has build-in on-board antenna which provides high quality signals.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/bluetooth/bt1.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/bluetooth/bt1.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>DIP switch is designed to set the module status, LED Off to turn off the LINK light to enter power
 saving mode, AT Mode allows the module to enter AT command mode, AT commands can modify the baud rate
@@ -2041,7 +2187,11 @@ and the master and slave mode.</p>
 </ul>
 
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/bluetooth/setup_one.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/bluetooth/setup_one.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p><strong>Setup Two</strong></p>
 
@@ -2051,7 +2201,11 @@ and the master and slave mode.</p>
 </ul>
 
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/bluetooth/setup_two.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/bluetooth/setup_two.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <div class="warning">Please note that when you use the Romeo-All in one Controller (Arduino Compatible Atmega 328) (V1.0) 
 then you&#8217;re going to have to install the <a href="http://www.ftdichip.com/Drivers/VCP.htm">FTDI Drivers</a>.</div>
@@ -2070,6 +2224,7 @@ the computer  communicating with a Bluetooth module is now just simple serial co
 <p>Detail steps depend on the operating system. Followings are from Mac OS X. Choose the Set Up Bluetooth
 Devices menu item. Select the Bluetooth_V3 item.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/bluetooth/bluetooth_setup.jpeg"></p>
 
 <p>The default passcode of the Bluetooth module is ’1234.’ When you are prompted use the passcode.</p>
@@ -2079,6 +2234,17 @@ Devices menu item. Select the Bluetooth_V3 item.</p>
 <p>When the pairing is completed successfully the window below will be shown.</p>
 
 <p><img src="http://fusion94.org/images/blog/bluetooth/pairing_sucess.jpeg"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/bluetooth/bluetooth_setup.jpeg"></p>
+
+<p>The default passcode of the Bluetooth module is ’1234.’ When you are prompted use the passcode.</p>
+
+<p><img src="http://fusion94.github.io/images/blog/bluetooth/passcode.jpeg"></p>
+
+<p>When the pairing is completed successfully the window below will be shown.</p>
+
+<p><img src="http://fusion94.github.io/images/blog/bluetooth/pairing_sucess.jpeg"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p><strong>The Code</strong></p>
 
@@ -2146,7 +2312,11 @@ Devices menu item. Select the Bluetooth_V3 item.</p>
 <p>At the end of uploading and running the code listed above you will start to see some serial output
 like in the image below.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/bluetooth/bt_results.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/bluetooth/bt_results.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p><strong>Source Code</strong></p>
 
@@ -2156,9 +2326,15 @@ like in the image below.</p>
   
   <entry>
     <title type="html"><![CDATA[Arduino + Compass Module 3-Axis HMC5883L]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/"/>
     <updated>2012-11-29T13:14:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l</id>
+=======
+    <link href="http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/"/>
+    <updated>2012-11-29T13:14:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
 all interested then please subscribe to the RSS feed.</div>
 
@@ -2228,7 +2404,11 @@ In its most simple form, the module can be used as a basic compass to find earth
 caused by magnets or electric fields. As the sensor detects magnetism in three dimensions, it can
 determine relative distance and direction to these sources.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/compass/Compass-2.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/compass/Compass-2.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Compasses are commonly uses with accelerometers, where the data from both the compass and
 accelerometer can provide extended information.</p>
@@ -2248,7 +2428,11 @@ most any compass, the reading is affected if the compass is not level.</p>
 
 <p><strong>Circuit</strong></p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/compass/Compass-3.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/compass/Compass-3.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Connect the 5V and GND pins of the compass to the power and ground ports on the Arduino. Connect
 analog pin 4 of the Arduino to the SDA (Data) out pin of the compass, and analog pin 5 to the SCL
@@ -2256,7 +2440,11 @@ analog pin 4 of the Arduino to the SDA (Data) out pin of the compass, and analog
 
 <p>The picture below shows you essentially how the circuit should be laid out.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/compass/Compass-6_0.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/compass/Compass-6_0.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Don’t forget that your Arduino must be connected to your computer in order for it to transmit serial
 data and don’t forget to set the Baud Rate of your serial connection to be 9600.</p>
@@ -2381,11 +2569,19 @@ data and don’t forget to set the Baud Rate of your serial connection to be 960
 <p>At the end of uploading and running the code listed above you will start to see some serial output
 like in the image below.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/compass/compass_results.png"></p>
 
 <p>Here’s a picture of the actual circuit built.</p>
 
 <p><img src="http://fusion94.org/images/blog/compass/compass_circuit.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/compass/compass_results.png"></p>
+
+<p>Here’s a picture of the actual circuit built.</p>
+
+<p><img src="http://fusion94.github.io/images/blog/compass/compass_circuit.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p><strong>Source Code</strong></p>
 
@@ -2398,9 +2594,15 @@ conjunction with the Memsic 2125 Dual-axis Accelerometer to compensate for any t
   
   <entry>
     <title type="html"><![CDATA[Arduino + Memsic 2125 Dual-axis Accelerometer]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
     <updated>2012-11-28T15:50:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
+=======
+    <link href="http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
+    <updated>2012-11-28T15:50:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
 all interested then please subscribe to the RSS feed.</div>
 
@@ -2469,7 +2671,11 @@ tilt, vibration, motion, and acceleration. The sensor provides independent outpu
 </ul>
 
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/memsic2125/Memsic2125-2.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/memsic2125/Memsic2125-2.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>The Memsic 2125 module registers the constant pull of earth’s gravity. This is specified as 1g (g for gravity). For
 the Memsic sensor, the value of 1g is always some positive number, and is about half way between the highest and
@@ -2483,7 +2689,11 @@ g-force, the higher the acceleration or vibration.</p>
 (100 Hz). The width of the pulse represents the instantaneous g-force. By measuring the width of the pulse, you can
 derive – with high accuracy – the g-force of either axis.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/memsic2125/Memsic2125-3.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/memsic2125/Memsic2125-3.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p><strong>Hardware Required</strong></p>
 
@@ -2497,7 +2707,11 @@ derive – with high accuracy – the g-force of either axis.</p>
 
 <p><strong>Circuit</strong></p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/memsic2125/Mx2125_PINOUT.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/memsic2125/Mx2125_PINOUT.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Use the small triangle on the Memsic to properly orient the sensor on your breadboard. Connect the 5V and GND pins
 of the Memsic 2125 to the power and ground ports on the Arduino. Connect digital pin 2 of the Arduino to the X out
@@ -2505,7 +2719,11 @@ pin of the accelerometer, and digital pin 3 to the Y out pin.</p>
 
 <p>The picture below shows you essentially how the circuit should be laid out.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/memsic2125/Memsic2125-7.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/memsic2125/Memsic2125-7.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>Don&rsquo;t forget that your Arduino must be connected to your computer in order for it to transmit serial data and
 don&rsquo;t forget to set the Baud Rate of your serial connection to be 9600.</p>
@@ -2630,11 +2848,19 @@ don&rsquo;t forget to set the Baud Rate of your serial connection to be 9600.</p
 <p>At the end of uploading and running the code listed above you will start to see some serial output like in the
 image below.</p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/memsic2125/memsic2125_results.png"></p>
 
 <p>Here&rsquo;s a picture of the actual circuit built.</p>
 
 <p><img src="http://fusion94.org/images/blog/memsic2125/layout.png"></p>
+=======
+<p><img src="http://fusion94.github.io/images/blog/memsic2125/memsic2125_results.png"></p>
+
+<p>Here&rsquo;s a picture of the actual circuit built.</p>
+
+<p><img src="http://fusion94.github.io/images/blog/memsic2125/layout.png"></p>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
 
 <p>In a follow up blog post I&rsquo;ll discuss how by using additional math, you can use the values provided by the
 accelerometer to convert to actual g-forces or degrees of tilt.</p>
@@ -2647,9 +2873,15 @@ accelerometer to convert to actual g-forces or degrees of tilt.</p>
   
   <entry>
     <title type="html"><![CDATA[Open Source Hardware]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/11/28/open-source-hardware/"/>
     <updated>2012-11-28T08:34:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/11/28/open-source-hardware</id>
+=======
+    <link href="http://fusion94.github.io/blog/2012/11/28/open-source-hardware/"/>
+    <updated>2012-11-28T08:34:00-08:00</updated>
+    <id>http://fusion94.github.io/blog/2012/11/28/open-source-hardware</id>
+>>>>>>> d1bef16cd5259cb07785749ca4d647163f2d6e26
     <content type="html"><![CDATA[<p>Open-source hardware (OSHW) consists of physical artifacts of technology designed and offered
 in the same manner as free and open-source software (FOSS). Open-source hardware is part of
 the open-source culture movement and applies a like concept to a variety of components. The
