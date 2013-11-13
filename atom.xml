@@ -4,7 +4,7 @@
   <title><![CDATA[fusion94]]></title>
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-11-13T07:01:01-08:00</updated>
+  <updated>2013-11-13T07:27:56-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -112,7 +112,7 @@
 </ul>
 
 
-<p>You can also email us at <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#x6b;&#97;&#x6e;&#100;&#x61;&#110;&#97;&#x70;&#x70;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#107;&#x61;&#x6e;&#x64;&#x61;&#110;&#97;&#x70;&#x70;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></p>
+<p>You can also email us at <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x6b;&#x61;&#x6e;&#100;&#97;&#110;&#97;&#x70;&#112;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x6b;&#x61;&#110;&#x64;&#97;&#110;&#x61;&#112;&#x70;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -1238,6 +1238,11 @@ Berkeley CA<br></p>
 <p><strong>What is OpenROV</strong></p>
 
 <p>OpenROV is a  Do It Yourself telerobotics community centered around underwater exploration and education. We have developed a low-cost telerobotic submarine that can be built with mostly off-the-shelf parts. The goal of OpenROV is to democratize exploration by allowing anyone to explore and study underwater environments.</p>
+
+<p>Here&rsquo;s a short video of it in action.</p>
+
+<div class="embed-video-container"><iframe src="http://player.vimeo.com/video/44088059 "></iframe></div>
+
 ]]></content>
   </entry>
   
@@ -2650,7 +2655,10 @@ accelerometer to convert to actual g-forces or degrees of tilt.</p>
     <link href="http://fusion94.org/blog/2012/11/28/open-source-hardware/"/>
     <updated>2012-11-28T08:34:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/11/28/open-source-hardware</id>
-    <content type="html"><![CDATA[<p>Open-source hardware (OSHW) consists of physical artifacts of technology designed and offered
+    <content type="html"><![CDATA[<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/9xGRaPrcvVg "></iframe></div>
+
+
+<p>Open-source hardware (OSHW) consists of physical artifacts of technology designed and offered
 in the same manner as free and open-source software (FOSS). Open-source hardware is part of
 the open-source culture movement and applies a like concept to a variety of components. The
 term usually means that information about the hardware is easily discerned. Hardware design
