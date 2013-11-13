@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Xcode | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/xcode/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <link href="http://fusion94.org/blog/categories/xcode/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2013-11-13T06:54:46-08:00</updated>
+  <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
-    <link href="http://fusion94.github.io/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
+    <link href="http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
     <updated>2008-06-11T09:58:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
+    <id>http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
 
 <p>Go to /Applications/Utilities and open Terminal.app and enter the following code:</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: DF-BluetoothV3 Bluetooth module | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/df-bluetoothv3-bluetooth-module/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <link href="http://fusion94.org/blog/categories/df-bluetoothv3-bluetooth-module/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2013-11-13T06:54:46-08:00</updated>
+  <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Arduino + DF-BluetoothV3 Bluetooth module]]></title>
-    <link href="http://fusion94.github.io/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
+    <link href="http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
     <updated>2012-12-08T13:27:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
+    <id>http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This blog post is part of a series of blog posts on how to build electronic circuits. If you’re 
 at all interested then please subscribe to the RSS feed.</div>
 

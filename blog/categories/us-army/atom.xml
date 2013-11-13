@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: US Army | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/us-army/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <link href="http://fusion94.org/blog/categories/us-army/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2013-11-13T06:54:46-08:00</updated>
+  <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Happy Birthday…]]></title>
-    <link href="http://fusion94.github.io/blog/2007/06/14/happy-birthday/"/>
+    <link href="http://fusion94.org/blog/2007/06/14/happy-birthday/"/>
     <updated>2007-06-14T13:51:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2007/06/14/happy-birthday</id>
+    <id>http://fusion94.org/blog/2007/06/14/happy-birthday</id>
     <content type="html"><![CDATA[<p>I&rsquo;ll be raising a pint or some scotch tonight for this.</p>
 
 <blockquote>Since its birth on 14 June 1775—over a year before the Declaration of Independence—the United States Army has played a vital role in the growth and development of our Nation. Soldiers have fought more than 10 wars, from the American Revolution through the Cold War, the Gulf War, to the current War on Terrorism. This 232nd Birthday is a recognition of The Army's history, traditions, and service to the Nation, a Call To Duty, 232 Years of Service to Our Nation.</blockquote>

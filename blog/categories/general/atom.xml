@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: General | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/general/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <link href="http://fusion94.org/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2013-11-13T06:54:46-08:00</updated>
+  <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Curiosity Playlist]]></title>
-    <link href="http://fusion94.github.io/blog/2012/08/30/curiosity-playlist/"/>
+    <link href="http://fusion94.org/blog/2012/08/30/curiosity-playlist/"/>
     <updated>2012-08-30T07:36:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2012/08/30/curiosity-playlist</id>
+    <id>http://fusion94.org/blog/2012/08/30/curiosity-playlist</id>
     <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Halo/Dive]]></title>
-    <link href="http://fusion94.github.io/blog/2012/08/19/halo-slash-dive/"/>
+    <link href="http://fusion94.org/blog/2012/08/19/halo-slash-dive/"/>
     <updated>2012-08-19T17:16:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2012/08/19/halo-slash-dive</id>
+    <id>http://fusion94.org/blog/2012/08/19/halo-slash-dive</id>
     <content type="html"><![CDATA[<p>While everyone wants to be on a HALO/Dive team there&rsquo;s a lot of work involved. Here&rsquo;s part of
 the pain.</p>
 
@@ -36,9 +36,9 @@ the pain.</p>
   
   <entry>
     <title type="html"><![CDATA[The Infantry Way]]></title>
-    <link href="http://fusion94.github.io/blog/2012/08/17/the-infantry-way/"/>
+    <link href="http://fusion94.org/blog/2012/08/17/the-infantry-way/"/>
     <updated>2012-08-17T23:48:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2012/08/17/the-infantry-way</id>
+    <id>http://fusion94.org/blog/2012/08/17/the-infantry-way</id>
     <content type="html"><![CDATA[<p>True Story.</p>
 
 <p><img src="/images/blog/random/infantry_way.jpeg"></p>
@@ -47,18 +47,18 @@ the pain.</p>
   
   <entry>
     <title type="html"><![CDATA[The Greatest Show on Earth]]></title>
-    <link href="http://fusion94.github.io/blog/2012/08/17/the-greatest-show-on-earth/"/>
+    <link href="http://fusion94.org/blog/2012/08/17/the-greatest-show-on-earth/"/>
     <updated>2012-08-17T21:04:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2012/08/17/the-greatest-show-on-earth</id>
+    <id>http://fusion94.org/blog/2012/08/17/the-greatest-show-on-earth</id>
     <content type="html"><![CDATA[<p>The Greatest Show On Earth 320kph / 200mph Street Race &ndash; &lsquo;ISLE of MAN&rsquo; TT</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Command Line Port Scanner OSX]]></title>
-    <link href="http://fusion94.github.io/blog/2009/01/06/command-line-port-scanner-osx/"/>
+    <link href="http://fusion94.org/blog/2009/01/06/command-line-port-scanner-osx/"/>
     <updated>2009-01-06T09:34:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2009/01/06/command-line-port-scanner-osx</id>
+    <id>http://fusion94.org/blog/2009/01/06/command-line-port-scanner-osx</id>
     <content type="html"><![CDATA[<p>Who knew that OS X has a command line port scanner? I for one didn&rsquo;t. I&rsquo;ve always just used the Network Utility version. Here&rsquo;s how to access it.</p>
 
 <p>As the superuser run this:</p>

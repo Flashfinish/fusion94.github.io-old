@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Music | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/music/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <link href="http://fusion94.org/blog/categories/music/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2013-11-13T06:54:46-08:00</updated>
+  <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,33 +15,33 @@
   
   <entry>
     <title type="html"><![CDATA[Curiosity Playlist]]></title>
-    <link href="http://fusion94.github.io/blog/2012/08/30/curiosity-playlist/"/>
+    <link href="http://fusion94.org/blog/2012/08/30/curiosity-playlist/"/>
     <updated>2012-08-30T07:36:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2012/08/30/curiosity-playlist</id>
+    <id>http://fusion94.org/blog/2012/08/30/curiosity-playlist</id>
     <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Save the Date]]></title>
-    <link href="http://fusion94.github.io/blog/2008/06/24/save-the-date/"/>
+    <link href="http://fusion94.org/blog/2008/06/24/save-the-date/"/>
     <updated>2008-06-24T15:30:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2008/06/24/save-the-date</id>
-    <content type="html"><![CDATA[<p><img src="http://fusion94.github.io/images/dkm_bosstones.jpg"></p>
+    <id>http://fusion94.org/blog/2008/06/24/save-the-date</id>
+    <content type="html"><![CDATA[<p><img src="http://fusion94.org/images/dkm_bosstones.jpg"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Doom…]]></title>
-    <link href="http://fusion94.github.io/blog/2007/06/08/doom/"/>
+    <link href="http://fusion94.org/blog/2007/06/08/doom/"/>
     <updated>2007-06-08T13:30:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2007/06/08/doom</id>
+    <id>http://fusion94.org/blog/2007/06/08/doom</id>
     <content type="html"><![CDATA[<p><font color="red">Sarge:</font> Nothing gets back till everything on this planet is dead. We&rsquo;re going in hot.</p>
 
 <p>No not that Doom&hellip;..the Doom I&rsquo;m referring to is <a href="http://www.the-legion-of-doom.com/">&ldquo;The Legion of Doom&rdquo;</a>.</p>
 
 <center>
-<img src="http://fusion94.github.io/images/TLOD.jpg"/>
+<img src="http://fusion94.org/images/TLOD.jpg"/>
 </center>
 
 
@@ -53,9 +53,9 @@
   
   <entry>
     <title type="html"><![CDATA[Brilliant…]]></title>
-    <link href="http://fusion94.github.io/blog/2007/06/01/brilliant/"/>
+    <link href="http://fusion94.org/blog/2007/06/01/brilliant/"/>
     <updated>2007-06-01T17:09:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2007/06/01/brilliant</id>
+    <id>http://fusion94.org/blog/2007/06/01/brilliant</id>
     <content type="html"><![CDATA[<p>&lsquo;Ray Of Gob&rsquo; &ndash; an absolutely brilliant mash-up of one of the world&rsquo;s greatest bands the Sex Pistols classics &lsquo;Prety Vacant&rsquo; and &lsquo;God Save The Queen&rsquo; and um Madonna&rsquo;s &lsquo;Ray of Light&rsquo;</p>
 
 <object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/hhE2V8whwJI"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/hhE2V8whwJI" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
@@ -67,9 +67,9 @@
   
   <entry>
     <title type="html"><![CDATA[GeekRave 3.0 & Community]]></title>
-    <link href="http://fusion94.github.io/blog/2001/02/12/geekrave-3-0-and-community/"/>
+    <link href="http://fusion94.org/blog/2001/02/12/geekrave-3-0-and-community/"/>
     <updated>2001-02-12T22:55:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2001/02/12/geekrave-3-0-and-community</id>
+    <id>http://fusion94.org/blog/2001/02/12/geekrave-3-0-and-community</id>
     <content type="html"><![CDATA[<p>GeekRave 3.0 at the Commodore Ballroom up in Vancouver kicked ass. Got to meet sellout &amp; mux from #e. San was the headlining DJ and pics of the event can be found here. San&rsquo;s Latest CD has been ripped to mp3 and is available for download from the files section. Be forewarned that it&rsquo;s a 134MB tarball as a single mp3 ripped at 256. Also included is the playlist.</p>
 ]]></content>
   </entry>

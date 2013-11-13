@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Circuits | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/circuits/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <link href="http://fusion94.org/blog/categories/circuits/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2013-11-13T06:54:46-08:00</updated>
+  <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Breadboards in Prototyping]]></title>
-    <link href="http://fusion94.github.io/blog/2012/11/27/breadboards-in-prototyping/"/>
+    <link href="http://fusion94.org/blog/2012/11/27/breadboards-in-prototyping/"/>
     <updated>2012-11-27T11:49:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/11/27/breadboards-in-prototyping</id>
+    <id>http://fusion94.org/blog/2012/11/27/breadboards-in-prototyping</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This is the first blog post in a series of blog posts on how to build electronic circuits. If you're at all 
 interested then please subscribe to the RSS feed.</div>
 

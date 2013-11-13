@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Might Might Bosstones | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/might-might-bosstones/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <link href="http://fusion94.org/blog/categories/might-might-bosstones/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2013-11-13T06:54:46-08:00</updated>
+  <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[Save the Date]]></title>
-    <link href="http://fusion94.github.io/blog/2008/06/24/save-the-date/"/>
+    <link href="http://fusion94.org/blog/2008/06/24/save-the-date/"/>
     <updated>2008-06-24T15:30:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2008/06/24/save-the-date</id>
-    <content type="html"><![CDATA[<p><img src="http://fusion94.github.io/images/dkm_bosstones.jpg"></p>
+    <id>http://fusion94.org/blog/2008/06/24/save-the-date</id>
+    <content type="html"><![CDATA[<p><img src="http://fusion94.org/images/dkm_bosstones.jpg"></p>
 ]]></content>
   </entry>
   
