@@ -45,3 +45,5 @@ __What is OpenROV__
 
 OpenROV is a  Do It Yourself telerobotics community centered around underwater exploration and education. We have developed a low-cost telerobotic submarine that can be built with mostly off-the-shelf parts. The goal of OpenROV is to democratize exploration by allowing anyone to explore and study underwater environments.
 
+Here's a short video of it in action.
+{% vimeo 44088059 %}

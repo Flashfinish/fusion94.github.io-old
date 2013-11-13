@@ -6,6 +6,7 @@ comments: true
 categories: 
 ---
 
+{% youtube 9xGRaPrcvVg %}
 
 Open-source hardware (OSHW) consists of physical artifacts of technology designed and offered 
 in the same manner as free and open-source software (FOSS). Open-source hardware is part of 
