@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Conferences | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/conferences/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-11-13T09:21:17-08:00</updated>
+  <updated>2013-12-09T10:22:14-05:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Campus Party 2008]]></title>
     <link href="http://fusion94.org/blog/2008/12/21/campus-party-2008/"/>
-    <updated>2008-12-21T17:54:00-08:00</updated>
+    <updated>2008-12-21T17:54:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/12/21/campus-party-2008</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been meaning to post about this for some time but have been rather slack in doing so.</p>
 
@@ -64,7 +64,7 @@
   <entry>
     <title type="html"><![CDATA[Linux Expo return]]></title>
     <link href="http://fusion94.org/blog/1999/05/24/linux-expo-return/"/>
-    <updated>1999-05-24T23:49:00-07:00</updated>
+    <updated>1999-05-24T23:49:00-04:00</updated>
     <id>http://fusion94.org/blog/1999/05/24/linux-expo-return</id>
     <content type="html"><![CDATA[<p>So I&rsquo;ve returned from Linux Expo. It was a fairly decent experience as I got to meet up with Stephen Tweedie who is one of the authors of the ext2 file system. He pointed me in the right direction as far as Matisse Porting goes.</p>
 
@@ -77,7 +77,7 @@
   <entry>
     <title type="html"><![CDATA[Linux Expo]]></title>
     <link href="http://fusion94.org/blog/1999/04/19/linux-expo/"/>
-    <updated>1999-04-19T16:53:00-07:00</updated>
+    <updated>1999-04-19T16:53:00-04:00</updated>
     <id>http://fusion94.org/blog/1999/04/19/linux-expo</id>
     <content type="html"><![CDATA[<p>So it appears as though I&rsquo;ll be attending Linux Expo in North Carolina which is scheduled to run from May 19th through the 22nd. I&rsquo;ll be going as a representative of <a href="http://fresher.com">Fresher</a> and will be talking to several people about porting Matisse over to the linux platform.</p>
 ]]></content>

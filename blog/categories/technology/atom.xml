@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/technology/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-11-13T09:21:17-08:00</updated>
+  <updated>2013-12-09T10:22:14-05:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[UAVs]]></title>
     <link href="http://fusion94.org/blog/2008/02/19/uavs/"/>
-    <updated>2008-02-19T12:32:00-08:00</updated>
+    <updated>2008-02-19T12:32:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/02/19/uavs</id>
     <content type="html"><![CDATA[<p>UAV&rsquo;s or unmanned aerial vehicle, sometimes called an unmanned air-reconnaissance vehicle, is an unpiloted aircraft. UAVs can be remote controlled or fly autonomously based on pre-programmed flight plans or more complex dynamic automation systems.</p>
 
@@ -32,7 +32,7 @@
   <entry>
     <title type="html"><![CDATA[OpenID & Yahoo!]]></title>
     <link href="http://fusion94.org/blog/2008/01/31/openid-and-yahoo/"/>
-    <updated>2008-01-31T12:39:00-08:00</updated>
+    <updated>2008-01-31T12:39:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/01/31/openid-and-yahoo</id>
     <content type="html"><![CDATA[<p>As of yesterday all of Yahoo&rsquo;s esitmated 248 million users worldwide now have the means to login to any site that supports OpenID. Currently they are only an OpenID provider and not a consumer which means that you cannot login to Yahoo services using your OpenID but I&rsquo;d imagine that will change sometime in the near future.</p>
 
@@ -43,7 +43,7 @@
   <entry>
     <title type="html"><![CDATA[Drupal Themes Mission Statement]]></title>
     <link href="http://fusion94.org/blog/2008/01/29/drupal-themes-mission-statement/"/>
-    <updated>2008-01-29T09:33:00-08:00</updated>
+    <updated>2008-01-29T09:33:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/01/29/drupal-themes-mission-statement</id>
     <content type="html"><![CDATA[<p>In some <a href="http://drupal.org/project/Themes">Drupal Themes</a> there is support for displaying the &ldquo;Mission Statement&rdquo; across all pages and in others this support is limited to the &ldquo;Front Page&rdquo; or &ldquo;Main Page&rdquo;.</p>
 
@@ -80,7 +80,7 @@ to be</p>
   <entry>
     <title type="html"><![CDATA[Silverlight vs Flash]]></title>
     <link href="http://fusion94.org/blog/2007/05/08/silverlight-vs-flash/"/>
-    <updated>2007-05-08T09:46:00-07:00</updated>
+    <updated>2007-05-08T09:46:00-04:00</updated>
     <id>http://fusion94.org/blog/2007/05/08/silverlight-vs-flash</id>
     <content type="html"><![CDATA[<p>There has been quite a bit of discussion in regards to whether or not Silverlight is a Flash killer etc.</p>
 

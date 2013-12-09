@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blogging | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-11-13T09:21:17-08:00</updated>
+  <updated>2013-12-09T10:22:14-05:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Commenting]]></title>
     <link href="http://fusion94.org/blog/2008/02/05/commenting/"/>
-    <updated>2008-02-05T08:37:00-08:00</updated>
+    <updated>2008-02-05T08:37:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/02/05/commenting</id>
     <content type="html"><![CDATA[<p>So I&rsquo;ve turned anonymous commenting back on for blog posts. In the old Wordpress installation comment spam was handled by akismet and comments were moderated.</p>
 
@@ -33,7 +33,7 @@
   <entry>
     <title type="html"><![CDATA[Site Moved]]></title>
     <link href="http://fusion94.org/blog/2008/01/27/site-moved/"/>
-    <updated>2008-01-27T23:20:00-08:00</updated>
+    <updated>2008-01-27T23:20:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/01/27/site-moved</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve moved all the content off of <a href="http://fusion94.org/blog">http://fusion94.org/blog</a> and have imported here into the Damage Studios site. It was getting tiring trying to determine where to blog and since the old site was running WordPress and I&rsquo;m now doing more Drupal related work it made sense to move it into Drupal. Thanks to PathAuto and aliasing about 98% of the old urls redirect properly.</p>
 
@@ -44,7 +44,7 @@
   <entry>
     <title type="html"><![CDATA[Upgraded Wordpress]]></title>
     <link href="http://fusion94.org/blog/2007/11/28/upgraded-wordpress/"/>
-    <updated>2007-11-28T09:21:00-08:00</updated>
+    <updated>2007-11-28T09:21:00-05:00</updated>
     <id>http://fusion94.org/blog/2007/11/28/upgraded-wordpress</id>
     <content type="html"><![CDATA[<p>I upgraded wordpress last night and need to fix all my plugins so please be patient.</p>
 ]]></content>
@@ -53,7 +53,7 @@
   <entry>
     <title type="html"><![CDATA[Damage Studios]]></title>
     <link href="http://fusion94.org/blog/2007/06/05/damage-studios/"/>
-    <updated>2007-06-05T08:43:00-07:00</updated>
+    <updated>2007-06-05T08:43:00-04:00</updated>
     <id>http://fusion94.org/blog/2007/06/05/damage-studios</id>
     <content type="html"><![CDATA[<p>I&rsquo;ll be blogging more and more often over at the <a href="http://damagestudios.net">Damage Studios </a>site. I will be primarily blogging about Drupal and Open Source in general.</p>
 
@@ -64,7 +64,7 @@
   <entry>
     <title type="html"><![CDATA[New Look and Feel]]></title>
     <link href="http://fusion94.org/blog/2002/03/16/new-look-and-feel/"/>
-    <updated>2002-03-16T13:30:00-08:00</updated>
+    <updated>2002-03-16T13:30:00-05:00</updated>
     <id>http://fusion94.org/blog/2002/03/16/new-look-and-feel</id>
     <content type="html"><![CDATA[<p>Well I finally got off my ass and automated this site somewhat. There are a couple of areas that still need to be filled in but I will get those up and running ASAP. I`m having issues with escape sequences and strings in MySQL, I think I may have found a temporary fix though.</p>
 ]]></content>

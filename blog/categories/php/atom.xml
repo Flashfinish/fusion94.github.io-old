@@ -4,7 +4,7 @@
   <title><![CDATA[Category: PHP | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-11-13T09:21:17-08:00</updated>
+  <updated>2013-12-09T10:22:14-05:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[ANT and Zend Studio]]></title>
     <link href="http://fusion94.org/blog/2009/01/12/ant-and-zend-studio/"/>
-    <updated>2009-01-12T08:25:00-08:00</updated>
+    <updated>2009-01-12T08:25:00-05:00</updated>
     <id>http://fusion94.org/blog/2009/01/12/ant-and-zend-studio</id>
     <content type="html"><![CDATA[<p>Zend Studio for Eclipse is a commercial edition of Eclipse plus the PDT plugin and various other additions. Unfortunately Zend decided to disable the Ant plugin in it&rsquo;s distribution of the Eclipse platform. Nonetheless if you&rsquo;d like to run Ant scripts or simple Phing scripts it would be really useful to be able to use the Ant integration of Eclipse.</p>
 
@@ -62,7 +62,7 @@ Now it gets a little tricky.</p>
   <entry>
     <title type="html"><![CDATA[Zend Framework and svn:externals]]></title>
     <link href="http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals/"/>
-    <updated>2008-12-17T23:41:00-08:00</updated>
+    <updated>2008-12-17T23:41:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals</id>
     <content type="html"><![CDATA[<p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
 
@@ -158,7 +158,7 @@ svn commit
   <entry>
     <title type="html"><![CDATA[Go PHP 5]]></title>
     <link href="http://fusion94.org/blog/2007/07/06/go-php-5/"/>
-    <updated>2007-07-06T18:19:00-07:00</updated>
+    <updated>2007-07-06T18:19:00-04:00</updated>
     <id>http://fusion94.org/blog/2007/07/06/go-php-5</id>
     <content type="html"><![CDATA[<p>I hope more people and projects decide to support this initiative.</p>
 

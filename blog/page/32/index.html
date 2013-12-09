@@ -112,7 +112,88 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-04T14:35:00-07:00" pubdate data-updated="true">Jul 4<span>th</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-07T10:57:00-04:00" pubdate data-updated="true">Jul 7<span>th</span>, 2005</time>
+        
+           | <a href="/blog/2005/07/07/mac-os-x-for-intel-processors-a-guide/#disqus_thread"
+             data-disqus-identifier="http://fusion94.org/blog/2005/07/07/mac-os-x-for-intel-processors-a-guide/">Comments</a>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/2005/07/07/mac-os-x-for-intel-processors-a-guide/">Mac OS X for Intel Processors (a Guide)</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>So the following guide comes from Steven Troughton-Smith over at <a href="http://grabberslasher.no-ip.com/macosx/"><a href="http://grabberslasher.no-ip.com/macosx/">http://grabberslasher.no-ip.com/macosx/</a></a> mirrored with his permission.</p>
+
+<center><strong>Mac OS X for Intel Processors (A Guide)</strong></center>
+
+
+<p>Ok, well after seeing how popular my original guide to getting OS X running on Intel machines was, I decided to write up a newer one with more information and updated instructions.</p>
+
+<p>To give the hoardes of people who think they&rsquo;ve got OS X, I&rsquo;m writing this little guide to get as far as you can with the leak. Bear in mind that the leak is incomplete.</p>
+
+<center><strong>THIS WILL NOT EVER BOOT TO THE GUI AS-IS</strong></center>
+
+
+<p>1) The first step is to get Darwin 8.0.1 from Apple&rsquo;s darwin site. You can get that from <a href="http://www.opensource.apple.com/darwinsource/images/darwinx86-801.iso.gz"><a href="http://www.opensource.apple.com/darwinsource/images/darwinx86-801.iso.gz">http://www.opensource.apple.com/darwinsource/images/darwinx86-801.iso.gz</a></a></p>
+
+<p>2) Once downloaded, you must install Darwin. I am not providing any instructions for that part. If Darwin doesn&rsquo;t work on your system, there&rsquo;s nothing I can do to help. I usually install Darwin on a HFS+ filesystem, which is an option in the installer.</p>
+
+<p>3) Once you have Darwin installed, you must upgrade to Darwin 8.1. This can only be done by compiling the source for 8.1 and installing. Luckily, there&rsquo;s a premade 8.1 package with an installer script. Get it from <a href="http://www.rejgond.com/Darwin-8.0.1to8.1.0.tar.gz">here</a>. Copy it to your Darwin hard disk (ftp, network, however you like) and run the script aptly named &ldquo;script&rdquo; included in the package (this you must do from within Darwin&hellip; I guess you figured that).</p>
+
+<p>4) When Darwin 8.1 is finished, reboot. When you&rsquo;re started up again, run &ldquo;uname -a&rdquo; from the command line to make sure that 8.1 is properly installed.</p>
+
+<p>5) Next is the important bit. Get your mactelbase.tar onto the Darwin hard disk, then from within Darwin run &ldquo;tar xpvf mactelbase.tar -C /&rdquo;.</p>
+
+<p>6) Now, you must run &ldquo;chmod -R 777 /&rdquo;. This step is vital.</p>
+
+<p>7) Some people report problems now if you don&rsquo;t copy the Extensions folder from the Darwin installer CD. You can mount the CD by typing &ldquo;mount -t CD9660 /dev/disk1s1 /mnt&rdquo; depending on which disk is your CD ROM. You want to run &ldquo;cp -RLv /mnt/System/Library/Extensions /System/Library/Extensions&rdquo;, assuming your mount point is /mnt. If doing this from a GUI (like I did) you want to copy and replace all.</p>
+
+<p>8) Run &ldquo;sync &amp; sync&rdquo; for old time&rsquo;s sake.</p>
+
+<p>9) In theory, OS X should be installed by now, and you should be able to reboot and log in to your installation. Remember, that you will only get a command-line, since nobody has been able to start up the GUI.</p>
+
+<center><strong>To start the GUI</strong></center>
+
+
+<p>Significant progress has been made on getting the GUI to run. My main problem is that the video drivers won&rsquo;t load for me. You have to copy files from &ldquo;/etc&rdquo; from real Mac to get WindowServer to even think of booting up. &ldquo;/etc/mach_init.d/WindowServer.plist&rdquo; might be nice. We are also missing the loading screen &ndash; you will never see that progress bar and &ldquo;Starting Mac OS X&rdquo;.</p>
+
+<p>Also, Apple seem to have crippled the drivers included with the Developer Transition Kit &ndash; i.e. the only ones that seem to run are the Intel Integrated Graphics drivers, like the GMA 900 included in the kit. In my case, I&rsquo;m using a GeForce 6800 GT and I get all sorts of errors about not being able to load the kernel extension.</p>
+
+<p>You need to run two applications to theoretically boot the GUI, <strong>WindowServer</strong> (in CoreGraphics.framework of ApplicationServices.framework) and <strong>loginwindow</strong>.</p>
+
+<p>WindowServer must be run with the &ldquo;-daemon&rdquo; switch, but on all my attempts I get a bus error when trying to run it.</p>
+
+<p>This updated guide uses information from a good friend of mine, <a href="http://omegnet.net/daisuke744/macos.html">Daisuke</a>, and Cmoski.</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-04T14:35:00-04:00" pubdate data-updated="true">Jul 4<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/07/04/delivering-and-redirecting-movable-type-feeds/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/07/04/delivering-and-redirecting-movable-type-feeds/">Comments</a>
@@ -168,7 +249,7 @@ Redirect temp /atom.xml <a href="http://location.to.new.file/atom.xml">http://lo
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-04T04:02:00-07:00" pubdate data-updated="true">Jul 4<span>th</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-04T04:02:00-04:00" pubdate data-updated="true">Jul 4<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/07/04/movable-type-rss-2-templates/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/07/04/movable-type-rss-2-templates/">Comments</a>
@@ -198,7 +279,7 @@ Redirect temp /atom.xml <a href="http://location.to.new.file/atom.xml">http://lo
 &lt;dc:rights&gt;Copyright &lt;$MTDate format=&ldquo;%Y&rdquo;&gt;&lt;/dc:rights&gt;<br />
 &lt;dc:date&gt;&lt;MTEntries lastn=&ldquo;1&rdquo;&gt;&lt;$MTEntryDate format=&ldquo;%Y-%m-%dT%H:%M:%S&rdquo;$&gt;&lt;$MTBlogTimezone$&gt;&lt;/MTEntries&gt;&lt;/dc:date&gt;<br />
 &lt;admin:generatorAgent rdf:resource=&ldquo;<a href="http://www.movabletype.org/?v=&amp;lt;$MTVersion$&amp;gt;">http://www.movabletype.org/?v=&amp;lt;$MTVersion$&amp;gt;</a>&rdquo; /&gt;<br />
-&lt;admin:errorReportsTo rdf:resource=&ldquo;<a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x26;&#x6c;&#116;&#59;&#77;&#x54;&#69;&#x6e;&#116;&#114;&#x69;&#x65;&#x73;">&#38;&#108;&#x74;&#x3b;&#x4d;&#x54;&#69;&#110;&#116;&#x72;&#x69;&#x65;&#115;</a> lastn="1&rdquo;&gt;&lt;$MTEntryAuthorEmail$&gt;&lt;/MTEntries&gt;&ldquo;/&gt;<br />
+&lt;admin:errorReportsTo rdf:resource=&ldquo;<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#38;&#x6c;&#x74;&#59;&#77;&#84;&#x45;&#110;&#116;&#x72;&#105;&#x65;&#x73;">&#38;&#x6c;&#x74;&#x3b;&#x4d;&#84;&#x45;&#x6e;&#x74;&#114;&#x69;&#101;&#x73;</a> lastn="1&rdquo;&gt;&lt;$MTEntryAuthorEmail$&gt;&lt;/MTEntries&gt;&ldquo;/&gt;<br />
 &lt;sy:updatePeriod&gt;hourly&lt;/sy:updatePeriod&gt;<br />
 &lt;sy:updateFrequency&gt;1&lt;/sy:updateFrequency&gt;<br />
 &lt;sy:updateBase&gt;2000-01-01T12:00+00:00&lt;/sy:updateBase&gt;<br />
@@ -242,7 +323,7 @@ Redirect temp /atom.xml <a href="http://location.to.new.file/atom.xml">http://lo
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-03T02:30:00-07:00" pubdate data-updated="true">Jul 3<span>rd</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-03T02:30:00-04:00" pubdate data-updated="true">Jul 3<span>rd</span>, 2005</time>
         
            | <a href="/blog/2005/07/03/neato/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/07/03/neato/">Comments</a>
@@ -286,7 +367,7 @@ Redirect temp /atom.xml <a href="http://location.to.new.file/atom.xml">http://lo
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-01T19:15:00-07:00" pubdate data-updated="true">Jul 1<span>st</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-01T19:15:00-04:00" pubdate data-updated="true">Jul 1<span>st</span>, 2005</time>
         
            | <a href="/blog/2005/07/01/essential-mix-of-the-year-2004/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/07/01/essential-mix-of-the-year-2004/">Comments</a>
@@ -356,7 +437,7 @@ Above & Beyond - &#8220;Essential&#8221; (Anjunabeats)<br /></blockquote>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-01T02:36:00-07:00" pubdate data-updated="true">Jul 1<span>st</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-01T02:36:00-04:00" pubdate data-updated="true">Jul 1<span>st</span>, 2005</time>
         
            | <a href="/blog/2005/07/01/firefox-memory-leaks-other-issues/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/07/01/firefox-memory-leaks-other-issues/">Comments</a>
@@ -408,7 +489,7 @@ Above & Beyond - &#8220;Essential&#8221; (Anjunabeats)<br /></blockquote>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-30T11:36:00-07:00" pubdate data-updated="true">Jun 30<span>th</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-30T11:36:00-04:00" pubdate data-updated="true">Jun 30<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/06/30/essential-mix-collection/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/06/30/essential-mix-collection/">Comments</a>
@@ -450,7 +531,7 @@ Above & Beyond - &#8220;Essential&#8221; (Anjunabeats)<br /></blockquote>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-30T09:21:00-07:00" pubdate data-updated="true">Jun 30<span>th</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-30T09:21:00-04:00" pubdate data-updated="true">Jun 30<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/06/30/tour-de-france/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/06/30/tour-de-france/">Comments</a>
@@ -492,7 +573,7 @@ Above & Beyond - &#8220;Essential&#8221; (Anjunabeats)<br /></blockquote>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-30T07:52:00-07:00" pubdate data-updated="true">Jun 30<span>th</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-30T07:52:00-04:00" pubdate data-updated="true">Jun 30<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/06/30/itunes-4-9-podcasting-notes/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/06/30/itunes-4-9-podcasting-notes/">Comments</a>
@@ -562,7 +643,7 @@ Above & Beyond - &#8220;Essential&#8221; (Anjunabeats)<br /></blockquote>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-28T23:22:00-07:00" pubdate data-updated="true">Jun 28<span>th</span>, 2005</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-28T23:22:00-04:00" pubdate data-updated="true">Jun 28<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/06/28/the-bbc-radio-3/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2005/06/28/the-bbc-radio-3/">Comments</a>
@@ -582,48 +663,6 @@ Above & Beyond - &#8220;Essential&#8221; (Anjunabeats)<br /></blockquote>
 <p>You can download the files over at the <a href="http://www.bbc.co.uk/radio3/beethoven/downloads.shtml">BBC-Radio3 Site</a>.</p>
 
 <p>The downside is that they are only available for download for 7 days after the original performance airs and the BBC has a fairly strict disclaimer as to what you can and cannot do with the files. So if you&rsquo;re missing a few of the performances just send me a ping.</p>
-</div>
-  
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-28T18:46:00-07:00" pubdate data-updated="true">Jun 28<span>th</span>, 2005</time>
-        
-           | <a href="/blog/2005/06/28/the-westboro-baptist-church/#disqus_thread"
-             data-disqus-identifier="http://fusion94.org/blog/2005/06/28/the-westboro-baptist-church/">Comments</a>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/2005/06/28/the-westboro-baptist-church/">The Westboro Baptist Church</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p>sucks. I can&rsquo;t even begin to express how angry <a href="http://www.latimes.com/news/nationworld/nation/la-na-funeral28jun28,1,4816654.story?coll=la-headlines-nation">this</a> makes me. Especially as one who has spent time in Group.</p>
-
-<p>If I ever see these people protesting/picketing at a funeral of someone I know then there will be bloodshed. That I can assure you.</p>
 </div>
   
   

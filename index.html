@@ -112,7 +112,125 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-06T13:23:00-08:00" pubdate data-updated="true">Feb 6<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-12-09T09:26:00-05:00" pubdate data-updated="true">Dec 9<span>th</span>, 2013</time>
+        
+           | <a href="/blog/2013/12/09/top-10-shell-commands-used/#disqus_thread"
+             data-disqus-identifier="http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used/">Comments</a>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/2013/12/09/top-10-shell-commands-used/">Top 10 Shell Commands Used</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>From time to time, I like to analyze which unix or linux shell commands I&rsquo;m using most frequently. To do this, all I need is a little awk, like the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>history | awk '{print $2}' | sort | uniq -c | sort -rn | head</span></code></pre></td></tr></table></div></figure>
+
+
+<p>So what does this do?</p>
+
+<p>Basically, it parses your history looking at the 2nd column, which is the command you typed and increments it each time it is found. Then it displays a sorted report showing the count of the command and the command, like this example on my MacBook Pro:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>1353 git
+</span><span class='line'>749 cd
+</span><span class='line'>391 ssh
+</span><span class='line'>379 ls
+</span><span class='line'>194 rake
+</span><span class='line'>168 vagrant
+</span><span class='line'>152 sublime
+</span><span class='line'>143 rvm
+</span><span class='line'>135 rm
+</span><span class='line'>119 bundle</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Based on this output of the top 10 most frequently used shell commands, it shows that I&rsquo;m using git, and ls quite a bit so it would be helpful to create aliases for these commands. Here are a few examples:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>alias g="git"
+</span><span class='line'>alias l="ls -al"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now that I know git is one of my most used commands I can parse my history to determine what git command I use most frequently:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>history | awk '{print $2 " " $3}' | sort | uniq -c | sort -rn | grep "git" | head     </span></code></pre></td></tr></table></div></figure>
+
+
+<p>The output of that command provides me with this information:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> 200 git push
+</span><span class='line'> 191 git commit
+</span><span class='line'> 172 git status
+</span><span class='line'> 105 git branch
+</span><span class='line'> 103 git clone
+</span><span class='line'>  99 git checkout
+</span><span class='line'>  79 git remote
+</span><span class='line'>  49 git fetch</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>This now allows me to tailor my aliases for git accordingly.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>alias gp="git push"
+</span><span class='line'>alias gc="git commit -m"
+</span><span class='line'>alias gs="git status"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>By tailoring your aliases appropriately you can speed up your workflow significantly, as well as reduce the wear and tear on your fingers.</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-06T13:23:00-05:00" pubdate data-updated="true">Feb 6<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/">Comments</a>
@@ -161,7 +279,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-01T07:23:00-08:00" pubdate data-updated="true">Feb 1<span>st</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-01T07:23:00-05:00" pubdate data-updated="true">Feb 1<span>st</span>, 2013</time>
         
            | <a href="/blog/2013/02/01/custom-character-generator-for-lcd-panels/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/">Comments</a>
@@ -210,7 +328,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-24T23:40:00-08:00" pubdate data-updated="true">Jan 24<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-24T23:40:00-05:00" pubdate data-updated="true">Jan 24<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/">Comments</a>
@@ -264,7 +382,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-16T08:06:00-08:00" pubdate data-updated="true">Jan 16<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-16T08:06:00-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/01/16/clahub-clas-done-right/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/">Comments</a>
@@ -318,7 +436,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-15T06:40:00-08:00" pubdate data-updated="true">Jan 15<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-15T06:40:00-05:00" pubdate data-updated="true">Jan 15<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/01/15/legendary-for-ios/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/01/15/legendary-for-ios/">Comments</a>
@@ -367,7 +485,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T16:22:00-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T16:22:00-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/01/13/infoboxes-using-css/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/01/13/infoboxes-using-css/">Comments</a>
@@ -422,7 +540,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T08:32:00-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T08:32:00-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/01/13/firefox-os-app-day-silicon-valley/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/01/13/firefox-os-app-day-silicon-valley/">Comments</a>
@@ -473,7 +591,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T07:10:00-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T07:10:00-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/01/13/howto-tweet-new-posts-in-octopress/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress/">Comments</a>
@@ -520,7 +638,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T07:03:00-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T07:03:00-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
         
            | <a href="/blog/2013/01/13/this-post-will-be-tweeted/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/">Comments</a>
@@ -536,55 +654,6 @@
   <div class="entry-content clearfix"><p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 </div>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-13T05:46:00-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2013</time>
-        
-           | <a href="/blog/2013/01/13/openrov-build-day/#disqus_thread"
-             data-disqus-identifier="http://fusion94.org/blog/2013/01/13/openrov-build-day/">Comments</a>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/2013/01/13/openrov-build-day/">OpenROV Build Day</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
-<img class="right" src="/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
-The <a href="http://wiki.openrov.com">OpenROV Wiki</a> is really starting to fill out: <a href="http://wiki.openrov.com/index.php/Assembly#Step_by_step_instructions">Step by Step Instructions</a></p>
-
-<p>That&rsquo;s the best place to start. The goal is for each section of the build to have:</p>
-
-</div>
-  
-  
-    <footer>
-      <a class="btn btn-default" rel="full-article" href="/blog/2013/01/13/openrov-build-day/">Read on &rarr;</a>
-    </footer>
   
 
 

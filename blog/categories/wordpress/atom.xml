@@ -4,7 +4,7 @@
   <title><![CDATA[Category: WordPress | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-11-13T09:21:17-08:00</updated>
+  <updated>2013-12-09T10:22:14-05:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Site Moved]]></title>
     <link href="http://fusion94.org/blog/2008/01/27/site-moved/"/>
-    <updated>2008-01-27T23:20:00-08:00</updated>
+    <updated>2008-01-27T23:20:00-05:00</updated>
     <id>http://fusion94.org/blog/2008/01/27/site-moved</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve moved all the content off of <a href="http://fusion94.org/blog">http://fusion94.org/blog</a> and have imported here into the Damage Studios site. It was getting tiring trying to determine where to blog and since the old site was running WordPress and I&rsquo;m now doing more Drupal related work it made sense to move it into Drupal. Thanks to PathAuto and aliasing about 98% of the old urls redirect properly.</p>
 
