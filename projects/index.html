@@ -107,7 +107,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-05T11:07:00-05:00" pubdate data-updated="true">Jan 5<span>th</span>, 2013</time></p>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-05T11:07:00-08:00" pubdate data-updated="true">Jan 5<span>th</span>, 2013</time></p>
           
           
             <h1 class="entry-title">
@@ -118,19 +118,22 @@
         </header>
       
       <div class="entry-content">
-        <h3>Open Source Projects <a href="https://coderwall.com/fusion94"><img alt="Endorse fusion94 on Coderwall" src="http://api.coderwall.com/fusion94/endorsecount.png" /></a></h3>
+        <h3>Open Source Projects</h3> <a href="https://coderwall.com/fusion94"><img alt="Endorse fusion94 on Coderwall" src="http://api.coderwall.com/fusion94/endorsecount.png" /></a>
 
-<p>I&rsquo;m a big user/contributor to Open Source. Simply using Open Source while nice, is just no longer revolutionary, but taking the next step &mdash; contributing your work, and collaborating with others &mdash; is still fresh ground for many individuals and organizations.</p>
+<p>I&#8217;m a big user/contributor to Open Source. Simply using Open Source while nice, is just no longer revolutionary, but taking the next step &#8211; contributing your work, and collaborating with others &#8211; is still fresh ground for many individuals and organizations.</p>
 
-<p>As such I&rsquo;m contributing and publishing as much as my work as I can over on GitHub. You can find links to these projects below.</p>
+<p>As such I&#8217;m contributing and publishing as much as my work as I can over on GitHub. You can find links to these projects below.</p>
 
-<p>If you&rsquo;d like to show your support, donations of alcoholic beverages are much appreciated. You can also endorse me using the link above and help me earn badges and geek credentials on Coderwall.</p></p>
+<p>If you&#8217;d like to show your support, donations of alcoholic beverages are much appreciated. You can also endorse me using the link above and help me earn badges and geek credentials on Coderwall.</p>
 
-<div class="github-widget" data-repo="kandanapp/kandan"></div>
-
-
-<script type="text/javascript" src="/javascripts/jquery.githubRepoWidget.js"></script>
-
+<div id="opensource-projects"></div> 
+<!-- Javascript to load and display repos from GitHub -->
+<script src="/assets/js/github.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(function() {
+    $("#opensource-projects").loadRepositories("fusion94");
+  });
+  </script>
 
       </div>
       
@@ -150,7 +153,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-05T11:07:00-05:00" pubdate data-updated="true">Jan 5<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-01-05T11:07:00-08:00" pubdate data-updated="true">Jan 5<span>th</span>, 2013</time>
           </p>
           
         </footer>
@@ -164,7 +167,7 @@
       </div>
     <footer role="contentinfo"><div class="container">
     <p class="text-muted credits">
-  Copyright &copy; 1999-2013 - fusion94<br>
+  Copyright &copy; 2014 - fusion94<br>
   <small>
       <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
       <span class="credit">customized with <a href="https://github.com/mjhea0/octoplate">Octoplate</a></span>.

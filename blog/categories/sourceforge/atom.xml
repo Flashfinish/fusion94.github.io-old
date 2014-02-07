@@ -4,7 +4,7 @@
   <title><![CDATA[Category: SourceForge | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/sourceforge/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Campus Party 2008]]></title>
     <link href="http://fusion94.org/blog/2008/12/21/campus-party-2008/"/>
-    <updated>2008-12-21T17:54:00-05:00</updated>
+    <updated>2008-12-21T17:54:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/21/campus-party-2008</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been meaning to post about this for some time but have been rather slack in doing so.</p>
 
@@ -64,7 +64,7 @@
   <entry>
     <title type="html"><![CDATA[SourceForge.net - 8 years old]]></title>
     <link href="http://fusion94.org/blog/2007/11/19/sourceforge-net-8-years-old/"/>
-    <updated>2007-11-19T01:00:00-05:00</updated>
+    <updated>2007-11-19T01:00:00-08:00</updated>
     <id>http://fusion94.org/blog/2007/11/19/sourceforge-net-8-years-old</id>
     <content type="html"><![CDATA[<p>On Saturday, November 17th, 2007 SourceForge.net celebrated 8 years of life.</p>
 
@@ -86,7 +86,7 @@ Registered Users: 1,729,574</p>
   <entry>
     <title type="html"><![CDATA[SourceForge turns 2]]></title>
     <link href="http://fusion94.org/blog/2001/11/17/sourceforge-turns-2/"/>
-    <updated>2001-11-17T16:07:00-05:00</updated>
+    <updated>2001-11-17T16:07:00-08:00</updated>
     <id>http://fusion94.org/blog/2001/11/17/sourceforge-turns-2</id>
     <content type="html"><![CDATA[<p>Today <a href="http://sourceforge.net">SourceForge</a> turns 2 years old. The growth has been phenomenal and it&rsquo;s amazing to see how many people utilize your work on a day to day basis.</p>
 ]]></content>
@@ -95,7 +95,7 @@ Registered Users: 1,729,574</p>
   <entry>
     <title type="html"><![CDATA[One Year Older]]></title>
     <link href="http://fusion94.org/blog/2000/11/17/one-year-older/"/>
-    <updated>2000-11-17T07:51:00-05:00</updated>
+    <updated>2000-11-17T07:51:00-08:00</updated>
     <id>http://fusion94.org/blog/2000/11/17/one-year-older</id>
     <content type="html"><![CDATA[<p><a href="http://www.sourceforge.net">SourceForge</a> is now officially one year old. It&rsquo;s been both an amazing and a bumpy ride over the past year as we&rsquo;ve experienced growth spurts that has effected our scalability. I can remember when we released it at Comdex last year that we thought (and publicly stated) that we&rsquo;d consider it a success if we hit 200 projects and 1,000 developers in the first year of service. Boy were we ever wrong. We hit that in the first 45 days and the project has been bigger than we ever expected or anticipated.</p>
 
@@ -106,7 +106,7 @@ Registered Users: 1,729,574</p>
   <entry>
     <title type="html"><![CDATA[SourceForge & IA-64]]></title>
     <link href="http://fusion94.org/blog/2000/05/26/sourceforge-and-ia-64/"/>
-    <updated>2000-05-26T13:27:00-04:00</updated>
+    <updated>2000-05-26T13:27:00-07:00</updated>
     <id>http://fusion94.org/blog/2000/05/26/sourceforge-and-ia-64</id>
     <content type="html"><![CDATA[<p>We&rsquo;re pleased to announce that SourceForge now has IA-64 (Itanium) machines available to use in the compile farm.</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Boot2Gecko | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/boot2gecko/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Building B2G (Boot2Gecko) on OSX]]></title>
     <link href="http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
-    <updated>2013-01-09T10:37:00-05:00</updated>
+    <updated>2013-01-09T10:37:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
     <content type="html"><![CDATA[<p>So I&rsquo;ve been interested in the <a href="https://wiki.mozilla.org/B2G">Boot2Gecko</a> project for awhile and wanted to see if I could get an app running on <a href="http://www.appgyver.com/steroids">Steroids</a> that would run under B2G.</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Twitter | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/twitter/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[HowTo Tweet New Posts in Octopress]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
-    <updated>2013-01-13T07:10:00-05:00</updated>
+    <updated>2013-01-13T07:10:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
     <content type="html"><![CDATA[<p>Thanks to a <a href="http://prydoni.us/blog/2012/04/29/tweet-new-posts-in-octopress/">blog post</a> from <a href="http://prydoni.us/blog/">Adnan Abdulhussein</a>, I can now auto-tweet new blog posts on my <a href="http://octopress.org">Octopress</a> blog.</p>
 
@@ -296,7 +296,7 @@
   <entry>
     <title type="html"><![CDATA[This post will be tweeted]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/"/>
-    <updated>2013-01-13T07:03:00-05:00</updated>
+    <updated>2013-01-13T07:03:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted</id>
     <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 ]]></content>

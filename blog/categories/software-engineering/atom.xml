@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software Engineering | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/software-engineering/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Zend Framework and svn:externals]]></title>
     <link href="http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals/"/>
-    <updated>2008-12-17T23:41:00-05:00</updated>
+    <updated>2008-12-17T23:41:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals</id>
     <content type="html"><![CDATA[<p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
 
@@ -112,7 +112,7 @@ svn commit
   <entry>
     <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
     <link href="http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
-    <updated>2008-06-11T09:58:00-04:00</updated>
+    <updated>2008-06-11T09:58:00-07:00</updated>
     <id>http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
 

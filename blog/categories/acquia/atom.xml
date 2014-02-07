@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Acquia | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/acquia/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Updating the Site]]></title>
     <link href="http://fusion94.org/blog/2008/12/17/updating-the-site/"/>
-    <updated>2008-12-17T12:31:00-05:00</updated>
+    <updated>2008-12-17T12:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/updating-the-site</id>
     <content type="html"><![CDATA[<p>This site has been running on a Drupal 5 codebase for quite some time. This morning I took the time to upgrade to Drupal 6.8 then upgraded to the lastest version of the Acquia Network Community Server.</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[HowTo Tweet New Posts in Octopress]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
-    <updated>2013-01-13T07:10:00-05:00</updated>
+    <updated>2013-01-13T07:10:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
     <content type="html"><![CDATA[<p>Thanks to a <a href="http://prydoni.us/blog/2012/04/29/tweet-new-posts-in-octopress/">blog post</a> from <a href="http://prydoni.us/blog/">Adnan Abdulhussein</a>, I can now auto-tweet new blog posts on my <a href="http://octopress.org">Octopress</a> blog.</p>
 
@@ -296,7 +296,7 @@
   <entry>
     <title type="html"><![CDATA[This post will be tweeted]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/"/>
-    <updated>2013-01-13T07:03:00-05:00</updated>
+    <updated>2013-01-13T07:03:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted</id>
     <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 ]]></content>
@@ -305,7 +305,7 @@
   <entry>
     <title type="html"><![CDATA[Recent Comments as an Asides]]></title>
     <link href="http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides/"/>
-    <updated>2013-01-11T16:39:00-05:00</updated>
+    <updated>2013-01-11T16:39:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides</id>
     <content type="html"><![CDATA[<p>This short tutorial will teach you in creating a &ldquo;Recent Comments&rdquo; asides for the Octopress sidebar if you&rsquo;re using Disqus as your commenting system.</p>
 
@@ -351,7 +351,7 @@
   <entry>
     <title type="html"><![CDATA[Octopress Drafts]]></title>
     <link href="http://fusion94.org/blog/2013/01/07/octopress-drafts/"/>
-    <updated>2013-01-07T16:13:00-05:00</updated>
+    <updated>2013-01-07T16:13:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/07/octopress-drafts</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve really enjoyed my recent conversion to <a href="http://octopress.org">Octopress</a> but do wish that it by default had a &ldquo;drafts&rdquo; mode so that one can write a post over time. This was really bugging me as I was trying to import old posts from awhile back and the workaround was kind of a pain in the ass.</p>
 
@@ -759,7 +759,7 @@
   <entry>
     <title type="html"><![CDATA[Bye-Bye Tumblr, Hello Octopress]]></title>
     <link href="http://fusion94.org/blog/2013/01/05/bye-bye-tumblr/"/>
-    <updated>2013-01-05T14:27:00-05:00</updated>
+    <updated>2013-01-05T14:27:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/05/bye-bye-tumblr</id>
     <content type="html"><![CDATA[<p>This is my first post published using <a href="http://octopress.org">Octopress</a> after several years of using either <a href="http://drupal.org">Drupal</a> and/or <a href="http://tumblr.com">tumblr</a> and I’d like to share the reasons why I chose to move from a blogging platform and switch to a statically generated site.</p>
 

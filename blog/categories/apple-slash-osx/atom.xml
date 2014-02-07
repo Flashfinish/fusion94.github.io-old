@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Apple/OSX | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/apple-slash-osx/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Medal of Honor: Allied Assault Dedicated Servers Released]]></title>
     <link href="http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released/"/>
-    <updated>2008-12-24T11:33:00-05:00</updated>
+    <updated>2008-12-24T11:33:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released</id>
     <content type="html"><![CDATA[<p>So I finally got around to releasing a package of the Medal of Honor: Allied Assault Dedicated Servers.</p>
 
@@ -35,7 +35,7 @@ These binaries are released as a non-supported product. That means that neither 
   <entry>
     <title type="html"><![CDATA[BootCamp Tip]]></title>
     <link href="http://fusion94.org/blog/2008/12/18/bootcamp-tip/"/>
-    <updated>2008-12-18T10:03:00-05:00</updated>
+    <updated>2008-12-18T10:03:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/18/bootcamp-tip</id>
     <content type="html"><![CDATA[<p>If you&rsquo;ve got BootCamp installed and have it defaulting to boot into Windows then remove the Windows partion you&rsquo;re going to get a &ldquo;No bootable disk found&rdquo; screen everytime you boot up.</p>
 
@@ -57,7 +57,7 @@ These binaries are released as a non-supported product. That means that neither 
   <entry>
     <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
     <link href="http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
-    <updated>2008-06-11T09:58:00-04:00</updated>
+    <updated>2008-06-11T09:58:00-07:00</updated>
     <id>http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
 
@@ -74,7 +74,7 @@ These binaries are released as a non-supported product. That means that neither 
   <entry>
     <title type="html"><![CDATA[Disable Space Switching - 10.5.2]]></title>
     <link href="http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2/"/>
-    <updated>2008-02-25T18:44:00-05:00</updated>
+    <updated>2008-02-25T18:44:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2</id>
     <content type="html"><![CDATA[<p>The 10.5.2 version of OS X has a new preferences command for Spaces although tt&rsquo;s hidden and not available through the System Preferences.</p>
 
@@ -95,7 +95,7 @@ These binaries are released as a non-supported product. That means that neither 
   <entry>
     <title type="html"><![CDATA[Quicksilver and Leopard]]></title>
     <link href="http://fusion94.org/blog/2008/02/05/quicksilver-and-leopard/"/>
-    <updated>2008-02-05T09:31:00-05:00</updated>
+    <updated>2008-02-05T09:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/05/quicksilver-and-leopard</id>
     <content type="html"><![CDATA[<p>Ever since I upgraded all my boxes to <a href="http://www.apple.com/macosx/">Leopard</a> <a href="http://www.blacktree.com/">Quicksilver</a> has been having issues. While searching for a new release I&rsquo;ve located a solution that seems to have fixed most of my issues. Here&rsquo;s what to do.</p>
 

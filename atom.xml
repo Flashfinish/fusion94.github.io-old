@@ -4,7 +4,7 @@
   <title><![CDATA[fusion94]]></title>
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Top 10 Shell Commands used]]></title>
     <link href="http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used/"/>
-    <updated>2013-12-09T09:26:00-05:00</updated>
+    <updated>2013-12-09T09:26:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used</id>
     <content type="html"><![CDATA[<p>From time to time, I like to analyze which unix or linux shell commands I&rsquo;m using most frequently. To do this, all I need is a little awk, like the following:</p>
 
@@ -103,7 +103,7 @@
   <entry>
     <title type="html"><![CDATA[How to enable developer settings on Android 4.2]]></title>
     <link href="http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
-    <updated>2013-02-06T13:23:00-05:00</updated>
+    <updated>2013-02-06T13:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
     <content type="html"><![CDATA[<p>So for whatever reason Google has chosen to hide the developer settings in the latest version of Jelly Bean. Here&rsquo;s how to get them back.</p>
 
@@ -121,7 +121,7 @@
   <entry>
     <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
     <link href="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
-    <updated>2013-02-01T07:23:00-05:00</updated>
+    <updated>2013-02-01T07:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
     <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
 
@@ -149,7 +149,7 @@
   <entry>
     <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
     <link href="http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
-    <updated>2013-01-24T23:40:00-05:00</updated>
+    <updated>2013-01-24T23:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
     <content type="html"><![CDATA[<div class="info">Say Goodbye to inefficient meetinngs and email threads. Get your team off of AIM, Google Talk, Skype or IRC.</div>
 
@@ -199,7 +199,7 @@
 </ul>
 
 
-<p>You can also email us at <a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#107;&#97;&#x6e;&#x64;&#97;&#110;&#x61;&#x70;&#112;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#x6b;&#x61;&#110;&#x64;&#x61;&#x6e;&#x61;&#x70;&#x70;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></p>
+<p>You can also email us at <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x6b;&#97;&#110;&#100;&#97;&#110;&#x61;&#112;&#112;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x6b;&#97;&#x6e;&#x64;&#97;&#110;&#97;&#112;&#112;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -210,7 +210,7 @@
   <entry>
     <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
     <link href="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/"/>
-    <updated>2013-01-16T08:06:00-05:00</updated>
+    <updated>2013-01-16T08:06:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/16/clahub-clas-done-right</id>
     <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
 
@@ -351,7 +351,7 @@
   <entry>
     <title type="html"><![CDATA[Legendary for iOS]]></title>
     <link href="http://fusion94.org/blog/2013/01/15/legendary-for-ios/"/>
-    <updated>2013-01-15T06:40:00-05:00</updated>
+    <updated>2013-01-15T06:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/15/legendary-for-ios</id>
     <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
 
@@ -430,7 +430,7 @@
   <entry>
     <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/infoboxes-using-css/"/>
-    <updated>2013-01-13T16:22:00-05:00</updated>
+    <updated>2013-01-13T16:22:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/infoboxes-using-css</id>
     <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
 
@@ -966,7 +966,7 @@
   <entry>
     <title type="html"><![CDATA[Firefox OS App Day - Silicon Valley]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
-    <updated>2013-01-13T08:32:00-05:00</updated>
+    <updated>2013-01-13T08:32:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
     <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
 
@@ -1025,7 +1025,7 @@
   <entry>
     <title type="html"><![CDATA[HowTo Tweet New Posts in Octopress]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
-    <updated>2013-01-13T07:10:00-05:00</updated>
+    <updated>2013-01-13T07:10:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
     <content type="html"><![CDATA[<p>Thanks to a <a href="http://prydoni.us/blog/2012/04/29/tweet-new-posts-in-octopress/">blog post</a> from <a href="http://prydoni.us/blog/">Adnan Abdulhussein</a>, I can now auto-tweet new blog posts on my <a href="http://octopress.org">Octopress</a> blog.</p>
 
@@ -1266,7 +1266,7 @@
   <entry>
     <title type="html"><![CDATA[This post will be tweeted]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/"/>
-    <updated>2013-01-13T07:03:00-05:00</updated>
+    <updated>2013-01-13T07:03:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted</id>
     <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 ]]></content>
@@ -1275,7 +1275,7 @@
   <entry>
     <title type="html"><![CDATA[OpenROV Build Day]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/openrov-build-day/"/>
-    <updated>2013-01-13T05:46:00-05:00</updated>
+    <updated>2013-01-13T05:46:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/openrov-build-day</id>
     <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
 <img class="right" src="http://fusion94.org/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
@@ -1336,7 +1336,7 @@ Berkeley CA<br></p>
   <entry>
     <title type="html"><![CDATA[Recent Comments as an Asides]]></title>
     <link href="http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides/"/>
-    <updated>2013-01-11T16:39:00-05:00</updated>
+    <updated>2013-01-11T16:39:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides</id>
     <content type="html"><![CDATA[<p>This short tutorial will teach you in creating a &ldquo;Recent Comments&rdquo; asides for the Octopress sidebar if you&rsquo;re using Disqus as your commenting system.</p>
 
@@ -1385,7 +1385,7 @@ Berkeley CA<br></p>
   <entry>
     <title type="html"><![CDATA[Firearm Ownership in the US]]></title>
     <link href="http://fusion94.org/blog/2013/01/10/firearm-ownership-in-the-us/"/>
-    <updated>2013-01-10T11:00:00-05:00</updated>
+    <updated>2013-01-10T11:00:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/10/firearm-ownership-in-the-us</id>
     <content type="html"><![CDATA[<div class="error">This post will probably piss people off. From both sides of the equation.</div>
 
@@ -1504,7 +1504,7 @@ Berkeley CA<br></p>
   <entry>
     <title type="html"><![CDATA[Titanium Studio Issues]]></title>
     <link href="http://fusion94.org/blog/2013/01/10/titanium-studio-issues/"/>
-    <updated>2013-01-10T00:41:00-05:00</updated>
+    <updated>2013-01-10T00:41:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/10/titanium-studio-issues</id>
     <content type="html"><![CDATA[<p>I just installed the latest Titanium Studio from Appcelerator and a Titanium Update window pops up when I open TiStudio and asks me to install Titanium CLI and Alloy.</p>
 
@@ -1527,7 +1527,7 @@ Berkeley CA<br></p>
   <entry>
     <title type="html"><![CDATA[Building B2G (Boot2Gecko) on OSX]]></title>
     <link href="http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
-    <updated>2013-01-09T10:37:00-05:00</updated>
+    <updated>2013-01-09T10:37:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
     <content type="html"><![CDATA[<p>So I&rsquo;ve been interested in the <a href="https://wiki.mozilla.org/B2G">Boot2Gecko</a> project for awhile and wanted to see if I could get an app running on <a href="http://www.appgyver.com/steroids">Steroids</a> that would run under B2G.</p>
 
@@ -1699,7 +1699,7 @@ Berkeley CA<br></p>
   <entry>
     <title type="html"><![CDATA[Octopress Drafts]]></title>
     <link href="http://fusion94.org/blog/2013/01/07/octopress-drafts/"/>
-    <updated>2013-01-07T16:13:00-05:00</updated>
+    <updated>2013-01-07T16:13:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/07/octopress-drafts</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve really enjoyed my recent conversion to <a href="http://octopress.org">Octopress</a> but do wish that it by default had a &ldquo;drafts&rdquo; mode so that one can write a post over time. This was really bugging me as I was trying to import old posts from awhile back and the workaround was kind of a pain in the ass.</p>
 
@@ -2010,7 +2010,7 @@ Berkeley CA<br></p>
   <entry>
     <title type="html"><![CDATA[Bye-Bye Tumblr, Hello Octopress]]></title>
     <link href="http://fusion94.org/blog/2013/01/05/bye-bye-tumblr/"/>
-    <updated>2013-01-05T14:27:00-05:00</updated>
+    <updated>2013-01-05T14:27:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/05/bye-bye-tumblr</id>
     <content type="html"><![CDATA[<p>This is my first post published using <a href="http://octopress.org">Octopress</a> after several years of using either <a href="http://drupal.org">Drupal</a> and/or <a href="http://tumblr.com">tumblr</a> and I’d like to share the reasons why I chose to move from a blogging platform and switch to a statically generated site.</p>
 
@@ -2055,7 +2055,7 @@ Berkeley CA<br></p>
   <entry>
     <title type="html"><![CDATA[Arduino + DF-BluetoothV3 Bluetooth module]]></title>
     <link href="http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
-    <updated>2012-12-08T13:27:00-05:00</updated>
+    <updated>2012-12-08T13:27:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This blog post is part of a series of blog posts on how to build electronic circuits. If you’re 
 at all interested then please subscribe to the RSS feed.</div>
@@ -2249,7 +2249,7 @@ like in the image below.</p>
   <entry>
     <title type="html"><![CDATA[Arduino + Compass Module 3-Axis HMC5883L]]></title>
     <link href="http://fusion94.org/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/"/>
-    <updated>2012-11-29T13:14:00-05:00</updated>
+    <updated>2012-11-29T13:14:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
 all interested then please subscribe to the RSS feed.</div>
@@ -2491,7 +2491,7 @@ conjunction with the Memsic 2125 Dual-axis Accelerometer to compensate for any t
   <entry>
     <title type="html"><![CDATA[Arduino + Memsic 2125 Dual-axis Accelerometer]]></title>
     <link href="http://fusion94.org/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
-    <updated>2012-11-28T15:50:00-05:00</updated>
+    <updated>2012-11-28T15:50:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
 all interested then please subscribe to the RSS feed.</div>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Snippets | fusion94]]></title>
   <link href="http://fusion94.org/blog/categories/snippets/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2013-12-09T10:22:14-05:00</updated>
+  <updated>2014-02-07T09:52:39-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
     <link href="http://fusion94.org/blog/2013/01/13/infoboxes-using-css/"/>
-    <updated>2013-01-13T16:22:00-05:00</updated>
+    <updated>2013-01-13T16:22:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/infoboxes-using-css</id>
     <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
 
@@ -646,7 +646,7 @@
   <entry>
     <title type="html"><![CDATA[SVN Repository Cleanup]]></title>
     <link href="http://fusion94.org/blog/2008/12/20/svn-repository-cleanup/"/>
-    <updated>2008-12-20T22:25:00-05:00</updated>
+    <updated>2008-12-20T22:25:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/20/svn-repository-cleanup</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve spent the past few hours doing some pretty massive SVN repository cleanup for all of my personal projects. One annoyance is all of the .svn directories that occasionally have to be located and removed before you can recommit.</p>
 
@@ -679,7 +679,7 @@ bar/
   <entry>
     <title type="html"><![CDATA[Zend Framework and svn:externals]]></title>
     <link href="http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals/"/>
-    <updated>2008-12-17T23:41:00-05:00</updated>
+    <updated>2008-12-17T23:41:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals</id>
     <content type="html"><![CDATA[<p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
 
@@ -775,7 +775,7 @@ svn commit
   <entry>
     <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
     <link href="http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
-    <updated>2008-06-11T09:58:00-04:00</updated>
+    <updated>2008-06-11T09:58:00-07:00</updated>
     <id>http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
 
@@ -792,7 +792,7 @@ svn commit
   <entry>
     <title type="html"><![CDATA[Disable Space Switching - 10.5.2]]></title>
     <link href="http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2/"/>
-    <updated>2008-02-25T18:44:00-05:00</updated>
+    <updated>2008-02-25T18:44:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2</id>
     <content type="html"><![CDATA[<p>The 10.5.2 version of OS X has a new preferences command for Spaces although tt&rsquo;s hidden and not available through the System Preferences.</p>
 

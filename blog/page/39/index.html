@@ -112,7 +112,105 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-15T13:34:00-05:00" pubdate data-updated="true">Mar 15<span>th</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-19T12:08:00-08:00" pubdate data-updated="true">Mar 19<span>th</span>, 2004</time>
+        
+           | <a href="/blog/2004/03/19/mail-app-imap-ssl-workaround/#disqus_thread"
+             data-disqus-identifier="http://fusion94.org/blog/2004/03/19/mail-app-imap-ssl-workaround/">Comments</a>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/2004/03/19/mail-app-imap-ssl-workaround/">Mail.app Imap-ssl Workaround</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>I know this is old news but it took me awhile to locate this workaround and thought I&rsquo;d share.</p>
+
+<p>If you use a mail server with imap-ssl that doesn&rsquo;t have a verified certificate, you get a pop up complaining whenever you open mail. If you click show certificate, there&rsquo;s a certificate icon you can supposedly drag to the desktop and then use in keychain according to apple&rsquo;s support webpages. Well, dragging that image crashes Mail.app.</p>
+
+<p>There is a workaround, if you have access to the certificate (say, you&rsquo;re friends with your sysadmin, which you should be, if you aren&rsquo;t friends with the sysadmin you can always run this from the terminal &ldquo;openssl s_client -connect host:port&rdquo; then cut and paste the cert into a file (e.g. &ldquo;host.crt&rdquo;):</p>
+
+<p>Accepting a mailserver SSL certificate permanently
+1) open Keychain Access (it&rsquo;s in &ldquo;Utilities&rdquo;)
+2) select the menu item: File&mdash;Add Keychain&hellip;
+3) navigate to /System/Library/Keychains/
+4) select X509Anchors and click &lsquo;Open&rsquo;
+5) close Keychain Access
+6) copy the .pem certificate file from your server to your local machine.
+7) open the finder and navigate to where you copied the file
+8) double click it
+9) import into X509Anchors
+10) quit Keychain Access and restart Mail &ndash; it shouldn&rsquo;t ask for you to accept the certificate anymore</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-18T07:59:00-08:00" pubdate data-updated="true">Mar 18<span>th</span>, 2004</time>
+        
+           | <a href="/blog/2004/03/18/new-details-about-ao/#disqus_thread"
+             data-disqus-identifier="http://fusion94.org/blog/2004/03/18/new-details-about-ao/">Comments</a>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/2004/03/18/new-details-about-ao/">New Details About AO</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>In February Funcom announced that they were working on a new expansion pack to <a href="http://anarchyonline.com">Anarchy Online</a> called <a href="http://www.anarchy-online.com/content/game/alieninvasion/">Alien Invasion</a>. It looked like there was going to be some pretty cool content added like player built towns, player run shops, etc etc.</p>
+
+<p>Well it sounds even better now. If you like AO or just want to know more go read the <a href="http://rpgvault.ign.com/articles/499/499168p1.html">Interview</a> with AO&rsquo;s Game Director Marius Enge over at IGN.</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-15T13:34:00-08:00" pubdate data-updated="true">Mar 15<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/03/15/funniest-bug-reportever/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/15/funniest-bug-reportever/">Comments</a>
@@ -154,7 +252,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-15T13:11:00-05:00" pubdate data-updated="true">Mar 15<span>th</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-15T13:11:00-08:00" pubdate data-updated="true">Mar 15<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/03/15/free-the-grey-album/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/15/free-the-grey-album/">Comments</a>
@@ -194,7 +292,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-11T20:11:00-05:00" pubdate data-updated="true">Mar 11<span>th</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-11T20:11:00-08:00" pubdate data-updated="true">Mar 11<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/03/11/paul-thurrott-is-an-idiot/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/11/paul-thurrott-is-an-idiot/">Comments</a>
@@ -240,7 +338,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-11T16:11:00-05:00" pubdate data-updated="true">Mar 11<span>th</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-11T16:11:00-08:00" pubdate data-updated="true">Mar 11<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/03/11/the-music-industry-monopoly/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/11/the-music-industry-monopoly/">Comments</a>
@@ -293,7 +391,7 @@ Download it from <a href="Korn-Explicit.mov">here</a></p>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-10T10:56:00-05:00" pubdate data-updated="true">Mar 10<span>th</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-10T10:56:00-08:00" pubdate data-updated="true">Mar 10<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/03/10/5-days-until-and-counting/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/10/5-days-until-and-counting/">Comments</a>
@@ -341,7 +439,7 @@ Download it from <a href="Korn-Explicit.mov">here</a></p>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-10T09:34:00-05:00" pubdate data-updated="true">Mar 10<span>th</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-10T09:34:00-08:00" pubdate data-updated="true">Mar 10<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/03/10/photo-galleries-added/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/10/photo-galleries-added/">Comments</a>
@@ -381,7 +479,7 @@ Download it from <a href="Korn-Explicit.mov">here</a></p>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-05T04:07:00-05:00" pubdate data-updated="true">Mar 5<span>th</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-05T04:07:00-08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2004</time>
         
            | <a href="/blog/2004/03/05/before-anyone-else/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/05/before-anyone-else/">Comments</a>
@@ -423,7 +521,7 @@ Download it from <a href="Korn-Explicit.mov">here</a></p>
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-03T08:58:00-05:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2004</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-03-03T08:58:00-08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2004</time>
         
            | <a href="/blog/2004/03/03/lol/#disqus_thread"
              data-disqus-identifier="http://fusion94.org/blog/2004/03/03/lol/">Comments</a>
@@ -463,140 +561,6 @@ will dry himself.</p></li>
 
         </article>
       
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-02-15T22:44:00-05:00" pubdate data-updated="true">Feb 15<span>th</span>, 2004</time>
-        
-           | <a href="/blog/2004/02/15/feh/#disqus_thread"
-             data-disqus-identifier="http://fusion94.org/blog/2004/02/15/feh/">Comments</a>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/2004/02/15/feh/">Feh</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p>With all of this I know now
-Everything inside of my head
-It all just goes to show how
-Nothing I know changes me at all
-Again I waited for this to change instead
-To tear the world in two
-Another night with her
-But I&rsquo;m always wanting you</p>
-
-<p>Use me Holly come on and use me
-We know where we go
-Use me Holly come on and use me
-We go where we know</p>
-
-<p>With all of this I feel now
-Everything inside of my heart
-It all just seems to be how
-Nothing I feel pulls at me at all
-Again I waited for this to pull apart
-To break my time in two
-Another night with her
-But I&rsquo;m always wanting you</p>
-
-<p>Use me Holly come on and use me
-We know where we go
-Use me Holly come on and use me
-We go where we know</p>
-
-<p>She&rsquo;s all I need
-She&rsquo;s all I dream
-She&rsquo;s all I&rsquo;m always wanting
-She&rsquo;s all I need
-She&rsquo;s all I dream
-She&rsquo;s all I&rsquo;m always wanting you
-I&rsquo;m always wanting you
-I&rsquo;m always wanting you</p>
-
-<p>Use me Holly come on and use me
-We know where we go
-Use me Holly come on and use me
-We go where we know</p>
-
-<p>She&rsquo;s all I need
-She&rsquo;s all I dream
-She&rsquo;s all I&rsquo;m always wanting
-She&rsquo;s all I need
-She&rsquo;s all I dream
-She&rsquo;s all I&rsquo;m always wanting you</p>
-
-<p>And all again I wait for this
-To fill a whole, to shake the sky in two
-Another night with her
-I&rsquo;m always wanting you
-Another night with her
-But I&rsquo;m always wanting you</p>
-</div>
-  
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2004-02-14T09:43:00-05:00" pubdate data-updated="true">Feb 14<span>th</span>, 2004</time>
-        
-           | <a href="/blog/2004/02/14/unreal-tournament-2004-demo/#disqus_thread"
-             data-disqus-identifier="http://fusion94.org/blog/2004/02/14/unreal-tournament-2004-demo/">Comments</a>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/2004/02/14/unreal-tournament-2004-demo/">Unreal Tournament 2004 Demo</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p>is out for the Mac now. You can grab a copy of it <a href="http://www.macgamefiles.com/">here</a>. After giving it a run or two on my <a href="http://www.apple.com/powerbook/index17.html">17&#8221; Powerbook</a> all i can say is &ldquo;Holy Crap&rdquo;. I had thought that it wouldn&rsquo;t play as well as Halo does but it&rsquo;s performance is noticeably better. Can&rsquo;t wait until they release and ship the full version.</p>
-</div>
-  
-  
-
-
-        </article>
-      
     </div>
 
     <ul class="pager">
@@ -616,7 +580,7 @@ But I&rsquo;m always wanting you</p>
       </div>
     <footer role="contentinfo"><div class="container">
     <p class="text-muted credits">
-  Copyright &copy; 1999-2013 - fusion94<br>
+  Copyright &copy; 2014 - fusion94<br>
   <small>
       <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
       <span class="credit">customized with <a href="https://github.com/mjhea0/octoplate">Octoplate</a></span>.
