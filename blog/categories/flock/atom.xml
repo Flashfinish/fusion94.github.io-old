@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Flock | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/flock/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/flock/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Testing Flock]]></title>
-    <link href="http://fusion94.org/blog/2008/02/19/testing-flock/"/>
+    <link href="http://fusion94.org//blog/2008/02/19/testing-flock/"/>
     <updated>2008-02-19T19:42:00-08:00</updated>
-    <id>http://fusion94.org/blog/2008/02/19/testing-flock</id>
+    <id>http://fusion94.org//blog/2008/02/19/testing-flock</id>
     <content type="html"><![CDATA[<p>This is a test blog post composed using the blog tool in Flock 1.1</p>
 
 <p>Nothing really to see here&hellip;move along</p>

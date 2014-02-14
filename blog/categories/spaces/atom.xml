@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Spaces | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/spaces/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/spaces/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Disable Space Switching - 10.5.2]]></title>
-    <link href="http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2/"/>
+    <link href="http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2/"/>
     <updated>2008-02-25T18:44:00-08:00</updated>
-    <id>http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2</id>
+    <id>http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2</id>
     <content type="html"><![CDATA[<p>The 10.5.2 version of OS X has a new preferences command for Spaces although tt&rsquo;s hidden and not available through the System Preferences.</p>
 
 <p>What it does is allow one to Command-Tab to the app you want and create a new window in the current space. No more switching to the space that the app was originally launched in.</p>

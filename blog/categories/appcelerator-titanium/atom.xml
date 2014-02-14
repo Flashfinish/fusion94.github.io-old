@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Appcelerator Titanium | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/appcelerator-titanium/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/appcelerator-titanium/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Titanium Studio Issues]]></title>
-    <link href="http://fusion94.org/blog/2013/01/10/titanium-studio-issues/"/>
+    <link href="http://fusion94.org//blog/2013/01/10/titanium-studio-issues/"/>
     <updated>2013-01-10T00:41:00-08:00</updated>
-    <id>http://fusion94.org/blog/2013/01/10/titanium-studio-issues</id>
+    <id>http://fusion94.org//blog/2013/01/10/titanium-studio-issues</id>
     <content type="html"><![CDATA[<p>I just installed the latest Titanium Studio from Appcelerator and a Titanium Update window pops up when I open TiStudio and asks me to install Titanium CLI and Alloy.</p>
 
 <p>When I press the install button a dialog pops up that says &ldquo;Titanium wants to make changes. Provide your password to allow installation&rdquo;. I enter my password and TiStudio tells me that my password is incorrect and TiStudio asks me to enter it again.</p>

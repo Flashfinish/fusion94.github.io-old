@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Arduino | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/arduino/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/arduino/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
-    <link href="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
+    <link href="http://fusion94.org//blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
     <updated>2013-02-01T07:23:00-08:00</updated>
-    <id>http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+    <id>http://fusion94.org//blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
     <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
 
 <p>As part of that upcoming blog post I&rsquo;m announcing a Custom Character Generator for LCD Panels.</p>
@@ -43,9 +43,9 @@
   
   <entry>
     <title type="html"><![CDATA[Arduino + DF-BluetoothV3 Bluetooth module]]></title>
-    <link href="http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
+    <link href="http://fusion94.org//blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
     <updated>2012-12-08T13:27:00-08:00</updated>
-    <id>http://fusion94.org/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
+    <id>http://fusion94.org//blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This blog post is part of a series of blog posts on how to build electronic circuits. If you’re 
 at all interested then please subscribe to the RSS feed.</div>
 
@@ -242,9 +242,9 @@ like in the image below.</p>
   
   <entry>
     <title type="html"><![CDATA[Arduino + Compass Module 3-Axis HMC5883L]]></title>
-    <link href="http://fusion94.org/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/"/>
+    <link href="http://fusion94.org//blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/"/>
     <updated>2012-11-29T13:14:00-08:00</updated>
-    <id>http://fusion94.org/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l</id>
+    <id>http://fusion94.org//blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
 all interested then please subscribe to the RSS feed.</div>
 
@@ -495,9 +495,9 @@ conjunction with the Memsic 2125 Dual-axis Accelerometer to compensate for any t
   
   <entry>
     <title type="html"><![CDATA[Arduino + Memsic 2125 Dual-axis Accelerometer]]></title>
-    <link href="http://fusion94.org/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
+    <link href="http://fusion94.org//blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
     <updated>2012-11-28T15:50:00-08:00</updated>
-    <id>http://fusion94.org/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
+    <id>http://fusion94.org//blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
 all interested then please subscribe to the RSS feed.</div>
 

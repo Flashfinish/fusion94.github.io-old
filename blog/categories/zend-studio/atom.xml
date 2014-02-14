@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Zend Studio | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/zend-studio/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/zend-studio/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[ANT and Zend Studio]]></title>
-    <link href="http://fusion94.org/blog/2009/01/12/ant-and-zend-studio/"/>
+    <link href="http://fusion94.org//blog/2009/01/12/ant-and-zend-studio/"/>
     <updated>2009-01-12T08:25:00-08:00</updated>
-    <id>http://fusion94.org/blog/2009/01/12/ant-and-zend-studio</id>
+    <id>http://fusion94.org//blog/2009/01/12/ant-and-zend-studio</id>
     <content type="html"><![CDATA[<p>Zend Studio for Eclipse is a commercial edition of Eclipse plus the PDT plugin and various other additions. Unfortunately Zend decided to disable the Ant plugin in it&rsquo;s distribution of the Eclipse platform. Nonetheless if you&rsquo;d like to run Ant scripts or simple Phing scripts it would be really useful to be able to use the Ant integration of Eclipse.</p>
 
 <p><b>Preparation</b>
@@ -46,11 +46,11 @@ Now it gets a little tricky.</p>
 <ul>
 <li>From the File menu click New > Project. 
 <li>Check Show All Wizards. 
-<img src="http://fusion94.org/images/zend-ant/1.jpg">
+<img src="http://fusion94.org//images/zend-ant/1.jpg">
 <li>In the Wizards text field enter Ant, select Java Project from Existing Ant Buildfile and click Next. 
-<img src="http://fusion94.org/images/zend-ant/2.jpg">
+<img src="http://fusion94.org//images/zend-ant/2.jpg">
 <li>You will be asked to enable Ant Development - confirm with Yes. 
-<img src="http://fusion94.org/images/zend-ant/3.jpg">
+<img src="http://fusion94.org//images/zend-ant/3.jpg">
 <li>Now you can cancel the new Java Project - Ant has been activated. 
 </ul>
 

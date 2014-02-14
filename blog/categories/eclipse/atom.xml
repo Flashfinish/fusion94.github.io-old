@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Eclipse | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/eclipse/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/eclipse/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Eclipse for Drupal Development]]></title>
-    <link href="http://fusion94.org/blog/2007/06/16/eclipse-for-drupal-development/"/>
+    <link href="http://fusion94.org//blog/2007/06/16/eclipse-for-drupal-development/"/>
     <updated>2007-06-16T18:07:00-07:00</updated>
-    <id>http://fusion94.org/blog/2007/06/16/eclipse-for-drupal-development</id>
+    <id>http://fusion94.org//blog/2007/06/16/eclipse-for-drupal-development</id>
     <content type="html"><![CDATA[<p>After trying out several editors and IDE&rsquo;s for software development I&rsquo;ve decided to settle on using <a href="http://www.eclipse.org/pdt/index.php">Eclipse</a> for 95% of the work I do and I&rsquo;ll use Xcode only when forced to.</p>
 
 <p>This quick blog post will assist you in getting Eclipse configured for developing anything to do with <a href="http://drupal.org">Drupal</a>.</p>

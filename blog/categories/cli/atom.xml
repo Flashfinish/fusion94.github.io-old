@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CLI | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/cli/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/cli/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Command Line Port Scanner OSX]]></title>
-    <link href="http://fusion94.org/blog/2009/01/06/command-line-port-scanner-osx/"/>
+    <link href="http://fusion94.org//blog/2009/01/06/command-line-port-scanner-osx/"/>
     <updated>2009-01-06T09:34:00-08:00</updated>
-    <id>http://fusion94.org/blog/2009/01/06/command-line-port-scanner-osx</id>
+    <id>http://fusion94.org//blog/2009/01/06/command-line-port-scanner-osx</id>
     <content type="html"><![CDATA[<p>Who knew that OS X has a command line port scanner? I for one didn&rsquo;t. I&rsquo;ve always just used the Network Utility version. Here&rsquo;s how to access it.</p>
 
 <p>As the superuser run this:</p>

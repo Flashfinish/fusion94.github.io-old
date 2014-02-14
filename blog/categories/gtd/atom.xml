@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: GTD | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/gtd/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/gtd/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[OmniFocus vs iGTD]]></title>
-    <link href="http://fusion94.org/blog/2007/06/14/omnifocus-vs-igtd/"/>
+    <link href="http://fusion94.org//blog/2007/06/14/omnifocus-vs-igtd/"/>
     <updated>2007-06-14T12:47:00-07:00</updated>
-    <id>http://fusion94.org/blog/2007/06/14/omnifocus-vs-igtd</id>
+    <id>http://fusion94.org//blog/2007/06/14/omnifocus-vs-igtd</id>
     <content type="html"><![CDATA[<p>I used to use the Kinkless kGTD tool developed by Ethan Schoonover. It was a great tool and since it was integrated with Omni Outliner it was a perfect fit for me as a Omni Outliner user.</p>
 
 <p>When Ethan announced that he was no longer going to continue working on kGTD I was a bit bummed until I heard that kGTD was getting rolled into a new product from OmniGroup called OmniFocus. I was once more excited.</p>

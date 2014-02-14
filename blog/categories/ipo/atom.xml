@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: IPO | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/ipo/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/ipo/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I don’t think we’re in Kansas anymore ToTo..]]></title>
-    <link href="http://fusion94.org/blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto/"/>
+    <link href="http://fusion94.org//blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto/"/>
     <updated>1999-12-09T14:03:00-08:00</updated>
-    <id>http://fusion94.org/blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto</id>
+    <id>http://fusion94.org//blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto</id>
     <content type="html"><![CDATA[<p>VA went public today&hellip;.stock went out the door at $320.00 a share (or so). Closed out the day at $239.00 a share. Biggest IPO of the year.</p>
 
 <p>Wow&hellip;I&rsquo;m stunned. Absolutely stunned&hellip;as well as half drunk.</p>

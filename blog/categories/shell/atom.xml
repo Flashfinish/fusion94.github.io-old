@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: shell | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/shell/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/shell/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Top 10 Shell Commands used]]></title>
-    <link href="http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used/"/>
+    <link href="http://fusion94.org//blog/2013/12/09/top-10-shell-commands-used/"/>
     <updated>2013-12-09T09:26:00-08:00</updated>
-    <id>http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used</id>
+    <id>http://fusion94.org//blog/2013/12/09/top-10-shell-commands-used</id>
     <content type="html"><![CDATA[<p>From time to time, I like to analyze which unix or linux shell commands I&rsquo;m using most frequently. To do this, all I need is a little awk, like the following:</p>
 
 <p><code>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Internet | fusion94]]></title>
-  <link href="http://fusion94.org/blog/categories/internet/atom.xml" rel="self"/>
-  <link href="http://fusion94.org/"/>
-  <updated>2014-02-07T09:52:39-08:00</updated>
-  <id>http://fusion94.org/</id>
+  <link href="http://fusion94.org//blog/categories/internet/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-13T17:34:03-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dumping PacBell/SBC/AT&T]]></title>
-    <link href="http://fusion94.org/blog/2007/06/07/dumping-pacbell-sbc-at-and-t/"/>
+    <link href="http://fusion94.org//blog/2007/06/07/dumping-pacbell-sbc-at-and-t/"/>
     <updated>2007-06-07T12:05:00-07:00</updated>
-    <id>http://fusion94.org/blog/2007/06/07/dumping-pacbell-sbc-at-and-t</id>
+    <id>http://fusion94.org//blog/2007/06/07/dumping-pacbell-sbc-at-and-t</id>
     <content type="html"><![CDATA[<p>And this is the reason.</p>
 
 <center>
