@@ -112,6 +112,74 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2008-01-29T09:33:00-08:00" pubdate data-updated="true">Jan 29<span>th</span>, 2008</time>
+        
+           | <a href="/blog/2008/01/29/drupal-themes-mission-statement/#disqus_thread"
+             data-disqus-identifier="http://fusion94.org//blog/2008/01/29/drupal-themes-mission-statement/">Comments</a>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/2008/01/29/drupal-themes-mission-statement/">Drupal Themes Mission Statement</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>In some <a href="http://drupal.org/project/Themes">Drupal Themes</a> there is support for displaying the &ldquo;Mission Statement&rdquo; across all pages and in others this support is limited to the &ldquo;Front Page&rdquo; or &ldquo;Main Page&rdquo;.</p>
+
+<p>If you are ever using one of the themes with limited mission statement support and want to display the mission statement across all pages you can use this to do so.</p>
+
+<p>In template.php add the following to the bottom of the file:</p>
+
+<p><code>function _phptemplate_variables($hook, $vars = array()) {
+  // Make custom variables available to theme templates
+  switch ($hook) {</p>
+
+<pre><code>// Send new variable $custom_mission to page.tpl.php
+case 'page':
+  $vars['custom_mission'] = variable_get('site_mission', '');
+  break;
+</code></pre>
+
+<p>  }
+  return $vars;
+}
+</code></p>
+
+<p>Then in page.tpl.php change:</p>
+
+<p><code>&lt;?php if ($mission) { ?><h3 id="mission">&lt;?php print $mission ?></h3>&lt;?php } ?></code>
+to be</p>
+
+<p><code>&lt;?php if ($custom_mission) { ?><h3 id="mission">&lt;?php print $custom_mission ?></h3>&lt;?php } ?></code></p>
+
+<p>These 2 changes should allow the &ldquo;Mission Statement&rdquo; to be displayed across all pages.</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2008-01-28T16:34:00-08:00" pubdate data-updated="true">Jan 28<span>th</span>, 2008</time>
         
            | <a href="/blog/2008/01/28/new-drupal-5-release/#disqus_thread"
@@ -478,46 +546,6 @@ God willing, I&rsquo;ll see you on the other side</p>
 
 
   <div class="entry-content clearfix"><p>I upgraded wordpress last night and need to fix all my plugins so please be patient.</p>
-</div>
-  
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2007-11-22T11:20:00-08:00" pubdate data-updated="true">Nov 22<span>nd</span>, 2007</time>
-        
-           | <a href="/blog/2007/11/22/happy-turkey-day-turkeys/#disqus_thread"
-             data-disqus-identifier="http://fusion94.org//blog/2007/11/22/happy-turkey-day-turkeys/">Comments</a>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/2007/11/22/happy-turkey-day-turkeys/">Happy Turkey Day Turkeys…</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p><img src="/images/Thanksgiving.jpg" alt="" /></p>
 </div>
   
   
