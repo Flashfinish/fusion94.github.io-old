@@ -112,6 +112,58 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-07-01T02:36:00-07:00" pubdate data-updated="true">Jul 1<span>st</span>, 2005</time>
+        
+           | <a href="/blog/2005/07/01/firefox-memory-leaks-other-issues/#disqus_thread"
+             data-disqus-identifier="http://fusion94.org//blog/2005/07/01/firefox-memory-leaks-other-issues/">Comments</a>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/2005/07/01/firefox-memory-leaks-other-issues/">Firefox Memory Leaks/Other Issues.</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>So if you&rsquo;ve used Firefox you&rsquo;ve probably noticed that it suffers from what can be described as a fairly harsh <i>&ldquo;memory leak&rdquo;</i>. The main cause of the problem appears to lie within the plugin for Flash content. There are 2 workarounds that I&rsquo;ve located.</p>
+
+<p>The first is rather straightforward and simple but wasn&rsquo;t practical for me. All you have to do is un-install/remove the flash plugin and performance increases significantly.</p>
+
+<p>The other option (and the one I&rsquo;m using) requires you to make some changes to the Firefox configuration. This is how you fix this &ldquo;memory leak&rdquo; problem. (It&rsquo;s not actually a leak, it just doesn&rsquo;t flush the cache it has.)</p>
+
+<p>1)Type <i>about:config</i> into the location bar and press enter
+2)Right click any line to bring up a sub-menu
+3)Choose &ldquo;new&rdquo;>&ldquo;integer&rdquo;
+4)paste this into the dialogue that appears: <i>browser.cache.memory.capacity</i>
+5)Next click Okay
+6)Specify the amount in kb (about 60000 should do) in the next dialogue that appears
+7)Restart Firefox and happy surfing.</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-30T11:36:00-07:00" pubdate data-updated="true">Jun 30<span>th</span>, 2005</time>
         
            | <a href="/blog/2005/06/30/essential-mix-collection/#disqus_thread"
@@ -541,50 +593,6 @@ Bob Marley - &#8216;Could You Be Loved&#8217; (Island)</blockquote>
 <p>This last trip to SF was very productive as <a href="http://bitsplitter.net/blog">MikeR</a> and I were able to hunt down and squash an issue with our advertising system. We also spent some time on designing some additional features that needs to be added to the advertising system. We start work on implementing those features on Monday.</p>
 
 <p><a href="http://feedster.com">Work</a> is also making is very difficult (in a good way) for me to stay in Texas. I haven&rsquo;t agreed to anything just yet but I am going to actually look at moving back to California. (and oh yeah, we&rsquo;ve also crossed the 10 Million Indexed Feeds barrier)</p>
-</div>
-  
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2005-06-25T20:58:00-07:00" pubdate data-updated="true">Jun 25<span>th</span>, 2005</time>
-        
-           | <a href="/blog/2005/06/25/drinks-and-more-drinks/#disqus_thread"
-             data-disqus-identifier="http://fusion94.org//blog/2005/06/25/drinks-and-more-drinks/">Comments</a>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/2005/06/25/drinks-and-more-drinks/">Drinks and More Drinks</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p>So I headed over to <a href="http://bitsplitter.net/blog/">MikeR&rsquo;s</a> (also a fellow Feedster employee) last night for some drinks and a hacking/general BS session.</p>
-
-<p><a href="http://www.russellbeattie.com/notebook/">Russell Beattie</a> showed up with his <a href="http://www.russellbeattie.com/notebook/1008512.html">Elmo EV-400AF Visual Presenter</a> and showed it off. It&rsquo;s hella cool.</p>
-
-<p>Seni (I know I probably just killed that&hellip;sorry) also showed up and showed us <a href="http://www.gefilter.com/gefilter.html"> Gefilter Fish</a> a Collaborative Event Planner that he&rsquo;s been working on. It&rsquo;s also pretty cool so go give it a spin.</p>
 </div>
   
   
