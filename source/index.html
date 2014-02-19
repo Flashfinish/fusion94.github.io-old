@@ -1,33 +1,61 @@
 ---
-layout: default
-navbar: Blog
+layout: page
+title: " "
+date: 2013-08-16 23:48
+comments: true
+show_title: false
+sidebar: false
+hero_unit: true
+is_homepage: true
 ---
 
-<div class="row">
-  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% endunless %}">
-    <div class="blog-index">
-      {% assign index = true %}
-      {% for post in paginator.posts %}
-      {% assign content = post.content %}
-        <article class="post">
-          {% include article.html %}
-        </article>
-      {% endfor %}
+<center>
+<h4><font color="#049cdb">// </font>Here's a short list of some Open Source projects that I've contributed to significantly.<font color="#049cdb"> \\\</font></h4>
+</center>
+<br>
+
+<div class="grid-wrapper">
+  <div class="grid">
+    <div class="grid__item one-third lap-one-whole palm-one-whole usp">
+      <div class="grid">
+        <div class="grid__item one-whole lap-one-third">
+          <span class="icon">
+            <i class="icon-book"></i>
+          </span>
+        </div>
+
+        <div class="grid__item one-whole lap-two-thirds">
+          {% include custom/grid_item_left.html %}
+        </div>
+      </div>
     </div>
 
-    <ul class="pager">
-      {% if paginator.next_page %}
-        <li class="previous"><a href="{{paginator.next_page}}">&larr;&nbsp;Older</a></li>
-      {% else %}
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
-      {% endif %}
-      <li><a href="/blog/archives">Blog Archives</a></li>
-      {% if paginator.previous_page %}
-        <li class="next"><a href="{{paginator.previous_page}}">Newer&nbsp;&rarr;</a></li>
-      {% else %}
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
-      {% endif %}
-    </ul>
-  </div>
+    <div class="grid__item one-third lap-one-whole palm-one-whole usp">
+      <div class="grid">
+        <div class="grid__item one-whole lap-one-third">
+          <span class="icon">
+            <i class="icon-compass"></i>
+          </span>
+        </div>
 
+        <div class="grid__item one-whole lap-two-thirds">
+          {% include custom/grid_item_middle.html %}        
+        </div>
+      </div>
+    </div>
+
+    <div class="grid__item one-third lap-one-whole palm-one-whole usp">
+      <div class="grid">
+        <div class="grid__item one-whole lap-one-third">
+          <span class="icon">
+            <i class="icon-comment"></i>
+          </span>
+        </div>
+		 
+        <div class="grid__item one-whole lap-two-thirds">
+         {% include custom/grid_item_right.html %}        
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

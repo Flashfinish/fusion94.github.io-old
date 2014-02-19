@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://fusion94.org
-title: fusion94
+url: http://fusion94.org/
+title: Tony Guntharp
 subtitle: Random posts about Hardware/Software
 author: fusion94
 simple_search: http://google.com/search
@@ -19,7 +19,15 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: fusion94@gmail.com
+
+social:
+  title: Follow Me!
+  adn: fusion94
+  github: fusion94
+  googleplus: 101024956573508432752
+  linkedin: fusion94
+  twitter: fusion94
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -90,3 +98,8 @@ google_analytics_tracking_id: UA-83223-8
 
 # Facebook Like
 facebook_like: true
+
+linklog_marker:
+linklog_marker_position:
+linklog_marker_position_feed:
+standard_post_marker: "&#9733; "
