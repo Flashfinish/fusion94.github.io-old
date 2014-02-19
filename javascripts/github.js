@@ -1,32 +1,28 @@
-var github = (function(){
-  function escapeHtml(str) {
-    return $('<div/>').text(str).html();
-  }
-  function render(target, repos){
-    var i = 0, fragment = '', t = $(target)[0];
-
-    for(i = 0; i < repos.length; i++) {
-      fragment += '<li><a href="'+repos[i].html_url+'">'+repos[i].name+'</a><p>'+escapeHtml(repos[i].description||'')+'</p></li>';
-    }
-    t.innerHTML = fragment;
-  }
-  return {
-    showRepos: function(options){
-      $.ajax({
-          url: "https://api.github.com/users/"+options.user+"/repos?sort=pushed&callback=?"
-        , dataType: 'jsonp'
-        , error: function (err) { $(options.target + ' li.loading').addClass('error').text("Error loading feed"); }
-        , success: function(data) {
-          var repos = [];
-          if (!data || !data.data) { return; }
-          for (var i = 0; i < data.data.length; i++) {
-            if (options.skip_forks && data.data[i].fork) { continue; }
-            repos.push(data.data[i]);
-          }
-          if (options.count) { repos.splice(options.count); }
-          render(options.target, repos);
-        }
+jQuery.githubUser = function(username, callback) {
+   jQuery.getJSON('https://api.github.com/users/'+username+'/repos?callback=?',callback)
+}
+ 
+jQuery.fn.loadRepositories = function(username) {
+    this.html("<span>Querying GitHub for " + username +"'s repositories...</span>");
+     
+    var target = this;
+    $.githubUser(username, function(data) {
+        var repos = data.data; // JSON Parsing
+        sortByName(repos);    
+     
+        var list = $('<dl/>');
+        target.empty().append(list);
+        $(repos).each(function() {
+            if (this.name != (username.toLowerCase()+'.github.com')) {
+                list.append('<dt><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a> <em>'+(this.language?('('+this.language+')'):'')+'</em></dt>');
+                list.append('<dd>' + this.description +'</dd>');
+            }
+        });      
       });
+      
+    function sortByName(repos) {
+        repos.sort(function(a,b) {
+        return a.name - b.name;
+       });
     }
-  };
-})();
+};
