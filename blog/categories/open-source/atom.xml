@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Open Source | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:55:51-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
+    <link href="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
+    <updated>2013-02-01T07:23:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+    <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
+
+<p>As part of that upcoming blog post I&rsquo;m announcing a Custom Character Generator for LCD Panels.</p>
+
+<p>You can play around with it <a href="http://fusion94.org/lcdchargen/">here</a>.</p>
+
+<!-- more -->
+
+
+<h3>Description</h3>
+
+<p>The LCD Character Generator (LCDCHARGEN) is a custom character generator to use with LCD Panels and/or LCD Shields.</p>
+
+<p>This has been tested to work with the <a href="http://www.dfrobot.com/index.php?route=product/product&amp;product_id=51#.UQvN06HDS0c">LCD Keypad Shield For Arduino</a> by <a href="http://dfrobot.com">DFRobot</a>.</p>
+
+<p>Other 16x2 LCD Panels/Shields should also work.</p>
+
+<h3>Source Code</h3>
+
+<p>This was originally developed by <a href="https://github.com/omerk/lcdchargen">Omerk Kilic</a> but now is powered by my fork located <a href="https://github.com/fusion94/lcdchargen">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
+    <link href="http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
+    <updated>2013-01-24T23:40:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
+    <content type="html"><![CDATA[<div class="info">Say Goodbye to inefficient meetinngs and email threads. Get your team off of AIM, Google Talk, Skype or IRC.</div>
+
+
+<h3>Introduction</h3>
+
+<p>Today I&rsquo;d like to introduce you to <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
+
+<p>What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.</p>
+
+<p>Unlike HipChat or other alternatives, Kandan is completely Open Source and can be hosted internally or externally by your organization or by a third party.</p>
+
+<!-- more -->
+
+
+<h3>Background</h3>
+
+<p>Kandan was originally developed by <a href="http://cloudfuji.com/">Cloudfuji</a> and they started development on it back on March 6th of 2012. Development went pretty fast and furious until about June 4th of 2012. After that there wasn&rsquo;t another commit to the repository until some pull requests came in during the month of January of 2013.</p>
+
+<p>In talking with the team at Cloudfuji both <a href="http://jamesrgifford.com/">James Gifford</a> and I agreed to take over maintenance of the project.</p>
+
+<h3>Features</h3>
+
+<p>These are features that work out of the box on any provider:</p>
+
+<ul>
+<li>Easy deploy to CloudFoundry, Heroku, dotCloud, etc.</li>
+<li>Collaborative team chat</li>
+<li>Unlimited channels</li>
+<li>Embed formats for images and youtube videos with requests for others (twitter, facebook, g+, etc.)</li>
+<li>Synchronized sound player &ndash; play any audio-tag compatible url for the whole channel (Pending :P)</li>
+<li>/me command!</li>
+<li>Highly extensible plugin format</li>
+</ul>
+
+
+<h3>Get Involved</h3>
+
+<p>Since Kandan is a fully open-source app, we would appreciate if you dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.</p>
+
+<p>Make sure you check out these resources as well.</p>
+
+<ul>
+<li>GitHub <a href="https://github.com/kandanapp/kandan/issues">Issues Tracker</a></li>
+<li>Twitter <a href="https://twitter.com/kandanapp">@kandanapp</a></li>
+<li><a href="http://kandanapp.herokuapp.com/">Kandan</a> (Yes we eat our own DogFood)</li>
+</ul>
+
+
+<p>You can also email us at <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#107;&#x61;&#110;&#x64;&#97;&#110;&#x61;&#112;&#112;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6b;&#97;&#110;&#100;&#97;&#x6e;&#97;&#112;&#112;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></p>
+
+<h3>Conclusion</h3>
+
+<p>We&rsquo;re targetting a 1.0 release in just about two weeks time which will primarily consist of bug fixes. After that release we plan on doing regular minor releases that add new features so if there&rsquo;s anything you want to see in newer versions please create an <a href="https://github.com/kandanapp/kandan/issues">Issue</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
+    <link href="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/"/>
+    <updated>2013-01-16T08:06:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/16/clahub-clas-done-right</id>
+    <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
+
+
+<h3>Background</h3>
+
+<p>First of all, what exactly is a Contributor License Agreement (hereafter referred to as <strong>CLA</strong>)?</p>
+
+<p>Most of us that have been employed as Software Engineers by corporations are already intimately familiar with <strong>CLAs</strong> although in the corporate world they are generally called a <em>&ldquo;Intellectual Property Assignment Agreement&rdquo;</em>. In many ways a <strong>CLA</strong> is nothing more than that but specifically geared towards Open Source projects.</p>
+
+<p>A <strong>CLA</strong> is a legal document in which you state you are entitled to contribute the code/documentation/translation to the <strong>project</strong> you&rsquo;re contributing to and are willing to have it used in distributions and derivative works. This means that should there be any kind of legal issue in the future as to the origins and ownership of any particular piece of code, then that <strong>project</strong> has the necessary forms on file from the contributor(s) saying they were permitted to make this contribution.</p>
+
+<!-- more -->
+
+
+<p>The <strong>CLA</strong> also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date. People and companies can therefore use that software, confident that they will not be asked to stop using pieces of the code at a later date.</p>
+
+<h3>What Needs To Be In A CLA</h3>
+
+<p>The <strong>CLA</strong> needs to grant rights to a project’s owner (or owning body/organization) that enable the release of the software in question. In the simplest scenario, a <strong>CLA</strong> is not, in fact, used at all; the contributor simply assigns the copyright to the project owner. When done properly, the contributor will need to sign a statement to that effect.</p>
+
+<p>Thus the contributor needs to &ndash; at minimum &ndash; grant the rights that will be granted to the project’s owner in the distribution licence. When granting rights it is common to grant a very broad range of rights. This is in order to avoid the need to return to the contributor for authorization to take a desired action with their contribution, such as releasing under a different licence.</p>
+
+<p>A <strong>CLA</strong> should also contain personal information about the person that signs it, such as a complete name and mailing address. You should be aware of the potential implications that storing this information could have in terms of the data protection law in your country and ensure that you have a Privacy Policy in place to deal with this.</p>
+
+<h3>Recording CLAs</h3>
+
+<p>It is very, very important to record the assignment of copyright or grant of rights for each contribution or from each contributor. This means an Open Source project <strong>must</strong> track and record <strong>CLAs</strong> submitted by contributors. It is generally best to have a <strong>CLA</strong> signed and submitted to project administrators for permanent record prior to the contributor submitting his/her contributions.</p>
+
+<h3>Maintaining CLAs</h3>
+
+<p>Maintaining <strong>CLAs</strong> can be challenging but overall it is not a difficult task. It does increase the effort required to make and accept third-party contributions. Most contributors will start small; i.e., they will provide a simple bug-fix, or a spelling correction. The temptation is there to bypass the requirement of a <strong>CLA</strong> for small contributions.</p>
+
+<p>This begs the the question, <em>&ldquo;Must a <strong>CLA</strong> be in place for every contribution?&rdquo;</em></p>
+
+<p>For small contributions, the risk of loss from legal action can be small. For larger chunks of code/documentation, incorporating major functionality, the risks would be much, much higher.</p>
+
+<p>At the end of the day, it&rsquo;s really up to the project owners and stakeholders on which contributions they chose to accept with and without a <strong>CLA</strong>.</p>
+
+<h3>So who uses a CLA</h3>
+
+<p>So what notable Open Source projects are using a <strong>CLA</strong>? Here are just a few.</p>
+
+<ul>
+<li><a href="http://www.canonical.com/contributors">Canonical</a></li>
+<li><a href="https://fedoraproject.org/wiki/Legal:Licenses/CLA">Fedora</a></li>
+<li><a href="http://source.android.com/source/cla-individual.html">Android</a></li>
+<li><a href="http://mono-project.com/FAQ:_Licensing">Mono</a></li>
+<li><a href="http://www.apache.org/licenses/icla.txt">Apache</a></li>
+<li><a href="http://nodejs.org/cla.html">NodeJS</a></li>
+</ul>
+
+
+<h3>Methods of Recording a CLA</h3>
+
+<p>There are many ways to record and maintain a <strong>CLA</strong>. Some projects require that you print out, complete and sign a document then mail that document back to them. Some projects allow for scanning in a signed agreement then emailing in PDF form to a specific email address while other projects have embraced contributors signing electronically.</p>
+
+<p>Smaller Open Source projects have used electronic signature providers such as:</p>
+
+<ul>
+<li><a href="https://www.echosign.adobe.com/en/home.html">Echosign</a></li>
+<li><a href="http://www.docusign.com/">DocuSign</a></li>
+</ul>
+
+
+<p>While larger projects have rolled their own online solution.</p>
+
+<ul>
+<li><a href="https://forms.canonical.com/contributor/">Canonical</a></li>
+<li><a href="http://nodejs.org/cla.html">NodeJS</a></li>
+</ul>
+
+
+<p>You can also use <a href="http://www.harmonyagreements.org/">Harmony Agreements</a> to assist you in selecting the right <strong>CLA</strong> for your Open Source project.</p>
+
+<h3>My experience with CLAs</h3>
+
+<p>For a year, I was the Director of Developer Relations at <a href="http://www.appcelerator.com">Appcelerator</a> and part of my job was to be the default company representative and signer for the <strong>CLA</strong> we had in place. We happened to use <a href="https://www.echosign.adobe.com/en/home.html">Echosign</a> as our electronic signing tool of choice. As I haven&rsquo;t used Echosign (plus they&rsquo;ve been purchased by Adobe since then) in over a year I won&rsquo;t go into details as to whether or not it&rsquo;s any good.</p>
+
+<h4>Appcelerator CLA Workflow</h4>
+
+<p>At Appcelerator a vast majority of our work was Open Source and was hosted in public repositories over on <a href="https://github.com/appcelerator">GitHub</a>. The workflow pretty much operated like this:</p>
+
+<ol>
+<li>Fork the project.</li>
+<li>Make one or more well commented and clean commits to the forked repository.</li>
+<li>Perform a pull request in github&rsquo;s web interface.</li>
+<li>Project stakeholder would review the pull request and choose to accept/reject.</li>
+<li>If project stakeholder chose to accept, stakeholder would email me to verify if we had a signed <strong>CLA</strong> on file for the contributor.</li>
+<li>I&rsquo;d logon to Echosign and verify if there was a <strong>CLA</strong> on file for said contributor.</li>
+<li>I&rsquo;d email the project stakeholder and let him/her know if there was or wasn&rsquo;t a <strong>CLA</strong> on file.</li>
+<li>Project stakeholder would accept the pull request if we had a <strong>CLA</strong> on file or if we didn&rsquo;t they&rsquo;d reach out to the contributor and get them to sign the <strong>CLA</strong>.</li>
+<li>Once the contributor signed the <strong>CLA</strong> we had to go through steps 6-8 all over again.</li>
+</ol>
+
+
+<p>As you can imagine, this was rather inefficient and created quite a bit of friction at times. Which brings me to <a href="https://github.com/jasonm/clahub">CLAHub</a></p>
+
+<h3>CLAHub</h3>
+
+<p>I found about <a href="https://github.com/jasonm/clahub">CLAHub</a> while perusing the <a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">Octopress Sites Wiki</a> and checking out other people&rsquo;s <a href="http://octopress.org">Octopress</a> installs and themes. One of the sites I visited was the website of <a href="http://jayunit.net/">Jason Morrison</a> who is the author of CLAHub.</p>
+
+<p>I read through his <a href="http://jayunit.net/2013/01/09/clahub-easy-contributor-agreements-on-github/">blog post</a> and fell in love with the idea and the concept.</p>
+
+<p><strong>This is how Jason describes it:</strong></p>
+
+<blockquote><p>With CLAHub and an open source project on GitHub you can:</p>
+
+<ul>
+<li>Sign in with GitHub and create a CLA for your project.</li>
+<li>Ask contributors to sign in with GitHub to electronically sign the CLA.</li>
+<li>See on each pull request whether the contributors have all signed your CLA. This uses the handy Commit Status API, similar to what CI tools do.</li>
+</ul>
+</blockquote>
+
+<p>As a bonus Jason has released it as Open Source under the permissive <a href="https://raw.github.com/jasonm/clahub/master/LICENSE">MIT license</a>.</p>
+
+<p>To find out more about the project then please visit these links:</p>
+
+<ul>
+<li><a href="http://www.clahub.com/">CLAHub Site</a></li>
+<li><a href="https://github.com/jasonm/clahub">GitHub Code</a></li>
+<li><a href="https://github.com/jasonm/clahub/issues">GitHub Issues</a></li>
+<li><a href="http://jayunit.net/2013/01/09/clahub-easy-contributor-agreements-on-github/">Jason&rsquo;s Original Blog Post</a></li>
+</ul>
+
+
+<p>One thing to note is that CLAHub currently only works for <strong>public</strong> repositories and <strong>NOT private</strong> repositories.</p>
+
+<h3>Conclusion</h3>
+
+<p>If CLAHub had been available during my time at Appcelerator we definitely would have used it as it removes almost <strong>ALL</strong> of the friction points listed above.</p>
+
+<p>If you&rsquo;re a developer with an Open Source project hosted on GitHub or an organization that&rsquo;s doing the same then you should really take the time to evaluate CLAHub as it just integrates nicely with the existing tools and methods that you are more than likely already using.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Legendary for iOS]]></title>
+    <link href="http://fusion94.org/blog/2013/01/15/legendary-for-ios/"/>
+    <updated>2013-01-15T06:40:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/15/legendary-for-ios</id>
+    <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
+
+<p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>
+
+<p>As an aside this is <strong>only</strong> the mobile client side of the application. There&rsquo;s a server side component as well that will also be open sourced later this week.</p>
+
+<!-- more -->
+
+
+<p>Below is all the data from the README.md on <a href="http://github.com">GitHub</a></p>
+
+<hr />
+
+<h3>Description</h3>
+
+<p>Legendary displays catchphrases and memorable quotes from the character Barney Stinson.</p>
+
+<p>Browse and discover the only collection of Barney Stinson quotes available on the iPhone!</p>
+
+<p>Who is Barney Stinson?</p>
+
+<ul>
+<li>He is a womanizer, favors suits, laser tag, and uses the words &ldquo;awesome&rdquo; and &ldquo;legendary&rdquo; frequently.</li>
+<li>Barney is almost always seen wearing a suit and makes great use of his catchphrase, &ldquo;Suit up!&rdquo;, often modifying it for a particular situation (i.e., &ldquo;Snowsuit up!&rdquo; while making an igloo in Central Park, or &ldquo;Flight suit up!&rdquo; when he dresses as a &ldquo;kick a** fighter pilot&rdquo; for Halloween, or &ldquo;Slut Up!&rdquo; when Lily and Robin get ready to go to a high school prom, or when he says &ldquo;Space suit up Ted, &lsquo;cause you&rsquo;re going to the moon,&rdquo; in the episode where Ted may or may not have a threesome).</li>
+</ul>
+
+
+<h3>What&rsquo;s New in Version 1.2</h3>
+
+<ul>
+<li>All New 5 Suit Rating System</li>
+<li>Quotes are broken down by season</li>
+<li>All new popular system</li>
+<li>Randomize function</li>
+</ul>
+
+
+<h3>Coming Soon:</h3>
+
+<ul>
+<li>Search Functionality</li>
+<li>Ability to send to friend</li>
+<li>Ability to send to Twitter</li>
+<li>Ability to send to Facebook</li>
+</ul>
+
+
+<p>Follow us on Twitter:
+<a href="http://twitter.com/legendaryapp">@legendaryapp</a></p>
+
+<p>You can always download a binary in the <a href="https://itunes.apple.com/us/app/legendary/id317444914?mt=8">iTunes Store</a></p>
+
+<h3>Screenshots:</h3>
+
+<p><img src="/images/blog/legendary/screenshots/legendary1.jpg">
+<img src="/images/blog/legendary/screenshots/legendary2.jpg">
+<img src="/images/blog/legendary/screenshots/legendary3.jpg">
+<img src="/images/blog/legendary/screenshots/legendary4.jpg">
+<img src="/images/blog/legendary/screenshots/legendary5.jpg"></p>
+
+<h3>The Details:</h3>
+
+<p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment.</p>
+
+<h3>Contributing:</h3>
+
+<p>If you care to contribute at all then please see the <a href="https://github.com/fusion94/Legendary/blob/master/CONTRIBUTING.md">CONTRIBUTING File</a> for more details.</p>
+
+<h3>License:</h3>
+
+<p>This application is licensed under the Mozilla Public License Version 2.0. Please see the <a href="https://github.com/fusion94/Legendary/blob/master/LICENSE">LICENSE File</a> for more details.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
+    <link href="http://fusion94.org/blog/2013/01/13/infoboxes-using-css/"/>
+    <updated>2013-01-13T16:22:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/13/infoboxes-using-css</id>
+    <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
+
+<p>These <code>InfoBoxes</code> were used to display notes, warnings and the like whenever it seemed appropriate. Here are links to the original macros from Confluence.</p>
+
+<ul>
+<li><a href="https://confluence.atlassian.com/display/DOC/Info+Macro">Info Macro</a></li>
+<li><a href="https://confluence.atlassian.com/display/DOC/Tip+Macro">Tip Macro</a></li>
+<li><a href="https://confluence.atlassian.com/display/DOC/Note+Macro">Note Macro</a></li>
+<li><a href="https://confluence.atlassian.com/display/DOC/Warning+Macro">Warning Macro</a></li>
+</ul>
+
+
+<!-- more -->
+
+
+<h4>Old InfoBoxes:</h4>
+
+<p>And here&rsquo;s what the old <code>InfoBoxes</code> looked like:</p>
+
+<div class="oldinfo">This is an example of the Old InfoBox.</div>
+
+
+
+
+<div class="oldsuccess">This is an example of the Old SuccessBox.</div>
+
+
+
+
+<div class="oldwarning">This is an example of the Old WarningBox.</div>
+
+
+
+
+<div class="olderror">This is an example of the Old ErrorBox.</div>
+
+
+<p>Here&rsquo;s the old CSS that generated these old <code>InfoBoxes</code></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>CSS for Confluence Style Macro Boxes </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>.oldinfo, .oldsuccess, .oldwarning, .olderror {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>border: 1px solid;
+</span><span class='line'>margin: 10px 0px;
+</span><span class='line'>padding:15px 10px 15px 50px;
+</span><span class='line'>background-repeat: no-repeat;
+</span><span class='line'>background-position: 10px center;
+</span><span class='line'>}
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.oldinfo {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>color: #00529B;
+</span><span class='line'>background-color: #BDE5F8;
+</span><span class='line'>background-image: url('/images/info.png');
+</span><span class='line'>-moz-border-radius: 10px;
+</span><span class='line'>border-radius: 10px;
+</span><span class='line'>}
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.oldsuccess {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>color: #4F8A10;
+</span><span class='line'>background-color: #DFF2BF;
+</span><span class='line'>background-image:url('/images/success.png');
+</span><span class='line'>-moz-border-radius: 10px;
+</span><span class='line'>border-radius: 10px;    
+</span><span class='line'>}
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.oldwarning {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>color: #9F6000;
+</span><span class='line'>background-color: #FEEFB3;
+</span><span class='line'>background-image: url('/images/warning.png');
+</span><span class='line'> -moz-border-radius: 10px;
+</span><span class='line'>border-radius: 10px;   
+</span><span class='line'>}
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.olderror {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>color: #D8000C;
+</span><span class='line'>background-color: #FFBABA;
+</span><span class='line'>background-image: url('/images/error.png');
+</span><span class='line'>-moz-border-radius: 10px;
+</span><span class='line'>border-radius: 10px;    
+</span><span class='line'>}
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p></span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>New InfoBoxes:</h4>
+
+<p>The new <code>InfoBoxes</code> no longer use an image and use pure CSS 3. Here is what they look like:</p>
+
+<p><strong>Style 1</strong></p>
+
+<div class="info">Info: This is an example of the New InfoBox.</div>
+
+
+
+
+<div class="success">Success: This is an example of the New SuccessBox.</div>
+
+
+
+
+<div class="warning">Warning: This is an example of the New WarningBox.</div>
+
+
+
+
+<div class="error">Error: This is an example of the New ErrorBox.</div>
+
+
+<p><strong>Style 2</strong></p>
+
+<div class="infobox">Info: This is an example of the New InfoBox.</div>
+
+
+
+
+<div class="successbox">Success: This is an example of the New SuccessBox.</div>
+
+
+
+
+<div class="warningbox">Warning: This is an example of the New WarningBox.</div>
+
+
+
+
+<div class="errorbox">Error: This is an example of the New ErrorBox.</div>
+
+
+<p>And here&rsquo;s the new CSS that generates these new <code>InfoBoxes</code></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>New InfoBoxes using Pure CSS 3 </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+<span class='line-number'>121</span>
+<span class='line-number'>122</span>
+<span class='line-number'>123</span>
+<span class='line-number'>124</span>
+<span class='line-number'>125</span>
+<span class='line-number'>126</span>
+<span class='line-number'>127</span>
+<span class='line-number'>128</span>
+<span class='line-number'>129</span>
+<span class='line-number'>130</span>
+<span class='line-number'>131</span>
+<span class='line-number'>132</span>
+<span class='line-number'>133</span>
+<span class='line-number'>134</span>
+<span class='line-number'>135</span>
+<span class='line-number'>136</span>
+<span class='line-number'>137</span>
+<span class='line-number'>138</span>
+<span class='line-number'>139</span>
+<span class='line-number'>140</span>
+<span class='line-number'>141</span>
+<span class='line-number'>142</span>
+<span class='line-number'>143</span>
+<span class='line-number'>144</span>
+<span class='line-number'>145</span>
+<span class='line-number'>146</span>
+<span class='line-number'>147</span>
+<span class='line-number'>148</span>
+<span class='line-number'>149</span>
+<span class='line-number'>150</span>
+<span class='line-number'>151</span>
+<span class='line-number'>152</span>
+<span class='line-number'>153</span>
+<span class='line-number'>154</span>
+<span class='line-number'>155</span>
+<span class='line-number'>156</span>
+<span class='line-number'>157</span>
+<span class='line-number'>158</span>
+<span class='line-number'>159</span>
+<span class='line-number'>160</span>
+<span class='line-number'>161</span>
+<span class='line-number'>162</span>
+<span class='line-number'>163</span>
+<span class='line-number'>164</span>
+<span class='line-number'>165</span>
+<span class='line-number'>166</span>
+<span class='line-number'>167</span>
+<span class='line-number'>168</span>
+<span class='line-number'>169</span>
+<span class='line-number'>170</span>
+<span class='line-number'>171</span>
+<span class='line-number'>172</span>
+<span class='line-number'>173</span>
+<span class='line-number'>174</span>
+<span class='line-number'>175</span>
+<span class='line-number'>176</span>
+<span class='line-number'>177</span>
+<span class='line-number'>178</span>
+<span class='line-number'>179</span>
+<span class='line-number'>180</span>
+<span class='line-number'>181</span>
+<span class='line-number'>182</span>
+<span class='line-number'>183</span>
+<span class='line-number'>184</span>
+<span class='line-number'>185</span>
+<span class='line-number'>186</span>
+<span class='line-number'>187</span>
+<span class='line-number'>188</span>
+<span class='line-number'>189</span>
+<span class='line-number'>190</span>
+<span class='line-number'>191</span>
+<span class='line-number'>192</span>
+<span class='line-number'>193</span>
+<span class='line-number'>194</span>
+<span class='line-number'>195</span>
+<span class='line-number'>196</span>
+<span class='line-number'>197</span>
+<span class='line-number'>198</span>
+<span class='line-number'>199</span>
+<span class='line-number'>200</span>
+<span class='line-number'>201</span>
+<span class='line-number'>202</span>
+<span class='line-number'>203</span>
+<span class='line-number'>204</span>
+<span class='line-number'>205</span>
+<span class='line-number'>206</span>
+<span class='line-number'>207</span>
+<span class='line-number'>208</span>
+<span class='line-number'>209</span>
+<span class='line-number'>210</span>
+<span class='line-number'>211</span>
+<span class='line-number'>212</span>
+<span class='line-number'>213</span>
+<span class='line-number'>214</span>
+<span class='line-number'>215</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>.info {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#075698; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+</span><span class='line'>background:-moz-linear-gradient(#2e88c4, #075698);
+</span><span class='line'>background:-o-linear-gradient(#2e88c4, #075698);
+</span><span class='line'>background:linear-gradient(#2e88c4, #075698);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.success {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#5a8f00; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#b8db29), to(#5a8f00));
+</span><span class='line'>background:-moz-linear-gradient(#b8db29, #5a8f00);
+</span><span class='line'>background:-o-linear-gradient(#b8db29, #5a8f00);
+</span><span class='line'>background:linear-gradient(#b8db29, #5a8f00);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.warning {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#f3961c; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#f9d835), to(#f3961c));
+</span><span class='line'>background:-moz-linear-gradient(#f9d835, #f3961c);
+</span><span class='line'>background:-o-linear-gradient(#f9d835, #f3961c);
+</span><span class='line'>background:linear-gradient(#f9d835, #f3961c);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.error {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#c81e2b; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#f04349), to(#c81e2b));
+</span><span class='line'>background:-moz-linear-gradient(#f04349, #c81e2b);
+</span><span class='line'>background:-o-linear-gradient(#f04349, #c81e2b);
+</span><span class='line'>background:linear-gradient(#f04349, #c81e2b);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.infobox {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#075698; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+</span><span class='line'>background:-moz-linear-gradient(#2e88c4, #075698);
+</span><span class='line'>background:-o-linear-gradient(#2e88c4, #075698);
+</span><span class='line'>background:linear-gradient(#2e88c4, #075698);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.infobox:after {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>content:"";
+</span><span class='line'>position:absolute;
+</span><span class='line'>bottom:-20px; /* value = - border-top-width - border-bottom-width */
+</span><span class='line'>left:50px; /* controls horizontal position */
+</span><span class='line'>border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+</span><span class='line'>border-style:solid;
+</span><span class='line'>border-color:#075698 transparent; 
+</span><span class='line'>/* reduce the damage in FF3.0 */
+</span><span class='line'>display:block; 
+</span><span class='line'>width:0;  
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.successbox {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#5a8f00; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#b8db29), to(#5a8f00));
+</span><span class='line'>background:-moz-linear-gradient(#b8db29, #5a8f00);
+</span><span class='line'>background:-o-linear-gradient(#b8db29, #5a8f00);
+</span><span class='line'>background:linear-gradient(#b8db29, #5a8f00);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.successbox:after {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>content:"";
+</span><span class='line'>position:absolute;
+</span><span class='line'>bottom:-20px; /* value = - border-top-width - border-bottom-width */
+</span><span class='line'>left:50px; /* controls horizontal position */
+</span><span class='line'>border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+</span><span class='line'>border-style:solid;
+</span><span class='line'>border-color:#5a8f00 transparent; 
+</span><span class='line'>/* reduce the damage in FF3.0 */
+</span><span class='line'>display:block; 
+</span><span class='line'>width:0;  
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.warningbox {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#f3961c; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#f9d835), to(#f3961c));
+</span><span class='line'>background:-moz-linear-gradient(#f9d835, #f3961c);
+</span><span class='line'>background:-o-linear-gradient(#f9d835, #f3961c);
+</span><span class='line'>background:linear-gradient(#f9d835, #f3961c);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.warningbox:after {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>content:"";
+</span><span class='line'>position:absolute;
+</span><span class='line'>bottom:-20px; /* value = - border-top-width - border-bottom-width */
+</span><span class='line'>left:50px; /* controls horizontal position */
+</span><span class='line'>border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+</span><span class='line'>border-style:solid;
+</span><span class='line'>border-color:#f3961c transparent; 
+</span><span class='line'>/* reduce the damage in FF3.0 */
+</span><span class='line'>display:block; 
+</span><span class='line'>width:0;  
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.errorbox {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>position:relative;
+</span><span class='line'>padding:15px;
+</span><span class='line'>margin:1em 0 3em;
+</span><span class='line'>color:#fff;
+</span><span class='line'>background:#c81e2b; /* default background for browsers without gradient support */
+</span><span class='line'>/* css3 */
+</span><span class='line'>background:-webkit-gradient(linear, 0 0, 0 100%, from(#f04349), to(#c81e2b));
+</span><span class='line'>background:-moz-linear-gradient(#f04349, #c81e2b);
+</span><span class='line'>background:-o-linear-gradient(#f04349, #c81e2b);
+</span><span class='line'>background:linear-gradient(#f04349, #c81e2b);
+</span><span class='line'>-webkit-border-radius:10px;
+</span><span class='line'>-moz-border-radius:10px;
+</span><span class='line'>border-radius:10px;
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>.errorbox:after {&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>content:"";
+</span><span class='line'>position:absolute;
+</span><span class='line'>bottom:-20px; /* value = - border-top-width - border-bottom-width */
+</span><span class='line'>left:50px; /* controls horizontal position */
+</span><span class='line'>border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+</span><span class='line'>border-style:solid;
+</span><span class='line'>border-color:#c81e2b transparent; 
+</span><span class='line'>/* reduce the damage in FF3.0 */
+</span><span class='line'>display:block; 
+</span><span class='line'>width:0;  
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p>}</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Feel free to use whichever bits you like if you&rsquo;ve found this to be useful.</p>
+]]></content>
+  </entry>
+  
+</feed>

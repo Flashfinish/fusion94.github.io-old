@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: UAVs | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/uavs/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:55:51-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[UAVs]]></title>
+    <link href="http://fusion94.org/blog/2008/02/19/uavs/"/>
+    <updated>2008-02-19T12:32:00-08:00</updated>
+    <id>http://fusion94.org/blog/2008/02/19/uavs</id>
+    <content type="html"><![CDATA[<p>UAV&rsquo;s or unmanned aerial vehicle, sometimes called an unmanned air-reconnaissance vehicle, is an unpiloted aircraft. UAVs can be remote controlled or fly autonomously based on pre-programmed flight plans or more complex dynamic automation systems.</p>
+
+<p>Wired Science has a video about them which I&rsquo;ve embedded below. About &frac12; through the video Wired talks to Adam Williams about his helicopoter UAV. It was surprise to see it as Adam worked at VA Software back in the day doing linear video editing software.</p>
+
+<object width="425" height="265"> <param name="movie" value="http://www.pbs.org/kcet/wiredscience/video/embed/163"></param> <param name="wmode" value="transparent"></param> <embed src="http://www.pbs.org/kcet/wiredscience/video/embed/163" quality="high" wmode="transparent" width="425" height="265" type="application/x-shockwave-flash"></embed> </object>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>

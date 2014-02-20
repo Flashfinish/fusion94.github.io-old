@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: PHP | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/php/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:55:51-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ANT and Zend Studio]]></title>
+    <link href="http://fusion94.org/blog/2009/01/12/ant-and-zend-studio/"/>
+    <updated>2009-01-12T08:25:00-08:00</updated>
+    <id>http://fusion94.org/blog/2009/01/12/ant-and-zend-studio</id>
+    <content type="html"><![CDATA[<p>Zend Studio for Eclipse is a commercial edition of Eclipse plus the PDT plugin and various other additions. Unfortunately Zend decided to disable the Ant plugin in it&rsquo;s distribution of the Eclipse platform. Nonetheless if you&rsquo;d like to run Ant scripts or simple Phing scripts it would be really useful to be able to use the Ant integration of Eclipse.</p>
+
+<p><b>Preparation</b>
+First you need to make sure that the Eclipse Java Development Tools are available in Zend Studio for Eclipse.</p>
+
+<ul> 
+<li>From the Help menu click Software Updates > Manage Configuration. 
+<li>Check for the entry Eclipse Java Development Tools. 
+</ul>
+
+
+<p>If the entry is not listed or disabled, you need to install the Eclipse feature.</p>
+
+<ul>
+<li>From the Help menu click Software Updates > Find and Install. 
+<li>Click Search for new features to install. 
+<li>Check Europa Discovery Site and click Next. 
+<li>Select Java Development Tools and click Finish to install the feature. 
+<li>Restart Zend Studio for Eclipse. 
+</ul>
+
+
+<p><b>How to enable the Ant integration</b>
+Now it gets a little tricky.</p>
+
+<ul>
+<li>From the File menu click New > Project. 
+<li>Check Show All Wizards. 
+<img src="http://fusion94.org/images/zend-ant/1.jpg">
+<li>In the Wizards text field enter Ant, select Java Project from Existing Ant Buildfile and click Next. 
+<img src="http://fusion94.org/images/zend-ant/2.jpg">
+<li>You will be asked to enable Ant Development - confirm with Yes. 
+<img src="http://fusion94.org/images/zend-ant/3.jpg">
+<li>Now you can cancel the new Java Project - Ant has been activated. 
+</ul>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Zend Framework and svn:externals]]></title>
+    <link href="http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals/"/>
+    <updated>2008-12-17T23:41:00-08:00</updated>
+    <id>http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals</id>
+    <content type="html"><![CDATA[<p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
+
+<p>I had used svn:externals quite a bit while at <a href="http://contentcircles.com">Content Circles</a> to pull down vendor branches and decided to re-implement this at <a href="http://www.skyfire.com">Skyfire</a>.</p>
+
+<p>In case you aren&rsquo;t aware of <a href="http://svnbook.red-bean.com/nightly/en/svn-book.html#svn.advanced.externals">svn:externals</a> here&rsquo;s a bit of a description.</p>
+
+<blockquote><p>An externals definition is a mapping of a local directory to the URL—and ideally a particular revision—of a versioned directory. In Subversion, you declare externals definitions in groups using the svn:externals property. You can create or modify this property using svn propset or svn propedit. It can be set on any versioned directory, and its value describes both the external repository location and the client-side directory to which that location should be checked out.</p>
+
+<p>The convenience of the svn:externals property is that once it is set on a versioned directory, everyone who checks out a working copy with that directory also gets the benefit of the externals definition. In other words, once one person has made the effort to define the nested working copy structure, no one else has to bother—Subversion will, after checking out the original working copy, automatically also check out the external working copies.</p></blockquote>
+
+<p>To implement this is fairly easy and straightforward. Lets say that we have two (2) Zend Framework projects that we want to implement this with and our project repository layout looks like this:</p>
+
+<pre>code/
+    branches/
+        reporting/
+            application/
+            library/
+            web/
+        corporate/
+            application/
+            library/
+            web/
+    tags/
+    trunk/
+</pre>
+
+
+
+
+<ol>
+<li>Navigate to the top level of the branches directory and run:
+
+<code>svn propedit svn:externals reporting/library/.</code>
+
+<li>This will open an editor session. To pull in the external revision of Zend Framework just type in:
+
+<code>Zend http://framework.zend.com/svn/framework/standard/tags/release-1.7.1/library/Zend/</code>
+
+<li>Save and exit.
+<li>Now update the repository and commit:
+<code>svn update
+svn commit
+</code>
+</ol>
+
+
+<p>Now our project repository will look something like this:</p>
+
+<pre>code/
+    branches/
+        reporting/
+            application/
+            library/
+                Zend/
+            web/
+        corporate/
+            application/
+            library/
+            web/
+    tags/
+    trunk/
+</pre>
+
+
+<p>With the tagged release of the 1.7.1 version of Zend Framework nestled inside the library directory of the reporting branch.</p>
+
+<p>Also to note is that using this method you can set different branches to pull in different versions of the Zend Framework for production or legacy sake. For example the reporting branch pulls down the 1.7.1 version for use but we could pull in the 1.0.1 version for the corporate branch by executing this:</p>
+
+<ol>
+<li>Navigate to the top level of the branches directory and run:
+
+<code>svn propedit svn:externals corporate/library/.</code>
+
+<li>This will open an editor session. To pull in the external revision of Zend Framework just type in:
+
+<code>Zend http://framework.zend.com/svn/framework/standard/tags/release-1.0.1/library/Zend/</code>
+
+<li>Save and exit.
+<li>Now update the repository and commit:
+<code>svn update
+svn commit
+</code>
+</ol>
+
+
+<p>We now have Zend Framework 1.0.1 pulled down for use for the corporate branch.</p>
+
+<p>If you ever get confused as to which version you&rsquo;ve got pulled down you can just open up Zend/Version.php and take a look at the <code>const VERSION = &ldquo;x.x.x &rdquo;;</code> string.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Go PHP 5]]></title>
+    <link href="http://fusion94.org/blog/2007/07/06/go-php-5/"/>
+    <updated>2007-07-06T18:19:00-07:00</updated>
+    <id>http://fusion94.org/blog/2007/07/06/go-php-5</id>
+    <content type="html"><![CDATA[<p>I hope more people and projects decide to support this initiative.</p>
+
+<p><i>PHP 4 has served the web developer community for seven years now, and served it well. However, it also shows its age. Most of PHP 4&rsquo;s shortcomings have been addressed by PHP 5, released three years ago, but the transition from PHP 4 to PHP 5 has been slow for a number of reasons.</p>
+
+<p>PHP developers cannot leverage PHP 5&rsquo;s full potential without dropping support for PHP 4, but PHP 4 is still installed on a majority of shared web hosts and users would then be forced to switch to a different application. Web hosts cannot upgrade their servers to PHP 5 without making it impossible for their users to run PHP 4-targeted web apps, and have no incentive to go to the effort of testing and deploying PHP 5 while most web apps are still compatible with PHP 4 and the PHP development team still provides maintenance support for PHP 4. The PHP development team, of course, can&rsquo;t drop maintenance support for PHP 4 while most web hosts still run PHP 4.
+</i></p>
+
+<p>To learn more about this please visit: <a href="http://gophp5.org/">Go PHP5</a></p>
+]]></content>
+  </entry>
+  
+</feed>

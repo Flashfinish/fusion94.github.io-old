@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Eclipse | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/eclipse/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:55:51-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Eclipse for Drupal Development]]></title>
+    <link href="http://fusion94.org/blog/2007/06/16/eclipse-for-drupal-development/"/>
+    <updated>2007-06-16T18:07:00-07:00</updated>
+    <id>http://fusion94.org/blog/2007/06/16/eclipse-for-drupal-development</id>
+    <content type="html"><![CDATA[<p>After trying out several editors and IDE&rsquo;s for software development I&rsquo;ve decided to settle on using <a href="http://www.eclipse.org/pdt/index.php">Eclipse</a> for 95% of the work I do and I&rsquo;ll use Xcode only when forced to.</p>
+
+<p>This quick blog post will assist you in getting Eclipse configured for developing anything to do with <a href="http://drupal.org">Drupal</a>.</p>
+
+<p>There are a few versions of Eclipse but the one I&rsquo;ve found that works best for Drupal Development is the version put out by the <a href="http://www.eclipse.org/pdt/index.php">PDT Project</a>. The PDT project is working towards providing a PHP Development Tools framework for the Eclipse platform. This project will encompass all development components necessary to develop PHP and will facilitate extensibility.</p>
+
+<p>After you have it installed, go to Windows &ndash;> Preferences and make the following changes:</p>
+
+<p><ol>
+<li><strong>Content Types</strong>
+<ol>
+   <li>Expand the left-hand menu to General &ndash;> Content Types
+   <li>Under &ldquo;Content types&rdquo; on the right, click Text &ndash;> PHP Source File
+   <li>Add the <em>.info, </em>.engine, <em>.theme, </em>.install, <em>.inc, and </em>.module file types
+</ol></p>
+
+<p><li><strong>Tab formatting for PHP</strong>
+<ol>
+   <li>Expand the left-hand menu to PHP &ndash;> Formatter
+   <li>Check the &ldquo;Indent using spaces&rdquo; radio button.
+   <li>Change the indent size to 2.
+</ol></p>
+
+<p><li><strong>Tab formatting for CSS</strong>
+<ol>
+   <li>Expand the left-hand menu to Web and XML &ndash;> CSS Files &ndash;> CSS Source
+   <li>Select &lsquo;Indent using spaces&rsquo;
+   <li>Set &lsquo;Intentation size&rsquo; to 2
+</ol></p>
+
+<p><li><strong>Tab formatting for JavaScript</strong>
+<ol>
+   <li>Expand the left-hand menu to Web and XML &ndash;> Javascript Files &ndash;> Javascript Source
+   <li>Select &lsquo;Indent using spaces&rsquo;
+   <li>Set &lsquo;Intentation size&rsquo; to 2
+</ol></p>
+
+<p><li><strong>Tab formatting for HTML</strong>
+<ol>
+   <li>Expand the left-hand menu to Web and XML &ndash;> HTML Files &ndash;> HTML Source
+   <li>Select &lsquo;Indent using spaces&rsquo;
+   <li>Set &lsquo;Intentation size&rsquo; to 2
+</ol></p>
+
+<p><li><strong>Tab formatting for XML</strong>
+<ol>
+   <li>Expand the left-hand menu to Web and XML &ndash;> XML Files &ndash;> XML Source
+   <li>Select &lsquo;Indent using spaces&rsquo;
+   <li>Set &lsquo;Intentation size&rsquo; to 2
+</ol></p>
+
+<p><li><strong>Make it Unix-friendly</strong>
+<ol>
+   <li>Expand the left-hand menu to General &ndash;>Workspace
+   <li>Text File encoding should be UTF-8
+   <li>New text file line delimeter should be Unix
+</ol></p>
+
+<p><li><strong>Set default text mode to -kkv</strong>
+<ol>
+   <li>Expand the left-hand menu to Team &ndash;> CVS
+   <li>Click on the Files and Folders tab
+   <li>set the &ldquo;Default text mode&rdquo; dropdown to &ldquo;ASCII with keyword expansion (-kkv)&rdquo;
+</ol></p>
+
+<p><li><strong>Tabulators</strong>
+<ol>
+   <li>Expand the left-hand menu to PHP &ndash;> Editor &ndash;> Typing
+   <li>Check the &ldquo;Tab key indents the current line&rdquo; under Tabulators
+</ol></p>
+
+<p>You should now have Eclipse properly configured for Drupal development work.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gaming | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/gaming/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:55:51-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hearthstone - Beta]]></title>
+    <link href="http://fusion94.org/blog/2014/02/15/hearthstone-beta/"/>
+    <updated>2014-02-15T07:36:00-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/15/hearthstone-beta</id>
+    <content type="html"><![CDATA[<p>Blizzard&rsquo;s latest game, <a href="http://us.battle.net/hearthstone/en/">Hearthstone: Heroes of Warcraft</a> entered open beta on January 21st, 2014, opening it all for all Mac and PC users in North America. Hearthstone: Heroes of Warcraft is currently a free-to-play collectible card game that revolves around turn-based online 1v1 matches between two opponents.</p>
+
+<p>Hearthstone is set within the Warcraft universe, with the majority of its characters and cards drawing from existing lore.</p>
+
+<!-- more -->
+
+
+<p><img src="/images/blog/hearthstone/screenshot1.png"></p>
+
+<h3>Matches</h3>
+
+<p>Each Hearthstone battle is a 1vs1 match between two opponents. Gameplay in Hearthstone is turn-based, with players taking turns to play cards from their hand, casting spells, equipping weapons, or summoning &lsquo;minions&rsquo; to do battle on their behalf. Play may be between two human players, or one player and a computer-controlled opponent.</p>
+
+<br>
+
+
+<p>Each player is represented by their chosen &lsquo;hero&rsquo;, an important character from Warcraft lore. Each hero represents a particular class, determining the special cards and unique hero power available to them. Each hero has 30 Health &ndash; if that number is reduced to zero, the hero is destroyed, and the controlling player has lost the game. The available heroes and classes are:</p>
+
+<ul>
+<li>Mage (Jaina Proudmoore)</li>
+<li>Priest (Anduin Wrynn)</li>
+<li>Warlock (Gul'dan)</li>
+<li>Paladin (Uther the Lightbringer)</li>
+<li>Warrior (Garrosh Hellscream)</li>
+<li>Druid (Malfurion Stormrage)</li>
+<li>Hunter (Rexxar)</li>
+<li>Rogue (Valeera Sanguinar)</li>
+<li>Shaman (Thrall)</li>
+</ul>
+
+
+<br>
+
+
+<p>At the start of each turn, the player draws a new card from their deck &ndash; a collection of 30 cards selected before battle. Players can choose to play using one of several pre-assembled &lsquo;basic&rsquo; decks, or one of their own custom-made decks. While most cards are available to heroes of any class, a substantial portion are limited to a specific class, giving each hero their own strengths and unique possibilities.</p>
+
+<br>
+
+
+<p>During their turn, each player can choose to play any of their cards, use their hero power, command their minions to attack targets, or attack directly using their hero, if they have a weapon equipped. However, which actions the player is able to take is partly determined by their mana. Each player starts the game with 1 mana crystal, and gains one more at the start of each turn, until the maximum of 10 is reached. Each card and hero power requires the player to expend a specific amount of mana in order to play it, strategically limiting each player&rsquo;s actions. In addition, the larger mana pools in later rounds allow players to play increasingly expensive cards, opening the game up to ever more impressive moves and powerful abilities.</p>
+
+<br>
+
+
+<p>A match is concluded when one or both players has reached zero health, or chooses to concede. Completing a battle will grant each player hero experience (winning earns additional experience) and granting them access to additional cards up to level 10 or golden versions of basic cards past level 10.</p>
+
+<br>
+
+
+<p>Each match takes place on a randomly selected battlefield, representing the board on which the game is played. There are currently four possible battlefields: Stormwind, Orgrimmar, Pandaria and Stranglethorn. Each battlefield features its own design and numerous interactive elements, but gameplay is in no way affected or determined by battlefield selection.</p>
+
+<h3>Cards</h3>
+
+<p>Cards are the main substance of Hearthstone, representing the abilities, characters and effects which each player is able to make use of during the match. There are currently 382 cards in the game, with more planned to be added to the game later through the introduction of expansion packs and &lsquo;adventures&rsquo;.</p>
+
+<br>
+
+
+<p>In all game modes except Arena, the player does battle using a deck of 30 cards, constructed from cards in the player&rsquo;s collection. Each deck can only feature two of each card, and only one of each legendary card. Arena play features no such limitations, but requires players to play using a new deck chosen from a series of randomly provided selections. For either type of deck, the construction of a player&rsquo;s deck is a key strategic element in the game, determining which cards are available to them during the course of a match.</p>
+
+<br>
+
+
+<p>Each player starts the game with a wide selection of basic cards. Cards of higher rarity can be obtained by purchasing card packs, or as rewards from Arena mode. Card packs and entry to the Arena can be purchased using real money, or gold, an in-game currency earned through completing special &lsquo;quests&rsquo;, such as winning a certain number of matches, or dealing a certain amount of damage. Each card pack consists of five random cards, including at least one rare card. Obtaining new cards allows the player to add them to their decks, opening up new possibilities for play and strategy.</p>
+
+<br>
+
+
+<p>Players can also use the crafting system to create new cards. The system uses arcane dust to craft specific cards. Arcane dust can be obtained as an Arena reward, or by destroying existing cards, allowing players to convert unwanted cards into more desirable options. The crafting system was created as an alternative to the player card trading prevalent in trading card games such as Magic: The Gathering, with no plans for cards to be traded between players.</p>
+
+<br>
+
+
+<p>Similar to the foils found in physical collectible card games, Hearthstone features golden cards, special versions of regular cards featuring a golden border and unique animations. These cards are far harder to obtain than their regular versions, and cost more arcane dust to craft. Golden cards differ from their regular counterparts purely cosmetically, and are designed to allow players to show off their accomplishments.</p>
+
+<h3>Game Modes</h3>
+
+<p>Four main game modes are available to play in Hearthstone.</p>
+
+<ul>
+<li>In Practice mode, players can play against a selection of computer opponents. Players can learn the basics of the game battling against &lsquo;basic&rsquo; opponents, or can put their skills to the test against improved &lsquo;expert&rsquo; opponents.</li>
+<li>Play mode matches players against other human players of similar skill, in random matches. Players can choose to play Casual &lsquo;friendly&rsquo; games, or take part in Ranked play, earning special medals to reflect their skill and standing within the community. Ranked play features a 26-tier rank system, with wins allowing the player to progress to higher ranks, and losses causing them to descend in rank. The highest rank is called Legend. This rank cannot be lost until the season ends and the rank features the exact ranking in your region. All ranks are reset at the end of each season, with each season lasting for about one month. Ranked play is also planned to provide special cosmetic rewards for participation, such as golden heroes and alternative card backs.</li>
+<li>Arena mode, which costs in-game gold or real money to play, has the player drafting a deck by choosing between 3 cards until they have picked 30. Players then use their drafted deck to do battle in a series of games against other Arena players. Each Arena run lasts until the player has reached three losses or twelve wins, or chooses to retire their deck, at which point they are granted a number of rewards determined by the total number of games won. While constructed decks have card restrictions, Arena decks have no such card limits.</li>
+<li>Duels allow players to challenge players on their friends list to unranked matches. Duels offer no rewards, but allow players to play games outside of the other game modes.</li>
+</ul>
+
+
+<p>The game also features a Tutorial, a limited and non-repeatable starting experience designed to introduce players to Hearthstone, in which the player is pitched against a series of special opponents, with substantial dialogue elements.</p>
+
+<h3>Summary</h3>
+
+<p>Overall I think Hearthstone has been done really well and I&rsquo;m enjoying my time there. My understanding is that the game will always be free to play but that Blizzard will charge for card packs. I also know that they are planning to release game clients for Hearthstone for iPhone, iPad and Android sometime after the official launch.</p>
+
+<p>If you&rsquo;re so inclined feel free to download the game and friend me using my gamertag of <strong>fusion94#1276</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Damage Studios Advisory Board.]]></title>
+    <link href="http://fusion94.org/blog/2002/12/10/damage-studios-advisory-board/"/>
+    <updated>2002-12-10T21:47:00-08:00</updated>
+    <id>http://fusion94.org/blog/2002/12/10/damage-studios-advisory-board</id>
+    <content type="html"><![CDATA[<p>So we&rsquo;ve announced our Board of Advisors for Damage Studios. Here&rsquo;s a copy of the press release.</p>
+
+<blockquote><p><strong>Damage Studios Incorporated Forms Board of Advisors with Three Key Appointments</strong></p>
+
+<p>Advisory Team to Bolster Damage&rsquo;s Capabilities with Expertise in Content, Corporate Strategy, Financial Management and Venture Capital</p>
+
+<p>SAN FRANCISCO, Dec. 10 /PRNewswire/ &mdash; Damage Studios Incorporated, a game studio working on Rekonstruction, a next generation massively multiplayer online game, today announces the formation of its Board of Advisors with Wil Wheaton, Todd Choy and Scott Rafer as the inaugural members.</p>
+
+<p>&ldquo;With Big Business and Hollywood beginning to invest heavily into massive multiplayer online games, an industry projected to grow to USD$2.7 billion in 2006,&rdquo; notes Tony Guntharp, Damage president &amp; CEO, &ldquo;it is invaluable to have Wil, with his knowledge of Hollywood; Todd, with his extensive financial experience; and Scott, with his venture capital track record, join us in an advisory capacity.&rdquo;</p>
+
+<p><strong>Todd G. Choy</strong></p>
+
+<p>As the Chief Financial Officer at Medem, Mr. Choy oversees the accounting, finance, human resources, and administrative operations. Mr. Choy also acts as the Company&rsquo;s Assistant Secretary and Treasurer for the Board of Directors. He most recently assisted in raising three rounds of venture capital funding for planet U Inc., an Internet consumer promotions company. Previously, Mr. Choy held various Director positions at The Gap and Nestle USA. Mr. Choy is a member of the Board of Advisors of Angry Coffee Inc., a digital music firm.</p>
+
+<p>Mr. Choy holds a Master of Business Administration in Finance from San Francisco State and a Bachelor of Science from the University of California, Berkeley.</p>
+
+<p><strong>Scott Rafer</strong></p>
+
+<p>Currently Mr. Rafer is the chairman of WiFinder, a wireless networking services company. Previously, Mr. Rafer was CEO of Fresher Information Corp. for which he raised over $20 million of venture capital. Other positions held by Mr. Rafer include President of FotoNation, General Manager of Internet Products and Services for Kodak and Vice President of Operations for Torque Systems. Mr. Rafer started his career in technology as an analyst at the investment bank Needham &amp; Company in New York.</p>
+
+<p>Mr. Rafer is a graduate of the Jerome Fisher Program at the University of Pennsylvania, a double degree program jointly offered by the Wharton School of Business and the Moore School of Engineering.</p>
+
+<p><strong>Wil Wheaton</strong></p>
+
+<p>Wil Wheaton first entered the public eye in 1986 with his critically acclaimed performance in Rob Reiner&rsquo;s &ldquo;Stand By Me&rdquo;. He spent his teenage years on the starship Enterprise as a series regular on &ldquo;Star Trek: The Next Generation&rdquo;.</p>
+
+<p>Wil is currently a writer and performer with the ACME Comedy Theatre, and was recently called &ldquo;rather remarkable&rdquo; by LA Weekly. Upcoming roles include the romantic lead in the dark comedy &ldquo;Jane White is Sick and Twisted&rdquo; and a guest starring lead on PAX TV&rsquo;s &ldquo;Twice In A Lifetime&rdquo;.</p>
+
+<p><strong>About Damage Studios</strong></p>
+
+<p>Damage Studios Incorporated is a San Francisco, CA based development studio that has been formed to create the world&rsquo;s most dynamic MMORPG: Rekonstruction&trade;. For more information, please see <a href="http://www.damagestudios.com">http://www.damagestudios.com</a> or email us at <a href="&#109;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#112;&#114;&#101;&#x73;&#115;&#x40;&#x64;&#x61;&#x6d;&#97;&#103;&#x65;&#115;&#116;&#117;&#100;&#105;&#x6f;&#115;&#x2e;&#x63;&#x6f;&#x6d;&#46;">&#x70;&#114;&#101;&#x73;&#x73;&#64;&#x64;&#x61;&#109;&#97;&#103;&#x65;&#x73;&#x74;&#117;&#x64;&#x69;&#111;&#115;&#46;&#99;&#x6f;&#109;&#x2e;</a></p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RPGamer: Interview with Chris DiBona]]></title>
+    <link href="http://fusion94.org/blog/2002/11/08/rpgamer-interview-with-chris-dibona/"/>
+    <updated>2002-11-08T21:55:00-08:00</updated>
+    <id>http://fusion94.org/blog/2002/11/08/rpgamer-interview-with-chris-dibona</id>
+    <content type="html"><![CDATA[<p>RPGamer has an interview with one of the Damage Studios co-founders that talks about the studio and the game. You can rad the interview <a href="http://www.rpgamer.com/features/rekoninterview/rekoninterview.html">here</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
