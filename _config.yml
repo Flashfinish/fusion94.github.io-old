@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://fusion94.org/
+url: http://fusion94.org
 title: Tony Guntharp
 subtitle: Random posts about Hardware/Software
 author: fusion94
@@ -99,8 +99,3 @@ google_analytics_tracking_id: UA-83223-8
 
 # Facebook Like
 facebook_like: true
-
-linklog_marker:
-linklog_marker_position:
-linklog_marker_position_feed:
-standard_post_marker: "&#9733; "
