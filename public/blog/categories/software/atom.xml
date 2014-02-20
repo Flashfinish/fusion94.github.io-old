@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:43:01-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Medal of Honor: Allied Assault Dedicated Servers Released]]></title>
+    <link href="http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released/"/>
+    <updated>2008-12-24T11:33:00-08:00</updated>
+    <id>http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released</id>
+    <content type="html"><![CDATA[<p>So I finally got around to releasing a package of the Medal of Honor: Allied Assault Dedicated Servers.</p>
+
+<p>They can be downloaded <a href="http://fusion94.org/files/MoHAA_Dedicated_Servers_1.2.zip">here</a>.</p>
+
+<p>I plan on releasing new versions of the Game Server Configurator: MoHAA in the next few weeks and you will need these to use that tool.</p>
+
+<p><b>NOTE:</b>
+These are command line server binaries that allow you to host a MoHAA server without running the MoHAA client.</p>
+
+<p><b>DISCLAIMER:</b>
+These binaries are released as a non-supported product. That means that neither Aspyr Media, Inc. nor Damage Studios technical support center can answer or help with any issues you may encounter with this release. Aspyr Media, Inc. and Damage Studios make no representation or warranty of any kind regarding:</p>
+]]></content>
+  </entry>
+  
+</feed>

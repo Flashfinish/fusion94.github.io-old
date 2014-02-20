@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Flock | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/flock/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:43:01-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Flock]]></title>
+    <link href="http://fusion94.org/blog/2008/02/19/testing-flock/"/>
+    <updated>2008-02-19T19:42:00-08:00</updated>
+    <id>http://fusion94.org/blog/2008/02/19/testing-flock</id>
+    <content type="html"><![CDATA[<p>This is a test blog post composed using the blog tool in Flock 1.1</p>
+
+<p>Nothing really to see here&hellip;move along</p>
+]]></content>
+  </entry>
+  
+</feed>

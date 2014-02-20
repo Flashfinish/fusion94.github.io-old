@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: VA Linux | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/va-linux/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:43:01-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SourceForge.net - 8 years old]]></title>
+    <link href="http://fusion94.org/blog/2007/11/19/sourceforge-net-8-years-old/"/>
+    <updated>2007-11-19T01:00:00-08:00</updated>
+    <id>http://fusion94.org/blog/2007/11/19/sourceforge-net-8-years-old</id>
+    <content type="html"><![CDATA[<p>On Saturday, November 17th, 2007 SourceForge.net celebrated 8 years of life.</p>
+
+<p>Here are a few stats:
+Days to write original sourceforge.net code: 58 days
+Registered Projects: 162,479
+Registered Users: 1,729,574</p>
+
+<h1>of Downloads Top 100: 1,641,654,250</h1>
+
+<h1>of Project Pageviews Top 100: 1,212,576,253</h1>
+
+<h1>of Hosted Pageviews Top 100: 6,283,590,491</h1>
+
+<p>Not bad after 8 years.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to my Brain. Smoking Crack makes me do it.]]></title>
+    <link href="http://fusion94.org/blog/2002/03/14/welcome-to-my-brain-smoking-crack-makes-me-do-it/"/>
+    <updated>2002-03-14T15:48:00-08:00</updated>
+    <id>http://fusion94.org/blog/2002/03/14/welcome-to-my-brain-smoking-crack-makes-me-do-it</id>
+    <content type="html"><![CDATA[<p>2001 is finally over. Thank God. For those that didnt know, 2001 was a banner year for me. Lets see&hellip; I got laid off from VA Linux Systems in September. Then my mother was diagnosed with cancer. Sounds like fun doesnt it ? No worries though, VA was getting to the point where it wasnt a great place to work and my mother is on the road to recovery.</p>
+
+<p>I appreciate everyone who has sent emails and notes regarding my mothers health if I forgot to respond to you I&rsquo;m sorry about that.</p>
+
+<p>The job situation is startng to look up for me at the moment, I have two really promising things to follow up on this week and one of them will pan out.</p>
+
+<p>One other thing, this is a new design, Boris has been bitching about it so I changed it.</p>
+
+<p>So Boris: Sod off you wanker.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SourceForge turns 2]]></title>
+    <link href="http://fusion94.org/blog/2001/11/17/sourceforge-turns-2/"/>
+    <updated>2001-11-17T16:07:00-08:00</updated>
+    <id>http://fusion94.org/blog/2001/11/17/sourceforge-turns-2</id>
+    <content type="html"><![CDATA[<p>Today <a href="http://sourceforge.net">SourceForge</a> turns 2 years old. The growth has been phenomenal and it&rsquo;s amazing to see how many people utilize your work on a day to day basis.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[VA Engineering has left the Building]]></title>
+    <link href="http://fusion94.org/blog/2001/08/31/va-engineering-has-left-the-building/"/>
+    <updated>2001-08-31T19:11:00-07:00</updated>
+    <id>http://fusion94.org/blog/2001/08/31/va-engineering-has-left-the-building</id>
+    <content type="html"><![CDATA[<p>So today was the last day of Hardware/Software Engineering at <a href="http://valinux.com">VA Linux Systems</a>. A decision was made awhile back to exit the hardware business altogether so we all became dead weight to the company. This was not new news for those of us in engineering but it&rsquo;s still a difficult pill to swallow.</p>
+
+<p>This is the first time I&rsquo;ve ever had to experience a layoff so it was especially difficult for me. On the upside was that the severance package that was offered was very very generous and that&rsquo;s going to help in the transition.</p>
+
+<p>Working at VA was a once in a lifetime experience. I don&rsquo;t think that I&rsquo;ll ever get the opportunity to work with a team of such dedicated, talented and brilliant engineers ever again and that does in fact weigh heavily upon me.</p>
+
+<p>Anyways I&rsquo;m rambling now. Time to take a break from work and other things and see what lies over the horizon.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[One Year Older]]></title>
+    <link href="http://fusion94.org/blog/2000/11/17/one-year-older/"/>
+    <updated>2000-11-17T07:51:00-08:00</updated>
+    <id>http://fusion94.org/blog/2000/11/17/one-year-older</id>
+    <content type="html"><![CDATA[<p><a href="http://www.sourceforge.net">SourceForge</a> is now officially one year old. It&rsquo;s been both an amazing and a bumpy ride over the past year as we&rsquo;ve experienced growth spurts that has effected our scalability. I can remember when we released it at Comdex last year that we thought (and publicly stated) that we&rsquo;d consider it a success if we hit 200 projects and 1,000 developers in the first year of service. Boy were we ever wrong. We hit that in the first 45 days and the project has been bigger than we ever expected or anticipated.</p>
+
+<p>Big thanks out to the open source community for all of your support.</p>
+]]></content>
+  </entry>
+  
+</feed>

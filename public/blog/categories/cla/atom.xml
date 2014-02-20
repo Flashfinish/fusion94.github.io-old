@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CLA | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/cla/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:43:01-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
+    <link href="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/"/>
+    <updated>2013-01-16T08:06:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/16/clahub-clas-done-right</id>
+    <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
+
+
+<h3>Background</h3>
+
+<p>First of all, what exactly is a Contributor License Agreement (hereafter referred to as <strong>CLA</strong>)?</p>
+
+<p>Most of us that have been employed as Software Engineers by corporations are already intimately familiar with <strong>CLAs</strong> although in the corporate world they are generally called a <em>&ldquo;Intellectual Property Assignment Agreement&rdquo;</em>. In many ways a <strong>CLA</strong> is nothing more than that but specifically geared towards Open Source projects.</p>
+
+<p>A <strong>CLA</strong> is a legal document in which you state you are entitled to contribute the code/documentation/translation to the <strong>project</strong> you&rsquo;re contributing to and are willing to have it used in distributions and derivative works. This means that should there be any kind of legal issue in the future as to the origins and ownership of any particular piece of code, then that <strong>project</strong> has the necessary forms on file from the contributor(s) saying they were permitted to make this contribution.</p>
+
+<!-- more -->
+
+
+<p>The <strong>CLA</strong> also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date. People and companies can therefore use that software, confident that they will not be asked to stop using pieces of the code at a later date.</p>
+
+<h3>What Needs To Be In A CLA</h3>
+
+<p>The <strong>CLA</strong> needs to grant rights to a project’s owner (or owning body/organization) that enable the release of the software in question. In the simplest scenario, a <strong>CLA</strong> is not, in fact, used at all; the contributor simply assigns the copyright to the project owner. When done properly, the contributor will need to sign a statement to that effect.</p>
+
+<p>Thus the contributor needs to &ndash; at minimum &ndash; grant the rights that will be granted to the project’s owner in the distribution licence. When granting rights it is common to grant a very broad range of rights. This is in order to avoid the need to return to the contributor for authorization to take a desired action with their contribution, such as releasing under a different licence.</p>
+
+<p>A <strong>CLA</strong> should also contain personal information about the person that signs it, such as a complete name and mailing address. You should be aware of the potential implications that storing this information could have in terms of the data protection law in your country and ensure that you have a Privacy Policy in place to deal with this.</p>
+
+<h3>Recording CLAs</h3>
+
+<p>It is very, very important to record the assignment of copyright or grant of rights for each contribution or from each contributor. This means an Open Source project <strong>must</strong> track and record <strong>CLAs</strong> submitted by contributors. It is generally best to have a <strong>CLA</strong> signed and submitted to project administrators for permanent record prior to the contributor submitting his/her contributions.</p>
+
+<h3>Maintaining CLAs</h3>
+
+<p>Maintaining <strong>CLAs</strong> can be challenging but overall it is not a difficult task. It does increase the effort required to make and accept third-party contributions. Most contributors will start small; i.e., they will provide a simple bug-fix, or a spelling correction. The temptation is there to bypass the requirement of a <strong>CLA</strong> for small contributions.</p>
+
+<p>This begs the the question, <em>&ldquo;Must a <strong>CLA</strong> be in place for every contribution?&rdquo;</em></p>
+
+<p>For small contributions, the risk of loss from legal action can be small. For larger chunks of code/documentation, incorporating major functionality, the risks would be much, much higher.</p>
+
+<p>At the end of the day, it&rsquo;s really up to the project owners and stakeholders on which contributions they chose to accept with and without a <strong>CLA</strong>.</p>
+
+<h3>So who uses a CLA</h3>
+
+<p>So what notable Open Source projects are using a <strong>CLA</strong>? Here are just a few.</p>
+
+<ul>
+<li><a href="http://www.canonical.com/contributors">Canonical</a></li>
+<li><a href="https://fedoraproject.org/wiki/Legal:Licenses/CLA">Fedora</a></li>
+<li><a href="http://source.android.com/source/cla-individual.html">Android</a></li>
+<li><a href="http://mono-project.com/FAQ:_Licensing">Mono</a></li>
+<li><a href="http://www.apache.org/licenses/icla.txt">Apache</a></li>
+<li><a href="http://nodejs.org/cla.html">NodeJS</a></li>
+</ul>
+
+
+<h3>Methods of Recording a CLA</h3>
+
+<p>There are many ways to record and maintain a <strong>CLA</strong>. Some projects require that you print out, complete and sign a document then mail that document back to them. Some projects allow for scanning in a signed agreement then emailing in PDF form to a specific email address while other projects have embraced contributors signing electronically.</p>
+
+<p>Smaller Open Source projects have used electronic signature providers such as:</p>
+
+<ul>
+<li><a href="https://www.echosign.adobe.com/en/home.html">Echosign</a></li>
+<li><a href="http://www.docusign.com/">DocuSign</a></li>
+</ul>
+
+
+<p>While larger projects have rolled their own online solution.</p>
+
+<ul>
+<li><a href="https://forms.canonical.com/contributor/">Canonical</a></li>
+<li><a href="http://nodejs.org/cla.html">NodeJS</a></li>
+</ul>
+
+
+<p>You can also use <a href="http://www.harmonyagreements.org/">Harmony Agreements</a> to assist you in selecting the right <strong>CLA</strong> for your Open Source project.</p>
+
+<h3>My experience with CLAs</h3>
+
+<p>For a year, I was the Director of Developer Relations at <a href="http://www.appcelerator.com">Appcelerator</a> and part of my job was to be the default company representative and signer for the <strong>CLA</strong> we had in place. We happened to use <a href="https://www.echosign.adobe.com/en/home.html">Echosign</a> as our electronic signing tool of choice. As I haven&rsquo;t used Echosign (plus they&rsquo;ve been purchased by Adobe since then) in over a year I won&rsquo;t go into details as to whether or not it&rsquo;s any good.</p>
+
+<h4>Appcelerator CLA Workflow</h4>
+
+<p>At Appcelerator a vast majority of our work was Open Source and was hosted in public repositories over on <a href="https://github.com/appcelerator">GitHub</a>. The workflow pretty much operated like this:</p>
+
+<ol>
+<li>Fork the project.</li>
+<li>Make one or more well commented and clean commits to the forked repository.</li>
+<li>Perform a pull request in github&rsquo;s web interface.</li>
+<li>Project stakeholder would review the pull request and choose to accept/reject.</li>
+<li>If project stakeholder chose to accept, stakeholder would email me to verify if we had a signed <strong>CLA</strong> on file for the contributor.</li>
+<li>I&rsquo;d logon to Echosign and verify if there was a <strong>CLA</strong> on file for said contributor.</li>
+<li>I&rsquo;d email the project stakeholder and let him/her know if there was or wasn&rsquo;t a <strong>CLA</strong> on file.</li>
+<li>Project stakeholder would accept the pull request if we had a <strong>CLA</strong> on file or if we didn&rsquo;t they&rsquo;d reach out to the contributor and get them to sign the <strong>CLA</strong>.</li>
+<li>Once the contributor signed the <strong>CLA</strong> we had to go through steps 6-8 all over again.</li>
+</ol>
+
+
+<p>As you can imagine, this was rather inefficient and created quite a bit of friction at times. Which brings me to <a href="https://github.com/jasonm/clahub">CLAHub</a></p>
+
+<h3>CLAHub</h3>
+
+<p>I found about <a href="https://github.com/jasonm/clahub">CLAHub</a> while perusing the <a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">Octopress Sites Wiki</a> and checking out other people&rsquo;s <a href="http://octopress.org">Octopress</a> installs and themes. One of the sites I visited was the website of <a href="http://jayunit.net/">Jason Morrison</a> who is the author of CLAHub.</p>
+
+<p>I read through his <a href="http://jayunit.net/2013/01/09/clahub-easy-contributor-agreements-on-github/">blog post</a> and fell in love with the idea and the concept.</p>
+
+<p><strong>This is how Jason describes it:</strong></p>
+
+<blockquote><p>With CLAHub and an open source project on GitHub you can:</p>
+
+<ul>
+<li>Sign in with GitHub and create a CLA for your project.</li>
+<li>Ask contributors to sign in with GitHub to electronically sign the CLA.</li>
+<li>See on each pull request whether the contributors have all signed your CLA. This uses the handy Commit Status API, similar to what CI tools do.</li>
+</ul>
+</blockquote>
+
+<p>As a bonus Jason has released it as Open Source under the permissive <a href="https://raw.github.com/jasonm/clahub/master/LICENSE">MIT license</a>.</p>
+
+<p>To find out more about the project then please visit these links:</p>
+
+<ul>
+<li><a href="http://www.clahub.com/">CLAHub Site</a></li>
+<li><a href="https://github.com/jasonm/clahub">GitHub Code</a></li>
+<li><a href="https://github.com/jasonm/clahub/issues">GitHub Issues</a></li>
+<li><a href="http://jayunit.net/2013/01/09/clahub-easy-contributor-agreements-on-github/">Jason&rsquo;s Original Blog Post</a></li>
+</ul>
+
+
+<p>One thing to note is that CLAHub currently only works for <strong>public</strong> repositories and <strong>NOT private</strong> repositories.</p>
+
+<h3>Conclusion</h3>
+
+<p>If CLAHub had been available during my time at Appcelerator we definitely would have used it as it removes almost <strong>ALL</strong> of the friction points listed above.</p>
+
+<p>If you&rsquo;re a developer with an Open Source project hosted on GitHub or an organization that&rsquo;s doing the same then you should really take the time to evaluate CLAHub as it just integrates nicely with the existing tools and methods that you are more than likely already using.</p>
+]]></content>
+  </entry>
+  
+</feed>

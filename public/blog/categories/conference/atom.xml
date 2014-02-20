@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Conference | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/conference/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-20T15:43:01-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Bazaar]]></title>
+    <link href="http://fusion94.org/blog/1999/12/19/the-bazaar/"/>
+    <updated>1999-12-19T10:59:00-08:00</updated>
+    <id>http://fusion94.org/blog/1999/12/19/the-bazaar</id>
+    <content type="html"><![CDATA[<p>So I&rsquo;m at The Bazaar in New York City and there&rsquo;s a lot of talk about <a href="http://sourceforge.net">SourceForge</a>. Emmett Plant has written a <a href="http://www.linuxtoday.com/storage/1999121800219PS">story</a> about it over at <a href="http://www.linuxtoday.com/">Linux Today</a>.</p>
+
+<p>Thanks Emmett.</p>
+]]></content>
+  </entry>
+  
+</feed>

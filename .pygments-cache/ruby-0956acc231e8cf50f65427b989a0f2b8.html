@@ -1,0 +1,15 @@
+<div class="highlight"><pre><span class="nb">require</span> <span class="s1">&#39;formula&#39;</span>
+
+<span class="k">class</span> <span class="nc">Autoconf</span> <span class="o">&lt;</span> <span class="no">Formula</span>
+  <span class="n">url</span> <span class="s1">&#39;http://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz&#39;</span>
+  <span class="n">homepage</span> <span class="s1">&#39;http://www.gnu.org/software/autoconf/&#39;</span>
+  <span class="n">md5</span> <span class="s1">&#39;9de56d4a161a723228220b0f425dc711&#39;</span><span class="sb">`</span>
+
+<span class="sb">  def install</span>
+<span class="sb">    system &quot;./configure&quot;, &quot;--program-suffix=213&quot;,</span>
+<span class="sb">                          &quot;--prefix=</span><span class="si">#{</span><span class="n">prefix</span><span class="si">}</span><span class="sb">&quot;,</span>
+<span class="sb">                          &quot;--infodir=</span><span class="si">#{</span><span class="n">info</span><span class="si">}</span><span class="sb">&quot;</span>
+<span class="sb">    system &quot;make install&quot;</span>
+<span class="sb">  end</span>
+<span class="sb">end</span>
+</pre></div>
