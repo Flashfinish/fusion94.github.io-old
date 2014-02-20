@@ -1,0 +1,151 @@
+$color_0: #fff;
+$color_1: #075698;
+$color_2: #2e88c4;
+$color_3: #5a8f00;
+$color_4: #b8db29;
+$color_5: #f3961c;
+$color_6: #f9d835;
+$color_7: #c81e2b;
+$color_8: #f04349;
+//--------------------------
+
+.info {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_1;
+	/* (1) background was set before: old value: $color_1 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_2), to($color_1)) */;
+	/* (2) background was set before: old value: $color_1 - new value -moz-linear-gradient($color_2, $color_1) */;
+	/* (3) background was set before: old value: $color_1 - new value -o-linear-gradient($color_2, $color_1) */;
+	/* (4) background was set before: old value: $color_1 - new value linear-gradient($color_2, $color_1) */;
+	@include border-radius(10px);
+}
+.success {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_3;
+	/* (5) background was set before: old value: $color_3 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_4), to($color_3)) */;
+	/* (6) background was set before: old value: $color_3 - new value -moz-linear-gradient($color_4, $color_3) */;
+	/* (7) background was set before: old value: $color_3 - new value -o-linear-gradient($color_4, $color_3) */;
+	/* (8) background was set before: old value: $color_3 - new value linear-gradient($color_4, $color_3) */;
+	@include border-radius(10px);
+}
+.warning {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_5;
+	/* (9) background was set before: old value: $color_5 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_6), to($color_5)) */;
+	/* (10) background was set before: old value: $color_5 - new value -moz-linear-gradient($color_6, $color_5) */;
+	/* (11) background was set before: old value: $color_5 - new value -o-linear-gradient($color_6, $color_5) */;
+	/* (12) background was set before: old value: $color_5 - new value linear-gradient($color_6, $color_5) */;
+	@include border-radius(10px);
+}
+.error {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_7;
+	/* (13) background was set before: old value: $color_7 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_8), to($color_7)) */;
+	/* (14) background was set before: old value: $color_7 - new value -moz-linear-gradient($color_8, $color_7) */;
+	/* (15) background was set before: old value: $color_7 - new value -o-linear-gradient($color_8, $color_7) */;
+	/* (16) background was set before: old value: $color_7 - new value linear-gradient($color_8, $color_7) */;
+	@include border-radius(10px);
+}
+.infobox {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_1;
+	/* (17) background was set before: old value: $color_1 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_2), to($color_1)) */;
+	/* (18) background was set before: old value: $color_1 - new value -moz-linear-gradient($color_2, $color_1) */;
+	/* (19) background was set before: old value: $color_1 - new value -o-linear-gradient($color_2, $color_1) */;
+	/* (20) background was set before: old value: $color_1 - new value linear-gradient($color_2, $color_1) */;
+	@include border-radius(10px);
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -20px;
+		left: 50px;
+		border-width: 20px 0 0 20px;
+		border-style: solid;
+		border-color: $color_1 transparent;
+		display: block;
+		width: 0;
+	}
+}
+.successbox {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_3;
+	/* (21) background was set before: old value: $color_3 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_4), to($color_3)) */;
+	/* (22) background was set before: old value: $color_3 - new value -moz-linear-gradient($color_4, $color_3) */;
+	/* (23) background was set before: old value: $color_3 - new value -o-linear-gradient($color_4, $color_3) */;
+	/* (24) background was set before: old value: $color_3 - new value linear-gradient($color_4, $color_3) */;
+	@include border-radius(10px);
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -20px;
+		left: 50px;
+		border-width: 20px 0 0 20px;
+		border-style: solid;
+		border-color: $color_3 transparent;
+		display: block;
+		width: 0;
+	}
+}
+.warningbox {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_5;
+	/* (25) background was set before: old value: $color_5 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_6), to($color_5)) */;
+	/* (26) background was set before: old value: $color_5 - new value -moz-linear-gradient($color_6, $color_5) */;
+	/* (27) background was set before: old value: $color_5 - new value -o-linear-gradient($color_6, $color_5) */;
+	/* (28) background was set before: old value: $color_5 - new value linear-gradient($color_6, $color_5) */;
+	@include border-radius(10px);
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -20px;
+		left: 50px;
+		border-width: 20px 0 0 20px;
+		border-style: solid;
+		border-color: $color_5 transparent;
+		display: block;
+		width: 0;
+	}
+}
+.errorbox {
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	color: $color_0;
+	background: $color_7;
+	/* (29) background was set before: old value: $color_7 - new value -webkit-gradient(linear, 0 0, 0 100%, from($color_8), to($color_7)) */;
+	/* (30) background was set before: old value: $color_7 - new value -moz-linear-gradient($color_8, $color_7) */;
+	/* (31) background was set before: old value: $color_7 - new value -o-linear-gradient($color_8, $color_7) */;
+	/* (32) background was set before: old value: $color_7 - new value linear-gradient($color_8, $color_7) */;
+	@include border-radius(10px);
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -20px;
+		left: 50px;
+		border-width: 20px 0 0 20px;
+		border-style: solid;
+		border-color: $color_7 transparent;
+		display: block;
+		width: 0;
+	}
+}
