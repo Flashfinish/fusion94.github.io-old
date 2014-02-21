@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: General | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/general/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,30 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Curiosity Playlist]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/08/30/curiosity-playlist/"/>
     <updated>2012-08-30T07:36:00-07:00</updated>
     <id>http://fusion94.org/blog/2012/08/30/curiosity-playlist</id>
-=======
-    <link href="http://fusion94.org//blog/2012/08/30/curiosity-playlist/"/>
-    <updated>2012-08-30T07:36:00-07:00</updated>
-    <id>http://fusion94.org//blog/2012/08/30/curiosity-playlist</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Halo/Dive]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/08/19/halo-slash-dive/"/>
     <updated>2012-08-19T17:16:00-07:00</updated>
     <id>http://fusion94.org/blog/2012/08/19/halo-slash-dive</id>
-=======
-    <link href="http://fusion94.org//blog/2012/08/19/halo-slash-dive/"/>
-    <updated>2012-08-19T17:16:00-07:00</updated>
-    <id>http://fusion94.org//blog/2012/08/19/halo-slash-dive</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>While everyone wants to be on a HALO/Dive team there&rsquo;s a lot of work involved. Here&rsquo;s part of
 the pain.</p>
 
@@ -55,15 +36,9 @@ the pain.</p>
   
   <entry>
     <title type="html"><![CDATA[The Infantry Way]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/08/17/the-infantry-way/"/>
     <updated>2012-08-17T23:48:00-07:00</updated>
     <id>http://fusion94.org/blog/2012/08/17/the-infantry-way</id>
-=======
-    <link href="http://fusion94.org//blog/2012/08/17/the-infantry-way/"/>
-    <updated>2012-08-17T23:48:00-07:00</updated>
-    <id>http://fusion94.org//blog/2012/08/17/the-infantry-way</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>True Story.</p>
 
 <p><img src="/images/blog/random/infantry_way.jpeg"></p>
@@ -72,15 +47,9 @@ the pain.</p>
   
   <entry>
     <title type="html"><![CDATA[The Greatest Show on Earth]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/08/17/the-greatest-show-on-earth/"/>
     <updated>2012-08-17T21:04:00-07:00</updated>
     <id>http://fusion94.org/blog/2012/08/17/the-greatest-show-on-earth</id>
-=======
-    <link href="http://fusion94.org//blog/2012/08/17/the-greatest-show-on-earth/"/>
-    <updated>2012-08-17T21:04:00-07:00</updated>
-    <id>http://fusion94.org//blog/2012/08/17/the-greatest-show-on-earth</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>The Greatest Show On Earth 320kph / 200mph Street Race &ndash; &lsquo;ISLE of MAN&rsquo; TT</p>
 
 <p><div class="embed-video-container"><iframe src="http://player.vimeo.com/video/46856767 "></iframe></div></p>
@@ -89,15 +58,9 @@ the pain.</p>
   
   <entry>
     <title type="html"><![CDATA[Command Line Port Scanner OSX]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2009/01/06/command-line-port-scanner-osx/"/>
     <updated>2009-01-06T09:34:00-08:00</updated>
     <id>http://fusion94.org/blog/2009/01/06/command-line-port-scanner-osx</id>
-=======
-    <link href="http://fusion94.org//blog/2009/01/06/command-line-port-scanner-osx/"/>
-    <updated>2009-01-06T09:34:00-08:00</updated>
-    <id>http://fusion94.org//blog/2009/01/06/command-line-port-scanner-osx</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Who knew that OS X has a command line port scanner? I for one didn&rsquo;t. I&rsquo;ve always just used the Network Utility version. Here&rsquo;s how to access it.</p>
 
 <p>As the superuser run this:</p>

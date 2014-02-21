@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Acquia | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/acquia/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/acquia/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Updating the Site]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/17/updating-the-site/"/>
     <updated>2008-12-17T12:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/updating-the-site</id>
-=======
-    <link href="http://fusion94.org//blog/2008/12/17/updating-the-site/"/>
-    <updated>2008-12-17T12:31:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/12/17/updating-the-site</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>This site has been running on a Drupal 5 codebase for quite some time. This morning I took the time to upgrade to Drupal 6.8 then upgraded to the lastest version of the Acquia Network Community Server.</p>
 
 <p>So far it&rsquo;s gone well and has been relatively drama free. There are some older Drupal 5 modules that I need to update to get full functionality back so if you see any issues please use the contact form to drop me a note and let me know.</p>

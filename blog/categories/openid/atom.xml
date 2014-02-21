@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: OpenID | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/openid/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/openid/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[OpenID & Yahoo!]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/01/31/openid-and-yahoo/"/>
     <updated>2008-01-31T12:39:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/01/31/openid-and-yahoo</id>
-=======
-    <link href="http://fusion94.org//blog/2008/01/31/openid-and-yahoo/"/>
-    <updated>2008-01-31T12:39:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/01/31/openid-and-yahoo</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>As of yesterday all of Yahoo&rsquo;s esitmated 248 million users worldwide now have the means to login to any site that supports OpenID. Currently they are only an OpenID provider and not a consumer which means that you cannot login to Yahoo services using your OpenID but I&rsquo;d imagine that will change sometime in the near future.</p>
 
 <p>If you haven&rsquo;t enabled your Yahoo account for OpenID access then head over to <a href="http://openid.yahoo.com"><a href="http://openid.yahoo.com">http://openid.yahoo.com</a></a> and do so.</p>

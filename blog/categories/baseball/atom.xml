@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Baseball | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/baseball/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/baseball/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bonds and the HR Chase]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/08/02/bonds-and-the-hr-chase/"/>
     <updated>2007-08-02T08:19:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/08/02/bonds-and-the-hr-chase</id>
-=======
-    <link href="http://fusion94.org//blog/2007/08/02/bonds-and-the-hr-chase/"/>
-    <updated>2007-08-02T08:19:00-07:00</updated>
-    <id>http://fusion94.org//blog/2007/08/02/bonds-and-the-hr-chase</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Regardless of whether Bonds doped or not the fact of the matter is that up until 2004 Steroids were not illegal to use according to MLB rules. And it wasn&rsquo;t until 2006 that MLB decided to ban and test for greenies (amphetamines).</p>
 
 <p>I&rsquo;m not saying that Aaron used either of these substances during the course of his career but we only have his word to verify this as testing by MLB wasn&rsquo;t done for either of these substances.</p>

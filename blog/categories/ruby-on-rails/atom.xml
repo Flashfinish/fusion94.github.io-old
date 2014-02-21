@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby on Rails | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/ruby-on-rails/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
     <updated>2013-01-24T23:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
-=======
-    <link href="http://fusion94.org//blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
-    <updated>2013-01-24T23:40:00-08:00</updated>
-    <id>http://fusion94.org//blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<div class="info">Say Goodbye to inefficient meetinngs and email threads. Get your team off of AIM, Google Talk, Skype or IRC.</div>
 
 
@@ -79,11 +66,7 @@
 </ul>
 
 
-<<<<<<< HEAD
-<p>You can also email us at <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#x3a;&#x6b;&#97;&#x6e;&#100;&#x61;&#110;&#97;&#112;&#x70;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x6b;&#x61;&#110;&#x64;&#x61;&#x6e;&#x61;&#112;&#x70;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></p>
-=======
-<p>You can also email us at <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x6b;&#97;&#110;&#x64;&#97;&#110;&#97;&#112;&#x70;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#107;&#x61;&#110;&#x64;&#97;&#110;&#x61;&#x70;&#x70;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></p>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
+<p>You can also email us at <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#107;&#x61;&#x6e;&#x64;&#97;&#110;&#x61;&#x70;&#x70;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x6b;&#x61;&#110;&#x64;&#x61;&#110;&#97;&#x70;&#x70;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></p>
 
 <h3>Conclusion</h3>
 

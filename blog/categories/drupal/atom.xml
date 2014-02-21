@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Drupal | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/drupal/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/drupal/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Drupal API on the iPhone]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/21/drupal-api-on-the-iphone/"/>
     <updated>2008-12-21T21:06:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/21/drupal-api-on-the-iphone</id>
-=======
-    <link href="http://fusion94.org//blog/2008/12/21/drupal-api-on-the-iphone/"/>
-    <updated>2008-12-21T21:06:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/12/21/drupal-api-on-the-iphone</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Here&rsquo;s an interesting little application for the iPhone.</p>
 
 <p><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=298632623">Offline Drupal API Documentation</a></p>
@@ -46,25 +33,15 @@
 </ul>
 
 
-<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/drupal_api_iphone.jpg"></p>
-=======
-<p><img src="http://fusion94.org//images/drupal_api_iphone.jpg"></p>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Updating the Site]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/17/updating-the-site/"/>
     <updated>2008-12-17T12:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/updating-the-site</id>
-=======
-    <link href="http://fusion94.org//blog/2008/12/17/updating-the-site/"/>
-    <updated>2008-12-17T12:31:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/12/17/updating-the-site</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>This site has been running on a Drupal 5 codebase for quite some time. This morning I took the time to upgrade to Drupal 6.8 then upgraded to the lastest version of the Acquia Network Community Server.</p>
 
 <p>So far it&rsquo;s gone well and has been relatively drama free. There are some older Drupal 5 modules that I need to update to get full functionality back so if you see any issues please use the contact form to drop me a note and let me know.</p>
@@ -75,15 +52,9 @@
   
   <entry>
     <title type="html"><![CDATA[Drupal 6 Released]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/02/13/drupal-6-released/"/>
     <updated>2008-02-13T09:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/13/drupal-6-released</id>
-=======
-    <link href="http://fusion94.org//blog/2008/02/13/drupal-6-released/"/>
-    <updated>2008-02-13T09:31:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/02/13/drupal-6-released</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>I know that I hadn&rsquo;t blogged about the Drupal 6 RC4 version due to work related issues but who cares.</p>
 
 <p><a href="http://ftp.osuosl.org/pub/drupal/files/projects/drupal-6.0.tar.gz">Drupal 6</a> is now an offical release. What did it take? Over a year of development and over 1600 issues resolved. You can read more about the release <a href="http://drupal.org/drupal-6.0">here</a>.</p>
@@ -94,15 +65,9 @@
   
   <entry>
     <title type="html"><![CDATA[Commenting]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/02/05/commenting/"/>
     <updated>2008-02-05T08:37:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/05/commenting</id>
-=======
-    <link href="http://fusion94.org//blog/2008/02/05/commenting/"/>
-    <updated>2008-02-05T08:37:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/02/05/commenting</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>So I&rsquo;ve turned anonymous commenting back on for blog posts. In the old Wordpress installation comment spam was handled by akismet and comments were moderated.</p>
 
 <p>Now that I&rsquo;ve converted most of the content to Drupal I&rsquo;m testing a new approach. Anonymous users can now comment again but they must fill out some rudimentary contact information as well as successfully submit a Math CAPTCHA. Once this is accomplished their comment will be published.</p>
@@ -117,15 +82,9 @@
   
   <entry>
     <title type="html"><![CDATA[Drupal Themes Mission Statement]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/01/29/drupal-themes-mission-statement/"/>
     <updated>2008-01-29T09:33:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/01/29/drupal-themes-mission-statement</id>
-=======
-    <link href="http://fusion94.org//blog/2008/01/29/drupal-themes-mission-statement/"/>
-    <updated>2008-01-29T09:33:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/01/29/drupal-themes-mission-statement</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>In some <a href="http://drupal.org/project/Themes">Drupal Themes</a> there is support for displaying the &ldquo;Mission Statement&rdquo; across all pages and in others this support is limited to the &ldquo;Front Page&rdquo; or &ldquo;Main Page&rdquo;.</p>
 
 <p>If you are ever using one of the themes with limited mission statement support and want to display the mission statement across all pages you can use this to do so.</p>

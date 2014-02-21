@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Eclipse | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/eclipse/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/eclipse/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Eclipse for Drupal Development]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/06/16/eclipse-for-drupal-development/"/>
     <updated>2007-06-16T18:07:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/06/16/eclipse-for-drupal-development</id>
-=======
-    <link href="http://fusion94.org//blog/2007/06/16/eclipse-for-drupal-development/"/>
-    <updated>2007-06-16T18:07:00-07:00</updated>
-    <id>http://fusion94.org//blog/2007/06/16/eclipse-for-drupal-development</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>After trying out several editors and IDE&rsquo;s for software development I&rsquo;ve decided to settle on using <a href="http://www.eclipse.org/pdt/index.php">Eclipse</a> for 95% of the work I do and I&rsquo;ll use Xcode only when forced to.</p>
 
 <p>This quick blog post will assist you in getting Eclipse configured for developing anything to do with <a href="http://drupal.org">Drupal</a>.</p>

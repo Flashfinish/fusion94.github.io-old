@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CLA | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/cla/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/cla/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/"/>
     <updated>2013-01-16T08:06:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/16/clahub-clas-done-right</id>
-=======
-    <link href="http://fusion94.org//blog/2013/01/16/clahub-clas-done-right/"/>
-    <updated>2013-01-16T08:06:00-08:00</updated>
-    <id>http://fusion94.org//blog/2013/01/16/clahub-clas-done-right</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
 
 

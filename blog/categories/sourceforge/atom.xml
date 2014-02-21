@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: SourceForge | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/sourceforge/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/sourceforge/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Campus Party 2008]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/21/campus-party-2008/"/>
     <updated>2008-12-21T17:54:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/21/campus-party-2008</id>
-=======
-    <link href="http://fusion94.org//blog/2008/12/21/campus-party-2008/"/>
-    <updated>2008-12-21T17:54:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/12/21/campus-party-2008</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>I&rsquo;ve been meaning to post about this for some time but have been rather slack in doing so.</p>
 
 <p>Back in August I was invited to talk at <a href="http://www.campus-party.es/">Campus Party 2008</a> which took place at the Valencia Exhibition Center in Valencia, Spain from July 28 &ndash; August 3 to give a talk about the History of <a href="http://sf.net">SourceForge</a>.</p>
@@ -60,17 +47,10 @@
 
 <p>Here are a few photos of the trip.</p>
 
-<<<<<<< HEAD
 <p><a href="http://fusion94.org/images/spain/DSC_0049.jpg" rel="lightshow[Spain][Schedule Slide]"><img src="http://fusion94.org/images/spain/DSC_0049-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0052.jpg" rel="lightshow[Spain][My Talk]"><img src="http://fusion94.org/images/spain/DSC_0052-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0058.jpg" rel="lightshow[Spain][Camping Area]"><img src="http://fusion94.org/images/spain/DSC_0058-tn.jpg"></a>
 <a href="http://fusion94.org/images/spain/DSC_0238.jpg" rel="lightshow[Spain][Marcus Hardt, Jon Maddog Hall, me, Luis Ibáñez, Rasmus Lerdorf, Rafa Saez]"><img src="http://fusion94.org/images/spain/DSC_0238-tn.jpg"></a></p>
-=======
-<p><a href="http://fusion94.org//images/spain/DSC_0049.jpg" rel="lightshow[Spain][Schedule Slide]"><img src="http://fusion94.org//images/spain/DSC_0049-tn.jpg"></a>
-<a href="http://fusion94.org//images/spain/DSC_0052.jpg" rel="lightshow[Spain][My Talk]"><img src="http://fusion94.org//images/spain/DSC_0052-tn.jpg"></a>
-<a href="http://fusion94.org//images/spain/DSC_0058.jpg" rel="lightshow[Spain][Camping Area]"><img src="http://fusion94.org//images/spain/DSC_0058-tn.jpg"></a>
-<a href="http://fusion94.org//images/spain/DSC_0238.jpg" rel="lightshow[Spain][Marcus Hardt, Jon Maddog Hall, me, Luis Ibáñez, Rasmus Lerdorf, Rafa Saez]"><img src="http://fusion94.org//images/spain/DSC_0238-tn.jpg"></a></p>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <p>Here&rsquo;s a media interview that I did after my talk.</p>
 
@@ -83,15 +63,9 @@
   
   <entry>
     <title type="html"><![CDATA[SourceForge.net - 8 years old]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/11/19/sourceforge-net-8-years-old/"/>
     <updated>2007-11-19T01:00:00-08:00</updated>
     <id>http://fusion94.org/blog/2007/11/19/sourceforge-net-8-years-old</id>
-=======
-    <link href="http://fusion94.org//blog/2007/11/19/sourceforge-net-8-years-old/"/>
-    <updated>2007-11-19T01:00:00-08:00</updated>
-    <id>http://fusion94.org//blog/2007/11/19/sourceforge-net-8-years-old</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>On Saturday, November 17th, 2007 SourceForge.net celebrated 8 years of life.</p>
 
 <p>Here are a few stats:
@@ -111,30 +85,18 @@ Registered Users: 1,729,574</p>
   
   <entry>
     <title type="html"><![CDATA[SourceForge turns 2]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2001/11/17/sourceforge-turns-2/"/>
     <updated>2001-11-17T16:07:00-08:00</updated>
     <id>http://fusion94.org/blog/2001/11/17/sourceforge-turns-2</id>
-=======
-    <link href="http://fusion94.org//blog/2001/11/17/sourceforge-turns-2/"/>
-    <updated>2001-11-17T16:07:00-08:00</updated>
-    <id>http://fusion94.org//blog/2001/11/17/sourceforge-turns-2</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Today <a href="http://sourceforge.net">SourceForge</a> turns 2 years old. The growth has been phenomenal and it&rsquo;s amazing to see how many people utilize your work on a day to day basis.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[One Year Older]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2000/11/17/one-year-older/"/>
     <updated>2000-11-17T07:51:00-08:00</updated>
     <id>http://fusion94.org/blog/2000/11/17/one-year-older</id>
-=======
-    <link href="http://fusion94.org//blog/2000/11/17/one-year-older/"/>
-    <updated>2000-11-17T07:51:00-08:00</updated>
-    <id>http://fusion94.org//blog/2000/11/17/one-year-older</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p><a href="http://www.sourceforge.net">SourceForge</a> is now officially one year old. It&rsquo;s been both an amazing and a bumpy ride over the past year as we&rsquo;ve experienced growth spurts that has effected our scalability. I can remember when we released it at Comdex last year that we thought (and publicly stated) that we&rsquo;d consider it a success if we hit 200 projects and 1,000 developers in the first year of service. Boy were we ever wrong. We hit that in the first 45 days and the project has been bigger than we ever expected or anticipated.</p>
 
 <p>Big thanks out to the open source community for all of your support.</p>
@@ -143,15 +105,9 @@ Registered Users: 1,729,574</p>
   
   <entry>
     <title type="html"><![CDATA[SourceForge & IA-64]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2000/05/26/sourceforge-and-ia-64/"/>
     <updated>2000-05-26T13:27:00-07:00</updated>
     <id>http://fusion94.org/blog/2000/05/26/sourceforge-and-ia-64</id>
-=======
-    <link href="http://fusion94.org//blog/2000/05/26/sourceforge-and-ia-64/"/>
-    <updated>2000-05-26T13:27:00-07:00</updated>
-    <id>http://fusion94.org//blog/2000/05/26/sourceforge-and-ia-64</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>We&rsquo;re pleased to announce that SourceForge now has IA-64 (Itanium) machines available to use in the compile farm.</p>
 
 <p>There are a few requirements such as a NDA, no benchmarking (or at least publicy stating the numbers), the project must be open source, and access has to go through an approval process. That is the overview that we&rsquo;ve come up with and we hope that this will go a long way in finding out any IA-64 issues that your code may have. This will also be good for developers in checking the IA-64 Linux Kernel out in real world conditions.</p>

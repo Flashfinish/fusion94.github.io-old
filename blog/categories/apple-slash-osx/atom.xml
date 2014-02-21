@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Apple/OSX | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/apple-slash-osx/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/apple-slash-osx/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,21 +15,12 @@
   
   <entry>
     <title type="html"><![CDATA[Medal of Honor: Allied Assault Dedicated Servers Released]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released/"/>
     <updated>2008-12-24T11:33:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released</id>
     <content type="html"><![CDATA[<p>So I finally got around to releasing a package of the Medal of Honor: Allied Assault Dedicated Servers.</p>
 
 <p>They can be downloaded <a href="http://fusion94.org/files/MoHAA_Dedicated_Servers_1.2.zip">here</a>.</p>
-=======
-    <link href="http://fusion94.org//blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released/"/>
-    <updated>2008-12-24T11:33:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released</id>
-    <content type="html"><![CDATA[<p>So I finally got around to releasing a package of the Medal of Honor: Allied Assault Dedicated Servers.</p>
-
-<p>They can be downloaded <a href="http://fusion94.org//files/MoHAA_Dedicated_Servers_1.2.zip">here</a>.</p>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <p>I plan on releasing new versions of the Game Server Configurator: MoHAA in the next few weeks and you will need these to use that tool.</p>
 
@@ -50,15 +34,9 @@ These binaries are released as a non-supported product. That means that neither 
   
   <entry>
     <title type="html"><![CDATA[BootCamp Tip]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/18/bootcamp-tip/"/>
     <updated>2008-12-18T10:03:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/18/bootcamp-tip</id>
-=======
-    <link href="http://fusion94.org//blog/2008/12/18/bootcamp-tip/"/>
-    <updated>2008-12-18T10:03:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/12/18/bootcamp-tip</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>If you&rsquo;ve got BootCamp installed and have it defaulting to boot into Windows then remove the Windows partion you&rsquo;re going to get a &ldquo;No bootable disk found&rdquo; screen everytime you boot up.</p>
 
 <p>I still don&rsquo;t know why OSX isn&rsquo;t smart enough to handle this issue with more grace but that&rsquo;s another post altogether.</p>
@@ -78,15 +56,9 @@ These binaries are released as a non-supported product. That means that neither 
   
   <entry>
     <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
     <updated>2008-06-11T09:58:00-07:00</updated>
     <id>http://fusion94.org/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
-=======
-    <link href="http://fusion94.org//blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
-    <updated>2008-06-11T09:58:00-07:00</updated>
-    <id>http://fusion94.org//blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
 
 <p>Go to /Applications/Utilities and open Terminal.app and enter the following code:</p>
@@ -101,15 +73,9 @@ These binaries are released as a non-supported product. That means that neither 
   
   <entry>
     <title type="html"><![CDATA[Disable Space Switching - 10.5.2]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2/"/>
     <updated>2008-02-25T18:44:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/25/disable-space-switching-10-5-2</id>
-=======
-    <link href="http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2/"/>
-    <updated>2008-02-25T18:44:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>The 10.5.2 version of OS X has a new preferences command for Spaces although tt&rsquo;s hidden and not available through the System Preferences.</p>
 
 <p>What it does is allow one to Command-Tab to the app you want and create a new window in the current space. No more switching to the space that the app was originally launched in.</p>
@@ -128,15 +94,9 @@ These binaries are released as a non-supported product. That means that neither 
   
   <entry>
     <title type="html"><![CDATA[Quicksilver and Leopard]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/02/05/quicksilver-and-leopard/"/>
     <updated>2008-02-05T09:31:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/05/quicksilver-and-leopard</id>
-=======
-    <link href="http://fusion94.org//blog/2008/02/05/quicksilver-and-leopard/"/>
-    <updated>2008-02-05T09:31:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/02/05/quicksilver-and-leopard</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Ever since I upgraded all my boxes to <a href="http://www.apple.com/macosx/">Leopard</a> <a href="http://www.blacktree.com/">Quicksilver</a> has been having issues. While searching for a new release I&rsquo;ve located a solution that seems to have fixed most of my issues. Here&rsquo;s what to do.</p>
 
 <ol>

@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: PHP | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/php/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[ANT and Zend Studio]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2009/01/12/ant-and-zend-studio/"/>
     <updated>2009-01-12T08:25:00-08:00</updated>
     <id>http://fusion94.org/blog/2009/01/12/ant-and-zend-studio</id>
-=======
-    <link href="http://fusion94.org//blog/2009/01/12/ant-and-zend-studio/"/>
-    <updated>2009-01-12T08:25:00-08:00</updated>
-    <id>http://fusion94.org//blog/2009/01/12/ant-and-zend-studio</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Zend Studio for Eclipse is a commercial edition of Eclipse plus the PDT plugin and various other additions. Unfortunately Zend decided to disable the Ant plugin in it&rsquo;s distribution of the Eclipse platform. Nonetheless if you&rsquo;d like to run Ant scripts or simple Phing scripts it would be really useful to be able to use the Ant integration of Eclipse.</p>
 
 <p><b>Preparation</b>
@@ -59,19 +46,11 @@ Now it gets a little tricky.</p>
 <ul>
 <li>From the File menu click New > Project. 
 <li>Check Show All Wizards. 
-<<<<<<< HEAD
 <img src="http://fusion94.org/images/zend-ant/1.jpg">
 <li>In the Wizards text field enter Ant, select Java Project from Existing Ant Buildfile and click Next. 
 <img src="http://fusion94.org/images/zend-ant/2.jpg">
 <li>You will be asked to enable Ant Development - confirm with Yes. 
 <img src="http://fusion94.org/images/zend-ant/3.jpg">
-=======
-<img src="http://fusion94.org//images/zend-ant/1.jpg">
-<li>In the Wizards text field enter Ant, select Java Project from Existing Ant Buildfile and click Next. 
-<img src="http://fusion94.org//images/zend-ant/2.jpg">
-<li>You will be asked to enable Ant Development - confirm with Yes. 
-<img src="http://fusion94.org//images/zend-ant/3.jpg">
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 <li>Now you can cancel the new Java Project - Ant has been activated. 
 </ul>
 
@@ -82,15 +61,9 @@ Now it gets a little tricky.</p>
   
   <entry>
     <title type="html"><![CDATA[Zend Framework and svn:externals]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals/"/>
     <updated>2008-12-17T23:41:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals</id>
-=======
-    <link href="http://fusion94.org//blog/2008/12/17/zend-framework-and-svn-externals/"/>
-    <updated>2008-12-17T23:41:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/12/17/zend-framework-and-svn-externals</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
 
 <p>I had used svn:externals quite a bit while at <a href="http://contentcircles.com">Content Circles</a> to pull down vendor branches and decided to re-implement this at <a href="http://www.skyfire.com">Skyfire</a>.</p>
@@ -184,15 +157,9 @@ svn commit
   
   <entry>
     <title type="html"><![CDATA[Go PHP 5]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/07/06/go-php-5/"/>
     <updated>2007-07-06T18:19:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/07/06/go-php-5</id>
-=======
-    <link href="http://fusion94.org//blog/2007/07/06/go-php-5/"/>
-    <updated>2007-07-06T18:19:00-07:00</updated>
-    <id>http://fusion94.org//blog/2007/07/06/go-php-5</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>I hope more people and projects decide to support this initiative.</p>
 
 <p><i>PHP 4 has served the web developer community for seven years now, and served it well. However, it also shows its age. Most of PHP 4&rsquo;s shortcomings have been addressed by PHP 5, released three years ago, but the transition from PHP 4 to PHP 5 has been slow for a number of reasons.</p>

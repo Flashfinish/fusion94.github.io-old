@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Flock | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/flock/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/flock/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,15 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Testing Flock]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/02/19/testing-flock/"/>
     <updated>2008-02-19T19:42:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/02/19/testing-flock</id>
-=======
-    <link href="http://fusion94.org//blog/2008/02/19/testing-flock/"/>
-    <updated>2008-02-19T19:42:00-08:00</updated>
-    <id>http://fusion94.org//blog/2008/02/19/testing-flock</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>This is a test blog post composed using the blog tool in Flock 1.1</p>
 
 <p>Nothing really to see here&hellip;move along</p>

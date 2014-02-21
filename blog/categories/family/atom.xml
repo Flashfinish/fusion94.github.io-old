@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Family | Tony Guntharp]]></title>
-<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/family/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-20T16:02:06-08:00</updated>
+  <updated>2014-02-20T16:04:47-08:00</updated>
   <id>http://fusion94.org/</id>
-=======
-  <link href="http://fusion94.org//blog/categories/family/atom.xml" rel="self"/>
-  <link href="http://fusion94.org//"/>
-  <updated>2014-02-19T18:16:52-08:00</updated>
-  <id>http://fusion94.org//</id>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -22,21 +15,12 @@
   
   <entry>
     <title type="html"><![CDATA[Engagement Party]]></title>
-<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/05/21/engagement-party/"/>
     <updated>2007-05-21T18:09:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/05/21/engagement-party</id>
     <content type="html"><![CDATA[<p>Some friends of both Nicole and I threw us an engagement party on Saturday night. Here is a photo of the two of us from the party.</p>
 
 <p><img src="http://fusion94.org/images/nic_and_i_engagement.jpg  " alt="Nicole and I" /></p>
-=======
-    <link href="http://fusion94.org//blog/2007/05/21/engagement-party/"/>
-    <updated>2007-05-21T18:09:00-07:00</updated>
-    <id>http://fusion94.org//blog/2007/05/21/engagement-party</id>
-    <content type="html"><![CDATA[<p>Some friends of both Nicole and I threw us an engagement party on Saturday night. Here is a photo of the two of us from the party.</p>
-
-<p><img src="http://fusion94.org//images/nic_and_i_engagement.jpg  " alt="Nicole and I" /></p>
->>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 ]]></content>
   </entry>
   
