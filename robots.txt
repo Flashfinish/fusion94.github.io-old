@@ -1,4 +1,8 @@
 User-agent: *
 Disallow: 
 
+<<<<<<< HEAD
 Sitemap: http://fusion94.org/sitemap.xml 
+=======
+Sitemap: http://fusion94.org//sitemap.xml 
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16

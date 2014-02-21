@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: PHP4 | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/php4/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/php4/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[PHP 4.4.8 Released]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/01/04/php-4-4-8-released/"/>
     <updated>2008-01-04T14:21:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/01/04/php-4-4-8-released</id>
+=======
+    <link href="http://fusion94.org//blog/2008/01/04/php-4-4-8-released/"/>
+    <updated>2008-01-04T14:21:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/01/04/php-4-4-8-released</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>PHP 4.4.8 has now been <a href="http://www.php.net/downloads.php#v4">released</a>.</p>
 
 <p>This release wraps up all the outstanding patches for the PHP 4.4 series, and is therefore the last normal PHP 4.4 release.</p>
@@ -28,9 +41,15 @@
   
   <entry>
     <title type="html"><![CDATA[PHP4 End of Life]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2007/07/13/php4-end-of-life/"/>
     <updated>2007-07-13T06:41:00-07:00</updated>
     <id>http://fusion94.org/blog/2007/07/13/php4-end-of-life</id>
+=======
+    <link href="http://fusion94.org//blog/2007/07/13/php4-end-of-life/"/>
+    <updated>2007-07-13T06:41:00-07:00</updated>
+    <id>http://fusion94.org//blog/2007/07/13/php4-end-of-life</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>The <a href="http://php.net">PHP Team</a> formally announced today that PHP4 will be discontinued as of 12/31/2007.</p>
 
 <p>More information can be located <a href="http://www.php.net/index.php#2007-07-13-1">here</a>.</p>

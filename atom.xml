@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Hearthstone - Beta]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2014/02/15/hearthstone-beta/"/>
     <updated>2014-02-15T07:36:00-08:00</updated>
     <id>http://fusion94.org/blog/2014/02/15/hearthstone-beta</id>
+=======
+    <link href="http://fusion94.org//blog/2014/02/15/hearthstone-beta/"/>
+    <updated>2014-02-15T07:36:00-08:00</updated>
+    <id>http://fusion94.org//blog/2014/02/15/hearthstone-beta</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Blizzard&rsquo;s latest game, <a href="http://us.battle.net/hearthstone/en/">Hearthstone: Heroes of Warcraft</a> entered open beta on January 21st, 2014, opening it all for all Mac and PC users in North America. Hearthstone: Heroes of Warcraft is currently a free-to-play collectible card game that revolves around turn-based online 1v1 matches between two opponents.</p>
 
 <p>Hearthstone is set within the Warcraft universe, with the majority of its characters and cards drawing from existing lore.</p>
@@ -25,7 +38,11 @@
 <!-- more -->
 
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/hearthstone/screenshot1.png"></p>
+=======
+<p><img src="http://fusion94.org//images/blog/hearthstone/screenshot1.png"></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <h3>Matches</h3>
 
@@ -117,9 +134,15 @@
   
   <entry>
     <title type="html"><![CDATA[Managerial Mistakes]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2014/02/12/managerial-mistakes/"/>
     <updated>2014-02-12T09:30:00-08:00</updated>
     <id>http://fusion94.org/blog/2014/02/12/managerial-mistakes</id>
+=======
+    <link href="http://fusion94.org//blog/2014/02/12/managerial-mistakes/"/>
+    <updated>2014-02-12T09:30:00-08:00</updated>
+    <id>http://fusion94.org//blog/2014/02/12/managerial-mistakes</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Let&rsquo;s be honest here. We&rsquo;ve all suffered at some point in our careers from bad managers and/or ineffective leadership. Why is this the case?</p>
 
 <p>Many (if not most) bad managers lack basic training in managing people. But, even more importantly, these same managers generally lack the core values, professionalism, initiative, sensitivity, character, and situational awareness needed to interact effectively all day long with people.</p>
@@ -200,9 +223,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[Top 10 Shell Commands used]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used/"/>
     <updated>2013-12-09T09:26:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used</id>
+=======
+    <link href="http://fusion94.org//blog/2013/12/09/top-10-shell-commands-used/"/>
+    <updated>2013-12-09T09:26:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/12/09/top-10-shell-commands-used</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>From time to time, I like to analyze which unix or linux shell commands I&rsquo;m using most frequently. To do this, all I need is a little awk, like the following:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -287,9 +316,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[An Inconvenient Truth about Assault Rifles]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/04/09/an-inconvenient-truth-about-assault-rifles/"/>
     <updated>2013-04-09T22:16:00-07:00</updated>
     <id>http://fusion94.org/blog/2013/04/09/an-inconvenient-truth-about-assault-rifles</id>
+=======
+    <link href="http://fusion94.org//blog/2013/04/09/an-inconvenient-truth-about-assault-rifles/"/>
+    <updated>2013-04-09T22:16:00-07:00</updated>
+    <id>http://fusion94.org//blog/2013/04/09/an-inconvenient-truth-about-assault-rifles</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Let&rsquo;s start by clearing up a few misconceptions about so-called &ldquo;assault rifles&rdquo;.  Technically speaking an assault rifle is a selective fire (selectable among either fully automatic, burst-capable, or, sometimes, semi-automatic modes of operation) rifle that uses an intermediate cartridge and a detachable magazine.</p>
 
 <!-- more -->
@@ -321,6 +356,7 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 
 <h4>Example 1</h4>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/ar1.jpg"></p>
 
 <h4>Example 2</h4>
@@ -330,6 +366,17 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 <h4>Example 3</h4>
 
 <p><img src="http://fusion94.org/images/ar3.jpg"></p>
+=======
+<p><img src="http://fusion94.org//images/ar1.jpg"></p>
+
+<h4>Example 2</h4>
+
+<p><img src="http://fusion94.org//images/ar2.jpg"></p>
+
+<h4>Example 3</h4>
+
+<p><img src="http://fusion94.org//images/ar3.jpg"></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <p>So which of these 3 examples is an &ldquo;assault rifle&rdquo; according to the definition above?  All three of them look very similar. But do they adhere to the definition?</p>
 
@@ -346,6 +393,7 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 
 <h4>Example 4</h4>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/ar4.jpg"></p>
 
 <h4>Example 5</h4>
@@ -359,6 +407,21 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 <h4>Example 7</h4>
 
 <p><img src="http://fusion94.org/images/ar7.jpg"></p>
+=======
+<p><img src="http://fusion94.org//images/ar4.jpg"></p>
+
+<h4>Example 5</h4>
+
+<p><img src="http://fusion94.org//images/ar5.jpg"></p>
+
+<h4>Example 6</h4>
+
+<p><img src="http://fusion94.org//images/ar6.jpg"></p>
+
+<h4>Example 7</h4>
+
+<p><img src="http://fusion94.org//images/ar7.jpg"></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <p>So which of these 4 examples is an &ldquo;assault rifle&rdquo; according to the definition above?  Sorry it&rsquo;s a trick question. While all 4 have a detachable magazine none of them have selective fire or use an intermediate cartridge. So none of them is an &ldquo;assault rifle&rdquo;. As a matter of fact all 4 of them are the same firearm just with different stocks put into place. Some are just a bit more &ldquo;scary&rdquo; looking than the others. The issue is that &ldquo;scary&rdquo; looking doesn&rsquo;t and shouldn&rsquo;t define an &ldquo;assault rifle&rdquo;.</p>
 
@@ -387,7 +450,11 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 
 <p>Take another look at the data of murder by weapon type. Notice what&rsquo;s missing? Assault rifles. They barely chart &ndash; to the point that where to measure them they have to get included into the rifles group.  Let&rsquo;s actually chart that data to get a better visual representation of what that data is telling us.</p>
 
+<<<<<<< HEAD
 <script type="text/javascript" src="http://fusion94.org//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AizXDsCEsDdndGR5NER5VVJQaUFfcUtFeEItVmFiblE&transpose=0&headers=0&range=A4%3AB19&gid=3&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":"14"},"legendTextStyle":{"color":"#000000","fontSize":"10"},"animation":{"duration":0},"backgroundColor":{"fill":"#ffffff"},"colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"width":1675,"is3D":false,"pieSliceText":"value","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},"vAxes":[{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"pieHole":"0.25","title":"Murder Victims by Weapon: 2007-2011","booleanRole":"certainty","width":675,"height":475,"legend":"left"},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"PieChart","chartName":"Chart 2"} </script>
+=======
+<script type="text/javascript" src="http://fusion94.org///ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AizXDsCEsDdndGR5NER5VVJQaUFfcUtFeEItVmFiblE&transpose=0&headers=0&range=A4%3AB19&gid=3&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":"14"},"legendTextStyle":{"color":"#000000","fontSize":"10"},"animation":{"duration":0},"backgroundColor":{"fill":"#ffffff"},"colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"width":1675,"is3D":false,"pieSliceText":"value","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},"vAxes":[{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"pieHole":"0.25","title":"Murder Victims by Weapon: 2007-2011","booleanRole":"certainty","width":675,"height":475,"legend":"left"},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"PieChart","chartName":"Chart 2"} </script>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 
 <p>Rifles account for 1,874 homicides from 2007-2011 out of a total of  68,720. That accounts to be 2.73%.  Now how  many of those 1,874 homicided were commited by an &lsquo;&ldquo;assault rifle&rsquo;&rdquo;? Well we really don&rsquo;t know. But let&rsquo;s extrapolate some raw numbers.</p>
@@ -474,9 +541,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[How to enable developer settings on Android 4.2]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
     <updated>2013-02-06T13:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+=======
+    <link href="http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
+    <updated>2013-02-06T13:23:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>So for whatever reason Google has chosen to hide the developer settings in the latest version of Jelly Bean. Here&rsquo;s how to get them back.</p>
 
 <p>There&rsquo;s a pretty easy way to re-enable developer setttings and here&rsquo;s how to do it.</p>
@@ -492,9 +565,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
     <updated>2013-02-01T07:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+=======
+    <link href="http://fusion94.org//blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
+    <updated>2013-02-01T07:23:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
 
 <p>As part of that upcoming blog post I&rsquo;m announcing a Custom Character Generator for LCD Panels.</p>
@@ -520,9 +599,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
     <updated>2013-01-24T23:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
+    <updated>2013-01-24T23:40:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<div class="info">Say Goodbye to inefficient meetinngs and email threads. Get your team off of AIM, Google Talk, Skype or IRC.</div>
 
 
@@ -571,7 +656,11 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 </ul>
 
 
+<<<<<<< HEAD
 <p>You can also email us at <a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x6b;&#x61;&#x6e;&#100;&#97;&#x6e;&#97;&#x70;&#112;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x6b;&#97;&#x6e;&#x64;&#x61;&#x6e;&#x61;&#112;&#x70;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+=======
+<p>You can also email us at <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x6b;&#x61;&#110;&#100;&#x61;&#110;&#97;&#x70;&#112;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#107;&#x61;&#x6e;&#100;&#97;&#x6e;&#x61;&#112;&#x70;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <h3>Conclusion</h3>
 
@@ -581,9 +670,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/"/>
     <updated>2013-01-16T08:06:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/16/clahub-clas-done-right</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/16/clahub-clas-done-right/"/>
+    <updated>2013-01-16T08:06:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/16/clahub-clas-done-right</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
 
 
@@ -722,9 +817,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[Legendary for iOS]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/15/legendary-for-ios/"/>
     <updated>2013-01-15T06:40:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/15/legendary-for-ios</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/15/legendary-for-ios/"/>
+    <updated>2013-01-15T06:40:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/15/legendary-for-ios</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
 
 <p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>
@@ -779,11 +880,19 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 
 <h3>Screenshots:</h3>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/legendary/screenshots/legendary1.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary2.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary3.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary4.jpg">
 <img src="http://fusion94.org/images/blog/legendary/screenshots/legendary5.jpg"></p>
+=======
+<p><img src="http://fusion94.org//images/blog/legendary/screenshots/legendary1.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary2.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary3.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary4.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary5.jpg"></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <h3>The Details:</h3>
 
@@ -801,9 +910,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/infoboxes-using-css/"/>
     <updated>2013-01-13T16:22:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/infoboxes-using-css</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/13/infoboxes-using-css/"/>
+    <updated>2013-01-13T16:22:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/13/infoboxes-using-css</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
 
 <p>These <code>InfoBoxes</code> were used to display notes, warnings and the like whenever it seemed appropriate. Here are links to the original macros from Confluence.</p>
@@ -1337,12 +1452,21 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[Firefox OS App Day - Silicon Valley]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
     <updated>2013-01-13T08:32:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
     <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
 
 <p><img class="left" src="http://fusion94.org/images/blog/firefox/firefoxOS-app-days.png"></p>
+=======
+    <link href="http://fusion94.org//blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
+    <updated>2013-01-13T08:32:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
+    <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
+
+<p><img class="left" src="http://fusion94.org//images/blog/firefox/firefoxOS-app-days.png"></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <p>I&rsquo;ll be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> on Saturday, January 19, 2013 being held at the Computer History Museum in Mountain View, California.</p>
 
@@ -1390,15 +1514,25 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 </ul>
 
 
+<<<<<<< HEAD
 <p>As I mentioned earlier I will be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> but unfortunately will have to leave at lunch time as I&rsquo;ll be heading up to Berkeley for the <a href="http://fusion94.org/blog/2013/01/13/openrov-build-day/">OpenROV Build Day Event</a>.</p>
+=======
+<p>As I mentioned earlier I will be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> but unfortunately will have to leave at lunch time as I&rsquo;ll be heading up to Berkeley for the <a href="http://fusion94.org//blog/2013/01/13/openrov-build-day/">OpenROV Build Day Event</a>.</p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[HowTo Tweet New Posts in Octopress]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
     <updated>2013-01-13T07:10:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
+    <updated>2013-01-13T07:10:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Thanks to a <a href="http://prydoni.us/blog/2012/04/29/tweet-new-posts-in-octopress/">blog post</a> from <a href="http://prydoni.us/blog/">Adnan Abdulhussein</a>, I can now auto-tweet new blog posts on my <a href="http://octopress.org">Octopress</a> blog.</p>
 
 <p>I used his original blog post as a guideline but his method was a bit dated and here&rsquo;s the process I used to get this functionality working.</p>
@@ -1637,20 +1771,34 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
   
   <entry>
     <title type="html"><![CDATA[This post will be tweeted]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/"/>
     <updated>2013-01-13T07:03:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/13/this-post-will-be-tweeted/"/>
+    <updated>2013-01-13T07:03:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/13/this-post-will-be-tweeted</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenROV Build Day]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/openrov-build-day/"/>
     <updated>2013-01-13T05:46:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/openrov-build-day</id>
     <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
 <img class="right" src="http://fusion94.org/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
+=======
+    <link href="http://fusion94.org//blog/2013/01/13/openrov-build-day/"/>
+    <updated>2013-01-13T05:46:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/13/openrov-build-day</id>
+    <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
+<img class="right" src="http://fusion94.org//images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 The <a href="http://wiki.openrov.com">OpenROV Wiki</a> is really starting to fill out: <a href="http://wiki.openrov.com/index.php/Assembly#Step_by_step_instructions">Step by Step Instructions</a></p>
 
 <p>That&rsquo;s the best place to start. The goal is for each section of the build to have:</p>
@@ -1707,9 +1855,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Recent Comments as an Asides]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides/"/>
     <updated>2013-01-11T16:39:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/11/recent-comments-as-an-asides/"/>
+    <updated>2013-01-11T16:39:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/11/recent-comments-as-an-asides</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>This short tutorial will teach you in creating a &ldquo;Recent Comments&rdquo; asides for the Octopress sidebar if you&rsquo;re using Disqus as your commenting system.</p>
 
 <p><strong>Step 1:</strong> Let’s create a new aside. Create a new file named <code>recent_comments.html</code> under <code>source/_includes/custom/asides</code></p>
@@ -1756,9 +1910,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Firearm Ownership in the US]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/10/firearm-ownership-in-the-us/"/>
     <updated>2013-01-10T11:00:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/10/firearm-ownership-in-the-us</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/10/firearm-ownership-in-the-us/"/>
+    <updated>2013-01-10T11:00:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/10/firearm-ownership-in-the-us</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<div class="error">This post will probably piss people off. From both sides of the equation.</div>
 
 
@@ -1875,9 +2035,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Titanium Studio Issues]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/10/titanium-studio-issues/"/>
     <updated>2013-01-10T00:41:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/10/titanium-studio-issues</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/10/titanium-studio-issues/"/>
+    <updated>2013-01-10T00:41:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/10/titanium-studio-issues</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>I just installed the latest Titanium Studio from Appcelerator and a Titanium Update window pops up when I open TiStudio and asks me to install Titanium CLI and Alloy.</p>
 
 <p>When I press the install button a dialog pops up that says &ldquo;Titanium wants to make changes. Provide your password to allow installation&rdquo;. I enter my password and TiStudio tells me that my password is incorrect and TiStudio asks me to enter it again.</p>
@@ -1898,9 +2064,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Building B2G (Boot2Gecko) on OSX]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
     <updated>2013-01-09T10:37:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
+    <updated>2013-01-09T10:37:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>So I&rsquo;ve been interested in the <a href="https://wiki.mozilla.org/B2G">Boot2Gecko</a> project for awhile and wanted to see if I could get an app running on <a href="http://www.appgyver.com/steroids">Steroids</a> that would run under B2G.</p>
 
 <p>To accomplish this I needed to get the B2G desktop emulator up and running so I could actually develop something.</p>
@@ -2056,6 +2228,7 @@ Berkeley CA<br></p>
 
 <p><strong>B2G Lock Screen</strong></p>
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/blog/b2g-1/b2g_lock_screen.png"></p>
 
 <p><strong>B2G Home Screen</strong></p>
@@ -2065,14 +2238,31 @@ Berkeley CA<br></p>
 <p><strong>B2G Marketplace</strong></p>
 
 <p><img src="http://fusion94.org/images/blog/b2g-1/b2g_marketplace.png"></p>
+=======
+<p><img src="http://fusion94.org//images/blog/b2g-1/b2g_lock_screen.png"></p>
+
+<p><strong>B2G Home Screen</strong></p>
+
+<p><img src="http://fusion94.org//images/blog/b2g-1/b2g_home_screen.png"></p>
+
+<p><strong>B2G Marketplace</strong></p>
+
+<p><img src="http://fusion94.org//images/blog/b2g-1/b2g_marketplace.png"></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Drafts]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/07/octopress-drafts/"/>
     <updated>2013-01-07T16:13:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/07/octopress-drafts</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/07/octopress-drafts/"/>
+    <updated>2013-01-07T16:13:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/07/octopress-drafts</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>I&rsquo;ve really enjoyed my recent conversion to <a href="http://octopress.org">Octopress</a> but do wish that it by default had a &ldquo;drafts&rdquo; mode so that one can write a post over time. This was really bugging me as I was trying to import old posts from awhile back and the workaround was kind of a pain in the ass.</p>
 
 <!-- more -->
@@ -2381,9 +2571,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Bye-Bye Tumblr, Hello Octopress]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/05/bye-bye-tumblr/"/>
     <updated>2013-01-05T14:27:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/05/bye-bye-tumblr</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/05/bye-bye-tumblr/"/>
+    <updated>2013-01-05T14:27:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/05/bye-bye-tumblr</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>This is my first post published using <a href="http://octopress.org">Octopress</a> after several years of using either <a href="http://drupal.org">Drupal</a> and/or <a href="http://tumblr.com">tumblr</a> and I’d like to share the reasons why I chose to move from a blogging platform and switch to a statically generated site.</p>
 
 <p>Yes, because what you are reading is pure static old-school HTML, generated by Octopress on my MacBook Pro. Also to note is that everything here is being served by GitHub through the Pages feature, completely free.</p>

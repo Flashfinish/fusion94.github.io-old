@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: OpenROV | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/openrov/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/openrov/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[OpenROV Build Day]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/01/13/openrov-build-day/"/>
     <updated>2013-01-13T05:46:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/01/13/openrov-build-day</id>
+=======
+    <link href="http://fusion94.org//blog/2013/01/13/openrov-build-day/"/>
+    <updated>2013-01-13T05:46:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/01/13/openrov-build-day</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
 <img class="right" src="/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
 The <a href="http://wiki.openrov.com">OpenROV Wiki</a> is really starting to fill out: <a href="http://wiki.openrov.com/index.php/Assembly#Step_by_step_instructions">Step by Step Instructions</a></p>
@@ -74,9 +87,15 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[BeagleBone + Webcam Holder for OpenROV]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov/"/>
     <updated>2012-11-26T19:49:00-08:00</updated>
     <id>http://fusion94.org/blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov</id>
+=======
+    <link href="http://fusion94.org//blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov/"/>
+    <updated>2012-11-26T19:49:00-08:00</updated>
+    <id>http://fusion94.org//blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>As I&rsquo;ve been working with the <a href="http://beagleboard.org/bone">BeagleBone</a> linux computer as part
 of the OpenROV project I was getting frustrated with the lack of stands/mounting brackets out
 there to secure the BeagleBone.</p>
@@ -124,9 +143,15 @@ Version Two also takes less than 40 minutes to print.</p>
   
   <entry>
     <title type="html"><![CDATA[OpenRov #1]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2012/08/21/openrov-number-1/"/>
     <updated>2012-08-21T21:01:00-07:00</updated>
     <id>http://fusion94.org/blog/2012/08/21/openrov-number-1</id>
+=======
+    <link href="http://fusion94.org//blog/2012/08/21/openrov-number-1/"/>
+    <updated>2012-08-21T21:01:00-07:00</updated>
+    <id>http://fusion94.org//blog/2012/08/21/openrov-number-1</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>I was visiting David and Eric over at the Rainbow Mansion not too long and was able to
 snag a couple of photos of the first OpenROV design. This is Serial #001.</p>
 

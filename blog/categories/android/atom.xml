@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Android | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[How to enable developer settings on Android 4.2]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
     <updated>2013-02-06T13:23:00-08:00</updated>
     <id>http://fusion94.org/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+=======
+    <link href="http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
+    <updated>2013-02-06T13:23:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>So for whatever reason Google has chosen to hide the developer settings in the latest version of Jelly Bean. Here&rsquo;s how to get them back.</p>
 
 <p>There&rsquo;s a pretty easy way to re-enable developer setttings and here&rsquo;s how to do it.</p>

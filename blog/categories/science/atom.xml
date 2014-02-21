@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Science | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/science/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/science/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[California Academy of Sciences Trip]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2002/03/16/california-academy-of-sciences-trip/"/>
     <updated>2002-03-16T14:01:00-08:00</updated>
     <id>http://fusion94.org/blog/2002/03/16/california-academy-of-sciences-trip</id>
+=======
+    <link href="http://fusion94.org//blog/2002/03/16/california-academy-of-sciences-trip/"/>
+    <updated>2002-03-16T14:01:00-08:00</updated>
+    <id>http://fusion94.org//blog/2002/03/16/california-academy-of-sciences-trip</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>So I spent about 3 &frac12; hours at the <a href="http://www.calacademy.org/">California Academy of Sciences</a> today. I spent most of my time in the Natural History Museum and the Steinhart Aquarium. Saw several very cool exhibits.</p>
 
 <p>The Department of Ichthyology had an exhibit where they had x-rayed several types and species of fish. It was way cool and wasn`t expected.</p>

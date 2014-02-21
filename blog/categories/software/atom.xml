@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Software | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/software/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,12 +22,21 @@
   
   <entry>
     <title type="html"><![CDATA[Medal of Honor: Allied Assault Dedicated Servers Released]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released/"/>
     <updated>2008-12-24T11:33:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released</id>
     <content type="html"><![CDATA[<p>So I finally got around to releasing a package of the Medal of Honor: Allied Assault Dedicated Servers.</p>
 
 <p>They can be downloaded <a href="http://fusion94.org/files/MoHAA_Dedicated_Servers_1.2.zip">here</a>.</p>
+=======
+    <link href="http://fusion94.org//blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released/"/>
+    <updated>2008-12-24T11:33:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released</id>
+    <content type="html"><![CDATA[<p>So I finally got around to releasing a package of the Medal of Honor: Allied Assault Dedicated Servers.</p>
+
+<p>They can be downloaded <a href="http://fusion94.org//files/MoHAA_Dedicated_Servers_1.2.zip">here</a>.</p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 
 <p>I plan on releasing new versions of the Game Server Configurator: MoHAA in the next few weeks and you will need these to use that tool.</p>
 

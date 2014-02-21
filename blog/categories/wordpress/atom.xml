@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: WordPress | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/wordpress/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Site Moved]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/01/27/site-moved/"/>
     <updated>2008-01-27T23:20:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/01/27/site-moved</id>
+=======
+    <link href="http://fusion94.org//blog/2008/01/27/site-moved/"/>
+    <updated>2008-01-27T23:20:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/01/27/site-moved</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>I&rsquo;ve moved all the content off of <a href="http://fusion94.org/blog">http://fusion94.org/blog</a> and have imported here into the Damage Studios site. It was getting tiring trying to determine where to blog and since the old site was running WordPress and I&rsquo;m now doing more Drupal related work it made sense to move it into Drupal. Thanks to PathAuto and aliasing about 98% of the old urls redirect properly.</p>
 
 <p>I know that there are some things not quite right but I hope to resolve these issues in the next week or so.</p>

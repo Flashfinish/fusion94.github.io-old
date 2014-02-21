@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: PHP. Mobile. iPhone | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/php-mobile-iphone/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/php-mobile-iphone/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Drupal API on the iPhone]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/21/drupal-api-on-the-iphone/"/>
     <updated>2008-12-21T21:06:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/21/drupal-api-on-the-iphone</id>
+=======
+    <link href="http://fusion94.org//blog/2008/12/21/drupal-api-on-the-iphone/"/>
+    <updated>2008-12-21T21:06:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/12/21/drupal-api-on-the-iphone</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Here&rsquo;s an interesting little application for the iPhone.</p>
 
 <p><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=298632623">Offline Drupal API Documentation</a></p>
@@ -33,7 +46,11 @@
 </ul>
 
 
+<<<<<<< HEAD
 <p><img src="http://fusion94.org/images/drupal_api_iphone.jpg"></p>
+=======
+<p><img src="http://fusion94.org//images/drupal_api_iphone.jpg"></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 ]]></content>
   </entry>
   

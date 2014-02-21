@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Volunteers | Tony Guntharp]]></title>
+<<<<<<< HEAD
   <link href="http://fusion94.org/blog/categories/volunteers/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
   <updated>2014-02-20T16:02:06-08:00</updated>
   <id>http://fusion94.org/</id>
+=======
+  <link href="http://fusion94.org//blog/categories/volunteers/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
   <author>
     <name><![CDATA[fusion94]]></name>
     <email><![CDATA[fusion94@gmail.com]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Phillip Fulmer & UT]]></title>
+<<<<<<< HEAD
     <link href="http://fusion94.org/blog/2008/12/17/phillip-fulmer-and-ut/"/>
     <updated>2008-12-17T17:44:00-08:00</updated>
     <id>http://fusion94.org/blog/2008/12/17/phillip-fulmer-and-ut</id>
+=======
+    <link href="http://fusion94.org//blog/2008/12/17/phillip-fulmer-and-ut/"/>
+    <updated>2008-12-17T17:44:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/12/17/phillip-fulmer-and-ut</id>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
     <content type="html"><![CDATA[<p>Many years ago I was lucky enough to attend Phillip Fulmer&rsquo;s first game as head coach of the Tennessee Volunteers. That was on September 5th, 1992 and the final score was:</p>
 
 <p>UT: 38</p>
@@ -49,11 +62,19 @@
 
 <p>Here are also a few photos of his final game.</p>
 
+<<<<<<< HEAD
 <p><a href="http://fusion94.org/images/ut-2008/DSC_0001.JPG" rel="lightshow[UT vs KY][Phillip Fulmer Way]"><img src="http://fusion94.org/images/ut-2008/DSC_0001-tn.jpg"></a>
 <a href="http://fusion94.org/images/ut-2008/DSC_0029.JPG" rel="lightshow[UT vs KY][Running through the T]"><img src="http://fusion94.org/images/ut-2008/DSC_0029-tn.jpg"></a>
 <a href="http://fusion94.org/images/ut-2008/DSC_0065.JPG" rel="lightshow[UT vs KY][Toss Sweep and UT Scores]"><img src="http://fusion94.org/images/ut-2008/DSC_0065-tn.jpg"></a>
 <a href="http://fusion94.org/images/ut-2008/DSC_0097.JPG" rel="lightshow[UT vs KY][Me and the Wife]"><img src="http://fusion94.org/images/ut-2008/DSC_0097-tn.jpg"></a>
 <a href="http://fusion94.org/images/ut-2008/DSC_0098.JPG" rel="lightshow[UT vs KY][Final Scoreboard]"><img src="http://fusion94.org/images/ut-2008/DSC_0098-tn.jpg"></a></p>
+=======
+<p><a href="http://fusion94.org//images/ut-2008/DSC_0001.JPG" rel="lightshow[UT vs KY][Phillip Fulmer Way]"><img src="http://fusion94.org//images/ut-2008/DSC_0001-tn.jpg"></a>
+<a href="http://fusion94.org//images/ut-2008/DSC_0029.JPG" rel="lightshow[UT vs KY][Running through the T]"><img src="http://fusion94.org//images/ut-2008/DSC_0029-tn.jpg"></a>
+<a href="http://fusion94.org//images/ut-2008/DSC_0065.JPG" rel="lightshow[UT vs KY][Toss Sweep and UT Scores]"><img src="http://fusion94.org//images/ut-2008/DSC_0065-tn.jpg"></a>
+<a href="http://fusion94.org//images/ut-2008/DSC_0097.JPG" rel="lightshow[UT vs KY][Me and the Wife]"><img src="http://fusion94.org//images/ut-2008/DSC_0097-tn.jpg"></a>
+<a href="http://fusion94.org//images/ut-2008/DSC_0098.JPG" rel="lightshow[UT vs KY][Final Scoreboard]"><img src="http://fusion94.org//images/ut-2008/DSC_0098-tn.jpg"></a></p>
+>>>>>>> d5ed64a890e2f4c868694ef817d610a6bdc47f16
 ]]></content>
   </entry>
   
