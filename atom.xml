@@ -1,23 +1,482 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[fusion94]]></title>
-  <link href="http://fusion94.github.io/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Tony Guntharp]]></title>
+  <link href="http://fusion94.org//atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+    <title type="html"><![CDATA[Hearthstone - Beta]]></title>
+    <link href="http://fusion94.org//blog/2014/02/15/hearthstone-beta/"/>
+    <updated>2014-02-15T07:36:00-08:00</updated>
+    <id>http://fusion94.org//blog/2014/02/15/hearthstone-beta</id>
+    <content type="html"><![CDATA[<p>Blizzard&rsquo;s latest game, <a href="http://us.battle.net/hearthstone/en/">Hearthstone: Heroes of Warcraft</a> entered open beta on January 21st, 2014, opening it all for all Mac and PC users in North America. Hearthstone: Heroes of Warcraft is currently a free-to-play collectible card game that revolves around turn-based online 1v1 matches between two opponents.</p>
+
+<p>Hearthstone is set within the Warcraft universe, with the majority of its characters and cards drawing from existing lore.</p>
+
+<!-- more -->
+
+
+<p><img src="http://fusion94.org//images/blog/hearthstone/screenshot1.png"></p>
+
+<h3>Matches</h3>
+
+<p>Each Hearthstone battle is a 1vs1 match between two opponents. Gameplay in Hearthstone is turn-based, with players taking turns to play cards from their hand, casting spells, equipping weapons, or summoning &lsquo;minions&rsquo; to do battle on their behalf. Play may be between two human players, or one player and a computer-controlled opponent.</p>
+
+<br>
+
+
+<p>Each player is represented by their chosen &lsquo;hero&rsquo;, an important character from Warcraft lore. Each hero represents a particular class, determining the special cards and unique hero power available to them. Each hero has 30 Health &ndash; if that number is reduced to zero, the hero is destroyed, and the controlling player has lost the game. The available heroes and classes are:</p>
+
+<ul>
+<li>Mage (Jaina Proudmoore)</li>
+<li>Priest (Anduin Wrynn)</li>
+<li>Warlock (Gul&#8217;dan)</li>
+<li>Paladin (Uther the Lightbringer)</li>
+<li>Warrior (Garrosh Hellscream)</li>
+<li>Druid (Malfurion Stormrage)</li>
+<li>Hunter (Rexxar)</li>
+<li>Rogue (Valeera Sanguinar)</li>
+<li>Shaman (Thrall)</li>
+</ul>
+
+
+<br>
+
+
+<p>At the start of each turn, the player draws a new card from their deck &ndash; a collection of 30 cards selected before battle. Players can choose to play using one of several pre-assembled &lsquo;basic&rsquo; decks, or one of their own custom-made decks. While most cards are available to heroes of any class, a substantial portion are limited to a specific class, giving each hero their own strengths and unique possibilities.</p>
+
+<br>
+
+
+<p>During their turn, each player can choose to play any of their cards, use their hero power, command their minions to attack targets, or attack directly using their hero, if they have a weapon equipped. However, which actions the player is able to take is partly determined by their mana. Each player starts the game with 1 mana crystal, and gains one more at the start of each turn, until the maximum of 10 is reached. Each card and hero power requires the player to expend a specific amount of mana in order to play it, strategically limiting each player&rsquo;s actions. In addition, the larger mana pools in later rounds allow players to play increasingly expensive cards, opening the game up to ever more impressive moves and powerful abilities.</p>
+
+<br>
+
+
+<p>A match is concluded when one or both players has reached zero health, or chooses to concede. Completing a battle will grant each player hero experience (winning earns additional experience) and granting them access to additional cards up to level 10 or golden versions of basic cards past level 10.</p>
+
+<br>
+
+
+<p>Each match takes place on a randomly selected battlefield, representing the board on which the game is played. There are currently four possible battlefields: Stormwind, Orgrimmar, Pandaria and Stranglethorn. Each battlefield features its own design and numerous interactive elements, but gameplay is in no way affected or determined by battlefield selection.</p>
+
+<h3>Cards</h3>
+
+<p>Cards are the main substance of Hearthstone, representing the abilities, characters and effects which each player is able to make use of during the match. There are currently 382 cards in the game, with more planned to be added to the game later through the introduction of expansion packs and &lsquo;adventures&rsquo;.</p>
+
+<br>
+
+
+<p>In all game modes except Arena, the player does battle using a deck of 30 cards, constructed from cards in the player&rsquo;s collection. Each deck can only feature two of each card, and only one of each legendary card. Arena play features no such limitations, but requires players to play using a new deck chosen from a series of randomly provided selections. For either type of deck, the construction of a player&rsquo;s deck is a key strategic element in the game, determining which cards are available to them during the course of a match.</p>
+
+<br>
+
+
+<p>Each player starts the game with a wide selection of basic cards. Cards of higher rarity can be obtained by purchasing card packs, or as rewards from Arena mode. Card packs and entry to the Arena can be purchased using real money, or gold, an in-game currency earned through completing special &lsquo;quests&rsquo;, such as winning a certain number of matches, or dealing a certain amount of damage. Each card pack consists of five random cards, including at least one rare card. Obtaining new cards allows the player to add them to their decks, opening up new possibilities for play and strategy.</p>
+
+<br>
+
+
+<p>Players can also use the crafting system to create new cards. The system uses arcane dust to craft specific cards. Arcane dust can be obtained as an Arena reward, or by destroying existing cards, allowing players to convert unwanted cards into more desirable options. The crafting system was created as an alternative to the player card trading prevalent in trading card games such as Magic: The Gathering, with no plans for cards to be traded between players.</p>
+
+<br>
+
+
+<p>Similar to the foils found in physical collectible card games, Hearthstone features golden cards, special versions of regular cards featuring a golden border and unique animations. These cards are far harder to obtain than their regular versions, and cost more arcane dust to craft. Golden cards differ from their regular counterparts purely cosmetically, and are designed to allow players to show off their accomplishments.</p>
+
+<h3>Game Modes</h3>
+
+<p>Four main game modes are available to play in Hearthstone.</p>
+
+<ul>
+<li>In Practice mode, players can play against a selection of computer opponents. Players can learn the basics of the game battling against &lsquo;basic&rsquo; opponents, or can put their skills to the test against improved &lsquo;expert&rsquo; opponents.</li>
+<li>Play mode matches players against other human players of similar skill, in random matches. Players can choose to play Casual &lsquo;friendly&rsquo; games, or take part in Ranked play, earning special medals to reflect their skill and standing within the community. Ranked play features a 26-tier rank system, with wins allowing the player to progress to higher ranks, and losses causing them to descend in rank. The highest rank is called Legend. This rank cannot be lost until the season ends and the rank features the exact ranking in your region. All ranks are reset at the end of each season, with each season lasting for about one month. Ranked play is also planned to provide special cosmetic rewards for participation, such as golden heroes and alternative card backs.</li>
+<li>Arena mode, which costs in-game gold or real money to play, has the player drafting a deck by choosing between 3 cards until they have picked 30. Players then use their drafted deck to do battle in a series of games against other Arena players. Each Arena run lasts until the player has reached three losses or twelve wins, or chooses to retire their deck, at which point they are granted a number of rewards determined by the total number of games won. While constructed decks have card restrictions, Arena decks have no such card limits.</li>
+<li>Duels allow players to challenge players on their friends list to unranked matches. Duels offer no rewards, but allow players to play games outside of the other game modes.</li>
+</ul>
+
+
+<p>The game also features a Tutorial, a limited and non-repeatable starting experience designed to introduce players to Hearthstone, in which the player is pitched against a series of special opponents, with substantial dialogue elements.</p>
+
+<h3>Summary</h3>
+
+<p>Overall I think Hearthstone has been done really well and I&rsquo;m enjoying my time there. My understanding is that the game will always be free to play but that Blizzard will charge for card packs. I also know that they are planning to release game clients for Hearthstone for iPhone, iPad and Android sometime after the official launch.</p>
+
+<p>If you&rsquo;re so inclined feel free to download the game and friend me using my gamertag of <strong>fusion94#1276</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Managerial Mistakes]]></title>
+    <link href="http://fusion94.org//blog/2014/02/12/managerial-mistakes/"/>
+    <updated>2014-02-12T09:30:00-08:00</updated>
+    <id>http://fusion94.org//blog/2014/02/12/managerial-mistakes</id>
+    <content type="html"><![CDATA[<p>Let&rsquo;s be honest here. We&rsquo;ve all suffered at some point in our careers from bad managers and/or ineffective leadership. Why is this the case?</p>
+
+<p>Many (if not most) bad managers lack basic training in managing people. But, even more importantly, these same managers generally lack the core values, professionalism, initiative, sensitivity, character, and situational awareness needed to interact effectively all day long with people.</p>
+
+<!-- more -->
+
+
+<h3>tl:dr</h3>
+
+<blockquote><blockquote><p>Please refer to <strong>Wheaton’s Law</strong> which is an internet axiom which states <strong><em>“Don’t be a dick.”</em></strong> It was originally used in the context of sportsmanship in online gaming but its scope was eventually expanded to apply to life in general.</p></blockquote></blockquote>
+
+<p>Skills and techniques are relatively easy to teach, but <strong>values</strong>, <strong>beliefs</strong>, <strong>attitude</strong>, and <strong>character</strong> are much harder to teach and are <strong>much</strong> harder for managers to learn. Yet, these are the underlying soft skills that will most make managers a success or a failure.</p>
+
+<p>These basic traits (<strong>values</strong>, <strong>beliefs</strong>, and <strong>attitude</strong>) fall under the very character of the manager. The consequence of not training character is not limited to diminished judgment  and adaptive ability; it also impacts the manager himself. When a manager intentionally violates a code or institutional ethos while in the context of doing their job , then they are destroying the very bedrock of their self-respect and leadership skills.</p>
+
+<p>In a modern organization that <strong><em>values it&rsquo;s employees</em></strong>, you&rsquo;ll want to hire and/or select managers who exhibit many (if not all) of the characteristics listed below. <strong><em>If you don&rsquo;t then you&rsquo;re only contributing to the problem.</em></strong></p>
+
+<ul>
+<li><strong>Able</strong> to hold people accountable and responsible without taking punitive actions</li>
+<li><strong>Demonstrate</strong> leadership and clear direction</li>
+<li><strong>Believe</strong> in teamwork</li>
+<li><strong>Value</strong> people</li>
+<li><strong>Believe</strong> in frequent effective communication and listening</li>
+<li><strong>Want</strong> to create an environment where employees are empowered</li>
+</ul>
+
+
+<h3>There are fundamentally 6 mistakes that bad managers make:</h3>
+
+<ul>
+<li><p><strong>Failing to provide clear direction to your employees:</strong><br>
+Managers quite often fail to create proper standards and provide empoyees with clear expectations so they know what they are supposed to do. That same manager will then wonder why those employees fail. If you make <strong>every</strong> task a priority, people will soon believe that there are <strong>no priorities</strong>.<br></p></li>
+<li><p><strong>Failing to trust your employees:</strong><br>
+When managers <strong>fail</strong> to trust their employees to do their jobs, their lack of trust plays out in a number of detrimental ways. Micromanaging comes to mind immediately. For example this manager will generally:</p>
+
+<ul>
+<li>resist delegating</li>
+<li>take back delegated work before it is finished if they find a mistake in it</li>
+<li>immerse themselves in overseeing the projects of others<br><br></li>
+</ul>
+</li>
+<li><p><strong>Failing to react to problems and issues:</strong><br>
+Bad managers often think that an issue, whether it be a conflict or disagreement will just go away on its own if they ignore it. I hate to break it to you. <strong>It won&rsquo;t</strong>. Issues will just get worse unless something changes or the issue is properly addressed.<br></p></li>
+<li><p><strong>Failing to get to know your employees:</strong><br>
+Developing a relationship with employees is a major key in managing those employees. While you don&rsquo;t want or need to be their counselor you <strong>do</strong> want/need to know what&rsquo;s going on in their lives. Knowing that the family dog died, expressing sympathy, or that his/her daughter graduated high school make you an interested, involved boss.<br></p></li>
+<li><p><strong>Making decisions and then asking people for their input:</strong><br>
+You cannot make a decision and then ask people for their feedback while ignoring said feedback. This, in reality, is an <strong>edict</strong>.  You also should not create hierarchical steps and other roadblocks that teach employees that their ideas are subject to veto and then wonder why no one has any suggestions/feedback for improvement.<br></p></li>
+<li><p><strong>Failing to communicate effectively and withholding important information:</strong><br>
+The best form of communications is <strong>transparent</strong> in nature. While some information that you&rsquo;re privy to might be confidential in nature share what you know as soon as allowable. Information <strong>is</strong> criticial for your employees to make good decisions. There&rsquo;s a reason the phrase is: <strong><em>informed decisions</em></strong>.<br></p></li>
+</ul>
+
+
+<h3>7 Successful Management Traits:</h3>
+
+<ul>
+<li><p><strong>Understanding your role:</strong><br>
+Management requires the ability to build and/or hire a team that can perform and shine. Don&rsquo;t forget that <strong><em>Your success comes from their success</em></strong>. The manager&rsquo;s role is to <strong>facilitate</strong> what people on the team do well and to <strong>remove</strong> any obstacles blocking the team from performing effectively.<br><br>For example, a financial executive who becomes the chief executive does not abandon his/her original expertise, but he/she does abandon their old role and embraces the role of mentor. If he/she doesn’t, they will smother their own baby. <strong><em>Don&rsquo;t kill the baby</em></strong><br><br>On the other hand, if an executive moves too far in the opposite direction, the result will be just as deadly. The person who clears obstacles for his team and obstinately protects them “no matter what” will lose sight of their shortcomings and lose sight of the mission.<br><br>Mission first and <strong>people always</strong>.<br></p></li>
+<li><p><strong>Keeping the team unified:</strong><br>
+Once you have the team solidified, stay <strong>alert</strong> for any sign of discourse. When you notice it, use the tools you have relied on throughout your career to strengthen interpersonal bonds. If that means creating situations in which your employees rally against you, then do so, but do it in a way that makes the condition temporal.<br></p></li>
+<li><p><strong>Do not fall victim to deference:</strong><br>
+Deference is a double-edged sword. If you get <strong>accustomed</strong> to having employees defer to you, you <strong>will</strong> stop growing as a manager. It will destroy, <strong>your credibility</strong>. Sometimes you have to <strong>admit</strong> that you don’t have all the answers. Reliance on other employees is another way to bond your team as you establish yourself as a self-aware leader.<br></p></li>
+<li><p><strong>Dealing with differences:</strong><br>
+Even if you have hired everyone around you and everyone seems to speak the same language, nobody thinks exactly the same way <strong>you</strong> do. You may follow the same process and have the same mental attributes, but you and your employees are different. And some of what they do may seem ridiculous to you.<br><br>To successfullly deal with these differences, you will need to be able to <strong>identify</strong> them. And then, once you have, you have to decide whether each is a source of strength for the organization, or is detrimental to the team.<br></p></li>
+<li><p><strong>Service Mentality:</strong><br>
+To successfully lead a team of talented people, you must <strong>focus on serving them</strong>. Your job is to clear obstructions, distractions and excuses. You streamline processes and keep the political nonsense at arms length.<br></p></li>
+<li><p><strong>Give personal attention:</strong><br>
+To become a great manager, you must make your employees success into your own success. Take the <strong>time</strong> to coach, train, and mentor them. Provide them regular feedback on their performance and their shortcomings knowing that your best employees will crave candidness and honesty. In short, <strong><em>make your employees feel valued</em></strong>.<br></p></li>
+<li><p><strong>Provide experience:</strong><br>
+Everyone, generally starts at the bottom of the food chain. Great employees care about where they want to go and will need <strong>your help</strong> to get them there. They know you were once in the same position they are in and want to see how to get to where you are today. So take some <strong>time</strong> to help your people understand the business. <strong>Expose</strong> them to every part of the operation to round off their skills. <strong>Develop</strong> and <strong>groom</strong> them to take over your position.<br></p></li>
+</ul>
+
+
+<h3>Summary</h3>
+
+<p>Bad Management is about not caring about anything other than yourself. Good Management isn&rsquo;t in fact management at all but rather leadership. If you&rsquo;re a good manager then you&rsquo;re a leader. You can&rsquo;t have one without the other.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Top 10 Shell Commands used]]></title>
+    <link href="http://fusion94.org//blog/2013/12/09/top-10-shell-commands-used/"/>
+    <updated>2013-12-09T09:26:00-08:00</updated>
+    <id>http://fusion94.org//blog/2013/12/09/top-10-shell-commands-used</id>
+    <content type="html"><![CDATA[<p>From time to time, I like to analyze which unix or linux shell commands I&rsquo;m using most frequently. To do this, all I need is a little awk, like the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>history | awk '{print $2}' | sort | uniq -c | sort -rn | head</span></code></pre></td></tr></table></div></figure>
+
+
+<p>So what does this do?</p>
+
+<p>Basically, it parses your history looking at the 2nd column, which is the command you typed and increments it each time it is found. Then it displays a sorted report showing the count of the command and the command, like this example on my MacBook Pro:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>1353 git
+</span><span class='line'>749 cd
+</span><span class='line'>391 ssh
+</span><span class='line'>379 ls
+</span><span class='line'>194 rake
+</span><span class='line'>168 vagrant
+</span><span class='line'>152 sublime
+</span><span class='line'>143 rvm
+</span><span class='line'>135 rm
+</span><span class='line'>119 bundle</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Based on this output of the top 10 most frequently used shell commands, it shows that I&rsquo;m using git, and ls quite a bit so it would be helpful to create aliases for these commands. Here are a few examples:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>alias g="git"
+</span><span class='line'>alias l="ls -al"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now that I know git is one of my most used commands I can parse my history to determine what git command I use most frequently:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>history | awk '{print $2 " " $3}' | sort | uniq -c | sort -rn | grep "git" | head     </span></code></pre></td></tr></table></div></figure>
+
+
+<p>The output of that command provides me with this information:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> 200 git push
+</span><span class='line'> 191 git commit
+</span><span class='line'> 172 git status
+</span><span class='line'> 105 git branch
+</span><span class='line'> 103 git clone
+</span><span class='line'>  99 git checkout
+</span><span class='line'>  79 git remote
+</span><span class='line'>  49 git fetch</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>This now allows me to tailor my aliases for git accordingly.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>alias gp="git push"
+</span><span class='line'>alias gc="git commit -m"
+</span><span class='line'>alias gs="git status"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>By tailoring your aliases appropriately you can speed up your workflow significantly, as well as reduce the wear and tear on your fingers.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Inconvenient Truth about Assault Rifles]]></title>
+    <link href="http://fusion94.org//blog/2013/04/09/an-inconvenient-truth-about-assault-rifles/"/>
+    <updated>2013-04-09T22:16:00-07:00</updated>
+    <id>http://fusion94.org//blog/2013/04/09/an-inconvenient-truth-about-assault-rifles</id>
+    <content type="html"><![CDATA[<p>Let&rsquo;s start by clearing up a few misconceptions about so-called &ldquo;assault rifles&rdquo;.  Technically speaking an assault rifle is a selective fire (selectable among either fully automatic, burst-capable, or, sometimes, semi-automatic modes of operation) rifle that uses an intermediate cartridge and a detachable magazine.</p>
+
+<!-- more -->
+
+
+<p>This means that an assault rifle must contain 3 distinct features:
+* Selective fire control between fully automatic, burst-capable, and single shot modes of operation  <strong>AND</strong>
+* Use of an intermediate cartridge <strong>AND</strong>
+* Use of a detachable magazine</p>
+
+<p>Now that we&rsquo;ve established what constitutes an &ldquo;assault rifle&rdquo; let&rsquo;s look at each of these items in greater detail.</p>
+
+<h3>Selective Fire</h3>
+
+<blockquote>A selective fire firearm has at least one semi–automatic and one automatic mode, which is activated by means of a selector which varies depending on the weapon&#8217;s design. Some selective fire weapons utilize burst fire mechanisms to limit the maximum number of shots fired automatically in this mode. The most common limits are two or three rounds per trigger pull. Fully automatic fire refers to the ability for a rifle to fire continuously until the magazine is empty. &#8220;Burst-capable&#8221; fire refers to the ability of a rifle to fire a small yet fixed multiple number of rounds with one trigger pull. Semi-automatic refers to the ability to fire one round per trigger pull. The presence of selective fire modes on assault rifles permits more efficient use of rounds to be fired for specific needs, versus having a single mode of operation, such as fully automatic, thereby conserving ammunition while maximizing on-target accuracy and effectiveness.</blockquote>
+
+
+<h3>Intermediate Cartridge</h3>
+
+<blockquote>An intermediate cartridge is a military assault rifle cartridge that is less powerful than typical full power battle rifle cartridges such as the 7.62x54mm Rimmed, UK .303 or US .30-06 Springfield, but still significantly more powerful than pistol cartridges. As their recoil is significantly reduced compared to high power rifle cartridges, fully automatic rifles firing intermediate cartridges are relatively easy to control. However, even though less powerful than a traditional rifle cartridge, the ballistics are still sufficient for an effective range of 250–500 metres (270–550 yd), which are the maximum typical engagement ranges in combat. This allowed for the development of the assault rifle concept, which is a selective fire weapon that is more compact and lighter than rifles firing full power cartridges. The first intermediate cartridge to see widespread service was the German 7.92x33mm Kurz. Other examples include the Soviet 7.62x39mm used in the AK-47 and AKM series, and the .280 British round developed for the EM-2. The 5.56x45mm NATO cartridge is also an intermediate cartridge.</blockquote>
+
+
+<h3>Detachable Magazine</h3>
+
+<blockquote>A detachable magazine is a self-contained mechanism capable of being loaded or unloaded while detached from the host firearm. They are attached via a slot in the firearm receiver usually below the action but occasionally to the side (Sten, FG42, Johnson LMG) or on top (Madsen machine gun, Bren gun, FN P90). When the magazine is empty, it can be detached from the firearm and replaced by another full magazine. This significantly speeds the process of reloading, allowing the operator quick access to ammunition. This type of magazine may be straight or curved, the curve being necessary if the rifle uses rimmed ammunition or ammunition with a tapered case.</blockquote>
+
+
+<p>So now that we&rsquo;ve identified what features are needed to make an &ldquo;assault rifle&rdquo; let&rsquo;s do a visual test.</p>
+
+<h4>Example 1</h4>
+
+<p><img src="http://fusion94.org//images/ar1.jpg"></p>
+
+<h4>Example 2</h4>
+
+<p><img src="http://fusion94.org//images/ar2.jpg"></p>
+
+<h4>Example 3</h4>
+
+<p><img src="http://fusion94.org//images/ar3.jpg"></p>
+
+<p>So which of these 3 examples is an &ldquo;assault rifle&rdquo; according to the definition above?  All three of them look very similar. But do they adhere to the definition?</p>
+
+<ul>
+<li>Example A while using both an intermediate cartridge and a detachable magazine does not have a selective fire control.</li>
+<li>Example B uses both an intermediate cartridge, a detachable magazine, and is capable of selective fire.</li>
+<li>Example C has selective fire control, a detachable magazine but doesn&rsquo;t use an intermediate cartridge. As a matter of record it&rsquo;s not even considered a firearm as it&rsquo;s an Airsoft gun.</li>
+</ul>
+
+
+<p>So Example B is the only one with all 3 features and is the only &ldquo;assault rifle&rdquo; of the group. While they all look similar to one another they are not all &ldquo;assault rifles&rdquo;.</p>
+
+<p>Let&rsquo;s do one more visual test to see if we&rsquo;ve learned anything.</p>
+
+<h4>Example 4</h4>
+
+<p><img src="http://fusion94.org//images/ar4.jpg"></p>
+
+<h4>Example 5</h4>
+
+<p><img src="http://fusion94.org//images/ar5.jpg"></p>
+
+<h4>Example 6</h4>
+
+<p><img src="http://fusion94.org//images/ar6.jpg"></p>
+
+<h4>Example 7</h4>
+
+<p><img src="http://fusion94.org//images/ar7.jpg"></p>
+
+<p>So which of these 4 examples is an &ldquo;assault rifle&rdquo; according to the definition above?  Sorry it&rsquo;s a trick question. While all 4 have a detachable magazine none of them have selective fire or use an intermediate cartridge. So none of them is an &ldquo;assault rifle&rdquo;. As a matter of fact all 4 of them are the same firearm just with different stocks put into place. Some are just a bit more &ldquo;scary&rdquo; looking than the others. The issue is that &ldquo;scary&rdquo; looking doesn&rsquo;t and shouldn&rsquo;t define an &ldquo;assault rifle&rdquo;.</p>
+
+<p>The fact is that what really constitutes an &ldquo;assault rifle&rdquo; is actually called &ldquo;Selective Fire Weapons&rdquo;.  Selective fire weapons are regulated in the United States under the <a href="http://en.wikipedia.org/wiki/National_Firearms_Act">National Firearms Act</a> of 1934; their new manufacture for the civilian market was prohibited by the <a href="http://en.wikipedia.org/wiki/Firearm_Owners_Protection_Act">Firearm Owners Protection Act</a> of 1986. Those still in circulation often command prices significantly higher than similar models still available to law enforcement and military agencies and are highly regulated by the ATF.</p>
+
+<hr>
+
+
+<br>
+
+
+<h1>But for the sake of argument let&rsquo;s now agree that anything that looks like a military style weapon is an &ldquo;assault rifle&rdquo;.</h1>
+
+<hr>
+
+
+<br>
+
+
+<h3>The Statistics about Assault Rifles</h3>
+
+<p>Let&rsquo;s take a look at the <a href="http://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2011/crime-in-the-u.s.-2011/tables/expanded-homicide-data-table-8">Uniform Crime Reports</a> compiled by the FBI to determine how deadly or how often an &ldquo;assault rifle&rdquo; is used in homicides.</p>
+
+<iframe width='675' height='425' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AizXDsCEsDdndGR5NER5VVJQaUFfcUtFeEItVmFiblE&single=true&gid=5&output=html&widget=true'></iframe>
+
+
+<p>Take another look at the data of murder by weapon type. Notice what&rsquo;s missing? Assault rifles. They barely chart &ndash; to the point that where to measure them they have to get included into the rifles group.  Let&rsquo;s actually chart that data to get a better visual representation of what that data is telling us.</p>
+
+<script type="text/javascript" src="http://fusion94.org///ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AizXDsCEsDdndGR5NER5VVJQaUFfcUtFeEItVmFiblE&transpose=0&headers=0&range=A4%3AB19&gid=3&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":"14"},"legendTextStyle":{"color":"#000000","fontSize":"10"},"animation":{"duration":0},"backgroundColor":{"fill":"#ffffff"},"colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"width":1675,"is3D":false,"pieSliceText":"value","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},"vAxes":[{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"pieHole":"0.25","title":"Murder Victims by Weapon: 2007-2011","booleanRole":"certainty","width":675,"height":475,"legend":"left"},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"PieChart","chartName":"Chart 2"} </script>
+
+
+<p>Rifles account for 1,874 homicides from 2007-2011 out of a total of  68,720. That accounts to be 2.73%.  Now how  many of those 1,874 homicided were commited by an &lsquo;&ldquo;assault rifle&rsquo;&rdquo;? Well we really don&rsquo;t know. But let&rsquo;s extrapolate some raw numbers.</p>
+
+<p>A November 2012 <a href="http://www.fas.org/sgp/crs/misc/RL32842.pdf">Congressional Research Service report</a> found that, as of 2009, there were approximately 310 million firearms in the United States: 114 million handguns, 110 million rifles, and 86 million shotguns.</p>
+
+<p>In 2009, in a declaration made as part of the court case Heller v. District of Columbia, which challenged D.C.’s assault weapons ban, NRA research coordinator Mark Overstreet reported that, from 1986 to 2007, at least 1,626,525 AR-15-style semi-automatic rifles were produced and not exported from the United States. Overstreet suggested that you could use trends in NICS background checks to project future sales of AR-15-style rifles. As of Nov. 30, 2012, the total number of NICS background checks increased by 50.4 percent since the end of 2007. If the number of AR-15 rifles increased similarly, then that means there are at least 2,446,294 AR-15 rifles currently available in the United States.</p>
+
+<p>These data only include firearms manufactured in the United States. In his declaration, Overstreet notes that, since 1986, “U.S.-made firearms have accounted for roughly three-fourths of all new firearms available on the commercial market in the United States.” So if you increase the above number to account for foreign-made, AR-15-style rifles, you get 3,261,725 total rifles.</p>
+
+<p>Overstreet derived his numbers by examining the sales figures of companies that only produced AR-15-style rifles. He didn’t include sales data from America’s three largest gunmakers—Remington, Smith &amp; Wesson, and Sturm-Ruger—because these three produce multiple lines of rifles, and he couldn’t break down the data.</p>
+
+<p> Let’s estimate those figures on our own.</p>
+
+<p>According to Sturm-Ruger’s 2011 annual report, sales of rifles accounted for $83.4 million in revenue that year out of $324.2 million in total net firearms sales—about 26 percent of revenue. Sturm-Ruger produced 1,114,700 firearms in 2011. Assuming that every gun cost the same amount—this is certainly incorrect, but we’re just making a back-of-the-envelope calculation here—26 percent of 1,114,700 is roughly 290,000 rifles. According to Overstreet, AR-15s accounted for 14.4 percent of rifles produced in 2007. If that statistic remains true, then Sturm-Ruger produced close to 42,000 AR-15-style rifles in 2011. Walk that number back through the years, and extrapolate it out to the other two manufacturers, and you’re possibly looking at anywhere from 500,000 to 700,000 more AR-15-style rifles.</p>
+
+<p>Add everything together, make all the necessary caveats, carry the two, and we reach the conclusion that there are somewhere around 3,750,000 AR-15-type rifles in the United States today.</p>
+
+<p>If we round up once more that means that there are close to 4 million assault weapons in the U.S., which amounts to roughly 1.29% of the total gun stock of 310,000,000 firearms.</p>
+
+<h3>The Impact</h3>
+
+<p>If we accept the above numbers as not wildly inaccurate then we can extrapolate that approximately 1.29% of  all homicides that occured between 2007-2011 were at the hands of someone wielding an assault rifle. This comes out to be 24.17 people during that span or 4.83 a year.</p>
+
+<p>In comparison, during that same time period, 4,058 people were beat to death by hands, fists and feet. Or approximately 812 people per year. This means that you&rsquo;re approximately 168 times more likely to be beaten to death by someone using their hands, fists and feet than to be killed with an assault rifle.</p>
+
+<p>Let&rsquo;s just say for the sake of argument that 50% of Homicides committed using a rifle were &lsquo;&ldquo;assault rifles&rsquo;&rdquo;. This comes to equal approximately 187.4 homicides per year over that 5 year term or 1.36% of all Homicides.</p>
+
+<p>In reality you&rsquo;re:</p>
+
+<ul>
+<li>1,365 times more likely to be murdered with a handgun</li>
+<li>370 times more likely to be murdered with a knife</li>
+<li>120 tiimes more likely to be murdered with a blunt object</li>
+<li>84 times more likely to be murdered with a shotgun</li>
+<li>19.35 times more likely to be murdered by fire</li>
+<li>8.8 times more likely to be murdered through the use of narcotics</li>
+<li>1.75 times more likely to be murdered through the use of poison</li>
+<li>1.25 times more likely to be murdered through the use of explosives</li>
+</ul>
+
+
+<p>At least that&rsquo;s what the numbers tell us.</p>
+
+<p>In reality, Assault weapons are not the weapons of choice among drug dealers, gang members or criminals in general. Assault weapons are used in about one-fifth of one percent (.20%) of all violent crimes and about one percent in overall gun crimes.</p>
+
+<h3>The 2nd Amendment</h3>
+
+<p>Some people will argue that since the founders and framers of the Constitution only had access to muzzle loading black powder rifles then that&rsquo;s literally what they meant, and therefore the 2nd Amendment no longer applies.</p>
+
+<p>This is a seriously malformed argument on many points, but there are people who earnestly posit such a statement. Of course we could preface the beginning of any statement accordingly in an attempt to disregard any of the rights in the Constitution.</p>
+
+<p>For example: let&rsquo;s apply that logic to the 1st Amendment.</p>
+
+<blockquote>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.</blockquote>
+
+
+<p>Due to the lack of electronics during the time that the Constitution was written we can state that your right to freedom of speech only applies to spoken word or printed word when that printed word was hand written since the framers didn&rsquo;t have a word processor, ink jet/laser printers, email, cellular phones, facebook and twitter.</p>
+
+<p>How ridiculous does that argument sound now?</p>
+
+<p>Now let&rsquo;s apply some of that logic to the 5th Amendment.</p>
+
+<blockquote>No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offense to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.</blockquote>
+
+
+<p>Now the 5th Amendment deals with Double Jeopardy and the wording states &lsquo;&ldquo;nor shall any person be subject for the same offense to be twice put in jeopardy of life or limb&rsquo;&rdquo;. Since some crimes don&rsquo;t have the punishment of losing either your life or a limb does that mean you can be tried over and over again until the government is happy with  the outcome? Of course it doesn&rsquo;t.</p>
+
+<p>Like it or not the 2nd Amendment is law. The law cannot be ignored because one considers the practices of lawmakers at the time disagreeable or immoral by today&rsquo;s standards. By the same reasoning, if our President or members of Congress commit immoral acts, is the legislation they passed suddenly invalid? No it isn&rsquo;t.</p>
+
+<p>Whatever the vices and imperfections of the Founders, they were masters at establishing a republican form of government.</p>
+
+<h3>Conclusion</h3>
+
+<p>There is a chance that if you are trying to change someone&rsquo;s mind about guns by spouting statistics about gun violence or gun accidents or crimes thwarted by guns that you might as well be manipulating your butt cheeks to modulate your farts into a Skrillex track; sure, it may impress a crowd at parties, but it&rsquo;s not going to change anyone&rsquo;s mind. This is what people who aren&rsquo;t from America, or who grew up somewhere like Berkeley or whatever, don&rsquo;t get: America&rsquo;s love of guns has nothing to do with actually using them.</p>
+
+<p>The huge gap suggests President Obama’s call for new firearm restrictions would do little to reduce the number people murdered each year – even if a reluctant Congress were to pass all his requests. His proposals don’t really addresss handguns.</p>
+
+<p>Assault rifles are not America&rsquo;s biggest problem. Elimination of assault rifles won&rsquo;t address the problem as that will only address 1.29% of the issue. What about the other 98.71% of homicides? Are they now acceptable by comparision?</p>
+
+<p>No they aren&rsquo;t. So pull your head out of your ass and let&rsquo;s start addressing the problem (which is people) and not the tool.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[How to enable developer settings on Android 4.2]]></title>
-    <link href="http://fusion94.github.io/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
+    <link href="http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
     <updated>2013-02-06T13:23:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+    <id>http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
     <content type="html"><![CDATA[<p>So for whatever reason Google has chosen to hide the developer settings in the latest version of Jelly Bean. Here&rsquo;s how to get them back.</p>
 
 <p>There&rsquo;s a pretty easy way to re-enable developer setttings and here&rsquo;s how to do it.</p>
@@ -33,9 +492,9 @@
   
   <entry>
     <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
-    <link href="http://fusion94.github.io/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
+    <link href="http://fusion94.org//blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
     <updated>2013-02-01T07:23:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+    <id>http://fusion94.org//blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
     <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
 
 <p>As part of that upcoming blog post I&rsquo;m announcing a Custom Character Generator for LCD Panels.</p>
@@ -61,9 +520,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
+    <link href="http://fusion94.org//blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
     <updated>2013-01-24T23:40:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
+    <id>http://fusion94.org//blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
     <content type="html"><![CDATA[<div class="info">Say Goodbye to inefficient meetinngs and email threads. Get your team off of AIM, Google Talk, Skype or IRC.</div>
 
 
@@ -112,7 +571,7 @@
 </ul>
 
 
-<p>You can also email us at <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#107;&#97;&#x6e;&#x64;&#x61;&#110;&#97;&#112;&#112;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x6b;&#97;&#110;&#x64;&#97;&#110;&#97;&#x70;&#x70;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>You can also email us at <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x6b;&#x61;&#110;&#100;&#x61;&#110;&#97;&#x70;&#112;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#107;&#x61;&#x6e;&#100;&#97;&#x6e;&#x61;&#112;&#x70;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -122,9 +581,9 @@
   
   <entry>
     <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/16/clahub-clas-done-right/"/>
+    <link href="http://fusion94.org//blog/2013/01/16/clahub-clas-done-right/"/>
     <updated>2013-01-16T08:06:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/16/clahub-clas-done-right</id>
+    <id>http://fusion94.org//blog/2013/01/16/clahub-clas-done-right</id>
     <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
 
 
@@ -263,9 +722,9 @@
   
   <entry>
     <title type="html"><![CDATA[Legendary for iOS]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/15/legendary-for-ios/"/>
+    <link href="http://fusion94.org//blog/2013/01/15/legendary-for-ios/"/>
     <updated>2013-01-15T06:40:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/15/legendary-for-ios</id>
+    <id>http://fusion94.org//blog/2013/01/15/legendary-for-ios</id>
     <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
 
 <p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>
@@ -320,11 +779,11 @@
 
 <h3>Screenshots:</h3>
 
-<p><img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary1.jpg">
-<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary2.jpg">
-<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary3.jpg">
-<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary4.jpg">
-<img src="http://fusion94.github.io/images/blog/legendary/screenshots/legendary5.jpg"></p>
+<p><img src="http://fusion94.org//images/blog/legendary/screenshots/legendary1.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary2.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary3.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary4.jpg">
+<img src="http://fusion94.org//images/blog/legendary/screenshots/legendary5.jpg"></p>
 
 <h3>The Details:</h3>
 
@@ -342,9 +801,9 @@
   
   <entry>
     <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/infoboxes-using-css/"/>
     <updated>2013-01-13T16:22:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css</id>
+    <id>http://fusion94.org//blog/2013/01/13/infoboxes-using-css</id>
     <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
 
 <p>These <code>InfoBoxes</code> were used to display notes, warnings and the like whenever it seemed appropriate. Here are links to the original macros from Confluence.</p>
@@ -878,12 +1337,12 @@
   
   <entry>
     <title type="html"><![CDATA[Firefox OS App Day - Silicon Valley]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
     <updated>2013-01-13T08:32:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
+    <id>http://fusion94.org//blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
     <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
 
-<p><img class="left" src="http://fusion94.github.io/images/blog/firefox/firefoxOS-app-days.png"></p>
+<p><img class="left" src="http://fusion94.org//images/blog/firefox/firefoxOS-app-days.png"></p>
 
 <p>I&rsquo;ll be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> on Saturday, January 19, 2013 being held at the Computer History Museum in Mountain View, California.</p>
 
@@ -931,15 +1390,15 @@
 </ul>
 
 
-<p>As I mentioned earlier I will be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> but unfortunately will have to leave at lunch time as I&rsquo;ll be heading up to Berkeley for the <a href="http://fusion94.github.io/blog/2013/01/13/openrov-build-day/">OpenROV Build Day Event</a>.</p>
+<p>As I mentioned earlier I will be attending the <a href="http://firefoxosappday-siliconvalley.eventbrite.com/">Silicon Valley Event</a> but unfortunately will have to leave at lunch time as I&rsquo;ll be heading up to Berkeley for the <a href="http://fusion94.org//blog/2013/01/13/openrov-build-day/">OpenROV Build Day Event</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[HowTo Tweet New Posts in Octopress]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/howto-tweet-new-posts-in-octopress/"/>
     <updated>2013-01-13T07:10:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
+    <id>http://fusion94.org//blog/2013/01/13/howto-tweet-new-posts-in-octopress</id>
     <content type="html"><![CDATA[<p>Thanks to a <a href="http://prydoni.us/blog/2012/04/29/tweet-new-posts-in-octopress/">blog post</a> from <a href="http://prydoni.us/blog/">Adnan Abdulhussein</a>, I can now auto-tweet new blog posts on my <a href="http://octopress.org">Octopress</a> blog.</p>
 
 <p>I used his original blog post as a guideline but his method was a bit dated and here&rsquo;s the process I used to get this functionality working.</p>
@@ -1178,20 +1637,20 @@
   
   <entry>
     <title type="html"><![CDATA[This post will be tweeted]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/this-post-will-be-tweeted/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/this-post-will-be-tweeted/"/>
     <updated>2013-01-13T07:03:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/this-post-will-be-tweeted</id>
+    <id>http://fusion94.org//blog/2013/01/13/this-post-will-be-tweeted</id>
     <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenROV Build Day]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/openrov-build-day/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/openrov-build-day/"/>
     <updated>2013-01-13T05:46:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/openrov-build-day</id>
+    <id>http://fusion94.org//blog/2013/01/13/openrov-build-day</id>
     <content type="html"><![CDATA[<p>We&rsquo;re glad to hear that many of the kits made it under the Christmas tree! Now, the next phase: building them!
-<img class="right" src="http://fusion94.github.io/images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
+<img class="right" src="http://fusion94.org//images/blog/openrov/openrov_icon.jpeg" width="120" height="120">
 The <a href="http://wiki.openrov.com">OpenROV Wiki</a> is really starting to fill out: <a href="http://wiki.openrov.com/index.php/Assembly#Step_by_step_instructions">Step by Step Instructions</a></p>
 
 <p>That&rsquo;s the best place to start. The goal is for each section of the build to have:</p>
@@ -1238,14 +1697,19 @@ Berkeley CA<br></p>
 <p><strong>What is OpenROV</strong></p>
 
 <p>OpenROV is a  Do It Yourself telerobotics community centered around underwater exploration and education. We have developed a low-cost telerobotic submarine that can be built with mostly off-the-shelf parts. The goal of OpenROV is to democratize exploration by allowing anyone to explore and study underwater environments.</p>
+
+<p>Here&rsquo;s a short video of it in action.</p>
+
+<div class="embed-video-container"><iframe src="http://player.vimeo.com/video/44088059 "></iframe></div>
+
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Recent Comments as an Asides]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/11/recent-comments-as-an-asides/"/>
+    <link href="http://fusion94.org//blog/2013/01/11/recent-comments-as-an-asides/"/>
     <updated>2013-01-11T16:39:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/11/recent-comments-as-an-asides</id>
+    <id>http://fusion94.org//blog/2013/01/11/recent-comments-as-an-asides</id>
     <content type="html"><![CDATA[<p>This short tutorial will teach you in creating a &ldquo;Recent Comments&rdquo; asides for the Octopress sidebar if you&rsquo;re using Disqus as your commenting system.</p>
 
 <p><strong>Step 1:</strong> Let’s create a new aside. Create a new file named <code>recent_comments.html</code> under <code>source/_includes/custom/asides</code></p>
@@ -1292,9 +1756,9 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Firearm Ownership in the US]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/10/firearm-ownership-in-the-us/"/>
+    <link href="http://fusion94.org//blog/2013/01/10/firearm-ownership-in-the-us/"/>
     <updated>2013-01-10T11:00:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/10/firearm-ownership-in-the-us</id>
+    <id>http://fusion94.org//blog/2013/01/10/firearm-ownership-in-the-us</id>
     <content type="html"><![CDATA[<div class="error">This post will probably piss people off. From both sides of the equation.</div>
 
 
@@ -1411,9 +1875,9 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Titanium Studio Issues]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/10/titanium-studio-issues/"/>
+    <link href="http://fusion94.org//blog/2013/01/10/titanium-studio-issues/"/>
     <updated>2013-01-10T00:41:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/10/titanium-studio-issues</id>
+    <id>http://fusion94.org//blog/2013/01/10/titanium-studio-issues</id>
     <content type="html"><![CDATA[<p>I just installed the latest Titanium Studio from Appcelerator and a Titanium Update window pops up when I open TiStudio and asks me to install Titanium CLI and Alloy.</p>
 
 <p>When I press the install button a dialog pops up that says &ldquo;Titanium wants to make changes. Provide your password to allow installation&rdquo;. I enter my password and TiStudio tells me that my password is incorrect and TiStudio asks me to enter it again.</p>
@@ -1434,9 +1898,9 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Building B2G (Boot2Gecko) on OSX]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
+    <link href="http://fusion94.org//blog/2013/01/09/building-b2g-boot2gecko-on-osx/"/>
     <updated>2013-01-09T10:37:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
+    <id>http://fusion94.org//blog/2013/01/09/building-b2g-boot2gecko-on-osx</id>
     <content type="html"><![CDATA[<p>So I&rsquo;ve been interested in the <a href="https://wiki.mozilla.org/B2G">Boot2Gecko</a> project for awhile and wanted to see if I could get an app running on <a href="http://www.appgyver.com/steroids">Steroids</a> that would run under B2G.</p>
 
 <p>To accomplish this I needed to get the B2G desktop emulator up and running so I could actually develop something.</p>
@@ -1592,23 +2056,23 @@ Berkeley CA<br></p>
 
 <p><strong>B2G Lock Screen</strong></p>
 
-<p><img src="http://fusion94.github.io/images/blog/b2g-1/b2g_lock_screen.png"></p>
+<p><img src="http://fusion94.org//images/blog/b2g-1/b2g_lock_screen.png"></p>
 
 <p><strong>B2G Home Screen</strong></p>
 
-<p><img src="http://fusion94.github.io/images/blog/b2g-1/b2g_home_screen.png"></p>
+<p><img src="http://fusion94.org//images/blog/b2g-1/b2g_home_screen.png"></p>
 
 <p><strong>B2G Marketplace</strong></p>
 
-<p><img src="http://fusion94.github.io/images/blog/b2g-1/b2g_marketplace.png"></p>
+<p><img src="http://fusion94.org//images/blog/b2g-1/b2g_marketplace.png"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Drafts]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/07/octopress-drafts/"/>
+    <link href="http://fusion94.org//blog/2013/01/07/octopress-drafts/"/>
     <updated>2013-01-07T16:13:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/07/octopress-drafts</id>
+    <id>http://fusion94.org//blog/2013/01/07/octopress-drafts</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve really enjoyed my recent conversion to <a href="http://octopress.org">Octopress</a> but do wish that it by default had a &ldquo;drafts&rdquo; mode so that one can write a post over time. This was really bugging me as I was trying to import old posts from awhile back and the workaround was kind of a pain in the ass.</p>
 
 <!-- more -->
@@ -1917,9 +2381,9 @@ Berkeley CA<br></p>
   
   <entry>
     <title type="html"><![CDATA[Bye-Bye Tumblr, Hello Octopress]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/05/bye-bye-tumblr/"/>
+    <link href="http://fusion94.org//blog/2013/01/05/bye-bye-tumblr/"/>
     <updated>2013-01-05T14:27:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/05/bye-bye-tumblr</id>
+    <id>http://fusion94.org//blog/2013/01/05/bye-bye-tumblr</id>
     <content type="html"><![CDATA[<p>This is my first post published using <a href="http://octopress.org">Octopress</a> after several years of using either <a href="http://drupal.org">Drupal</a> and/or <a href="http://tumblr.com">tumblr</a> and I’d like to share the reasons why I chose to move from a blogging platform and switch to a statically generated site.</p>
 
 <p>Yes, because what you are reading is pure static old-school HTML, generated by Octopress on my MacBook Pro. Also to note is that everything here is being served by GitHub through the Pages feature, completely free.</p>
@@ -1957,706 +2421,6 @@ Berkeley CA<br></p>
 <h3>Open Source</h3>
 
 <p>Best of all is that Octopress is Open Source and licensed under The MIT License.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Arduino + DF-BluetoothV3 Bluetooth module]]></title>
-    <link href="http://fusion94.github.io/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module/"/>
-    <updated>2012-12-08T13:27:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/12/08/arduino-plus-df-bluetoothv3-bluetooth-module</id>
-    <content type="html"><![CDATA[<div class="info">NOTE: This blog post is part of a series of blog posts on how to build electronic circuits. If you’re 
-at all interested then please subscribe to the RSS feed.</div>
-
-
-<h3>Background</h3>
-
-<p>In this blog post we&rsquo;re going to deal with the <a href="http://www.dfrobot.com/index.php?route=product/product&amp;filter_name=TEL0026&amp;product_id=360#.UMODVpPjlnM">DF-BluetoothV3 Bluetooth module</a>
-from DFRobot and how to integrate it into an Arduino.</p>
-
-<p>This DF-Bluetooth module offers an affordable way to let your microcontroller talk to your Bluetooth
-devices such as Bluetooth mobile phones, laptop, and Bluetooth adapter. The Bluetooth module provides
-TTL level UART interface which is supported by almost every microcontroller in the market.</p>
-
-<!-- more -->
-
-
-<p>It is also designed to be compatible with most popular Arduino controller. Simply plug into Arduino
-IO Expansion Shield, and the Bluetooth Arduino is ready to use.</p>
-
-<p><strong>Key Specfications</strong></p>
-
-<ul>
-<li>Chips: CSR BC417143</li>
-<li>Bluetooth Protocol: Bluetooth Specification v2.0 +EDR</li>
-<li>Working Frequency: 2.4-2.48GHz unlicensed ISM Band</li>
-<li>Modulation Mode: GFSK (Gaussian Frequency Shift Keying)</li>
-<li>Power: ≤4dBm, Class 2</li>
-<li>Transmission Distance: 20-30 in free space</li>
-<li>Sensitivity: ≤-84 dBm at 0.1% BER</li>
-<li>Transmission rate: Asynchronous: 2.1 Mbps (Max)/160 kbps; Synchronous: 1Mbps/1Mbps</li>
-<li>Security: Authentication and encryption</li>
-<li>Support profiles: Bluetooth serial port</li>
-<li>LED indicator: LINK</li>
-<li>Power Supply: +3.5V-+8V DC/50 mA</li>
-<li>Working Temperature: -20°C-+55°C</li>
-<li>Dimension: 43x19.3x11mm</li>
-<li>Default serial setting: 9600/N/8/1</li>
-<li>Default Pairing Code: 1234</li>
-</ul>
-
-
-<h3>What It Can Do</h3>
-
-<p>DF-BluetoothV3 Bluetooth module uses a unique double-board design, it is beautiful and aims to
-prevent electrostatic damage to the module. It is designed to have 2 DC power input, wide voltage
-supply (3.5V ~ 8V) and 3.3V power supply, suitable for various applications. STATE LINK is indicated
-by a clear and bright LED which is used to display module status and connection status (STATE state:
-Search state (high 104ms 342ms 2.9Hz cycle flicker) connection status (high 104ms period 2s 0.5Hz
-flashing), LINK state: paired ). It has build-in on-board antenna which provides high quality signals.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/bluetooth/bt1.png"></p>
-
-<p>DIP switch is designed to set the module status, LED Off to turn off the LINK light to enter power
-saving mode, AT Mode allows the module to enter AT command mode, AT commands can modify the baud rate
-and the master and slave mode.</p>
-
-<ul>
-<li>This module can also be used as a pair which provides a transparent serial data communication.</li>
-<li>This module has been tested and compatible with most Bluetooth adapter in the market (Bluetooth dongle, including laptops and mobile phones).</li>
-<li>This module has been tested and compatible with Android Phones.</li>
-</ul>
-
-
-<p><strong>Hardware Required</strong></p>
-
-<p>There are two different hardware setups that I&rsquo;ve tested this on.</p>
-
-<p><strong>Setup One</strong></p>
-
-<ul>
-<li>DF-BluetoothV3 Bluetooth module</li>
-<li>DF-IO Expansion Shield for Arduino (v5)</li>
-<li>Arduino Uno</li>
-</ul>
-
-
-<p><img src="http://fusion94.github.io/images/blog/bluetooth/setup_one.png"></p>
-
-<p><strong>Setup Two</strong></p>
-
-<ul>
-<li>DF-BluetoothV3 Bluetooth module</li>
-<li>Romeo-All in one Controller (Arduino Compatible Atmega 328) (V1.0)</li>
-</ul>
-
-
-<p><img src="http://fusion94.github.io/images/blog/bluetooth/setup_two.png"></p>
-
-<div class="warning">Please note that when you use the Romeo-All in one Controller (Arduino Compatible Atmega 328) (V1.0) 
-then you&#8217;re going to have to install the <a href="http://www.ftdichip.com/Drivers/VCP.htm">FTDI Drivers</a>.</div>
-
-
-<h3>Additional Setup Notes</h3>
-
-<div class="info">When the DF-Bluetooth is used on Arduino, please make sure you disconnect the DF-Bluetooth module 
-before uploading any code to your Arduino. It won’t burn your Arduino, but the uploading will fail as 
-the DF-Bluetooth module occupying the TX/RX pins.</div>
-
-
-<p>The next step is that making pairs between the computer and the Bluetooth module. By doing this, from
-the computer  communicating with a Bluetooth module is now just simple serial communications.</p>
-
-<p>Detail steps depend on the operating system. Followings are from Mac OS X. Choose the Set Up Bluetooth
-Devices menu item. Select the Bluetooth_V3 item.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/bluetooth/bluetooth_setup.jpeg"></p>
-
-<p>The default passcode of the Bluetooth module is ’1234.’ When you are prompted use the passcode.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/bluetooth/passcode.jpeg"></p>
-
-<p>When the pairing is completed successfully the window below will be shown.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/bluetooth/pairing_sucess.jpeg"></p>
-
-<p><strong>The Code</strong></p>
-
-<figure class='code'><figcaption><span>DF-BluetoothV3 Bluetooth module code for Arduino </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>/*
-</span><span class='line'>
-</span><span class='line'> DF-BluetoothV3 Bluetooth module
-</span><span class='line'> 
-</span><span class='line'> Intefaces the DF-BluetoothV3 Bluetooth module with most Arduino contollers.
-</span><span class='line'> 
-</span><span class='line'> When the DF-Bluetooth is used on Arduino, please make sure you disconnect the 
-</span><span class='line'> DF-Bluetooth module before uploading any code to your Arduino. It won’t burn 
-</span><span class='line'> your Arduino, but the uploading will fail as the DF-Bluetooth module occupying 
-</span><span class='line'> the TX/RX pins.
-</span><span class='line'> 
-</span><span class='line'> * Copyright (c) 2012 by Tony Guntharp. All Rights Reserved.
-</span><span class='line'> * Licensed under the terms of the Apache Public License
-</span><span class='line'> * Please see the LICENSE included with this distribution for details.
-</span><span class='line'> 
-</span><span class='line'> */
-</span><span class='line'>
-</span><span class='line'>void setup() {
-</span><span class='line'>  // Initialize serial communications: Set serial baud rate to 9600
-</span><span class='line'>  Serial.begin(9600);          
-</span><span class='line'>} 
-</span><span class='line'>
-</span><span class='line'>void loop() {
-</span><span class='line'>  // Print out our Hello World string followed by a newline
-</span><span class='line'>  Serial.print("Hello World from the DF-BluetoothV3 Bluetooth module");        
-</span><span class='line'>  Serial.println();
-</span><span class='line'>  // 1 second delay
-</span><span class='line'>  delay(1000);                  
-</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
-
-
-<p>At the end of uploading and running the code listed above you will start to see some serial output
-like in the image below.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/bluetooth/bt_results.png"></p>
-
-<p><strong>Source Code</strong></p>
-
-<p><a href="https://github.com/fusion94/DF-BluetoothV3_Arduino">Github</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Arduino + Compass Module 3-Axis HMC5883L]]></title>
-    <link href="http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l/"/>
-    <updated>2012-11-29T13:14:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/11/29/arduino-plus-compass-module-3-axis-hmc5883l</id>
-    <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
-all interested then please subscribe to the RSS feed.</div>
-
-
-<h3>Background</h3>
-
-<p>In this blogpost we&rsquo;re going to deal with the <a href="http://www.parallax.com/tabid/768/ProductID/779/Default.aspx">Compass Module 3-Axis HMC5883L</a> from Parallax and how to
-integrate it into an Arduino.</p>
-
-<p>The Compass Module 3-Axis HMC5883L is designed for low-field magnetic sensing with a digital interface.
-This compact sensor fits into small projects such as UAVs and robot navigation systems.</p>
-
-<!-- more -->
-
-
-<p>The sensor converts any magnetic field to a differential voltage output on 3 axes. This voltage shift
-is the raw digital output value, which can then be used to calculate headings or sense magnetic fields
-coming from different directions. Example code in PBASIC, Spin, and C are provided in the downloads.</p>
-
-<p><strong>Features:</strong></p>
-
-<ul>
-<li>Measures Earth’s magnetic fields</li>
-<li>3-axis magnetoresistive sensor</li>
-<li>Wide magnetic field range (+/-8 gauss)</li>
-<li>1 to 2 degree compass heading accuracy</li>
-<li>Precision in-axis sensitivity and linearity</li>
-<li>I2C digital Interface</li>
-<li>Fast 160 Hz maximum output rate</li>
-<li>Designed for use with a large variety of microcontrollers with different voltage requirements</li>
-</ul>
-
-
-<p><strong>Application Notes:</strong></p>
-
-<ul>
-<li>Auto and personal navigation</li>
-<li>UAV systems</li>
-<li>Robotic navigation</li>
-<li>Location-based services (LBS)</li>
-</ul>
-
-
-<p><strong>Key Specifications:</strong></p>
-
-<ul>
-<li>Power Requirements: 2.7 to 6.5 VDC</li>
-<li>Communication Interface: I2C (up to 400 kHz)</li>
-<li>Operating temperature: -22 to +185 °F (-30 to +85 °C)</li>
-<li>Dimensions: 0.725 x 0.650 in (1.8 x 1.7 cm)</li>
-</ul>
-
-
-<h3>What It Can Do</h3>
-
-<ul>
-<li>Measures the earth’s magnetic field in three axes, with a 1–2 degree accuracy</li>
-<li>Provides individual readings for each axis, which may be used separately or together for 3D calculations</li>
-<li>Measures raw strength (gauss) of a nearby magnetic source</li>
-</ul>
-
-
-<p>The 3-Axis Compass module measures magnetic fields in three directions – or axes, labeled X, Y, and Z.
-In its most simple form, the module can be used as a basic compass to find earth’s magnetic north.</p>
-
-<p>The compass module can also sense the relative strength of a nearby magnetic source, such as those
-caused by magnets or electric fields. As the sensor detects magnetism in three dimensions, it can
-determine relative distance and direction to these sources.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/compass/Compass-2.png"></p>
-
-<p>Compasses are commonly uses with accelerometers, where the data from both the compass and
-accelerometer can provide extended information.</p>
-
-<p>One application of adding an accelerometer is to compensate for any tilt of the compass. As with
-most any compass, the reading is affected if the compass is not level.</p>
-
-<p><strong>Hardware Required</strong></p>
-
-<ul>
-<li>Arduino Board</li>
-<li>(1) Compass Module 3-Axis HMC5883L</li>
-<li>breadboard</li>
-<li>hook-up wire</li>
-</ul>
-
-
-<p><strong>Circuit</strong></p>
-
-<p><img src="http://fusion94.github.io/images/blog/compass/Compass-3.png"></p>
-
-<p>Connect the 5V and GND pins of the compass to the power and ground ports on the Arduino. Connect
-analog pin 4 of the Arduino to the SDA (Data) out pin of the compass, and analog pin 5 to the SCL
-(Clock) out pin.</p>
-
-<p>The picture below shows you essentially how the circuit should be laid out.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/compass/Compass-6_0.png"></p>
-
-<p>Don’t forget that your Arduino must be connected to your computer in order for it to transmit serial
-data and don’t forget to set the Baud Rate of your serial connection to be 9600.</p>
-
-<p><strong>The Code</strong></p>
-
-<figure class='code'><figcaption><span>Compass Module 3-Axis HMC5883L code for Arduino </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-<span class='line-number'>38</span>
-<span class='line-number'>39</span>
-<span class='line-number'>40</span>
-<span class='line-number'>41</span>
-<span class='line-number'>42</span>
-<span class='line-number'>43</span>
-<span class='line-number'>44</span>
-<span class='line-number'>45</span>
-<span class='line-number'>46</span>
-<span class='line-number'>47</span>
-<span class='line-number'>48</span>
-<span class='line-number'>49</span>
-<span class='line-number'>50</span>
-<span class='line-number'>51</span>
-<span class='line-number'>52</span>
-<span class='line-number'>53</span>
-<span class='line-number'>54</span>
-<span class='line-number'>55</span>
-<span class='line-number'>56</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>/*
-</span><span class='line'>   Compass Module 3-Axis HMC5883L
-</span><span class='line'>   
-</span><span class='line'>   Read the Compass Module 3-Axis HMC5883L and prints them over the serial connection to the computer.
-</span><span class='line'>   
-</span><span class='line'>   The circuit:
-</span><span class='line'>    * SDA (Data) output of compass to analog pin 4
-</span><span class='line'>    * SCL (Clock) output of compass to analog pin 5
-</span><span class='line'>    * +V of accelerometer to +5V
-</span><span class='line'>    * GND of accelerometer to ground
-</span><span class='line'>
-</span><span class='line'>   created 29 Nov 2012
-</span><span class='line'>   by Tony Guntharp
-</span><span class='line'>
-</span><span class='line'> */
-</span><span class='line'>#include 
-</span><span class='line'>
-</span><span class='line'>#define Addr 0x1E               // 7-bit address of HMC5883 compass
-</span><span class='line'>
-</span><span class='line'>void setup() {
-</span><span class='line'>  Serial.begin(9600);
-</span><span class='line'>  delay(100);                   // Power up delay
-</span><span class='line'>  Wire.begin();
-</span><span class='line'>  
-</span><span class='line'>  // Set operating mode to continuous
-</span><span class='line'>  Wire.beginTransmission(Addr); 
-</span><span class='line'>  Wire.write(byte(0x02));
-</span><span class='line'>  Wire.write(byte(0x00));
-</span><span class='line'>  Wire.endTransmission();
-</span><span class='line'>}
-</span><span class='line'>
-</span><span class='line'>void loop() {
-</span><span class='line'>  int x, y, z;
-</span><span class='line'>
-</span><span class='line'>  // Initiate communications with compass
-</span><span class='line'>  Wire.beginTransmission(Addr);
-</span><span class='line'>  Wire.write(byte(0x03));       // Send request to X MSB register
-</span><span class='line'>  Wire.endTransmission();
-</span><span class='line'>
-</span><span class='line'>  Wire.requestFrom(Addr, 6);    // Request 6 bytes; 2 bytes per axis
-</span><span class='line'>  if(Wire.available() &lt;=6) {    // If 6 bytes available
-</span><span class='line'>    x = Wire.read() &lt;&lt; 8 | Wire.read();
-</span><span class='line'>    z = Wire.read() &lt;&lt; 8 | Wire.read();
-</span><span class='line'>    y = Wire.read() &lt;&lt; 8 | Wire.read();
-</span><span class='line'>  }
-</span><span class='line'>  
-</span><span class='line'>  // Print raw values
-</span><span class='line'>  Serial.print("X=");
-</span><span class='line'>  Serial.print(x);
-</span><span class='line'>  Serial.print(", Y=");
-</span><span class='line'>  Serial.print(y);
-</span><span class='line'>  Serial.print(", Z=");
-</span><span class='line'>  Serial.println(z);
-</span><span class='line'>  
-</span><span class='line'>  delay(500);
-</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
-
-
-<p>At the end of uploading and running the code listed above you will start to see some serial output
-like in the image below.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/compass/compass_results.png"></p>
-
-<p>Here’s a picture of the actual circuit built.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/compass/compass_circuit.png"></p>
-
-<p><strong>Source Code</strong></p>
-
-<p><a href="https://github.com/fusion94/HMC5883L_Arduino">Github</a></p>
-
-<p>In a follow up blog post I’ll discuss how you can use both the Compass Module 3-Axis HMC5883L in
-conjunction with the Memsic 2125 Dual-axis Accelerometer to compensate for any tilt of the compass.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Arduino + Memsic 2125 Dual-axis Accelerometer]]></title>
-    <link href="http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
-    <updated>2012-11-28T15:50:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
-    <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
-all interested then please subscribe to the RSS feed.</div>
-
-
-<h3>Background</h3>
-
-<p>In this blogpost we&rsquo;re going to deal with the <a href="http://learn.parallax.com/KickStart/28017">Memsic 2125 Dual-axis Accelerometer</a> from Parallax and how to integrate
-it into an Arduino.</p>
-
-<p>The Memsic 2125 is a low cost, dual-axis thermal accelerometer capable of measuring tilt, acceleration, rotation,
-and vibration with a range of ±3 g. For integration into existing applications, the Memsic 2125 is electrically
-compatible with other popular accelerometers.</p>
-
-<!-- more -->
-
-
-<p>Memsic provides the 2125 in a surface-mount format. Parallax mounts the circuit on a through-hole providing all
-I/O connections so it can easily be inserted on a breadboard or through-hole prototype area.</p>
-
-<p><strong>Features:</strong></p>
-
-<ul>
-<li>Measures ±3 g on each axis</li>
-<li>Simple pulse output of g-force for each axis</li>
-<li>Convenient 6-pin 0.1&#8221; spacing DIP module</li>
-<li>Analog output fo temperature (Tout pin)</li>
-<li>Low current at 3.3 or 5 V operation: less than 4 mA at 5 VDC</li>
-</ul>
-
-
-<p><strong>Sample Applications:</strong></p>
-
-<ul>
-<li>Dual-axis tilt sensing for autonomous robotics applications</li>
-<li>Single-axis rotational position sensing</li>
-<li>Movement/Lack-of-movement sensing for alarm systems</li>
-<li>R/C hobby projects such as autopilots</li>
-</ul>
-
-
-<p><strong>Key Specifications:</strong></p>
-
-<ul>
-<li>Power requirements: +3.3 to +5 VDC</li>
-<li>Communication: TTL/CMOS compatible 100 Hz PWM output signal with duty cycle proportional to acceleration</li>
-<li>Dimensions: 0.42 x 0.42 x 0.45 in (10.7 x 10.7 x 11.8 mm)</li>
-<li>Operating temp range: 32 to +158 °F (0 to +70 °C)</li>
-</ul>
-
-
-<h3>What It Can Do</h3>
-
-<ul>
-<li>Measures tilt in two axes: forward and back, or side to side</li>
-<li>Registers sudden changes in motion
-*Detects even small amounts of vibration and motion</li>
-</ul>
-
-
-<p>The Memsic 2125 Dual-axis Accelerometer is sensitive to the gravitational pull of the earth, allowing it to measure
-tilt, vibration, motion, and acceleration. The sensor provides independent outputs for two axes, labeled X and Y:</p>
-
-<ul>
-<li>The X axis measures tilt or acceleration forward and back (direction of arrow)</li>
-<li>The Y axis measures tilt or acceleration side to side</li>
-</ul>
-
-
-<p><img src="http://fusion94.github.io/images/blog/memsic2125/Memsic2125-2.png"></p>
-
-<p>The Memsic 2125 module registers the constant pull of earth’s gravity. This is specified as 1g (g for gravity). For
-the Memsic sensor, the value of 1g is always some positive number, and is about half way between the highest and
-lowest readings the module is capable of reporting.</p>
-
-<p>As a tilt sensor, the Memsic 2125 detects when the module is not level. The output of the sensor indicates the amount
-of inclination. As a acceleration or vibration sensor, the sensor measures the g-forces acting on it. The greater the
-g-force, the higher the acceleration or vibration.</p>
-
-<p>The X and Y axis output of the Memsic 2125 is a pulse that has a period of (that is, it repeats) 100 times a second
-(100 Hz). The width of the pulse represents the instantaneous g-force. By measuring the width of the pulse, you can
-derive – with high accuracy – the g-force of either axis.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/memsic2125/Memsic2125-3.png"></p>
-
-<p><strong>Hardware Required</strong></p>
-
-<ul>
-<li>Arduino Board</li>
-<li>(1) Memsic 2125 Accelerometer</li>
-<li>breadboard</li>
-<li>hook-up wire</li>
-</ul>
-
-
-<p><strong>Circuit</strong></p>
-
-<p><img src="http://fusion94.github.io/images/blog/memsic2125/Mx2125_PINOUT.png"></p>
-
-<p>Use the small triangle on the Memsic to properly orient the sensor on your breadboard. Connect the 5V and GND pins
-of the Memsic 2125 to the power and ground ports on the Arduino. Connect digital pin 2 of the Arduino to the X out
-pin of the accelerometer, and digital pin 3 to the Y out pin.</p>
-
-<p>The picture below shows you essentially how the circuit should be laid out.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/memsic2125/Memsic2125-7.png"></p>
-
-<p>Don&rsquo;t forget that your Arduino must be connected to your computer in order for it to transmit serial data and
-don&rsquo;t forget to set the Baud Rate of your serial connection to be 9600.</p>
-
-<p><strong>The Code</strong></p>
-
-<figure class='code'><figcaption><span>Memsic 2125 two-axis accelerometer code for Arduino </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-<span class='line-number'>38</span>
-<span class='line-number'>39</span>
-<span class='line-number'>40</span>
-<span class='line-number'>41</span>
-<span class='line-number'>42</span>
-<span class='line-number'>43</span>
-<span class='line-number'>44</span>
-<span class='line-number'>45</span>
-<span class='line-number'>46</span>
-<span class='line-number'>47</span>
-<span class='line-number'>48</span>
-<span class='line-number'>49</span>
-<span class='line-number'>50</span>
-<span class='line-number'>51</span>
-<span class='line-number'>52</span>
-<span class='line-number'>53</span>
-<span class='line-number'>54</span>
-<span class='line-number'>55</span>
-<span class='line-number'>56</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>/*
-</span><span class='line'>   Memsic2125
-</span><span class='line'>   
-</span><span class='line'>   Read the Memsic 2125 two-axis accelerometer and prints them over the serial connection to the
-</span><span class='line'>   computer.
-</span><span class='line'>   
-</span><span class='line'>   The circuit:
-</span><span class='line'>    * X output of accelerometer to digital pin 2
-</span><span class='line'>    * Y output of accelerometer to digital pin 3
-</span><span class='line'>    * +V of accelerometer to +5V
-</span><span class='line'>    * GND of accelerometer to ground
-</span><span class='line'>
-</span><span class='line'>    * Copyright (c) 2012 by Tony Guntharp. All Rights Reserved.
-</span><span class='line'>    * Licensed under the terms of the Apache Public License
-</span><span class='line'>    * Please see the LICENSE included with this distribution for details.
-</span><span class='line'>
-</span><span class='line'> */
-</span><span class='line'> 
-</span><span class='line'> // these constants won't change:
-</span><span class='line'>const int xPin = 2;     // X output of the accelerometer
-</span><span class='line'>const int yPin = 3;     // Y output of the accelerometer
-</span><span class='line'>
-</span><span class='line'>void setup() {
-</span><span class='line'>  // initialize serial communications:
-</span><span class='line'>  Serial.begin(9600);
-</span><span class='line'>  // initialize the pins connected to the accelerometer
-</span><span class='line'>  // as inputs:
-</span><span class='line'>  pinMode(xPin, INPUT);
-</span><span class='line'>  pinMode(yPin, INPUT);
-</span><span class='line'>}
-</span><span class='line'>
-</span><span class='line'>void loop() {
-</span><span class='line'>  // variables to read the pulse widths:
-</span><span class='line'>  int pulseX, pulseY;
-</span><span class='line'>  // variables to contain the resulting accelerations
-</span><span class='line'>  int accelerationX, accelerationY;
-</span><span class='line'>  
-</span><span class='line'>  // read pulse from x- and y-axes:
-</span><span class='line'>  pulseX = pulseIn(xPin,HIGH);  
-</span><span class='line'>  pulseY = pulseIn(yPin,HIGH);
-</span><span class='line'>  
-</span><span class='line'>  // convert the pulse width into acceleration
-</span><span class='line'>  // accelerationX and accelerationY are in milli-g's: 
-</span><span class='line'>  // earth's gravity is 1000 milli-g's, or 1g.
-</span><span class='line'>  accelerationX = ((pulseX / 10) - 500) * 8;
-</span><span class='line'>  accelerationY = ((pulseY / 10) - 500) * 8;
-</span><span class='line'>
-</span><span class='line'>  // print the acceleration
-</span><span class='line'>  Serial.print(accelerationX);
-</span><span class='line'>  // print a tab character:
-</span><span class='line'>  Serial.print("\t");
-</span><span class='line'>  Serial.print(accelerationY);
-</span><span class='line'>  Serial.println();
-</span><span class='line'>
-</span><span class='line'>  delay(100);
-</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
-
-
-<p>At the end of uploading and running the code listed above you will start to see some serial output like in the
-image below.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/memsic2125/memsic2125_results.png"></p>
-
-<p>Here&rsquo;s a picture of the actual circuit built.</p>
-
-<p><img src="http://fusion94.github.io/images/blog/memsic2125/layout.png"></p>
-
-<p>In a follow up blog post I&rsquo;ll discuss how by using additional math, you can use the values provided by the
-accelerometer to convert to actual g-forces or degrees of tilt.</p>
-
-<p><strong>Source Code</strong></p>
-
-<p><a href="https://github.com/fusion94/Memsic2125_Arduino">Github</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Open Source Hardware]]></title>
-    <link href="http://fusion94.github.io/blog/2012/11/28/open-source-hardware/"/>
-    <updated>2012-11-28T08:34:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/11/28/open-source-hardware</id>
-    <content type="html"><![CDATA[<p>Open-source hardware (OSHW) consists of physical artifacts of technology designed and offered
-in the same manner as free and open-source software (FOSS). Open-source hardware is part of
-the open-source culture movement and applies a like concept to a variety of components. The
-term usually means that information about the hardware is easily discerned. Hardware design
-(i.e. mechanical drawings, schematics, bill of materials, PCB layout data, HDL source code
-and integrated circuit layout data), in addition to the software that drives the hardware,
-are all released with the FOSS approach.</p>
 ]]></content>
   </entry>
   

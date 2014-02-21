@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Linux | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/linux/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Linux | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[The Bazaar]]></title>
-    <link href="http://fusion94.github.io/blog/1999/12/19/the-bazaar/"/>
+    <link href="http://fusion94.org//blog/1999/12/19/the-bazaar/"/>
     <updated>1999-12-19T10:59:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/1999/12/19/the-bazaar</id>
+    <id>http://fusion94.org//blog/1999/12/19/the-bazaar</id>
     <content type="html"><![CDATA[<p>So I&rsquo;m at The Bazaar in New York City and there&rsquo;s a lot of talk about <a href="http://sourceforge.net">SourceForge</a>. Emmett Plant has written a <a href="http://www.linuxtoday.com/storage/1999121800219PS">story</a> about it over at <a href="http://www.linuxtoday.com/">Linux Today</a>.</p>
 
 <p>Thanks Emmett.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[I don’t think we’re in Kansas anymore ToTo..]]></title>
-    <link href="http://fusion94.github.io/blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto/"/>
+    <link href="http://fusion94.org//blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto/"/>
     <updated>1999-12-09T14:03:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto</id>
+    <id>http://fusion94.org//blog/1999/12/09/i-dont-think-were-in-kansas-anymore-toto</id>
     <content type="html"><![CDATA[<p>VA went public today&hellip;.stock went out the door at $320.00 a share (or so). Closed out the day at $239.00 a share. Biggest IPO of the year.</p>
 
 <p>Wow&hellip;I&rsquo;m stunned. Absolutely stunned&hellip;as well as half drunk.</p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[SourceForge Launched]]></title>
-    <link href="http://fusion94.github.io/blog/1999/11/17/sourceforge-launched/"/>
+    <link href="http://fusion94.org//blog/1999/11/17/sourceforge-launched/"/>
     <updated>1999-11-17T19:23:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/1999/11/17/sourceforge-launched</id>
+    <id>http://fusion94.org//blog/1999/11/17/sourceforge-launched</id>
     <content type="html"><![CDATA[<p>So what was once &ldquo;Cold Storage&rdquo; is now <a href="http://sf.net">SourceForge</a> and is now available for public consumption. So what is <a href="http://sf.net">SourceForge</a>? Well it&rsquo;s a web resource for Open Source projects and organizations. We&rsquo;re providing CVS, mailing lists, public forums, the ability to poll visitors and project members, bug tracking and anonymous FTP for all open source projects to anyone completely free of charge.</p>
 
 <p>I encourage anyone that&rsquo;s involved in an open source project to stop by and try it out.</p>
@@ -50,18 +50,18 @@
   
   <entry>
     <title type="html"><![CDATA[ColdStorage]]></title>
-    <link href="http://fusion94.github.io/blog/1999/06/23/coldstorage/"/>
+    <link href="http://fusion94.org//blog/1999/06/23/coldstorage/"/>
     <updated>1999-06-23T16:04:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/1999/06/23/coldstorage</id>
+    <id>http://fusion94.org//blog/1999/06/23/coldstorage</id>
     <content type="html"><![CDATA[<p>After a few days here at VA I&rsquo;m going to end up working on the ColdStorage Project. I can&rsquo;t really go into too much detail as to what it is and what we&rsquo;re trying to accomplish but we&rsquo;ll be launching sometime this year.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[First Day]]></title>
-    <link href="http://fusion94.github.io/blog/1999/06/14/first-day/"/>
+    <link href="http://fusion94.org//blog/1999/06/14/first-day/"/>
     <updated>1999-06-14T21:25:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/1999/06/14/first-day</id>
+    <id>http://fusion94.org//blog/1999/06/14/first-day</id>
     <content type="html"><![CDATA[<p>Today was my first day at <a href="http://varesearch.com">VA Research</a>. It was exciting and the company appears to be focused and there&rsquo;s alot of energy in the office. I&rsquo;m employee #31 and <a href="http://rasterman.com">Carsten &ldquo;Rasterman&rdquo; Haitzler</a> also started today.</p>
 ]]></content>
   </entry>

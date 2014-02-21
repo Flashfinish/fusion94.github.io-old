@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Fedora | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/fedora/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Fedora | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/fedora/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Announcing Fedora 7 (Moonshine)]]></title>
-    <link href="http://fusion94.github.io/blog/2007/05/31/announcing-fedora-7-moonshine/"/>
+    <link href="http://fusion94.org//blog/2007/05/31/announcing-fedora-7-moonshine/"/>
     <updated>2007-05-31T08:32:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2007/05/31/announcing-fedora-7-moonshine</id>
+    <id>http://fusion94.org//blog/2007/05/31/announcing-fedora-7-moonshine</id>
     <content type="html"><![CDATA[<p>Fedora 7 (Moonshine) is now out to the general public.</p>
 
 <p>This release includes significant new versions of many key components and technologies:</p>

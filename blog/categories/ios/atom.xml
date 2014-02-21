@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: iOS | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/ios/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: iOS | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Legendary for iOS]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/15/legendary-for-ios/"/>
+    <link href="http://fusion94.org//blog/2013/01/15/legendary-for-ios/"/>
     <updated>2013-01-15T06:40:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/15/legendary-for-ios</id>
+    <id>http://fusion94.org//blog/2013/01/15/legendary-for-ios</id>
     <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
 
 <p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>

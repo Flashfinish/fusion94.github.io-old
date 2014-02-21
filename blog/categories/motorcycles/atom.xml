@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Motorcycles | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/motorcycles/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Motorcycles | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/motorcycles/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[The Greatest Show on Earth]]></title>
-    <link href="http://fusion94.github.io/blog/2012/08/17/the-greatest-show-on-earth/"/>
+    <link href="http://fusion94.org//blog/2012/08/17/the-greatest-show-on-earth/"/>
     <updated>2012-08-17T21:04:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2012/08/17/the-greatest-show-on-earth</id>
+    <id>http://fusion94.org//blog/2012/08/17/the-greatest-show-on-earth</id>
     <content type="html"><![CDATA[<p>The Greatest Show On Earth 320kph / 200mph Street Race &ndash; &lsquo;ISLE of MAN&rsquo; TT</p>
+
+<p><div class="embed-video-container"><iframe src="http://player.vimeo.com/video/46856767 "></iframe></div></p>
 ]]></content>
   </entry>
   

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Android | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/android/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Android | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[How to enable developer settings on Android 4.2]]></title>
-    <link href="http://fusion94.github.io/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
+    <link href="http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/"/>
     <updated>2013-02-06T13:23:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
+    <id>http://fusion94.org//blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2</id>
     <content type="html"><![CDATA[<p>So for whatever reason Google has chosen to hide the developer settings in the latest version of Jelly Bean. Here&rsquo;s how to get them back.</p>
 
 <p>There&rsquo;s a pretty easy way to re-enable developer setttings and here&rsquo;s how to do it.</p>

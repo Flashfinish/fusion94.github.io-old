@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: CSS | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/css/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: CSS | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/infoboxes-using-css/"/>
     <updated>2013-01-13T16:22:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css</id>
+    <id>http://fusion94.org//blog/2013/01/13/infoboxes-using-css</id>
     <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
 
 <p>These <code>InfoBoxes</code> were used to display notes, warnings and the like whenever it seemed appropriate. Here are links to the original macros from Confluence.</p>

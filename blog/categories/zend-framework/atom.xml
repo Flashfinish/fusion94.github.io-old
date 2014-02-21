@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Zend Framework | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/zend-framework/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Zend Framework | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/zend-framework/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Zend Framework and svn:externals]]></title>
-    <link href="http://fusion94.github.io/blog/2008/12/17/zend-framework-and-svn-externals/"/>
+    <link href="http://fusion94.org//blog/2008/12/17/zend-framework-and-svn-externals/"/>
     <updated>2008-12-17T23:41:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/12/17/zend-framework-and-svn-externals</id>
+    <id>http://fusion94.org//blog/2008/12/17/zend-framework-and-svn-externals</id>
     <content type="html"><![CDATA[<p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
 
 <p>I had used svn:externals quite a bit while at <a href="http://contentcircles.com">Content Circles</a> to pull down vendor branches and decided to re-implement this at <a href="http://www.skyfire.com">Skyfire</a>.</p>

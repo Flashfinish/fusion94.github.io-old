@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Spaces | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/spaces/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Spaces | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/spaces/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Disable Space Switching - 10.5.2]]></title>
-    <link href="http://fusion94.github.io/blog/2008/02/25/disable-space-switching-10-5-2/"/>
+    <link href="http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2/"/>
     <updated>2008-02-25T18:44:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/02/25/disable-space-switching-10-5-2</id>
+    <id>http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2</id>
     <content type="html"><![CDATA[<p>The 10.5.2 version of OS X has a new preferences command for Spaces although tt&rsquo;s hidden and not available through the System Preferences.</p>
 
 <p>What it does is allow one to Command-Tab to the app you want and create a new window in the current space. No more switching to the space that the app was originally launched in.</p>

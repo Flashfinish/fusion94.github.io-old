@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: find | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/find/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: find | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/find/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[SVN Repository Cleanup]]></title>
-    <link href="http://fusion94.github.io/blog/2008/12/20/svn-repository-cleanup/"/>
+    <link href="http://fusion94.org//blog/2008/12/20/svn-repository-cleanup/"/>
     <updated>2008-12-20T22:25:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/12/20/svn-repository-cleanup</id>
+    <id>http://fusion94.org//blog/2008/12/20/svn-repository-cleanup</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve spent the past few hours doing some pretty massive SVN repository cleanup for all of my personal projects. One annoyance is all of the .svn directories that occasionally have to be located and removed before you can recommit.</p>
 
 <p>Here&rsquo;s a quick one-liner to assist you in this. Let&rsquo;s say you have a couple of top level directories that look something like this:</p>

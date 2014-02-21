@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Memsic 2125 Dual-axis Accelerometer | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/memsic-2125-dual-axis-accelerometer/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Memsic 2125 Dual-axis Accelerometer | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/memsic-2125-dual-axis-accelerometer/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Arduino + Memsic 2125 Dual-axis Accelerometer]]></title>
-    <link href="http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
+    <link href="http://fusion94.org//blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer/"/>
     <updated>2012-11-28T15:50:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
+    <id>http://fusion94.org//blog/2012/11/28/arduino-plus-memsic-2125-dual-axis-accelerometer</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This is a post in a series of blog posts on how to build electronic circuits. If you’re at 
 all interested then please subscribe to the RSS feed.</div>
 

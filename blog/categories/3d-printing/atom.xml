@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: 3D Printing | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/3d-printing/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: 3D Printing | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/3d-printing/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[BeagleBone + Webcam Holder for OpenROV]]></title>
-    <link href="http://fusion94.github.io/blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov/"/>
+    <link href="http://fusion94.org//blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov/"/>
     <updated>2012-11-26T19:49:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov</id>
+    <id>http://fusion94.org//blog/2012/11/26/beaglebone-plus-webcam-holder-for-openrov</id>
     <content type="html"><![CDATA[<p>As I&rsquo;ve been working with the <a href="http://beagleboard.org/bone">BeagleBone</a> linux computer as part
 of the OpenROV project I was getting frustrated with the lack of stands/mounting brackets out
 there to secure the BeagleBone.</p>

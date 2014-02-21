@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Sport | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/sport/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Sport | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/sport/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[DiMaggio Cup]]></title>
-    <link href="http://fusion94.github.io/blog/2007/05/08/dimaggio-cup/"/>
+    <link href="http://fusion94.org//blog/2007/05/08/dimaggio-cup/"/>
     <updated>2007-05-08T17:30:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2007/05/08/dimaggio-cup</id>
-    <content type="html"><![CDATA[<p><img src="http://fusion94.github.io/images/dimaggio.png"/></p>
+    <id>http://fusion94.org//blog/2007/05/08/dimaggio-cup</id>
+    <content type="html"><![CDATA[<p><img src="http://fusion94.org//images/dimaggio.png"/></p>
 
 <p>Every year at the Presidio Golf Club there&rsquo;s a match play tournament called the DiMaggio Cup named after Joltin' Joe DiMaggio who was a member of the Presidio Golf Club for a number of years up until his death on March 8, 1999.</p>
 

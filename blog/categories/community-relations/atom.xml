@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Community Relations | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/community-relations/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Community Relations | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/community-relations/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[What does Community Cost?]]></title>
-    <link href="http://fusion94.github.io/blog/2002/09/25/what-does-community-cost/"/>
+    <link href="http://fusion94.org//blog/2002/09/25/what-does-community-cost/"/>
     <updated>2002-09-25T21:13:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2002/09/25/what-does-community-cost</id>
+    <id>http://fusion94.org//blog/2002/09/25/what-does-community-cost</id>
     <content type="html"><![CDATA[<p><a href="http://www.oreillynet.com/pub/au/54">Derick Story</a> has an interesting commentary on Microsoft not really getting the idea behind a community.</p>
 
 <p>You can read more about it <a href="http://www.oreillynet.com/mac/blog/2002/09/you_cant_buy_community.html">here</a>.</p>

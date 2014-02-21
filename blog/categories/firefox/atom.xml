@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Firefox | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/firefox/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Firefox | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/firefox/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Firefox OS App Day - Silicon Valley]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/firefox-os-app-day-silicon-valley/"/>
     <updated>2013-01-13T08:32:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
+    <id>http://fusion94.org//blog/2013/01/13/firefox-os-app-day-silicon-valley</id>
     <content type="html"><![CDATA[<p>If you’re a software developer interested in web technologies then you should really consider participating in <a href="https://wiki.mozilla.org/Engagement/Developer_Engagement/FirefoxAppDays">Firefox OS App Days</a>, a worldwide set of 20+ hack days organized by <a href="http://mozilla.org">Mozilla</a> to help you get started developing apps for the all new and shiny <a href="https://hacks.mozilla.org/2012/11/firefox-os-video-presentations-and-slides-on-the-os-webapis-hacking-and-writing-apps/">Firefox OS</a>.</p>
 
 <p><img class="left" src="/images/blog/firefox/firefoxOS-app-days.png"></p>

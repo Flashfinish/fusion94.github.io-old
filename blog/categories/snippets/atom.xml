@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Snippets | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/snippets/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Snippets | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/snippets/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[InfoBoxes using CSS]]></title>
-    <link href="http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css/"/>
+    <link href="http://fusion94.org//blog/2013/01/13/infoboxes-using-css/"/>
     <updated>2013-01-13T16:22:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2013/01/13/infoboxes-using-css</id>
+    <id>http://fusion94.org//blog/2013/01/13/infoboxes-using-css</id>
     <content type="html"><![CDATA[<p>In my old blog framework I&rsquo;ve used a lot of <code>InfoBoxes</code> that were heavily influenced by a series of Macros provided in <a href="http://www.atlassian.com/software/confluence/">Confluence</a>.</p>
 
 <p>These <code>InfoBoxes</code> were used to display notes, warnings and the like whenever it seemed appropriate. Here are links to the original macros from Confluence.</p>
@@ -645,9 +645,9 @@
   
   <entry>
     <title type="html"><![CDATA[SVN Repository Cleanup]]></title>
-    <link href="http://fusion94.github.io/blog/2008/12/20/svn-repository-cleanup/"/>
+    <link href="http://fusion94.org//blog/2008/12/20/svn-repository-cleanup/"/>
     <updated>2008-12-20T22:25:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/12/20/svn-repository-cleanup</id>
+    <id>http://fusion94.org//blog/2008/12/20/svn-repository-cleanup</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve spent the past few hours doing some pretty massive SVN repository cleanup for all of my personal projects. One annoyance is all of the .svn directories that occasionally have to be located and removed before you can recommit.</p>
 
 <p>Here&rsquo;s a quick one-liner to assist you in this. Let&rsquo;s say you have a couple of top level directories that look something like this:</p>
@@ -678,9 +678,9 @@ bar/
   
   <entry>
     <title type="html"><![CDATA[Zend Framework and svn:externals]]></title>
-    <link href="http://fusion94.github.io/blog/2008/12/17/zend-framework-and-svn-externals/"/>
+    <link href="http://fusion94.org//blog/2008/12/17/zend-framework-and-svn-externals/"/>
     <updated>2008-12-17T23:41:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/12/17/zend-framework-and-svn-externals</id>
+    <id>http://fusion94.org//blog/2008/12/17/zend-framework-and-svn-externals</id>
     <content type="html"><![CDATA[<p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
 
 <p>I had used svn:externals quite a bit while at <a href="http://contentcircles.com">Content Circles</a> to pull down vendor branches and decided to re-implement this at <a href="http://www.skyfire.com">Skyfire</a>.</p>
@@ -774,9 +774,9 @@ svn commit
   
   <entry>
     <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
-    <link href="http://fusion94.github.io/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
+    <link href="http://fusion94.org//blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
     <updated>2008-06-11T09:58:00-07:00</updated>
-    <id>http://fusion94.github.io/blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
+    <id>http://fusion94.org//blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
 
 <p>Go to /Applications/Utilities and open Terminal.app and enter the following code:</p>
@@ -791,9 +791,9 @@ svn commit
   
   <entry>
     <title type="html"><![CDATA[Disable Space Switching - 10.5.2]]></title>
-    <link href="http://fusion94.github.io/blog/2008/02/25/disable-space-switching-10-5-2/"/>
+    <link href="http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2/"/>
     <updated>2008-02-25T18:44:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/02/25/disable-space-switching-10-5-2</id>
+    <id>http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2</id>
     <content type="html"><![CDATA[<p>The 10.5.2 version of OS X has a new preferences command for Spaces although tt&rsquo;s hidden and not available through the System Preferences.</p>
 
 <p>What it does is allow one to Command-Tab to the app you want and create a new window in the current space. No more switching to the space that the app was originally launched in.</p>

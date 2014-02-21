@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Leopard | fusion94]]></title>
-  <link href="http://fusion94.github.io/blog/categories/leopard/atom.xml" rel="self"/>
-  <link href="http://fusion94.github.io/"/>
-  <updated>2013-11-13T06:45:55-08:00</updated>
-  <id>http://fusion94.github.io/</id>
+  <title><![CDATA[Category: Leopard | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/leopard/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
   <author>
     <name><![CDATA[fusion94]]></name>
-    
+    <email><![CDATA[fusion94@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Quicksilver and Leopard]]></title>
-    <link href="http://fusion94.github.io/blog/2008/02/05/quicksilver-and-leopard/"/>
+    <link href="http://fusion94.org//blog/2008/02/05/quicksilver-and-leopard/"/>
     <updated>2008-02-05T09:31:00-08:00</updated>
-    <id>http://fusion94.github.io/blog/2008/02/05/quicksilver-and-leopard</id>
+    <id>http://fusion94.org//blog/2008/02/05/quicksilver-and-leopard</id>
     <content type="html"><![CDATA[<p>Ever since I upgraded all my boxes to <a href="http://www.apple.com/macosx/">Leopard</a> <a href="http://www.blacktree.com/">Quicksilver</a> has been having issues. While searching for a new release I&rsquo;ve located a solution that seems to have fixed most of my issues. Here&rsquo;s what to do.</p>
 
 <ol>
