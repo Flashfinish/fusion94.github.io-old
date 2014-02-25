@@ -4,7 +4,7 @@
   <title><![CDATA[Tony Guntharp]]></title>
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-24T14:38:00-08:00</updated>
+  <updated>2014-02-25T10:31:04-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -12,6 +12,111 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Using Octpress from Two Computers]]></title>
+    <link href="http://fusion94.org/blog/2014/02/25/using-octpress-from-two-computers/"/>
+    <updated>2014-02-25T06:12:33-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/25/using-octpress-from-two-computers</id>
+    <content type="html"><![CDATA[<p>This blog post covers how recreate a local repository of your <a href="http://octopress.org">Octopress</a> blog. I needed to figure out how to do this so that I could update my blog from both my personal desktop and my laptop.</p>
+
+<div class="info">Note: This solution will only work with the <b>2.x</b> version of Octopress. For the 3.x version there&#8217;s <a href="https://github.com/octopress/deploy">Octopress Deploy</a></div>
+
+
+
+
+<!-- more -->
+
+
+<h3>How Octopress Works</h3>
+
+<p>Octopress repositories have two branches, <code>source</code> and <code>master</code>. The source branch contains the files that are used to generate the blog and the <code>master</code> contains the blog itself.</p>
+
+<p>When the local folders are initially configured according to the Octopress Setup Guide, the <code>master</code> branch is stored in a subfolder named <code>_deploy</code>. Since the folder name begins with an underscore, it is ignored when you <code>git push origin source</code>. Instead, the <code>master</code> branch (which contains your blog posts) gets updated when you <code>rake deploy</code>.</p>
+
+<div class="hr"></div>
+
+
+<h3>Recreating an Octopress repository</h3>
+
+<p>To recreate the local directory structure of an existing Octopress blog, follow these instructions.</p>
+
+<p>First you will need to clone the <code>source</code> branch to a local octopress folder.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git clone -b <span class="nb">source </span>git@github.com:username/username.github.com.git octopress
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then clone the <code>master</code> branch to the <code>_deploy</code> subfolder.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>octopress
+</span><span class='line'><span class="nv">$ </span>git clone git@github.com:username/username.github.com.git _deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then run the rake installation to configure everything</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gem install bundler
+</span><span class='line'><span class="nv">$ </span>rbenv rehash    <span class="c"># If you use rbenv, rehash to be able to run the bundle command</span>
+</span><span class='line'><span class="nv">$ </span>bundle install
+</span><span class='line'><span class="nv">$ </span>rake setup_github_pages
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It will prompt you for your repository URL.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>Enter the <span class="nb">read</span>/write url <span class="k">for </span>your repository
+</span><span class='line'><span class="o">(</span>For example, <span class="err">&#39;</span>git@github.com:your_username/your_username.github.com<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You are now setup with a new local copy of your existing Octopress blog.</p>
+
+<div class="hr"></div>
+
+
+<h3>Pushing changes from two different machines</h3>
+
+<p>If you want to blog from more than one computer, you need to make sure that you push everything before switching computers. From the first machine do the following whenever you’ve made changes:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rake generate
+</span><span class='line'><span class="nv">$ </span>git add .
+</span><span class='line'><span class="nv">$ </span>git commit -am <span class="s2">&quot;Some comment here.&quot;</span>
+</span><span class='line'><span class="nv">$ </span>git push origin <span class="nb">source</span>  <span class="c"># update the remote source branch </span>
+</span><span class='line'><span class="nv">$ </span>rake deploy             <span class="c"># update the remote master branch</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then on the second machine, you will need to pull down those changes.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>octopress
+</span><span class='line'><span class="nv">$ </span>git pull origin <span class="nb">source</span>  <span class="c"># update the local source branch</span>
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd</span> ./_deploy
+</span><span class='line'><span class="nv">$ </span>git pull origin master  <span class="c"># update the local master branch</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hearthstone - Beta]]></title>
@@ -571,7 +676,7 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 </ul>
 
 
-<p>You can also email us at <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;&#58;&#107;&#x61;&#110;&#x64;&#x61;&#x6e;&#97;&#x70;&#x70;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#107;&#x61;&#110;&#100;&#x61;&#110;&#x61;&#112;&#112;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p>You can also email us at <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x6b;&#x61;&#x6e;&#x64;&#x61;&#110;&#97;&#112;&#x70;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#107;&#97;&#110;&#100;&#97;&#110;&#x61;&#x70;&#x70;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -2376,51 +2481,6 @@ Berkeley CA<br></p>
 
 
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bye-Bye Tumblr, Hello Octopress]]></title>
-    <link href="http://fusion94.org/blog/2013/01/05/bye-bye-tumblr/"/>
-    <updated>2013-01-05T14:27:00-08:00</updated>
-    <id>http://fusion94.org/blog/2013/01/05/bye-bye-tumblr</id>
-    <content type="html"><![CDATA[<p>This is my first post published using <a href="http://octopress.org">Octopress</a> after several years of using either <a href="http://drupal.org">Drupal</a> and/or <a href="http://tumblr.com">tumblr</a> and I’d like to share the reasons why I chose to move from a blogging platform and switch to a statically generated site.</p>
-
-<p>Yes, because what you are reading is pure static old-school HTML, generated by Octopress on my MacBook Pro. Also to note is that everything here is being served by GitHub through the Pages feature, completely free.</p>
-
-<!-- more -->
-
-
-<ul>
-<li>Octopress sports a clean responsive theme written in semantic HTML5, focused on readability and friendliness toward mobile devices.</li>
-<li>Code blogging is easy and beautiful. Embed code (with Solarized styling) in your posts from gists, jsFiddle or from your filesystem.</li>
-<li>Third party integration is simple with built-in support for Twitter, Pinboard, Delicious, GitHub Repositories, Disqus Comments and Google Analytics.</li>
-<li>It&rsquo;s easy to use. A collection of rake tasks simplifies development and makes deploying a cinch.</li>
-<li>Ships with great plug-ins some original and others from the Jekyll community — tested and improved.</li>
-</ul>
-
-
-<h3>Ease of Use</h3>
-
-<p><a href="http://octopress.org">Octopress</a> is a framework built upon <a href="http://github.com/mojombo/jekyll">Jekyll</a>, the Ruby static site generator that powers GitHub Pages.</p>
-
-<p>Jekyll takes a content directory, parses all the articles and pages through a Markdown converter and generates a static website that can be served with almost anything.</p>
-
-<p>Octopress leverages all the power of Jekyll adding a great HTML5 template, mobile ready, and a lot of features like archives, an xml sitemap, code highlighting, external services integration (Twitter, Github, Google+, Facebook), and much much more.</p>
-
-<p>This solution makes your website really fast because there’s no dynamic code that runs on the server and no databases.</p>
-
-<h3>3rd Party Plugins</h3>
-
-<p>Octopress has a wealth of <a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">3rd Party Plugins</a> that will allow you to do most anything you want to do.</p>
-
-<h3>Themes</h3>
-
-<p>Octopress also has quite a few <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Themes</a> for you to use and to customize.</p>
-
-<h3>Open Source</h3>
-
-<p>Best of all is that Octopress is Open Source and licensed under The MIT License.</p>
 ]]></content>
   </entry>
   

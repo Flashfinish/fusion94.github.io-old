@@ -11,7 +11,7 @@
     <title>Tony Guntharp</title>
     <meta name="author" content="fusion94">
     
-    <meta name="description" content="Ranger Honor Roll May 23rd, 2006 Comments The Ranger Creed was written by Command Sergeant Major Gentry in 1974. Today it is recited by Rangers &hellip;">
+    <meta name="description" content="Xcode 2.3 May 23rd, 2006 Comments Apple has released a new version of Xcode. From the release notes: Xcode 2.3 is the latest release of Apple &hellip;">
     
     <meta name="viewport" content="width=device-width">
     
@@ -64,6 +64,79 @@
           
 
   
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2006/05/23/xcode-2-3/">Xcode 2.3</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2006-05-23T14:18:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> May 23<span>rd</span>, 2006</time>
+    
+
+
+
+  
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2006/05/23/xcode-2-3/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p><a href="http://apple.com">Apple</a> has released a new version of <a href="http://developer.apple.com/tools/xcode/">Xcode</a>. From the release notes:</p>
+
+<blockquote>Xcode 2.3 is the latest release of Apple Computer&#8217;s integrated development environment for Mac OS X. This release adresses many known issues and is a recommended upgrade for all Xcode users of versions 2.2.1 or earlier.
+
+Changes to Xcode 2.3
+
+    * New DWARF debugging format for improved debugging fidelity and efficient utilization of disk space
+    * New Distributed Network Build (DNB) scalable build architecture
+    * Numerous enhancements and bug fixes</blockquote>
+
+
+<p><a href="http://www.friday.com/bbum/2006/05/23/xcode-23-is-now-available/">Bill Bumgarner describes</a> it as such:</p>
+
+<blockquote>The key here is the new distributed build subsystem called Dedicated Network Builds.
+
+While DistCC remains as the solution of choice for ad-hoc builds on small networks, Dedicated Network Builds [DNB] focuses on accelerating large projects where a farm of machines can be dedicated as builders. In particular, DNB shines with large C++ projects.
+
+Behind the scenes, DNB distributes compilation jobs from your local machine — the recruiter — to the builder machines — the volunteers — using a set of daemons to connect everything together. On the recruiter, a daemon monitors the filesystem to ensure that changes made to the filesystem will cause the remote volunteer caches to be invalidated in an appropriately minimalist fashion.
+
+The volunteers execute the jobs against a mirrored copy of the recruiter’s local filesystem, source, headers, compiler and all. As such, the only dependency between your local machine and the builders is that they are both the same architecture (ppc or i386) and they are running very close to the same version of Mac OS X (i.e. 10.4.5 will be compatible with 10.4.6, but not 10.3.9).
+
+A great deal of effort went into ensuring that cache management wouldn’t swamp the recruiter’s network connection. There is still a hefty cache warmup hit, but the volunteers have the ability to resolve cache misses amongst themselves as well as resolving cache misses against their own local filesystem, when possible.
+</blockquote>
+
+
+
+
+
+  </article>
+  <hr>
+
   
   <article class="listing">
     <header>
@@ -608,60 +681,6 @@ svn status | grep \? | cut -f7 -d&#8217; &lsquo; | xargs svn add</em></p>
   </article>
   <hr>
 
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2006/04/28/battlestar-galactica-prequel-coming/">Battlestar Galactica Prequel coming?</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2006-04-28T08:35:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> Apr 28<span>th</span>, 2006</time>
-    
-
-
-
-  
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2006/04/28/battlestar-galactica-prequel-coming/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>According to <a href="http://www.zap2it.com/tv/news/zap-scifi-galacticaprequel,0,6083698.story?coll=zap-news-headlines">Zap2It</a> there&rsquo;s a Battlestar Galactica Prequel called <em>Caprica</em> in the works.</p>
-
-<p><em>Caprica</em> takes place approximately 50 years before BSG does and focuses on 2 families. The Adamas and the Graystones. The 12 colonies are at peace and a technological revolution is about to occur with the creation of the first cylon.</p>
-
-<p>No word yet as to when this will be released and my buddy that works on <a href="http://www.scifi.com/battlestar/">BSG</a> hasn&rsquo;t gotten back to me.</p>
-
-<p>SciFI now has some <a href="http://www.scifi.com/scifiwire/index.php?category=2&id=35773">news</a> regarding this.</p>
-
-
-  </article>
-  <hr>
-
 
   <div class="pagination">
     
@@ -704,6 +723,10 @@ svn status | grep \? | cut -f7 -d&#8217; &lsquo; | xargs svn add</em></p>
   <ul class="divided">
     
       <li class="post">
+        <a href="/blog/2014/02/25/using-octpress-from-two-computers/">Using Octpress from Two Computers</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/02/15/hearthstone-beta/">Hearthstone - Beta</a>
       </li>
     
@@ -717,10 +740,6 @@ svn status | grep \? | cut -f7 -d&#8217; &lsquo; | xargs svn add</em></p>
     
       <li class="post">
         <a href="/blog/2013/04/09/an-inconvenient-truth-about-assault-rifles/">An Inconvenient Truth about Assault Rifles</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/06/how-to-enable-developer-settings-on-android-4-dot-2/">How to enable developer settings on Android 4.2</a>
       </li>
     
   </ul>
