@@ -4,7 +4,7 @@
   <title><![CDATA[Tony Guntharp]]></title>
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-25T10:31:04-08:00</updated>
+  <updated>2014-02-26T09:48:13-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elder Scrolls Online]]></title>
+    <link href="http://fusion94.org/blog/2014/02/26/elder-scrolls-online/"/>
+    <updated>2014-02-26T09:43:47-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/26/elder-scrolls-online</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m in and downloading the Beta now&hellip;</p>
+
+<p><img src="http://fusion94.org/images/eso.png"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using Octpress from Two Computers]]></title>
@@ -676,7 +687,7 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 </ul>
 
 
-<p>You can also email us at <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x6b;&#x61;&#x6e;&#x64;&#x61;&#110;&#97;&#112;&#x70;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#107;&#97;&#110;&#100;&#97;&#110;&#x61;&#x70;&#x70;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p>You can also email us at <a href="&#109;&#97;&#105;&#x6c;&#x74;&#111;&#x3a;&#x6b;&#97;&#110;&#x64;&#x61;&#x6e;&#x61;&#x70;&#112;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#107;&#97;&#110;&#x64;&#97;&#x6e;&#x61;&#112;&#112;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -2170,317 +2181,6 @@ Berkeley CA<br></p>
 <p><strong>B2G Marketplace</strong></p>
 
 <p><img src="http://fusion94.org/images/blog/b2g-1/b2g_marketplace.png"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress Drafts]]></title>
-    <link href="http://fusion94.org/blog/2013/01/07/octopress-drafts/"/>
-    <updated>2013-01-07T16:13:00-08:00</updated>
-    <id>http://fusion94.org/blog/2013/01/07/octopress-drafts</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve really enjoyed my recent conversion to <a href="http://octopress.org">Octopress</a> but do wish that it by default had a &ldquo;drafts&rdquo; mode so that one can write a post over time. This was really bugging me as I was trying to import old posts from awhile back and the workaround was kind of a pain in the ass.</p>
-
-<!-- more -->
-
-
-<p>Today of course I located this <a href="http://neverstopbuilding.net/how-to-enhance-your-octopress-draft-and-heroku-deploy-process/">post</a> by <a href="http://neverstopbuilding.net">Jason Fox</a> and used it as a reference.</p>
-
-<h2>Creating a new draft</h2>
-
-<figure class='code'><figcaption><span>Creating new Octopress Draft </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_draft["Octopress Drafts"]</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This tasks does essentially what the <code>new_post</code> task does except it:</p>
-
-<ul>
-<li>Puts the file in a _drafts directory.</li>
-<li>Eliminates the date from both the file name and the yaml front matter.</li>
-<li>Adds published: false to the front matter.</li>
-</ul>
-
-
-<p>Here&rsquo;s the code for the <code>rakefile</code></p>
-
-<figure class='code'><figcaption><span>Creating new Octopress Draft </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'># usage rake new_draft["my new draft"]
-</span><span class='line'>desc "Begin a new draft in #{source_dir}/#{drafts_dir}"
-</span><span class='line'>task :new_draft, :title do |t, args|
-</span><span class='line'>  if args.title
-</span><span class='line'>    title = args.title
-</span><span class='line'>  else
-</span><span class='line'>    title = get_stdin("Enter a title for your post: ")
-</span><span class='line'>  end
-</span><span class='line'>  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
-</span><span class='line'>  mkdir_p "#{source_dir}/#{drafts_dir}"
-</span><span class='line'>  filename = "#{source_dir}/#{drafts_dir}/#{title.to_url}.#{new_post_ext}"
-</span><span class='line'>  if File.exist?(filename)
-</span><span class='line'>    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
-</span><span class='line'>  end
-</span><span class='line'>  puts "Creating new draft: #{filename}"
-</span><span class='line'>  open(filename, 'w') do |post|
-</span><span class='line'>    post.puts "---"
-</span><span class='line'>    post.puts "layout: post"
-</span><span class='line'>    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-</span><span class='line'>    post.puts "comments: true"
-</span><span class='line'>    post.puts "published: false"
-</span><span class='line'>    post.puts "categories: "
-</span><span class='line'>    post.puts "---"
-</span><span class='line'>  end
-</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Publishing an existing draft</h2>
-
-<figure class='code'><figcaption><span>Publishing an existing Octopress Draft </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake publish_draft</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This task lists all of the draft posts, prompting you to select one. After you select one it:</p>
-
-<ul>
-<li>Adds the current date to the file name and front matter.</li>
-<li>Removes the published: false item.</li>
-<li>Moves the post to the _posts directory.</li>
-</ul>
-
-
-<p>Here&rsquo;s the code for the <code>rakefile</code></p>
-
-<figure class='code'><figcaption><span>Publishing an existing Octopress Draft </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'># usage rake publish_draft
-</span><span class='line'>desc "Select a draft to publish from #{source_dir}/#{drafts_dir} on the current date."
-</span><span class='line'>task :publish_draft do
-</span><span class='line'>  drafts_path = "#{source_dir}/#{drafts_dir}"
-</span><span class='line'>  drafts = Dir.glob("#{drafts_path}/*.#{new_post_ext}")
-</span><span class='line'>  drafts.each_with_index do |draft, index|
-</span><span class='line'>    begin
-</span><span class='line'>      content = File.read(draft)
-</span><span class='line'>      if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
-</span><span class='line'>        data = YAML.load($1)
-</span><span class='line'>      end
-</span><span class='line'>    rescue => e
-</span><span class='line'>      puts "Error reading file #{draft}: #{e.message}"
-</span><span class='line'>    rescue SyntaxError => e
-</span><span class='line'>      puts "YAML Exception reading #{draft}: #{e.message}"
-</span><span class='line'>    end
-</span><span class='line'>    puts "  [#{index}]  #{data['title']}"
-</span><span class='line'>  end
-</span><span class='line'>  puts "Publish which draft? "
-</span><span class='line'>  answer = STDIN.gets.chomp
-</span><span class='line'>  if /\d+/.match(answer) and not drafts[answer.to_i].nil?
-</span><span class='line'>    mkdir_p "#{source_dir}/#{posts_dir}"
-</span><span class='line'>    source = drafts[answer.to_i]
-</span><span class='line'>    filename = source.gsub(/#{drafts_path}\//, '')
-</span><span class='line'>    dest = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{filename}"
-</span><span class='line'>    puts "Publishing post to: #{dest}"
-</span><span class='line'>    File.open(source) { |source_file|
-</span><span class='line'>      contents = source_file.read
-</span><span class='line'>      contents.gsub!(/^published: false$/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}")
-</span><span class='line'>      File.open(dest, "w+") { |f| f.write(contents) }
-</span><span class='line'>    }
-</span><span class='line'>    FileUtils.rm(source)
-</span><span class='line'>  else
-</span><span class='line'>    puts "Index not found!"
-</span><span class='line'>  end
-</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This way you can compose draft posts at will. Then when you are ready you can publish them and they will appear that you “published” that post on that day.</p>
-
-<p>Here&rsquo;s the full code for the <code>rakefile</code> which you can just put at the bottom.</p>
-
-<figure class='code'><figcaption><span>Creating new Octopress Draft </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-<span class='line-number'>38</span>
-<span class='line-number'>39</span>
-<span class='line-number'>40</span>
-<span class='line-number'>41</span>
-<span class='line-number'>42</span>
-<span class='line-number'>43</span>
-<span class='line-number'>44</span>
-<span class='line-number'>45</span>
-<span class='line-number'>46</span>
-<span class='line-number'>47</span>
-<span class='line-number'>48</span>
-<span class='line-number'>49</span>
-<span class='line-number'>50</span>
-<span class='line-number'>51</span>
-<span class='line-number'>52</span>
-<span class='line-number'>53</span>
-<span class='line-number'>54</span>
-<span class='line-number'>55</span>
-<span class='line-number'>56</span>
-<span class='line-number'>57</span>
-<span class='line-number'>58</span>
-<span class='line-number'>59</span>
-<span class='line-number'>60</span>
-<span class='line-number'>61</span>
-<span class='line-number'>62</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'># usage rake new_draft["my new draft"]
-</span><span class='line'>desc "Begin a new draft in #{source_dir}/#{drafts_dir}"
-</span><span class='line'>task :new_draft, :title do |t, args|
-</span><span class='line'>  if args.title
-</span><span class='line'>    title = args.title
-</span><span class='line'>  else
-</span><span class='line'>    title = get_stdin("Enter a title for your post: ")
-</span><span class='line'>  end
-</span><span class='line'>  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
-</span><span class='line'>  mkdir_p "#{source_dir}/#{drafts_dir}"
-</span><span class='line'>  filename = "#{source_dir}/#{drafts_dir}/#{title.to_url}.#{new_post_ext}"
-</span><span class='line'>  if File.exist?(filename)
-</span><span class='line'>    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
-</span><span class='line'>  end
-</span><span class='line'>  puts "Creating new draft: #{filename}"
-</span><span class='line'>  open(filename, 'w') do |post|
-</span><span class='line'>    post.puts "---"
-</span><span class='line'>    post.puts "layout: post"
-</span><span class='line'>    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-</span><span class='line'>    post.puts "comments: true"
-</span><span class='line'>    post.puts "published: false"
-</span><span class='line'>    post.puts "categories: "
-</span><span class='line'>    post.puts "---"
-</span><span class='line'>  end
-</span><span class='line'>end
-</span><span class='line'>
-</span><span class='line'># usage rake publish_draft
-</span><span class='line'>desc "Select a draft to publish from #{source_dir}/#{drafts_dir} on the current date."
-</span><span class='line'>task :publish_draft do
-</span><span class='line'>  drafts_path = "#{source_dir}/#{drafts_dir}"
-</span><span class='line'>  drafts = Dir.glob("#{drafts_path}/*.#{new_post_ext}")
-</span><span class='line'>  drafts.each_with_index do |draft, index|
-</span><span class='line'>    begin
-</span><span class='line'>      content = File.read(draft)
-</span><span class='line'>      if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
-</span><span class='line'>        data = YAML.load($1)
-</span><span class='line'>      end
-</span><span class='line'>    rescue => e
-</span><span class='line'>      puts "Error reading file #{draft}: #{e.message}"
-</span><span class='line'>    rescue SyntaxError => e
-</span><span class='line'>      puts "YAML Exception reading #{draft}: #{e.message}"
-</span><span class='line'>    end
-</span><span class='line'>    puts "  [#{index}]  #{data['title']}"
-</span><span class='line'>  end
-</span><span class='line'>  puts "Publish which draft? "
-</span><span class='line'>  answer = STDIN.gets.chomp
-</span><span class='line'>  if /\d+/.match(answer) and not drafts[answer.to_i].nil?
-</span><span class='line'>    mkdir_p "#{source_dir}/#{posts_dir}"
-</span><span class='line'>    source = drafts[answer.to_i]
-</span><span class='line'>    filename = source.gsub(/#{drafts_path}\//, '')
-</span><span class='line'>    dest = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{filename}"
-</span><span class='line'>    puts "Publishing post to: #{dest}"
-</span><span class='line'>    File.open(source) { |source_file|
-</span><span class='line'>      contents = source_file.read
-</span><span class='line'>      contents.gsub!(/^published: false$/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}")
-</span><span class='line'>      File.open(dest, "w+") { |f| f.write(contents) }
-</span><span class='line'>    }
-</span><span class='line'>    FileUtils.rm(source)
-</span><span class='line'>  else
-</span><span class='line'>    puts "Index not found!"
-</span><span class='line'>  end
-</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
-
-
-
 ]]></content>
   </entry>
   
