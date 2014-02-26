@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Beta Invites | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/beta-invites/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2014-02-26T15:52:48-08:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Increasing The Odds]]></title>
+    <link href="http://fusion94.org/blog/2014/02/26/increasing-the-odds/"/>
+    <updated>2014-02-26T15:24:03-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/26/increasing-the-odds</id>
+    <content type="html"><![CDATA[<p>Quite often you&rsquo;ll find a company that makes an announcement similar to this:</p>
+
+<blockquote><p>Today, we are excited to launch the public beta of <strong>FOO</strong>, a new <strong>WIDGET</strong> that&rsquo;s deeply programmable but also easy to use.</p></blockquote>
+
+<p>This is generally pretty awesome if you have interest in this particular type of <strong>WIDGET</strong> until they ask you to <em>&ldquo;Request a beta invite&rdquo;</em> using your email address.</p>
+
+<!-- more -->
+
+
+<p>To increase your chances of getting into the aforementioned beta all you need is a gmail account.</p>
+
+<p>As you know, you can append most anything to your gmail address using the <code>+</code> sign. So for example, you could register 10 or more times using an email address such as:</p>
+
+<p><code>gmailemail+beta1@gmail.com</code></p>
+
+<p><code>gmailemail+beta2@gmail.com</code></p>
+
+<p><code>gmailemail+beta3@gmail.com</code></p>
+
+<p><code>gmailemail+beta4@gmail.com</code></p>
+
+<p><code>gmailemail+beta5@gmail.com</code></p>
+
+<p>and so on and so on.</p>
+
+<p>If the company in question is using a lottery system to pull beta invitations out of the database based on email addresses you have now increased your odds of winning. <strong>DUH</strong></p>
+]]></content>
+  </entry>
+  
+</feed>
