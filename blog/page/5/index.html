@@ -12,7 +12,7 @@
     <title>Tony Guntharp</title>
     <meta name="author" content="fusion94">
     
-    <meta name="description" content="ANT and Zend Studio Jan 12th, 2009 PHP Zend Studio Comments Zend Studio for Eclipse is a commercial edition of Eclipse plus the PDT plugin and &hellip;">
+    <meta name="description" content="Medal of Honor: Allied Assault Dedicated Servers Released Dec 24th, 2008 Apple/OSX Games MoHAA Software Comments So I finally got around to &hellip;">
     
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://fusion94.org/blog/page/5">
@@ -62,193 +62,6 @@
           
 
   
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2009/01/12/ant-and-zend-studio/">ANT and Zend Studio</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2009-01-12T08:25:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Jan 12<span>th</span>, 2009</time>
-    
-
-  <div class="pull-left">
-    <i class="icon-tags"></i>
-    <ul class="tags unstyled">
-    
-      
-        <li><a class='category' href='/blog/categories/php/'>PHP</a></li>
-      
-        <li><a class='category' href='/blog/categories/zend-studio/'>Zend Studio</a></li>
-      
-    
-    </ul>
-  </div>
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2009/01/12/ant-and-zend-studio/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>Zend Studio for Eclipse is a commercial edition of Eclipse plus the PDT plugin and various other additions. Unfortunately Zend decided to disable the Ant plugin in it&rsquo;s distribution of the Eclipse platform. Nonetheless if you&rsquo;d like to run Ant scripts or simple Phing scripts it would be really useful to be able to use the Ant integration of Eclipse.</p>
-
-<p><b>Preparation</b>
-First you need to make sure that the Eclipse Java Development Tools are available in Zend Studio for Eclipse.</p>
-
-<ul> 
-<li>From the Help menu click Software Updates > Manage Configuration. 
-<li>Check for the entry Eclipse Java Development Tools. 
-</ul>
-
-
-<p>If the entry is not listed or disabled, you need to install the Eclipse feature.</p>
-
-<ul>
-<li>From the Help menu click Software Updates > Find and Install. 
-<li>Click Search for new features to install. 
-<li>Check Europa Discovery Site and click Next. 
-<li>Select Java Development Tools and click Finish to install the feature. 
-<li>Restart Zend Studio for Eclipse. 
-</ul>
-
-
-<p><b>How to enable the Ant integration</b>
-Now it gets a little tricky.</p>
-
-<ul>
-<li>From the File menu click New > Project. 
-<li>Check Show All Wizards. 
-<img src="/images/zend-ant/1.jpg">
-<li>In the Wizards text field enter Ant, select Java Project from Existing Ant Buildfile and click Next. 
-<img src="/images/zend-ant/2.jpg">
-<li>You will be asked to enable Ant Development - confirm with Yes. 
-<img src="/images/zend-ant/3.jpg">
-<li>Now you can cancel the new Java Project - Ant has been activated. 
-</ul>
-
-
-
-
-
-  </article>
-  <hr>
-
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2009/01/06/command-line-port-scanner-osx/">Command Line Port Scanner OSX</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2009-01-06T09:34:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Jan 6<span>th</span>, 2009</time>
-    
-
-  <div class="pull-left">
-    <i class="icon-tags"></i>
-    <ul class="tags unstyled">
-    
-      
-        <li><a class='category' href='/blog/categories/cli/'>CLI</a></li>
-      
-        <li><a class='category' href='/blog/categories/general/'>General</a></li>
-      
-        <li><a class='category' href='/blog/categories/osx/'>OSX</a></li>
-      
-    
-    </ul>
-  </div>
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2009/01/06/command-line-port-scanner-osx/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>Who knew that OS X has a command line port scanner? I for one didn&rsquo;t. I&rsquo;ve always just used the Network Utility version. Here&rsquo;s how to access it.</p>
-
-<p>As the superuser run this:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ln /Applications/Utilities/Network\ Utility.app/Contents/Resources/stroke /bin/stroke
-</span><span class='line'>chmod uo+x /bin/stroke</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Then as any user you can call it from the terminal as such:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>stroke address startPort endPort`</span></code></pre></td></tr></table></div></figure>
-
-
-<p>So to check your local machine do:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>stroke 127.0.0.1 0 1024</span></code></pre></td></tr></table></div></figure>
-
-
-<p>You should see output that looks similar to this:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Port Scanning host: 127.0.0.1
-</span><span class='line'>
-</span><span class='line'>         Open TCP Port:         80              http
-</span><span class='line'>         Open TCP Port:         631             ipp</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-
-  </article>
-  <hr>
-
   
   <article class="listing">
     <header>
@@ -949,6 +762,130 @@ svn commit
 <a href="/images/ut-2008/DSC_0065.JPG" rel="lightshow[UT vs KY][Toss Sweep and UT Scores]"><img src="/images/ut-2008/DSC_0065-tn.jpg"></a>
 <a href="/images/ut-2008/DSC_0097.JPG" rel="lightshow[UT vs KY][Me and the Wife]"><img src="/images/ut-2008/DSC_0097-tn.jpg"></a>
 <a href="/images/ut-2008/DSC_0098.JPG" rel="lightshow[UT vs KY][Final Scoreboard]"><img src="/images/ut-2008/DSC_0098-tn.jpg"></a></p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2008/12/17/updating-the-site/">Updating the Site</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2008-12-17T12:31:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Dec 17<span>th</span>, 2008</time>
+    
+
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      
+        <li><a class='category' href='/blog/categories/acquia/'>Acquia</a></li>
+      
+        <li><a class='category' href='/blog/categories/drupal/'>Drupal</a></li>
+      
+        <li><a class='category' href='/blog/categories/open-source/'>Open Source</a></li>
+      
+    
+    </ul>
+  </div>
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2008/12/17/updating-the-site/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>This site has been running on a Drupal 5 codebase for quite some time. This morning I took the time to upgrade to Drupal 6.8 then upgraded to the lastest version of the Acquia Network Community Server.</p>
+
+<p>So far it&rsquo;s gone well and has been relatively drama free. There are some older Drupal 5 modules that I need to update to get full functionality back so if you see any issues please use the contact form to drop me a note and let me know.</p>
+
+<p>thanks</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2008/06/24/save-the-date/">Save the Date</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2008-06-24T15:30:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> Jun 24<span>th</span>, 2008</time>
+    
+
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      
+        <li><a class='category' href='/blog/categories/dropkick-murphys/'>Dropkick Murphys</a></li>
+      
+        <li><a class='category' href='/blog/categories/festival/'>Festival</a></li>
+      
+        <li><a class='category' href='/blog/categories/might-might-bosstones/'>Might Might Bosstones</a></li>
+      
+        <li><a class='category' href='/blog/categories/music/'>Music</a></li>
+      
+    
+    </ul>
+  </div>
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2008/06/24/save-the-date/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p><img src="/images/dkm_bosstones.jpg"></p>
 
 
   </article>
