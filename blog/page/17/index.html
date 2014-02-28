@@ -12,7 +12,7 @@
     <title>Tony Guntharp</title>
     <meta name="author" content="fusion94">
     
-    <meta name="description" content="Battlestar Galactica Prequel coming? Apr 28th, 2006 Comments According to Zap2It there&rsquo;s a Battlestar Galactica Prequel called Caprica in the &hellip;">
+    <meta name="description" content="Subversion Tip Apr 28th, 2006 Comments Grabbed this little tip from the web. If you&rsquo;ve ever had to add multiple files to a subversion &hellip;">
     
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://fusion94.org/blog/page/17">
@@ -62,6 +62,54 @@
           
 
   
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2006/04/28/subversion-tip/">Subversion Tip</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2006-04-28T08:40:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> Apr 28<span>th</span>, 2006</time>
+    
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2006/04/28/subversion-tip/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>Grabbed this little tip from the web. If you&rsquo;ve ever had to add multiple files to a subversion repository from the command line then you understand the pain involved. This pain can be reduced by running:
+<em>
+svn status | grep \? | cut -f7 -d&#8217; &lsquo; | xargs svn add</em></p>
+
+<p>This series of commands will run run <em>svn stat</em>us, the output from that is then run through <em>grep \?</em> which finds all lines containing a question mark. The output from grep is passed to <em>cut -f7 -d&#8217; &lsquo;</em> which selects the path name, and these multiple lines are then passed on to <em>xargs svn add</em> which combines all of the unknown paths into a single call to svn add.</p>
+
+
+  </article>
+  <hr>
+
   
   <article class="listing">
     <header>
@@ -549,59 +597,6 @@ Ajaxilicious::Movies is an online movie catalogue for managing your movies and s
   </article>
   <hr>
 
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2006/04/17/omnidrive-beta-freebies/">Omnidrive Beta Freebies</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2006-04-17T12:36:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> Apr 17<span>th</span>, 2006</time>
-    
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2006/04/17/omnidrive-beta-freebies/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>Ok here&rsquo;s the deal. I&rsquo;m going to give out 10 Omnidrive Private Beta tokens. To apply please follow these simple rules.</p>
-
-<p>1) Leave a comment on this post.
-2) Use the email address you register your account with. (invites will be sent to that account)
-3) Tell me how you plan on utilizing the service.
-4) Tell me your geographical location. (city/state/country)
-5) Be willing to provide feedback.
-6) Be patient. (It may take me a bit to get you the token sent out.</p>
-
-<p>And that&rsquo;s it. Easy enough?</p>
-
-
-  </article>
-  <hr>
-
 
   <div class="pagination">
     
@@ -645,6 +640,10 @@ Ajaxilicious::Movies is an online movie catalogue for managing your movies and s
   <ul class="divided">
     
       <li class="post">
+        <a href="/blog/2014/02/27/my-son-dot-dot-dot-and-a-legacy/">My Son...and a Legacy</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/02/26/increasing-the-odds/">Increasing The Odds</a>
       </li>
     
@@ -658,10 +657,6 @@ Ajaxilicious::Movies is an online movie catalogue for managing your movies and s
     
       <li class="post">
         <a href="/blog/2014/02/15/hearthstone-beta/">Hearthstone - Beta</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/12/managerial-mistakes/">Managerial Mistakes</a>
       </li>
     
   </ul>
