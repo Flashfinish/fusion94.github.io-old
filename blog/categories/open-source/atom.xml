@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Open Source | Tony Guntharp]]></title>
   <link href="http://fusion94.org/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-02-27T20:40:33-08:00</updated>
+  <updated>2014-03-01T06:11:02-08:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2 New Atom Themes]]></title>
+    <link href="http://fusion94.org/blog/2014/03/01/2-new-atom-themes/"/>
+    <updated>2014-03-01T06:00:23-08:00</updated>
+    <id>http://fusion94.org/blog/2014/03/01/2-new-atom-themes</id>
+    <content type="html"><![CDATA[<p>For the past few days I&rsquo;ve been kicking the tires on the <a href="http://atom.io">Atom Editor</a> from <a href="https://github.com">GitHub</a>.</p>
+
+<p>After using it full time for the better part of this time I can say that I believe that this will become my full time editor of choice completely replacing Sublime Text 3.</p>
+
+<!-- more -->
+
+
+<p>As such I&rsquo;ve started to port over a couple of themes that I used in both Textmate and Sublime Text.</p>
+
+<p>You can locate all the details about them here:</p>
+
+<ul>
+<li><a href="https://atom.io/packages/made-of-code">Made of Code Theme</a></li>
+<li><a href="https://atom.io/packages/idlefingers">Idlefingers Theme</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using Octpress from Two Computers]]></title>
@@ -178,7 +202,7 @@ $ git pull origin master  # update the local master branch
 </ul>
 
 
-<p>You can also email us at <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#107;&#97;&#110;&#x64;&#x61;&#110;&#x61;&#x70;&#x70;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#109;">&#x6b;&#97;&#110;&#x64;&#x61;&#x6e;&#97;&#112;&#x70;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#109;</a></p>
+<p>You can also email us at <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#107;&#x61;&#110;&#100;&#97;&#110;&#x61;&#x70;&#112;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x6b;&#97;&#110;&#x64;&#97;&#x6e;&#x61;&#x70;&#x70;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -324,85 +348,6 @@ $ git pull origin master  # update the local master branch
 <p>If CLAHub had been available during my time at Appcelerator we definitely would have used it as it removes almost <strong>ALL</strong> of the friction points listed above.</p>
 
 <p>If you&rsquo;re a developer with an Open Source project hosted on GitHub or an organization that&rsquo;s doing the same then you should really take the time to evaluate CLAHub as it just integrates nicely with the existing tools and methods that you are more than likely already using.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Legendary for iOS]]></title>
-    <link href="http://fusion94.org/blog/2013/01/15/legendary-for-ios/"/>
-    <updated>2013-01-15T06:40:00-08:00</updated>
-    <id>http://fusion94.org/blog/2013/01/15/legendary-for-ios</id>
-    <content type="html"><![CDATA[<p>Last night I Open Sourced an iOS application called <a href="https://github.com/fusion94/Legendary">Legendary</a>. Legendary displays catchphrases and memorable quotes from the character Barney Stinson from the hit show <em>How I Met Your Mother</em>.</p>
-
-<p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment but I&rsquo;d love to see it ported over to Android and other mobile platforms.</p>
-
-<p>As an aside this is <strong>only</strong> the mobile client side of the application. There&rsquo;s a server side component as well that will also be open sourced later this week.</p>
-
-<!-- more -->
-
-
-<p>Below is all the data from the README.md on <a href="http://github.com">GitHub</a></p>
-
-<hr />
-
-<h3>Description</h3>
-
-<p>Legendary displays catchphrases and memorable quotes from the character Barney Stinson.</p>
-
-<p>Browse and discover the only collection of Barney Stinson quotes available on the iPhone!</p>
-
-<p>Who is Barney Stinson?</p>
-
-<ul>
-<li>He is a womanizer, favors suits, laser tag, and uses the words &ldquo;awesome&rdquo; and &ldquo;legendary&rdquo; frequently.</li>
-<li>Barney is almost always seen wearing a suit and makes great use of his catchphrase, &ldquo;Suit up!&rdquo;, often modifying it for a particular situation (i.e., &ldquo;Snowsuit up!&rdquo; while making an igloo in Central Park, or &ldquo;Flight suit up!&rdquo; when he dresses as a &ldquo;kick a** fighter pilot&rdquo; for Halloween, or &ldquo;Slut Up!&rdquo; when Lily and Robin get ready to go to a high school prom, or when he says &ldquo;Space suit up Ted, &lsquo;cause you&rsquo;re going to the moon,&rdquo; in the episode where Ted may or may not have a threesome).</li>
-</ul>
-
-
-<h3>What&rsquo;s New in Version 1.2</h3>
-
-<ul>
-<li>All New 5 Suit Rating System</li>
-<li>Quotes are broken down by season</li>
-<li>All new popular system</li>
-<li>Randomize function</li>
-</ul>
-
-
-<h3>Coming Soon:</h3>
-
-<ul>
-<li>Search Functionality</li>
-<li>Ability to send to friend</li>
-<li>Ability to send to Twitter</li>
-<li>Ability to send to Facebook</li>
-</ul>
-
-
-<p>Follow us on Twitter:
-<a href="http://twitter.com/legendaryapp">@legendaryapp</a></p>
-
-<p>You can always download a binary in the <a href="https://itunes.apple.com/us/app/legendary/id317444914?mt=8">iTunes Store</a></p>
-
-<h3>Screenshots:</h3>
-
-<p><img src="/images/blog/legendary/screenshots/legendary1.jpg">
-<img src="/images/blog/legendary/screenshots/legendary2.jpg">
-<img src="/images/blog/legendary/screenshots/legendary3.jpg">
-<img src="/images/blog/legendary/screenshots/legendary4.jpg">
-<img src="/images/blog/legendary/screenshots/legendary5.jpg"></p>
-
-<h3>The Details:</h3>
-
-<p>This application was originally developed using the <a href="http://appcelerator.com">Appcelerator Titanium</a> framework and will build for iOS only at the moment.</p>
-
-<h3>Contributing:</h3>
-
-<p>If you care to contribute at all then please see the <a href="https://github.com/fusion94/Legendary/blob/master/CONTRIBUTING.md">CONTRIBUTING File</a> for more details.</p>
-
-<h3>License:</h3>
-
-<p>This application is licensed under the Mozilla Public License Version 2.0. Please see the <a href="https://github.com/fusion94/Legendary/blob/master/LICENSE">LICENSE File</a> for more details.</p>
 ]]></content>
   </entry>
   
