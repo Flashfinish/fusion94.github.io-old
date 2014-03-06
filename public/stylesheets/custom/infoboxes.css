@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined mixin 'border-radius'.
-        on line 22 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss, in `border-radius'
-        from line 22 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss
+        on line 33 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss, in `border-radius'
+        from line 33 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss
 
 Backtrace:
-/Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss:22:in `border-radius'
-/Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss:22
+/Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss:33:in `border-radius'
+/Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss:33
 /Users/fusion94/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Users/fusion94/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/fusion94/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -60,4 +60,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 22 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss, in `border-radius'\A         from line 22 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss"; }
+  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 33 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss, in `border-radius'\A         from line 33 of /Users/fusion94/Code/fusion94/fusion94.github.io/sass/custom/infoboxes.scss"; }

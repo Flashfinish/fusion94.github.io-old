@@ -28,6 +28,7 @@ social:
   googleplus: 101024956573508432752
   linkedin: fusion94
   twitter: fusion94
+  coderwall: fusion94
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -99,3 +100,6 @@ google_analytics_tracking_id: UA-83223-8
 
 # Facebook Like
 facebook_like: true
+
+# Gaug.es
+gauges_tracking_id: 50ef7f49f5a1f51811000011
