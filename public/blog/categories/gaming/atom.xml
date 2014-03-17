@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gaming | Tony Guntharp]]></title>
   <link href="http://fusion94.org/blog/categories/gaming/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-03-06T15:39:44-08:00</updated>
+  <updated>2014-03-17T10:18:44-07:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Xbox 360 Controller and OSX]]></title>
+    <link href="http://fusion94.org/blog/2014/03/17/xbox-360-controller-and-osx/"/>
+    <updated>2014-03-17T08:32:22-07:00</updated>
+    <id>http://fusion94.org/blog/2014/03/17/xbox-360-controller-and-osx</id>
+    <content type="html"><![CDATA[<p>I recently purchased <a href="http://www.feralinteractive.com/en/mac-games/f12013/">Formula 1 2013</a> for OS X and I&rsquo;m really enjoying it.</p>
+
+<p><img src="/images/blog/360/f1-2013.png"></p>
+
+<p>The only real issue with it so far is that I cannot locate a decent steering wheel system to use with OS X and the vehicles are extremely difficult to control using the keyboard.</p>
+
+<!-- more -->
+
+
+<p>The solution: Hook up a Xbox 360 Controller.</p>
+
+<p>I&rsquo;m using a wired Xbox 360 controller (I also have a wireless controller but not the receiver), you can use a wireless one but you&rsquo;ll need to purchase a <a href="http://www.amazon.com/gp/product/B000HZFCT2?ie=UTF8&amp;tag=micesoftware-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000HZFCT2">Microsoft Wireless Gaming Receiver</a> to plug into your Mac.</p>
+
+<p>Since the wired controller has a standard USB port on the end, it seemed like the easiest option. To make it work, you&rsquo;re going to need to pick up a driver. The one we want is the <a href="http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver">Tattiebogle driver</a>. Download the latest disk image, open it up and go through the install process. Once completed, your Mac will require a restart.</p>
+
+<p>Even though the latest version of the driver is over a year old, it still works flawlessly with Mavericks.</p>
+
+<p>When you&rsquo;re back up and running, opening up the System Preferences pane, you&rsquo;ll see a new option under Other named &ldquo;Xbox 360 Controllers.&rdquo; This is where you check that the controller is working, and can reconfigure it to your liking by inverting the axis on the analog sticks on the controller. For some games, this is all you&rsquo;ll need to do.</p>
+
+<p><img src="/images/blog/360/XBox_360_Controllers.png"></p>
+
+<p>Formula 1 2013, for example, has gamepad support built in and so the controller works perfectly with it and recognizes it immediately.</p>
+
+<p><img src="/images/blog/360/controller_on.png"></p>
+
+<p>For the times when your controller isn&rsquo;t supported out of the box, something like <a href="https://itunes.apple.com/us/app/joystick-mapper/id528183797?mt=12">Joystick Mapper</a> or <a href="https://itunes.apple.com/us/app/gamepad-companion/id428799479?mt=12">Gamepad Companion</a> could be your salvation.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Increasing The Odds]]></title>
@@ -195,16 +229,7 @@
 
 <p><strong>About Damage Studios</strong></p>
 
-<p>Damage Studios Incorporated is a San Francisco, CA based development studio that has been formed to create the world&rsquo;s most dynamic MMORPG: Rekonstruction&trade;. For more information, please see <a href="http://www.damagestudios.com">http://www.damagestudios.com</a> or email us at <a href="&#x6d;&#97;&#x69;&#108;&#116;&#111;&#58;&#112;&#x72;&#x65;&#115;&#x73;&#x40;&#100;&#x61;&#109;&#97;&#x67;&#x65;&#x73;&#x74;&#117;&#x64;&#105;&#x6f;&#115;&#46;&#x63;&#x6f;&#109;&#x2e;">&#x70;&#x72;&#x65;&#x73;&#x73;&#x40;&#100;&#x61;&#109;&#x61;&#x67;&#101;&#115;&#x74;&#x75;&#x64;&#105;&#x6f;&#115;&#x2e;&#99;&#111;&#109;&#46;</a></p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[RPGamer: Interview with Chris DiBona]]></title>
-    <link href="http://fusion94.org/blog/2002/11/08/rpgamer-interview-with-chris-dibona/"/>
-    <updated>2002-11-08T21:55:00-08:00</updated>
-    <id>http://fusion94.org/blog/2002/11/08/rpgamer-interview-with-chris-dibona</id>
-    <content type="html"><![CDATA[<p>RPGamer has an interview with one of the Damage Studios co-founders that talks about the studio and the game. You can rad the interview <a href="http://www.rpgamer.com/features/rekoninterview/rekoninterview.html">here</a>.</p>
+<p>Damage Studios Incorporated is a San Francisco, CA based development studio that has been formed to create the world&rsquo;s most dynamic MMORPG: Rekonstruction&trade;. For more information, please see <a href="http://www.damagestudios.com">http://www.damagestudios.com</a> or email us at <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#x70;&#114;&#x65;&#115;&#x73;&#64;&#x64;&#x61;&#109;&#97;&#x67;&#101;&#115;&#x74;&#117;&#100;&#x69;&#111;&#115;&#x2e;&#99;&#x6f;&#109;&#46;">&#x70;&#114;&#x65;&#x73;&#x73;&#64;&#x64;&#97;&#109;&#97;&#103;&#101;&#115;&#x74;&#x75;&#x64;&#x69;&#111;&#x73;&#46;&#x63;&#111;&#109;&#x2e;</a></p></blockquote>
 ]]></content>
   </entry>
   
