@@ -4,7 +4,7 @@
   <title><![CDATA[Tony Guntharp]]></title>
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2014-03-13T21:34:31-07:00</updated>
+  <updated>2014-03-17T10:18:44-07:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Xbox 360 Controller and OSX]]></title>
+    <link href="http://fusion94.org/blog/2014/03/17/xbox-360-controller-and-osx/"/>
+    <updated>2014-03-17T08:32:22-07:00</updated>
+    <id>http://fusion94.org/blog/2014/03/17/xbox-360-controller-and-osx</id>
+    <content type="html"><![CDATA[<p>I recently purchased <a href="http://www.feralinteractive.com/en/mac-games/f12013/">Formula 1 2013</a> for OS X and I&rsquo;m really enjoying it.</p>
+
+<p><img src="http://fusion94.org/images/blog/360/f1-2013.png"></p>
+
+<p>The only real issue with it so far is that I cannot locate a decent steering wheel system to use with OS X and the vehicles are extremely difficult to control using the keyboard.</p>
+
+<!-- more -->
+
+
+<p>The solution: Hook up a Xbox 360 Controller.</p>
+
+<p>I&rsquo;m using a wired Xbox 360 controller (I also have a wireless controller but not the receiver), you can use a wireless one but you&rsquo;ll need to purchase a <a href="http://www.amazon.com/gp/product/B000HZFCT2?ie=UTF8&amp;tag=micesoftware-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000HZFCT2">Microsoft Wireless Gaming Receiver</a> to plug into your Mac.</p>
+
+<p>Since the wired controller has a standard USB port on the end, it seemed like the easiest option. To make it work, you&rsquo;re going to need to pick up a driver. The one we want is the <a href="http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver">Tattiebogle driver</a>. Download the latest disk image, open it up and go through the install process. Once completed, your Mac will require a restart.</p>
+
+<p>Even though the latest version of the driver is over a year old, it still works flawlessly with Mavericks.</p>
+
+<p>When you&rsquo;re back up and running, opening up the System Preferences pane, you&rsquo;ll see a new option under Other named &ldquo;Xbox 360 Controllers.&rdquo; This is where you check that the controller is working, and can reconfigure it to your liking by inverting the axis on the analog sticks on the controller. For some games, this is all you&rsquo;ll need to do.</p>
+
+<p><img src="http://fusion94.org/images/blog/360/XBox_360_Controllers.png"></p>
+
+<p>Formula 1 2013, for example, has gamepad support built in and so the controller works perfectly with it and recognizes it immediately.</p>
+
+<p><img src="http://fusion94.org/images/blog/360/controller_on.png"></p>
+
+<p>For the times when your controller isn&rsquo;t supported out of the box, something like <a href="https://itunes.apple.com/us/app/joystick-mapper/id528183797?mt=12">Joystick Mapper</a> or <a href="https://itunes.apple.com/us/app/gamepad-companion/id428799479?mt=12">Gamepad Companion</a> could be your salvation.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2 New Atom Themes]]></title>
@@ -811,7 +845,7 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 </ul>
 
 
-<p>You can also email us at <a href="&#109;&#97;&#105;&#108;&#x74;&#x6f;&#x3a;&#x6b;&#x61;&#110;&#x64;&#97;&#x6e;&#x61;&#112;&#x70;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">&#x6b;&#x61;&#110;&#x64;&#x61;&#x6e;&#97;&#x70;&#x70;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>You can also email us at <a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#x6f;&#58;&#107;&#x61;&#x6e;&#100;&#97;&#x6e;&#97;&#112;&#112;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6b;&#97;&#x6e;&#100;&#x61;&#110;&#97;&#x70;&#x70;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -1941,55 +1975,6 @@ Berkeley CA<br></p>
 <p>Here&rsquo;s a short video of it in action.</p>
 
 <div class="embed-video-container"><iframe src="http://player.vimeo.com/video/44088059 "></iframe></div>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Recent Comments as an Asides]]></title>
-    <link href="http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides/"/>
-    <updated>2013-01-11T16:39:00-08:00</updated>
-    <id>http://fusion94.org/blog/2013/01/11/recent-comments-as-an-asides</id>
-    <content type="html"><![CDATA[<p>This short tutorial will teach you in creating a &ldquo;Recent Comments&rdquo; asides for the Octopress sidebar if you&rsquo;re using Disqus as your commenting system.</p>
-
-<p><strong>Step 1:</strong> Let’s create a new aside. Create a new file named <code>recent_comments.html</code> under <code>source/_includes/custom/asides</code></p>
-
-<!-- more -->
-
-
-<p><strong>Step 2:</strong> Add the following code</p>
-
-<figure class='code'><figcaption><span>recent_comments.html </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;section&gt;</span>
-</span><span class='line'>  <span class="nt">&lt;h1&gt;</span>Recent Comments<span class="nt">&lt;/h1&gt;</span>
-</span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;dsq-recentcomments&quot;</span> <span class="na">class=</span><span class="s">&quot;dsq-widget&quot;</span><span class="nt">&gt;&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src=</span><span class="s">&quot;http://disqus.com/forums/fusion94org/recent_comments_widget.js?hide_avatars=1&quot;</span><span class="nt">&gt;&lt;/script&gt;&lt;/div&gt;</span>
-</span><span class='line'><span class="nt">&lt;/section&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Here are the parameters you can use for comments :</p>
-
-<ul>
-<li>hide_avatars : hides the avatar in comments (values : 0, 1)</li>
-<li>num_items : number of comments to show</li>
-<li>excerpt_length : number of characters to show for each comment</li>
-</ul>
-
-
-<p><strong>Step 3:</strong> Add the aside to <code>_config.yml</code></p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>default_asides: [custom/asides/links.html, asides/recent_posts.html, custom/asides/recent_comments.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]</span></code></pre></td></tr></table></div></figure>
-
-
-<p><strong>Step 4:</strong> Rebuild your site</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate && rake deploy</span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
   </entry>

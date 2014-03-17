@@ -12,7 +12,7 @@
     <title>Tony Guntharp</title>
     <meta name="author" content="fusion94">
     
-    <meta name="description" content="Google Notebook / Sidenote Replacement Oct 9th, 2006 Comments I had been using Sidenote for some time now on both my G5 and the MacBook Pro. I was &hellip;">
+    <meta name="description" content="Adding FeedLounge as a Feed Reader to Firefox 2 Oct 25th, 2006 Comments Firefox 2 has been released and after using the last 2 Release Candidates it &hellip;">
     
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://fusion94.org/blog/page/12">
@@ -69,6 +69,79 @@ window.analytics.page();
           
 
   
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2006/10/25/adding-feedlounge-as-a-feed-reader-to-firefox-2/">Adding FeedLounge as a Feed Reader to Firefox 2</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2006-10-25T12:36:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> Oct 25<span>th</span>, 2006</time>
+    
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2006/10/25/adding-feedlounge-as-a-feed-reader-to-firefox-2/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p><a href="http://www.getfirefox.com">Firefox 2</a> has been released and after using the last 2 Release Candidates it&rsquo;s as good as promised.</p>
+
+<p>One new features is Previewing and subscribing to Web feeds: Users can decide how to handle Web feeds, either subscribing to them via a Web service or in a standalone RSS reader, or adding them as Live Bookmarks. My Yahoo!, Bloglines and Google Reader come pre-loaded as Web service options, but users can add any Web service that handles RSS feeds.</p>
+
+<p>This relatively short blog post will show you how to replace Bloglines with <a href="http://feedlounge.com">FeedLounge</a>.</p>
+
+<ol>
+<li><p>The first thing you need to do is go into about:config. Just type “about:config” into your address bar.</p></li>
+<li><p>Now scroll down in about:config till you find the string called:</p>
+
+<p> browser.contentHandlers.types.0.title</p></li>
+</ol>
+
+
+<p>Right-click this string and choose “Modify”. Now get rid of the name Bloglines and replace it with the name FeedLounge. Then hit “OK”.</p>
+
+<ol>
+<li><p>Next you will need to look a little further down in about:config till you find the string called:</p>
+
+<p> browser.contentHandlers.types.0.uri</p></li>
+</ol>
+
+
+<p>Right-click this string and choose “Modify” again. This time you are going to have to change the URL that your service in question uses. In the place where the feed would go, put in “%s”. So for FeedLounge, You should type this into that box:</p>
+
+<p><a href="http://my.feedlounge.com/subscribe/feed?url=%s">http://my.feedlounge.com/subscribe/feed?url=%s</a></p>
+
+<p>Then hit “OK”.</p>
+
+<p>After completing these steps just restart Firefox 2 and you&rsquo;ll be good to go.</p>
+
+
+  </article>
+  <hr>
+
   
   <article class="listing">
     <header>
@@ -496,54 +569,6 @@ window.analytics.page();
   </article>
   <hr>
 
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2006/09/16/getting-itunes-6-and-front-row-to-accept-non-native-video-formats/">Getting iTunes 6+ & Front Row to accept non-native video formats</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2006-09-16T09:50:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 16<span>th</span>, 2006</time>
-    
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2006/09/16/getting-itunes-6-and-front-row-to-accept-non-native-video-formats/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>One of the issues I&rsquo;ve had for awhile now is the inability for iTunes/Front Row to recognize and play non-native video formats (specifically .AVI).</p>
-
-<p>Until now. To play non-native video  formats in iTunes or Front Row here&rsquo;s a little tip/trick for you.</p>
-
-<p>Open the AVI file with QuickTime Player, go to the File menu and choose Save As&hellip;, and then pick &ldquo;Reference movie&rdquo; as destination format. QuickTime Player will generate a small MOV file that acts as an alias to the original AVI movie &mdash; and this reference file can be added to iTunes. iTunes will let you add metadata to the reference MOV file, and will play the original AVI if instructed to do so. Note that if you remove the original AVI file, iTunes will obviously not be able to play it, even if the title still appears in its database. Also, reference movies are still somewhat big for what they are worth (around 1 to 3 MB each).</p>
-
-
-  </article>
-  <hr>
-
 
   <div class="pagination">
     
@@ -587,6 +612,10 @@ window.analytics.page();
   <ul class="divided">
     
       <li class="post">
+        <a href="/blog/2014/03/17/xbox-360-controller-and-osx/">Xbox 360 Controller and OSX</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/01/2-new-atom-themes/">2 New Atom Themes</a>
       </li>
     
@@ -600,10 +629,6 @@ window.analytics.page();
     
       <li class="post">
         <a href="/blog/2014/02/26/elder-scrolls-online/">Elder Scrolls Online</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/25/using-octpress-from-two-computers/">Using Octpress from Two Computers</a>
       </li>
     
   </ul>
