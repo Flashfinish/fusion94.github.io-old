@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Apple/OSX | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/apple-slash-osx/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Medal of Honor: Allied Assault Dedicated Servers Released]]></title>
+    <link href="http://fusion94.org//blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released/"/>
+    <updated>2008-12-24T11:33:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/12/24/medal-of-honor-allied-assault-dedicated-servers-released</id>
+    <content type="html"><![CDATA[<p>So I finally got around to releasing a package of the Medal of Honor: Allied Assault Dedicated Servers.</p>
+
+<p>They can be downloaded <a href="http://fusion94.org//files/MoHAA_Dedicated_Servers_1.2.zip">here</a>.</p>
+
+<p>I plan on releasing new versions of the Game Server Configurator: MoHAA in the next few weeks and you will need these to use that tool.</p>
+
+<p><b>NOTE:</b>
+These are command line server binaries that allow you to host a MoHAA server without running the MoHAA client.</p>
+
+<p><b>DISCLAIMER:</b>
+These binaries are released as a non-supported product. That means that neither Aspyr Media, Inc. nor Damage Studios technical support center can answer or help with any issues you may encounter with this release. Aspyr Media, Inc. and Damage Studios make no representation or warranty of any kind regarding:</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[BootCamp Tip]]></title>
+    <link href="http://fusion94.org//blog/2008/12/18/bootcamp-tip/"/>
+    <updated>2008-12-18T10:03:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/12/18/bootcamp-tip</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;ve got BootCamp installed and have it defaulting to boot into Windows then remove the Windows partion you&rsquo;re going to get a &ldquo;No bootable disk found&rdquo; screen everytime you boot up.</p>
+
+<p>I still don&rsquo;t know why OSX isn&rsquo;t smart enough to handle this issue with more grace but that&rsquo;s another post altogether.</p>
+
+<p>To resolve this just follow these steps:</p>
+
+<ol>
+<li>Restart your computer and hold down the Option key until disk icons appear onscreen.
+<li>Select the startup disk with the operating system you want to use (safe bet that it's going to be OSX), and then click the arrow beneath the icon.
+<li>Once OSX is launched, go to System Preferences, and select the OSX volume as the startup disk. 
+</ol>
+
+
+<p>Once you&rsquo;ve completed these steps you&rsquo;ll be able to reboot back into OSX without the annoying screen.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Change __MyCompanyName__ in Xcode ... Permanently ]]></title>
+    <link href="http://fusion94.org//blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently/"/>
+    <updated>2008-06-11T09:58:00-07:00</updated>
+    <id>http://fusion94.org//blog/2008/06/11/how-to-change-mycompanyname-in-xcode-permanently</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;re tired of seeing <strong>MyCompanyName</strong> automatically in all copyright notices of all your XCode source files then here&rsquo;s a quick and easy fix. You can set the XCode default company name for copyright notice as follows:</p>
+
+<p>Go to /Applications/Utilities and open Terminal.app and enter the following code:</p>
+
+<p><code>defaults write com.apple.Xcode PBXCustomTemplateMacroDefinitions &lsquo;{&ldquo;ORGANIZATIONNAME&rdquo;=&ldquo;SomeOther Co.&rdquo;;}&rsquo;</code></p>
+
+<p>Make sure you replace SomeOtherCo. with whatever name you want. I used:</p>
+
+<p><code>defaults write com.apple.Xcode PBXCustomTemplateMacroDefinitions &lsquo;{&ldquo;ORGANIZATIONNAME&rdquo;=&ldquo;damagestudios.net&rdquo;;}&rsquo;</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Disable Space Switching - 10.5.2]]></title>
+    <link href="http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2/"/>
+    <updated>2008-02-25T18:44:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/02/25/disable-space-switching-10-5-2</id>
+    <content type="html"><![CDATA[<p>The 10.5.2 version of OS X has a new preferences command for Spaces although tt&rsquo;s hidden and not available through the System Preferences.</p>
+
+<p>What it does is allow one to Command-Tab to the app you want and create a new window in the current space. No more switching to the space that the app was originally launched in.</p>
+
+<p>Here&rsquo;s the terminal command:</p>
+
+<p><code>defaults write com.apple.Dock workspaces-auto-swoosh -bool NO</code></p>
+
+<p>Then just restart the dock using:</p>
+
+<p><code>killall Dock</code></p>
+
+<p>If you need to back out your changes just change the first command from NO to a YES then restart the Dock once more.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Quicksilver and Leopard]]></title>
+    <link href="http://fusion94.org//blog/2008/02/05/quicksilver-and-leopard/"/>
+    <updated>2008-02-05T09:31:00-08:00</updated>
+    <id>http://fusion94.org//blog/2008/02/05/quicksilver-and-leopard</id>
+    <content type="html"><![CDATA[<p>Ever since I upgraded all my boxes to <a href="http://www.apple.com/macosx/">Leopard</a> <a href="http://www.blacktree.com/">Quicksilver</a> has been having issues. While searching for a new release I&rsquo;ve located a solution that seems to have fixed most of my issues. Here&rsquo;s what to do.</p>
+
+<ol>
+<li>Quit Quicksilver if running.</li>
+<li>Delete all traces of Quicksilver by deleting these 4 files.</li>
+
+<ul>    
+<li>/Applications/Quicksilver.app</li>
+<li>~/Library/Application Support/Quicksilver</li>
+<li>~/Library/Preferences/com.blacktree.Quicksilver.plist</li>
+<li>~/Library/Caches/Quicksilver</li>
+</ul>
+
+<li>Head over to <a href="http://lipidity.com/software/quicksilver/">http://lipidity.com/software/quicksilver/</a> and download and install Quicksilver B5X.</li>
+<li>Launch Terminal and run the following commands.</li>
+
+<ul>
+<li>chmod 0644 /Applications/Quicksilver.app/Contents/Info.plist
+</ul>
+
+<li>Open Quicksilver and go through the setup WITHOUT installing any plugins.</li>
+<li>Open or relaunch Terminal and run the following commands.</li>
+
+<ul>
+<li>defaults write com.blacktree.Quicksilver "Cutting Edge Features" -bool yes</li>
+<li>defaults write com.blacktree.Quicksilver "Feature Level" 3</li>
+</ul>
+
+<li>Quit and relaunch Quicksilver.</li>
+<li>You can now adjust your settings and preferences and install some plugins.</li>
+
+</ol>
+
+
+<p>I&rsquo;m not saying this will work for you but is has made Quicksilver more stable for me.</p>
+
+<p>Also to note is that the <a href="http://www.mygnu.com/julius/proj_bezel.html">Quicksilver Interface plugin &ndash; Bezel HUD</a> is pretty sweet.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: General | Tony Guntharp]]></title>
+  <link href="http://fusion94.org//blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://fusion94.org//"/>
+  <updated>2014-02-19T18:16:52-08:00</updated>
+  <id>http://fusion94.org//</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Curiosity Playlist]]></title>
+    <link href="http://fusion94.org//blog/2012/08/30/curiosity-playlist/"/>
+    <updated>2012-08-30T07:36:00-07:00</updated>
+    <id>http://fusion94.org//blog/2012/08/30/curiosity-playlist</id>
+    <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Halo/Dive]]></title>
+    <link href="http://fusion94.org//blog/2012/08/19/halo-slash-dive/"/>
+    <updated>2012-08-19T17:16:00-07:00</updated>
+    <id>http://fusion94.org//blog/2012/08/19/halo-slash-dive</id>
+    <content type="html"><![CDATA[<p>While everyone wants to be on a HALO/Dive team there&rsquo;s a lot of work involved. Here&rsquo;s part of
+the pain.</p>
+
+<p><img src="/images/blog/random/halo_dive.jpeg"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Infantry Way]]></title>
+    <link href="http://fusion94.org//blog/2012/08/17/the-infantry-way/"/>
+    <updated>2012-08-17T23:48:00-07:00</updated>
+    <id>http://fusion94.org//blog/2012/08/17/the-infantry-way</id>
+    <content type="html"><![CDATA[<p>True Story.</p>
+
+<p><img src="/images/blog/random/infantry_way.jpeg"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Greatest Show on Earth]]></title>
+    <link href="http://fusion94.org//blog/2012/08/17/the-greatest-show-on-earth/"/>
+    <updated>2012-08-17T21:04:00-07:00</updated>
+    <id>http://fusion94.org//blog/2012/08/17/the-greatest-show-on-earth</id>
+    <content type="html"><![CDATA[<p>The Greatest Show On Earth 320kph / 200mph Street Race &ndash; &lsquo;ISLE of MAN&rsquo; TT</p>
+
+<p><div class="embed-video-container"><iframe src="http://player.vimeo.com/video/46856767 "></iframe></div></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Command Line Port Scanner OSX]]></title>
+    <link href="http://fusion94.org//blog/2009/01/06/command-line-port-scanner-osx/"/>
+    <updated>2009-01-06T09:34:00-08:00</updated>
+    <id>http://fusion94.org//blog/2009/01/06/command-line-port-scanner-osx</id>
+    <content type="html"><![CDATA[<p>Who knew that OS X has a command line port scanner? I for one didn&rsquo;t. I&rsquo;ve always just used the Network Utility version. Here&rsquo;s how to access it.</p>
+
+<p>As the superuser run this:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ln /Applications/Utilities/Network\ Utility.app/Contents/Resources/stroke /bin/stroke
+</span><span class='line'>chmod uo+x /bin/stroke</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Then as any user you can call it from the terminal as such:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>stroke address startPort endPort`</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>So to check your local machine do:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>stroke 127.0.0.1 0 1024</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>You should see output that looks similar to this:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Port Scanning host: 127.0.0.1&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;pre>&lt;code>     Open TCP Port:         80              http
+</span><span class='line'>     Open TCP Port:         631             ipp
+</span><span class='line'>&lt;/code>&lt;/pre>
+</span><span class='line'>
+</span><span class='line'>&lt;p></span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>
