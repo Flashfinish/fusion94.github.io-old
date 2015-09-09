@@ -12,7 +12,7 @@
     <title>Tony Guntharp</title>
     <meta name="author" content="fusion94">
     
-    <meta name="description" content="Top 10 Shell Commands used Dec 9th, 2013 shell stats Comments From time to time, I like to analyze which unix or linux shell commands I&rsquo;m &hellip;">
+    <meta name="description" content="An Inconvenient Truth about Assault Rifles Apr 9th, 2013 Comments Let&rsquo;s start by clearing up a few misconceptions about so-called &ldquo; &hellip;">
     
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://fusion94.org/blog/page/2">
@@ -69,141 +69,6 @@ window.analytics.page();
           
 
   
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2013/12/09/top-10-shell-commands-used/">Top 10 Shell Commands used</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2013-12-09T09:26:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Dec 9<span>th</span>, 2013</time>
-    
-
-  <div class="pull-left">
-    <i class="icon-tags"></i>
-    <ul class="tags unstyled">
-    
-      
-        <li><a class='category' href='/blog/categories/shell/'>shell</a></li>
-      
-        <li><a class='category' href='/blog/categories/stats/'>stats</a></li>
-      
-    
-    </ul>
-  </div>
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2013/12/09/top-10-shell-commands-used/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>From time to time, I like to analyze which unix or linux shell commands I&rsquo;m using most frequently. To do this, all I need is a little awk, like the following:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>history | awk '{print $2}' | sort | uniq -c | sort -rn | head</span></code></pre></td></tr></table></div></figure>
-
-
-<p>So what does this do?</p>
-
-<p>Basically, it parses your history looking at the 2nd column, which is the command you typed and increments it each time it is found. Then it displays a sorted report showing the count of the command and the command, like this example on my MacBook Pro:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>1353 git
-</span><span class='line'>749 cd
-</span><span class='line'>391 ssh
-</span><span class='line'>379 ls
-</span><span class='line'>194 rake
-</span><span class='line'>168 vagrant
-</span><span class='line'>152 sublime
-</span><span class='line'>143 rvm
-</span><span class='line'>135 rm
-</span><span class='line'>119 bundle</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Based on this output of the top 10 most frequently used shell commands, it shows that I&rsquo;m using git, and ls quite a bit so it would be helpful to create aliases for these commands. Here are a few examples:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>alias g="git"
-</span><span class='line'>alias l="ls -al"</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Now that I know git is one of my most used commands I can parse my history to determine what git command I use most frequently:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>history | awk '{print $2 " " $3}' | sort | uniq -c | sort -rn | grep "git" | head     </span></code></pre></td></tr></table></div></figure>
-
-
-<p>The output of that command provides me with this information:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'> 200 git push
-</span><span class='line'> 191 git commit
-</span><span class='line'> 172 git status
-</span><span class='line'> 105 git branch
-</span><span class='line'> 103 git clone
-</span><span class='line'>  99 git checkout
-</span><span class='line'>  79 git remote
-</span><span class='line'>  49 git fetch</span></code></pre></td></tr></table></div></figure>
-
-
-<p></p>
-
-<p>This now allows me to tailor my aliases for git accordingly.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>alias gp="git push"
-</span><span class='line'>alias gc="git commit -m"
-</span><span class='line'>alias gs="git status"</span></code></pre></td></tr></table></div></figure>
-
-
-<p>By tailoring your aliases appropriately you can speed up your workflow significantly, as well as reduce the wear and tear on your fingers.</p>
-
-
-  </article>
-  <hr>
-
   
   <article class="listing">
     <header>
@@ -809,6 +674,63 @@ window.analytics.page();
   </article>
   <hr>
 
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/01/13/this-post-will-be-tweeted/">This post will be tweeted</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-01-13T07:03:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Jan 13<span>th</span>, 2013</time>
+    
+
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      
+        <li><a class='category' href='/blog/categories/octopress/'>Octopress</a></li>
+      
+        <li><a class='category' href='/blog/categories/twitter/'>Twitter</a></li>
+      
+    
+    </ul>
+  </div>
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
+
+
+  </article>
+  <hr>
+
 
   <div class="pagination">
     
@@ -852,11 +774,7 @@ window.analytics.page();
   <ul class="divided">
     
       <li class="post">
-        <a href="/blog/2015/09/09/test/">test</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/09/essential-tools-for-makers/">Essential Tools for Makers</a>
+        <a href="/blog/2015/09/09/essential-tools-for-making/">Essential Tools for Making</a>
       </li>
     
       <li class="post">
@@ -869,6 +787,10 @@ window.analytics.page();
     
       <li class="post">
         <a href="/blog/2014/02/27/my-son-dot-dot-dot-and-a-legacy/">My Son...and a Legacy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/26/increasing-the-odds/">Increasing The Odds</a>
       </li>
     
   </ul>

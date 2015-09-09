@@ -4,7 +4,7 @@
   <title><![CDATA[Tony Guntharp]]></title>
   <link href="http://fusion94.org/atom.xml" rel="self"/>
   <link href="http://fusion94.org/"/>
-  <updated>2015-09-09T13:58:54-07:00</updated>
+  <updated>2015-09-09T14:05:21-07:00</updated>
   <id>http://fusion94.org/</id>
   <author>
     <name><![CDATA[fusion94]]></name>
@@ -14,19 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[test]]></title>
-    <link href="http://fusion94.org/blog/2015/09/09/test/"/>
-    <updated>2015-09-09T13:58:41-07:00</updated>
-    <id>http://fusion94.org/blog/2015/09/09/test</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Essential Tools for Makers]]></title>
-    <link href="http://fusion94.org/blog/2015/09/09/essential-tools-for-makers/"/>
-    <updated>2015-09-09T07:45:57-07:00</updated>
-    <id>http://fusion94.org/blog/2015/09/09/essential-tools-for-makers</id>
+    <title type="html"><![CDATA[Essential Tools for Making]]></title>
+    <link href="http://fusion94.org/blog/2015/09/09/essential-tools-for-making/"/>
+    <updated>2015-09-09T14:01:24-07:00</updated>
+    <id>http://fusion94.org/blog/2015/09/09/essential-tools-for-making</id>
     <content type="html"><![CDATA[<div class="info">NOTE: This blog post is part of a series of blog posts on Making. If you’re  at all  interested then please subscribe to the RSS feed.</div>
 
 
@@ -972,7 +963,7 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 </ul>
 
 
-<p>You can also email us at <a href="&#109;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x6b;&#97;&#x6e;&#100;&#97;&#x6e;&#x61;&#112;&#x70;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x6b;&#97;&#110;&#x64;&#97;&#110;&#x61;&#x70;&#112;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></p>
+<p>You can also email us at <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#x3a;&#107;&#97;&#x6e;&#100;&#97;&#x6e;&#97;&#112;&#x70;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#107;&#97;&#x6e;&#100;&#97;&#x6e;&#x61;&#x70;&#112;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></p>
 
 <h3>Conclusion</h3>
 
@@ -2033,6 +2024,15 @@ Everyone, generally starts at the bottom of the food chain. Great employees care
 <h4>Conclusion</h4>
 
 <p>And that&rsquo;s it. Pretty simple eh? Have fun tweeting and blogging from Octopress.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This post will be tweeted]]></title>
+    <link href="http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted/"/>
+    <updated>2013-01-13T07:03:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/13/this-post-will-be-tweeted</id>
+    <content type="html"><![CDATA[<p>This is a test of Octopress &amp; Twitter integration. If this works then a longer blog post will follow on how to setup Octopress to tweet new blog posts.</p>
 ]]></content>
   </entry>
   
