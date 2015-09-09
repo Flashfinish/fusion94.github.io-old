@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Appcelerator Titanium | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/appcelerator-titanium/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2015-09-09T12:31:26-07:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Titanium Studio Issues]]></title>
+    <link href="http://fusion94.org/blog/2013/01/10/titanium-studio-issues/"/>
+    <updated>2013-01-10T00:41:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/10/titanium-studio-issues</id>
+    <content type="html"><![CDATA[<p>I just installed the latest Titanium Studio from Appcelerator and a Titanium Update window pops up when I open TiStudio and asks me to install Titanium CLI and Alloy.</p>
+
+<p>When I press the install button a dialog pops up that says &ldquo;Titanium wants to make changes. Provide your password to allow installation&rdquo;. I enter my password and TiStudio tells me that my password is incorrect and TiStudio asks me to enter it again.</p>
+
+<!-- more -->
+
+
+<p>This is due in part to the fact that Titanium Studio has no clue how to deal with Node.js packages. Which is fucking ironic considering how much of the new Titanium platform is based on Node.js.</p>
+
+<p>To get around this all you need to do is manually install alloy and titanium cli using this:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Installing Alloy and Titanium CLI </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>npm install -g alloy titanium</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>

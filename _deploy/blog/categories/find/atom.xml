@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: find | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/find/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2015-09-09T12:31:26-07:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SVN Repository Cleanup]]></title>
+    <link href="http://fusion94.org/blog/2008/12/20/svn-repository-cleanup/"/>
+    <updated>2008-12-20T22:25:00-08:00</updated>
+    <id>http://fusion94.org/blog/2008/12/20/svn-repository-cleanup</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve spent the past few hours doing some pretty massive SVN repository cleanup for all of my personal projects. One annoyance is all of the .svn directories that occasionally have to be located and removed before you can recommit.</p>
+
+<p>Here&rsquo;s a quick one-liner to assist you in this. Let&rsquo;s say you have a couple of top level directories that look something like this:</p>
+
+<pre>
+foo/
+   bar/
+bar/
+   foo/
+</pre>
+
+
+<p>If you want to find and remove all those pesky .svn directories from within the foo directory all you need to do is run this:</p>
+
+<p><code>find foo -type d -name &ldquo;.svn&rdquo; -exec rm -rf {} \;</code></p>
+
+<p>If you wanted to hit both directories at the same time you use this:</p>
+
+<p><code>find * -type d -name &ldquo;.svn&rdquo; -exec rm -rf {} \;</code></p>
+
+<p>Also to note is that you can use this to also locate and remove .DS_Store files that OSX places all over the place. The only difference is that the flag passed to -type would now be a &lsquo;f&rsquo; like this:</p>
+
+<p><code>find foo -type f -name &ldquo;.DS_Store&rdquo; -exec rm -rf {} \;</code></p>
+
+<p>Hope this is useful to someone.</p>
+]]></content>
+  </entry>
+  
+</feed>

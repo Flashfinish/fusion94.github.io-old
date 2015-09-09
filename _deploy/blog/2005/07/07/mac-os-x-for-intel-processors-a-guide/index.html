@@ -1,0 +1,315 @@
+<!doctype html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  
+    
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mac OS X for Intel Processors (A Guide) - Tony Guntharp</title>
+    <meta name="author" content="fusion94">
+    
+    <meta name="description" content="Mac OS X for Intel Processors (A Guide) Jul 7th, 2005 Comments So the following guide comes from Steven Troughton-Smith over at http:// &hellip;">
+    
+    <meta name="viewport" content="width=device-width">
+    <link rel="canonical" href="http://fusion94.org/blog/2005/07/07/mac-os-x-for-intel-processors-a-guide">
+    
+    <link href="/favicon.png" rel="icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet">
+    <link href="/atom.xml" rel="alternate" title="Tony Guntharp" type="application/atom+xml">
+  </head>
+
+
+  <body >
+
+    <header>
+      <div class="grid-wrapper">
+  <div class="grid">
+
+    <div class="grid__item two-fifths lap-four-sixths palm-one-whole">
+  <a href="/" class="site-title">Tony Guntharp</a>
+</div>
+
+<div class="grid__item three-fifths lap-two-sixths palm-one-whole">
+  <nav>
+    <input type="checkbox" id="toggle">
+<label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu"></label>
+<ul class="menu pull-right">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+  </nav>
+</div>
+
+<script type="text/javascript">
+window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;window.analytics.methods.length>i;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",
+window.analytics.load("2nink9rua6");
+window.analytics.page();
+</script>
+
+
+  </div>
+</div>
+    </header>
+
+    
+
+    <div class="grid-wrapper">
+      <div class="grid grid-center">
+        
+        <div class="grid__item two-thirds lap-one-whole palm-one-whole">
+        
+
+          <article class="post">
+  <header>
+  
+  <h1 class="title indent">Mac OS X for Intel Processors (A Guide)</h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2005-07-07T10:57:00-07:00" pubdate data-updated="true"><i class="icon-calendar"></i> Jul 7<span>th</span>, 2005</time>
+    
+
+    
+      <a class="pull-right" href="#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>So the following guide comes from Steven Troughton-Smith over at <a href="http://grabberslasher.no-ip.com/macosx/"><a href="http://grabberslasher.no-ip.com/macosx/">http://grabberslasher.no-ip.com/macosx/</a></a> mirrored with his permission.</p>
+
+<center><strong>Mac OS X for Intel Processors (A Guide)</strong></center>
+
+
+<p>Ok, well after seeing how popular my original guide to getting OS X running on Intel machines was, I decided to write up a newer one with more information and updated instructions.</p>
+
+<p>To give the hoardes of people who think they&rsquo;ve got OS X, I&rsquo;m writing this little guide to get as far as you can with the leak. Bear in mind that the leak is incomplete.</p>
+
+<center><strong>THIS WILL NOT EVER BOOT TO THE GUI AS-IS</strong></center>
+
+
+<p>1) The first step is to get Darwin 8.0.1 from Apple&rsquo;s darwin site. You can get that from <a href="http://www.opensource.apple.com/darwinsource/images/darwinx86-801.iso.gz"><a href="http://www.opensource.apple.com/darwinsource/images/darwinx86-801.iso.gz">http://www.opensource.apple.com/darwinsource/images/darwinx86-801.iso.gz</a></a></p>
+
+<p>2) Once downloaded, you must install Darwin. I am not providing any instructions for that part. If Darwin doesn&rsquo;t work on your system, there&rsquo;s nothing I can do to help. I usually install Darwin on a HFS+ filesystem, which is an option in the installer.</p>
+
+<p>3) Once you have Darwin installed, you must upgrade to Darwin 8.1. This can only be done by compiling the source for 8.1 and installing. Luckily, there&rsquo;s a premade 8.1 package with an installer script. Get it from <a href="http://www.rejgond.com/Darwin-8.0.1to8.1.0.tar.gz">here</a>. Copy it to your Darwin hard disk (ftp, network, however you like) and run the script aptly named &ldquo;script&rdquo; included in the package (this you must do from within Darwin&hellip; I guess you figured that).</p>
+
+<p>4) When Darwin 8.1 is finished, reboot. When you&rsquo;re started up again, run &ldquo;uname -a&rdquo; from the command line to make sure that 8.1 is properly installed.</p>
+
+<p>5) Next is the important bit. Get your mactelbase.tar onto the Darwin hard disk, then from within Darwin run &ldquo;tar xpvf mactelbase.tar -C /&rdquo;.</p>
+
+<p>6) Now, you must run &ldquo;chmod -R 777 /&rdquo;. This step is vital.</p>
+
+<p>7) Some people report problems now if you don&rsquo;t copy the Extensions folder from the Darwin installer CD. You can mount the CD by typing &ldquo;mount -t CD9660 /dev/disk1s1 /mnt&rdquo; depending on which disk is your CD ROM. You want to run &ldquo;cp -RLv /mnt/System/Library/Extensions /System/Library/Extensions&rdquo;, assuming your mount point is /mnt. If doing this from a GUI (like I did) you want to copy and replace all.</p>
+
+<p>8) Run &ldquo;sync &amp; sync&rdquo; for old time&rsquo;s sake.</p>
+
+<p>9) In theory, OS X should be installed by now, and you should be able to reboot and log in to your installation. Remember, that you will only get a command-line, since nobody has been able to start up the GUI.</p>
+
+<center><strong>To start the GUI</strong></center>
+
+
+<p>Significant progress has been made on getting the GUI to run. My main problem is that the video drivers won&rsquo;t load for me. You have to copy files from &ldquo;/etc&rdquo; from real Mac to get WindowServer to even think of booting up. &ldquo;/etc/mach_init.d/WindowServer.plist&rdquo; might be nice. We are also missing the loading screen &ndash; you will never see that progress bar and &ldquo;Starting Mac OS X&rdquo;.</p>
+
+<p>Also, Apple seem to have crippled the drivers included with the Developer Transition Kit &ndash; i.e. the only ones that seem to run are the Intel Integrated Graphics drivers, like the GMA 900 included in the kit. In my case, I&rsquo;m using a GeForce 6800 GT and I get all sorts of errors about not being able to load the kernel extension.</p>
+
+<p>You need to run two applications to theoretically boot the GUI, <strong>WindowServer</strong> (in CoreGraphics.framework of ApplicationServices.framework) and <strong>loginwindow</strong>.</p>
+
+<p>WindowServer must be run with the &ldquo;-daemon&rdquo; switch, but on all my attempts I get a bus error when trying to run it.</p>
+
+<p>This updated guide uses information from a good friend of mine, <a href="http://omegnet.net/daisuke744/macos.html">Daisuke</a>, and Cmoski.</p>
+
+
+</article>
+
+ 
+<section id="disqus">
+  <h1 class="indent title">Comments</h1>
+  <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+
+
+        </div>
+
+        
+        <aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+          <div class="grid">
+
+  
+<section class="social aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    Follow Me!
+  </h1>
+  <ul class="unstyled">
+    <li><a class="adn" rel="me" href="//alpha.app.net/fusion94"><i class="icon-adn"></i> App.net</a></li>
+    
+    <li><a class="github" href="//github.com/fusion94"><i class="icon-github"></i> Github</a></li>
+    
+    <li><a class="gplus" href="//plus.google.com/101024956573508432752"><i class="icon-google-plus-sign"></i> Google+</a></li>
+    <li><a class="linkedin" href="//linkedin.com/in/fusion94"><i class="icon-linkedin-sign"></i> LinkedIn</a></li>
+    
+    
+    <li><a class="twitter" href="//twitter.com/fusion94"><i class="icon-twitter"></i> Twitter</a></li>
+    
+    <li><a class="coderwall" href="//coderwall.com/fusion94"><i class="icon-dashboard"></i> Coderwall</a></li>
+  </ul>
+</section>
+
+
+  <section id="recent-posts" class="aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">Recent Posts</h1>
+  <ul class="divided">
+    
+      <li class="post">
+        <a href="/blog/2015/09/09/essential-tools-for-makers/">Essential Tools for Makers</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/17/xbox-360-controller-and-osx/">Xbox 360 Controller and OSX</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/01/2-new-atom-themes/">2 New Atom Themes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/27/my-son-dot-dot-dot-and-a-legacy/">My Son...and a Legacy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/26/increasing-the-odds/">Increasing The Odds</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+</div>
+
+        </aside>
+        
+      </div>
+    </div>
+
+    <footer>
+      <div class="grid-wrapper">
+  <div class="grid">
+    <div class="grid__item">
+      <p class="copyright">
+  All content by fusion94 and licenced under <a href="//creativecommons.org/licenses/by-nc-sa/3.0/ie/">Creative Commons</a>.<br>
+  Code under <a href="//github.com/coogie/oscailte/blob/master/README.md">MIT Licence</a>.
+</p>
+    </div>
+  </div>
+</div>
+
+    </footer>
+
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+<script defer src="/javascripts/octopress.js"></script>
+
+
+<script>
+  var _gaq=[['_setAccount','UA-83223-8'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+
+
+<script>
+  var disqus_shortname = 'fusion94org';
+  
+    
+    // var disqus_developer = 1;
+    var disqus_identifier = 'http://fusion94.org/blog/2005/07/07/mac-os-x-for-intel-processors-a-guide/';
+    var disqus_url = 'http://fusion94.org/blog/2005/07/07/mac-os-x-for-intel-processors-a-guide/';
+    var disqus_script = 'embed.js';
+  
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  }());
+</script>
+
+
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+      (function() {
+          var t   = document.createElement('script');
+          t.type  = 'text/javascript';
+          t.async = true;
+          t.id    = 'gauges-tracker';
+          t.setAttribute('data-site-id', '50ef7f49f5a1f51811000011');
+          t.src = '//secure.gaug.es/track.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        })();
+  </script>
+
+
+
+
+
+<script>
+  $(document).ready(function(){
+    if (!window.jXHR){
+      var jxhr = document.createElement('script');
+      jxhr.type = 'text/javascript';
+      jxhr.src = '/javascripts/libs/jXHR.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jxhr, s);
+    }
+
+    github.showRepos({
+      user: 'fusion94',
+      count: 10,
+      skip_forks: true,
+      target: '#gh_repos'
+    });
+  });
+</script>
+<script src="/javascripts/github.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

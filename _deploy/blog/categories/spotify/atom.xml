@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Spotify | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/spotify/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2015-09-09T12:31:26-07:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Curiosity Playlist]]></title>
+    <link href="http://fusion94.org/blog/2012/08/30/curiosity-playlist/"/>
+    <updated>2012-08-30T07:36:00-07:00</updated>
+    <id>http://fusion94.org/blog/2012/08/30/curiosity-playlist</id>
+    <content type="html"><![CDATA[<p>Pretty decent play list in honor the NASA&rsquo;s Curiosity Mars Mission</p>
+]]></content>
+  </entry>
+  
+</feed>

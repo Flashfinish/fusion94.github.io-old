@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gaming | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/gaming/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2015-09-09T12:31:26-07:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Xbox 360 Controller and OSX]]></title>
+    <link href="http://fusion94.org/blog/2014/03/17/xbox-360-controller-and-osx/"/>
+    <updated>2014-03-17T08:32:22-07:00</updated>
+    <id>http://fusion94.org/blog/2014/03/17/xbox-360-controller-and-osx</id>
+    <content type="html"><![CDATA[<p>I recently purchased <a href="http://www.feralinteractive.com/en/mac-games/f12013/">Formula 1 2013</a> for OS X and I&rsquo;m really enjoying it.</p>
+
+<p><img src="/images/blog/360/f1-2013.png"></p>
+
+<p>The only real issue with it so far is that I cannot locate a decent steering wheel system to use with OS X and the vehicles are extremely difficult to control using the keyboard.</p>
+
+<!-- more -->
+
+
+<p>The solution: Hook up a Xbox 360 Controller.</p>
+
+<p>I&rsquo;m using a wired Xbox 360 controller (I also have a wireless controller but not the receiver), you can use a wireless one but you&rsquo;ll need to purchase a <a href="http://www.amazon.com/gp/product/B000HZFCT2?ie=UTF8&amp;tag=micesoftware-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000HZFCT2">Microsoft Wireless Gaming Receiver</a> to plug into your Mac.</p>
+
+<p>Since the wired controller has a standard USB port on the end, it seemed like the easiest option. To make it work, you&rsquo;re going to need to pick up a driver. The one we want is the <a href="http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver">Tattiebogle driver</a>. Download the latest disk image, open it up and go through the install process. Once completed, your Mac will require a restart.</p>
+
+<p>Even though the latest version of the driver is over a year old, it still works flawlessly with Mavericks.</p>
+
+<p>When you&rsquo;re back up and running, opening up the System Preferences pane, you&rsquo;ll see a new option under Other named &ldquo;Xbox 360 Controllers.&rdquo; This is where you check that the controller is working, and can reconfigure it to your liking by inverting the axis on the analog sticks on the controller. For some games, this is all you&rsquo;ll need to do.</p>
+
+<p><img src="/images/blog/360/XBox_360_Controllers.png"></p>
+
+<p>Formula 1 2013, for example, has gamepad support built in and so the controller works perfectly with it and recognizes it immediately.</p>
+
+<p><img src="/images/blog/360/controller_on.png"></p>
+
+<p>For the times when your controller isn&rsquo;t supported out of the box, something like <a href="https://itunes.apple.com/us/app/joystick-mapper/id528183797?mt=12">Joystick Mapper</a> or <a href="https://itunes.apple.com/us/app/gamepad-companion/id428799479?mt=12">Gamepad Companion</a> could be your salvation.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Increasing The Odds]]></title>
+    <link href="http://fusion94.org/blog/2014/02/26/increasing-the-odds/"/>
+    <updated>2014-02-26T15:24:03-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/26/increasing-the-odds</id>
+    <content type="html"><![CDATA[<p>Quite often you&rsquo;ll find a company that makes an announcement similar to this:</p>
+
+<blockquote><p>Today, we are excited to launch the public beta of <strong>FOO</strong>, a new <strong>WIDGET</strong> that&rsquo;s deeply programmable but also easy to use.</p></blockquote>
+
+<p>This is generally pretty awesome if you have interest in this particular type of <strong>WIDGET</strong> until they ask you to <em>&ldquo;Request a beta invite&rdquo;</em> using your email address.</p>
+
+<!-- more -->
+
+
+<p>To increase your chances of getting into the aforementioned beta all you need is a gmail account.</p>
+
+<p>As you know, you can append most anything to your gmail address using the <code>+</code> sign. So for example, you could register 10 or more times using an email address such as:</p>
+
+<p><code>gmailemail+beta1@gmail.com</code></p>
+
+<p><code>gmailemail+beta2@gmail.com</code></p>
+
+<p><code>gmailemail+beta3@gmail.com</code></p>
+
+<p><code>gmailemail+beta4@gmail.com</code></p>
+
+<p><code>gmailemail+beta5@gmail.com</code></p>
+
+<p>and so on and so on.</p>
+
+<p>If the company in question is using a lottery system to pull beta invitations out of the database based on email addresses you have now increased your odds of winning. <strong>DUH</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elder Scrolls Online]]></title>
+    <link href="http://fusion94.org/blog/2014/02/26/elder-scrolls-online/"/>
+    <updated>2014-02-26T09:43:47-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/26/elder-scrolls-online</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m in and downloading the Beta now&hellip;</p>
+
+<p><img src="/images/eso.png"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hearthstone - Beta]]></title>
+    <link href="http://fusion94.org/blog/2014/02/15/hearthstone-beta/"/>
+    <updated>2014-02-15T07:36:00-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/15/hearthstone-beta</id>
+    <content type="html"><![CDATA[<p>Blizzard&rsquo;s latest game, <a href="http://us.battle.net/hearthstone/en/">Hearthstone: Heroes of Warcraft</a> entered open beta on January 21st, 2014, opening it all for all Mac and PC users in North America. Hearthstone: Heroes of Warcraft is currently a free-to-play collectible card game that revolves around turn-based online 1v1 matches between two opponents.</p>
+
+<p>Hearthstone is set within the Warcraft universe, with the majority of its characters and cards drawing from existing lore.</p>
+
+<!-- more -->
+
+
+<p><img src="/images/blog/hearthstone/screenshot1.png"></p>
+
+<h3>Matches</h3>
+
+<p>Each Hearthstone battle is a 1vs1 match between two opponents. Gameplay in Hearthstone is turn-based, with players taking turns to play cards from their hand, casting spells, equipping weapons, or summoning &lsquo;minions&rsquo; to do battle on their behalf. Play may be between two human players, or one player and a computer-controlled opponent.</p>
+
+<br>
+
+
+<p>Each player is represented by their chosen &lsquo;hero&rsquo;, an important character from Warcraft lore. Each hero represents a particular class, determining the special cards and unique hero power available to them. Each hero has 30 Health &ndash; if that number is reduced to zero, the hero is destroyed, and the controlling player has lost the game. The available heroes and classes are:</p>
+
+<ul>
+<li>Mage (Jaina Proudmoore)</li>
+<li>Priest (Anduin Wrynn)</li>
+<li>Warlock (Gul'dan)</li>
+<li>Paladin (Uther the Lightbringer)</li>
+<li>Warrior (Garrosh Hellscream)</li>
+<li>Druid (Malfurion Stormrage)</li>
+<li>Hunter (Rexxar)</li>
+<li>Rogue (Valeera Sanguinar)</li>
+<li>Shaman (Thrall)</li>
+</ul>
+
+
+<br>
+
+
+<p>At the start of each turn, the player draws a new card from their deck &ndash; a collection of 30 cards selected before battle. Players can choose to play using one of several pre-assembled &lsquo;basic&rsquo; decks, or one of their own custom-made decks. While most cards are available to heroes of any class, a substantial portion are limited to a specific class, giving each hero their own strengths and unique possibilities.</p>
+
+<br>
+
+
+<p>During their turn, each player can choose to play any of their cards, use their hero power, command their minions to attack targets, or attack directly using their hero, if they have a weapon equipped. However, which actions the player is able to take is partly determined by their mana. Each player starts the game with 1 mana crystal, and gains one more at the start of each turn, until the maximum of 10 is reached. Each card and hero power requires the player to expend a specific amount of mana in order to play it, strategically limiting each player&rsquo;s actions. In addition, the larger mana pools in later rounds allow players to play increasingly expensive cards, opening the game up to ever more impressive moves and powerful abilities.</p>
+
+<br>
+
+
+<p>A match is concluded when one or both players has reached zero health, or chooses to concede. Completing a battle will grant each player hero experience (winning earns additional experience) and granting them access to additional cards up to level 10 or golden versions of basic cards past level 10.</p>
+
+<br>
+
+
+<p>Each match takes place on a randomly selected battlefield, representing the board on which the game is played. There are currently four possible battlefields: Stormwind, Orgrimmar, Pandaria and Stranglethorn. Each battlefield features its own design and numerous interactive elements, but gameplay is in no way affected or determined by battlefield selection.</p>
+
+<h3>Cards</h3>
+
+<p>Cards are the main substance of Hearthstone, representing the abilities, characters and effects which each player is able to make use of during the match. There are currently 382 cards in the game, with more planned to be added to the game later through the introduction of expansion packs and &lsquo;adventures&rsquo;.</p>
+
+<br>
+
+
+<p>In all game modes except Arena, the player does battle using a deck of 30 cards, constructed from cards in the player&rsquo;s collection. Each deck can only feature two of each card, and only one of each legendary card. Arena play features no such limitations, but requires players to play using a new deck chosen from a series of randomly provided selections. For either type of deck, the construction of a player&rsquo;s deck is a key strategic element in the game, determining which cards are available to them during the course of a match.</p>
+
+<br>
+
+
+<p>Each player starts the game with a wide selection of basic cards. Cards of higher rarity can be obtained by purchasing card packs, or as rewards from Arena mode. Card packs and entry to the Arena can be purchased using real money, or gold, an in-game currency earned through completing special &lsquo;quests&rsquo;, such as winning a certain number of matches, or dealing a certain amount of damage. Each card pack consists of five random cards, including at least one rare card. Obtaining new cards allows the player to add them to their decks, opening up new possibilities for play and strategy.</p>
+
+<br>
+
+
+<p>Players can also use the crafting system to create new cards. The system uses arcane dust to craft specific cards. Arcane dust can be obtained as an Arena reward, or by destroying existing cards, allowing players to convert unwanted cards into more desirable options. The crafting system was created as an alternative to the player card trading prevalent in trading card games such as Magic: The Gathering, with no plans for cards to be traded between players.</p>
+
+<br>
+
+
+<p>Similar to the foils found in physical collectible card games, Hearthstone features golden cards, special versions of regular cards featuring a golden border and unique animations. These cards are far harder to obtain than their regular versions, and cost more arcane dust to craft. Golden cards differ from their regular counterparts purely cosmetically, and are designed to allow players to show off their accomplishments.</p>
+
+<h3>Game Modes</h3>
+
+<p>Four main game modes are available to play in Hearthstone.</p>
+
+<ul>
+<li>In Practice mode, players can play against a selection of computer opponents. Players can learn the basics of the game battling against &lsquo;basic&rsquo; opponents, or can put their skills to the test against improved &lsquo;expert&rsquo; opponents.</li>
+<li>Play mode matches players against other human players of similar skill, in random matches. Players can choose to play Casual &lsquo;friendly&rsquo; games, or take part in Ranked play, earning special medals to reflect their skill and standing within the community. Ranked play features a 26-tier rank system, with wins allowing the player to progress to higher ranks, and losses causing them to descend in rank. The highest rank is called Legend. This rank cannot be lost until the season ends and the rank features the exact ranking in your region. All ranks are reset at the end of each season, with each season lasting for about one month. Ranked play is also planned to provide special cosmetic rewards for participation, such as golden heroes and alternative card backs.</li>
+<li>Arena mode, which costs in-game gold or real money to play, has the player drafting a deck by choosing between 3 cards until they have picked 30. Players then use their drafted deck to do battle in a series of games against other Arena players. Each Arena run lasts until the player has reached three losses or twelve wins, or chooses to retire their deck, at which point they are granted a number of rewards determined by the total number of games won. While constructed decks have card restrictions, Arena decks have no such card limits.</li>
+<li>Duels allow players to challenge players on their friends list to unranked matches. Duels offer no rewards, but allow players to play games outside of the other game modes.</li>
+</ul>
+
+
+<p>The game also features a Tutorial, a limited and non-repeatable starting experience designed to introduce players to Hearthstone, in which the player is pitched against a series of special opponents, with substantial dialogue elements.</p>
+
+<h3>Summary</h3>
+
+<p>Overall I think Hearthstone has been done really well and I&rsquo;m enjoying my time there. My understanding is that the game will always be free to play but that Blizzard will charge for card packs. I also know that they are planning to release game clients for Hearthstone for iPhone, iPad and Android sometime after the official launch.</p>
+
+<p>If you&rsquo;re so inclined feel free to download the game and friend me using my gamertag of <strong>fusion94#1276</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Damage Studios Advisory Board.]]></title>
+    <link href="http://fusion94.org/blog/2002/12/10/damage-studios-advisory-board/"/>
+    <updated>2002-12-10T21:47:00-08:00</updated>
+    <id>http://fusion94.org/blog/2002/12/10/damage-studios-advisory-board</id>
+    <content type="html"><![CDATA[<p>So we&rsquo;ve announced our Board of Advisors for Damage Studios. Here&rsquo;s a copy of the press release.</p>
+
+<blockquote><p><strong>Damage Studios Incorporated Forms Board of Advisors with Three Key Appointments</strong></p>
+
+<p>Advisory Team to Bolster Damage&rsquo;s Capabilities with Expertise in Content, Corporate Strategy, Financial Management and Venture Capital</p>
+
+<p>SAN FRANCISCO, Dec. 10 /PRNewswire/ &mdash; Damage Studios Incorporated, a game studio working on Rekonstruction, a next generation massively multiplayer online game, today announces the formation of its Board of Advisors with Wil Wheaton, Todd Choy and Scott Rafer as the inaugural members.</p>
+
+<p>&ldquo;With Big Business and Hollywood beginning to invest heavily into massive multiplayer online games, an industry projected to grow to USD$2.7 billion in 2006,&rdquo; notes Tony Guntharp, Damage president &amp; CEO, &ldquo;it is invaluable to have Wil, with his knowledge of Hollywood; Todd, with his extensive financial experience; and Scott, with his venture capital track record, join us in an advisory capacity.&rdquo;</p>
+
+<p><strong>Todd G. Choy</strong></p>
+
+<p>As the Chief Financial Officer at Medem, Mr. Choy oversees the accounting, finance, human resources, and administrative operations. Mr. Choy also acts as the Company&rsquo;s Assistant Secretary and Treasurer for the Board of Directors. He most recently assisted in raising three rounds of venture capital funding for planet U Inc., an Internet consumer promotions company. Previously, Mr. Choy held various Director positions at The Gap and Nestle USA. Mr. Choy is a member of the Board of Advisors of Angry Coffee Inc., a digital music firm.</p>
+
+<p>Mr. Choy holds a Master of Business Administration in Finance from San Francisco State and a Bachelor of Science from the University of California, Berkeley.</p>
+
+<p><strong>Scott Rafer</strong></p>
+
+<p>Currently Mr. Rafer is the chairman of WiFinder, a wireless networking services company. Previously, Mr. Rafer was CEO of Fresher Information Corp. for which he raised over $20 million of venture capital. Other positions held by Mr. Rafer include President of FotoNation, General Manager of Internet Products and Services for Kodak and Vice President of Operations for Torque Systems. Mr. Rafer started his career in technology as an analyst at the investment bank Needham &amp; Company in New York.</p>
+
+<p>Mr. Rafer is a graduate of the Jerome Fisher Program at the University of Pennsylvania, a double degree program jointly offered by the Wharton School of Business and the Moore School of Engineering.</p>
+
+<p><strong>Wil Wheaton</strong></p>
+
+<p>Wil Wheaton first entered the public eye in 1986 with his critically acclaimed performance in Rob Reiner&rsquo;s &ldquo;Stand By Me&rdquo;. He spent his teenage years on the starship Enterprise as a series regular on &ldquo;Star Trek: The Next Generation&rdquo;.</p>
+
+<p>Wil is currently a writer and performer with the ACME Comedy Theatre, and was recently called &ldquo;rather remarkable&rdquo; by LA Weekly. Upcoming roles include the romantic lead in the dark comedy &ldquo;Jane White is Sick and Twisted&rdquo; and a guest starring lead on PAX TV&rsquo;s &ldquo;Twice In A Lifetime&rdquo;.</p>
+
+<p><strong>About Damage Studios</strong></p>
+
+<p>Damage Studios Incorporated is a San Francisco, CA based development studio that has been formed to create the world&rsquo;s most dynamic MMORPG: Rekonstruction&trade;. For more information, please see <a href="http://www.damagestudios.com">http://www.damagestudios.com</a> or email us at <a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#58;&#112;&#114;&#x65;&#x73;&#115;&#64;&#x64;&#97;&#x6d;&#97;&#103;&#101;&#x73;&#116;&#x75;&#x64;&#105;&#x6f;&#115;&#x2e;&#99;&#111;&#109;&#46;">&#x70;&#x72;&#101;&#115;&#115;&#64;&#100;&#97;&#109;&#x61;&#x67;&#101;&#x73;&#116;&#x75;&#100;&#105;&#x6f;&#x73;&#x2e;&#x63;&#111;&#x6d;&#46;</a></p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

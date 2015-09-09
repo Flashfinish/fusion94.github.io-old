@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Cold Storage | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/cold-storage/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2015-09-09T12:31:26-07:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SourceForge Launched]]></title>
+    <link href="http://fusion94.org/blog/1999/11/17/sourceforge-launched/"/>
+    <updated>1999-11-17T19:23:00-08:00</updated>
+    <id>http://fusion94.org/blog/1999/11/17/sourceforge-launched</id>
+    <content type="html"><![CDATA[<p>So what was once &ldquo;Cold Storage&rdquo; is now <a href="http://sf.net">SourceForge</a> and is now available for public consumption. So what is <a href="http://sf.net">SourceForge</a>? Well it&rsquo;s a web resource for Open Source projects and organizations. We&rsquo;re providing CVS, mailing lists, public forums, the ability to poll visitors and project members, bug tracking and anonymous FTP for all open source projects to anyone completely free of charge.</p>
+
+<p>I encourage anyone that&rsquo;s involved in an open source project to stop by and try it out.</p>
+
+<p>Big thanks go out to Larry Augustin, Tim Perdue, Drew Streib, and Uriah Welcome for making this happen.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linux.com ColdStorage Article]]></title>
+    <link href="http://fusion94.org/blog/1999/08/20/linux-com-coldstorage-article/"/>
+    <updated>1999-08-20T10:18:00-07:00</updated>
+    <id>http://fusion94.org/blog/1999/08/20/linux-com-coldstorage-article</id>
+    <content type="html"><![CDATA[<p>There&rsquo;s an <a href="http://linux.omnipotent.net/article.php?article_id=3649">article</a> up over at Linux.com that talks a bit about ColdStorage. Not too much info but it does give a brief overview.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ColdStorage]]></title>
+    <link href="http://fusion94.org/blog/1999/06/23/coldstorage/"/>
+    <updated>1999-06-23T16:04:00-07:00</updated>
+    <id>http://fusion94.org/blog/1999/06/23/coldstorage</id>
+    <content type="html"><![CDATA[<p>After a few days here at VA I&rsquo;m going to end up working on the ColdStorage Project. I can&rsquo;t really go into too much detail as to what it is and what we&rsquo;re trying to accomplish but we&rsquo;ll be launching sometime this year.</p>
+]]></content>
+  </entry>
+  
+</feed>
