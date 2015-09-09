@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blogging | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2015-09-09T12:22:39-07:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Commenting]]></title>
+    <link href="http://fusion94.org/blog/2008/02/05/commenting/"/>
+    <updated>2008-02-05T08:37:00-08:00</updated>
+    <id>http://fusion94.org/blog/2008/02/05/commenting</id>
+    <content type="html"><![CDATA[<p>So I&rsquo;ve turned anonymous commenting back on for blog posts. In the old Wordpress installation comment spam was handled by akismet and comments were moderated.</p>
+
+<p>Now that I&rsquo;ve converted most of the content to Drupal I&rsquo;m testing a new approach. Anonymous users can now comment again but they must fill out some rudimentary contact information as well as successfully submit a Math CAPTCHA. Once this is accomplished their comment will be published.</p>
+
+<p>If this method works then no problems, if it doesn&rsquo;t then the next step would be to use an Image CAPTCHA. If that fails then the final solution would be to use the Image CAPTCHA in conjunction with comment moderation which I&rsquo;d really rather not do.</p>
+
+<p>Also to note is that I&rsquo;ve turned off new user account creation. If you really feel as though you need an account here then email me directly or use the contact form. Be prepared to justify your need for an account.</p>
+
+<p>Let&rsquo;s see how it goes. Let the games begin.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Site Moved]]></title>
+    <link href="http://fusion94.org/blog/2008/01/27/site-moved/"/>
+    <updated>2008-01-27T23:20:00-08:00</updated>
+    <id>http://fusion94.org/blog/2008/01/27/site-moved</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve moved all the content off of <a href="http://fusion94.org/blog">http://fusion94.org/blog</a> and have imported here into the Damage Studios site. It was getting tiring trying to determine where to blog and since the old site was running WordPress and I&rsquo;m now doing more Drupal related work it made sense to move it into Drupal. Thanks to PathAuto and aliasing about 98% of the old urls redirect properly.</p>
+
+<p>I know that there are some things not quite right but I hope to resolve these issues in the next week or so.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Upgraded Wordpress]]></title>
+    <link href="http://fusion94.org/blog/2007/11/28/upgraded-wordpress/"/>
+    <updated>2007-11-28T09:21:00-08:00</updated>
+    <id>http://fusion94.org/blog/2007/11/28/upgraded-wordpress</id>
+    <content type="html"><![CDATA[<p>I upgraded wordpress last night and need to fix all my plugins so please be patient.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Damage Studios]]></title>
+    <link href="http://fusion94.org/blog/2007/06/05/damage-studios/"/>
+    <updated>2007-06-05T08:43:00-07:00</updated>
+    <id>http://fusion94.org/blog/2007/06/05/damage-studios</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ll be blogging more and more often over at the <a href="http://damagestudios.net">Damage Studios </a>site. I will be primarily blogging about Drupal and Open Source in general.</p>
+
+<p>Here&rsquo;s a link to the <a href="http://damagestudios.net/rss.xml">feed</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Look and Feel]]></title>
+    <link href="http://fusion94.org/blog/2002/03/16/new-look-and-feel/"/>
+    <updated>2002-03-16T13:30:00-08:00</updated>
+    <id>http://fusion94.org/blog/2002/03/16/new-look-and-feel</id>
+    <content type="html"><![CDATA[<p>Well I finally got off my ass and automated this site somewhat. There are a couple of areas that still need to be filled in but I will get those up and running ASAP. I`m having issues with escape sequences and strings in MySQL, I think I may have found a temporary fix though.</p>
+]]></content>
+  </entry>
+  
+</feed>

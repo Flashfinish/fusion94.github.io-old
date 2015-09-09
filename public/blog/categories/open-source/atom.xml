@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Open Source | Tony Guntharp]]></title>
+  <link href="http://fusion94.org/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://fusion94.org/"/>
+  <updated>2015-09-09T12:22:39-07:00</updated>
+  <id>http://fusion94.org/</id>
+  <author>
+    <name><![CDATA[fusion94]]></name>
+    <email><![CDATA[fusion94@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2 New Atom Themes]]></title>
+    <link href="http://fusion94.org/blog/2014/03/01/2-new-atom-themes/"/>
+    <updated>2014-03-01T06:00:23-08:00</updated>
+    <id>http://fusion94.org/blog/2014/03/01/2-new-atom-themes</id>
+    <content type="html"><![CDATA[<p>For the past few days I&rsquo;ve been kicking the tires on the <a href="http://atom.io">Atom Editor</a> from <a href="https://github.com">GitHub</a>.</p>
+
+<p>After using it full time for the better part of this time I can say that I believe that this will become my full time editor of choice completely replacing Sublime Text 3.</p>
+
+<!-- more -->
+
+
+<p>As such I&rsquo;ve started to port over a couple of themes that I used in both Textmate and Sublime Text.</p>
+
+<p>You can locate all the details about them here:</p>
+
+<ul>
+<li><a href="https://atom.io/packages/made-of-code">Made of Code Theme</a></li>
+<li><a href="https://atom.io/packages/idlefingers">Idlefingers Theme</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using Octpress from Two Computers]]></title>
+    <link href="http://fusion94.org/blog/2014/02/25/using-octpress-from-two-computers/"/>
+    <updated>2014-02-25T06:12:33-08:00</updated>
+    <id>http://fusion94.org/blog/2014/02/25/using-octpress-from-two-computers</id>
+    <content type="html"><![CDATA[<p>This blog post covers how recreate a local repository of your <a href="http://octopress.org">Octopress</a> blog. I needed to figure out how to do this so that I could update my blog from both my personal desktop and my laptop.</p>
+
+<div class="info">Note: This solution will only work with the <b>2.x</b> version of Octopress. For the 3.x version there's <a href="https://github.com/octopress/deploy">Octopress Deploy</a></div>
+
+
+
+
+<!-- more -->
+
+
+<h3>How Octopress Works</h3>
+
+<p>Octopress repositories have two branches, <code>source</code> and <code>master</code>. The source branch contains the files that are used to generate the blog and the <code>master</code> contains the blog itself.</p>
+
+<p>When the local folders are initially configured according to the Octopress Setup Guide, the <code>master</code> branch is stored in a subfolder named <code>_deploy</code>. Since the folder name begins with an underscore, it is ignored when you <code>git push origin source</code>. Instead, the <code>master</code> branch (which contains your blog posts) gets updated when you <code>rake deploy</code>.</p>
+
+<div class="hr"></div>
+
+
+<h3>Recreating an Octopress repository</h3>
+
+<p>To recreate the local directory structure of an existing Octopress blog, follow these instructions.</p>
+
+<p>First you will need to clone the <code>source</code> branch to a local octopress folder.</p>
+
+<p><code>bash
+$ git clone -b source git@github.com:username/username.github.com.git octopress
+</code></p>
+
+<p>Then clone the <code>master</code> branch to the <code>_deploy</code> subfolder.</p>
+
+<p><code>bash
+$ cd octopress
+$ git clone git@github.com:username/username.github.com.git _deploy
+</code>
+Then run the rake installation to configure everything</p>
+
+<p><code>bash
+$ gem install bundler
+$ rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
+$ bundle install
+$ rake setup_github_pages
+</code></p>
+
+<p>It will prompt you for your repository URL.</p>
+
+<p><code>bash
+Enter the read/write url for your repository
+(For example, 'git@github.com:your_username/your_username.github.com)
+</code></p>
+
+<p>You are now setup with a new local copy of your existing Octopress blog.</p>
+
+<div class="hr"></div>
+
+
+<h3>Pushing changes from two different machines</h3>
+
+<p>If you want to blog from more than one computer, you need to make sure that you push everything before switching computers. From the first machine do the following whenever you’ve made changes:</p>
+
+<p><code>bash
+$ rake generate
+$ git add .
+$ git commit -am "Some comment here."
+$ git push origin source  # update the remote source branch
+$ rake deploy             # update the remote master branch
+</code></p>
+
+<p>Then on the second machine, you will need to pull down those changes.</p>
+
+<p><code>bash
+$ cd octopress
+$ git pull origin source  # update the local source branch
+$ cd ./_deploy
+$ git pull origin master  # update the local master branch
+</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Custom Character Generator for LCD Panels]]></title>
+    <link href="http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels/"/>
+    <updated>2013-02-01T07:23:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/02/01/custom-character-generator-for-lcd-panels</id>
+    <content type="html"><![CDATA[<p>In a blog post coming later today or at the very latest on Monday I&rsquo;ll be writing about displaying content and custom characters on a LCD Panel/LCD Keypad Shield.</p>
+
+<p>As part of that upcoming blog post I&rsquo;m announcing a Custom Character Generator for LCD Panels.</p>
+
+<p>You can play around with it <a href="http://fusion94.org/lcdchargen/">here</a>.</p>
+
+<!-- more -->
+
+
+<h3>Description</h3>
+
+<p>The LCD Character Generator (LCDCHARGEN) is a custom character generator to use with LCD Panels and/or LCD Shields.</p>
+
+<p>This has been tested to work with the <a href="http://www.dfrobot.com/index.php?route=product/product&amp;product_id=51#.UQvN06HDS0c">LCD Keypad Shield For Arduino</a> by <a href="http://dfrobot.com">DFRobot</a>.</p>
+
+<p>Other 16x2 LCD Panels/Shields should also work.</p>
+
+<h3>Source Code</h3>
+
+<p>This was originally developed by <a href="https://github.com/omerk/lcdchargen">Omerk Kilic</a> but now is powered by my fork located <a href="https://github.com/fusion94/lcdchargen">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
+    <link href="http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat/"/>
+    <updated>2013-01-24T23:40:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/24/kandan-an-open-source-alternative-to-hipchat</id>
+    <content type="html"><![CDATA[<div class="info">Say Goodbye to inefficient meetinngs and email threads. Get your team off of AIM, Google Talk, Skype or IRC.</div>
+
+
+<h3>Introduction</h3>
+
+<p>Today I&rsquo;d like to introduce you to <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
+
+<p>What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.</p>
+
+<p>Unlike HipChat or other alternatives, Kandan is completely Open Source and can be hosted internally or externally by your organization or by a third party.</p>
+
+<!-- more -->
+
+
+<h3>Background</h3>
+
+<p>Kandan was originally developed by <a href="http://cloudfuji.com/">Cloudfuji</a> and they started development on it back on March 6th of 2012. Development went pretty fast and furious until about June 4th of 2012. After that there wasn&rsquo;t another commit to the repository until some pull requests came in during the month of January of 2013.</p>
+
+<p>In talking with the team at Cloudfuji both <a href="http://jamesrgifford.com/">James Gifford</a> and I agreed to take over maintenance of the project.</p>
+
+<h3>Features</h3>
+
+<p>These are features that work out of the box on any provider:</p>
+
+<ul>
+<li>Easy deploy to CloudFoundry, Heroku, dotCloud, etc.</li>
+<li>Collaborative team chat</li>
+<li>Unlimited channels</li>
+<li>Embed formats for images and youtube videos with requests for others (twitter, facebook, g+, etc.)</li>
+<li>Synchronized sound player &ndash; play any audio-tag compatible url for the whole channel (Pending :P)</li>
+<li>/me command!</li>
+<li>Highly extensible plugin format</li>
+</ul>
+
+
+<h3>Get Involved</h3>
+
+<p>Since Kandan is a fully open-source app, we would appreciate if you dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.</p>
+
+<p>Make sure you check out these resources as well.</p>
+
+<ul>
+<li>GitHub <a href="https://github.com/kandanapp/kandan/issues">Issues Tracker</a></li>
+<li>Twitter <a href="https://twitter.com/kandanapp">@kandanapp</a></li>
+<li><a href="http://kandanapp.herokuapp.com/">Kandan</a> (Yes we eat our own DogFood)</li>
+</ul>
+
+
+<p>You can also email us at <a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#111;&#58;&#x6b;&#x61;&#x6e;&#100;&#x61;&#x6e;&#97;&#x70;&#112;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6b;&#x61;&#x6e;&#100;&#x61;&#x6e;&#x61;&#112;&#112;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></p>
+
+<h3>Conclusion</h3>
+
+<p>We&rsquo;re targetting a 1.0 release in just about two weeks time which will primarily consist of bug fixes. After that release we plan on doing regular minor releases that add new features so if there&rsquo;s anything you want to see in newer versions please create an <a href="https://github.com/kandanapp/kandan/issues">Issue</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CLAHub - CLA's Done Right]]></title>
+    <link href="http://fusion94.org/blog/2013/01/16/clahub-clas-done-right/"/>
+    <updated>2013-01-16T08:06:00-08:00</updated>
+    <id>http://fusion94.org/blog/2013/01/16/clahub-clas-done-right</id>
+    <content type="html"><![CDATA[<div class="error">IANAL: The post below is based on my experiences in dealing with Open Source projects from a contributor standpoint and as a benevolent dictator.</div>
+
+
+<h3>Background</h3>
+
+<p>First of all, what exactly is a Contributor License Agreement (hereafter referred to as <strong>CLA</strong>)?</p>
+
+<p>Most of us that have been employed as Software Engineers by corporations are already intimately familiar with <strong>CLAs</strong> although in the corporate world they are generally called a <em>&ldquo;Intellectual Property Assignment Agreement&rdquo;</em>. In many ways a <strong>CLA</strong> is nothing more than that but specifically geared towards Open Source projects.</p>
+
+<p>A <strong>CLA</strong> is a legal document in which you state you are entitled to contribute the code/documentation/translation to the <strong>project</strong> you&rsquo;re contributing to and are willing to have it used in distributions and derivative works. This means that should there be any kind of legal issue in the future as to the origins and ownership of any particular piece of code, then that <strong>project</strong> has the necessary forms on file from the contributor(s) saying they were permitted to make this contribution.</p>
+
+<!-- more -->
+
+
+<p>The <strong>CLA</strong> also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date. People and companies can therefore use that software, confident that they will not be asked to stop using pieces of the code at a later date.</p>
+
+<h3>What Needs To Be In A CLA</h3>
+
+<p>The <strong>CLA</strong> needs to grant rights to a project’s owner (or owning body/organization) that enable the release of the software in question. In the simplest scenario, a <strong>CLA</strong> is not, in fact, used at all; the contributor simply assigns the copyright to the project owner. When done properly, the contributor will need to sign a statement to that effect.</p>
+
+<p>Thus the contributor needs to &ndash; at minimum &ndash; grant the rights that will be granted to the project’s owner in the distribution licence. When granting rights it is common to grant a very broad range of rights. This is in order to avoid the need to return to the contributor for authorization to take a desired action with their contribution, such as releasing under a different licence.</p>
+
+<p>A <strong>CLA</strong> should also contain personal information about the person that signs it, such as a complete name and mailing address. You should be aware of the potential implications that storing this information could have in terms of the data protection law in your country and ensure that you have a Privacy Policy in place to deal with this.</p>
+
+<h3>Recording CLAs</h3>
+
+<p>It is very, very important to record the assignment of copyright or grant of rights for each contribution or from each contributor. This means an Open Source project <strong>must</strong> track and record <strong>CLAs</strong> submitted by contributors. It is generally best to have a <strong>CLA</strong> signed and submitted to project administrators for permanent record prior to the contributor submitting his/her contributions.</p>
+
+<h3>Maintaining CLAs</h3>
+
+<p>Maintaining <strong>CLAs</strong> can be challenging but overall it is not a difficult task. It does increase the effort required to make and accept third-party contributions. Most contributors will start small; i.e., they will provide a simple bug-fix, or a spelling correction. The temptation is there to bypass the requirement of a <strong>CLA</strong> for small contributions.</p>
+
+<p>This begs the the question, <em>&ldquo;Must a <strong>CLA</strong> be in place for every contribution?&rdquo;</em></p>
+
+<p>For small contributions, the risk of loss from legal action can be small. For larger chunks of code/documentation, incorporating major functionality, the risks would be much, much higher.</p>
+
+<p>At the end of the day, it&rsquo;s really up to the project owners and stakeholders on which contributions they chose to accept with and without a <strong>CLA</strong>.</p>
+
+<h3>So who uses a CLA</h3>
+
+<p>So what notable Open Source projects are using a <strong>CLA</strong>? Here are just a few.</p>
+
+<ul>
+<li><a href="http://www.canonical.com/contributors">Canonical</a></li>
+<li><a href="https://fedoraproject.org/wiki/Legal:Licenses/CLA">Fedora</a></li>
+<li><a href="http://source.android.com/source/cla-individual.html">Android</a></li>
+<li><a href="http://mono-project.com/FAQ:_Licensing">Mono</a></li>
+<li><a href="http://www.apache.org/licenses/icla.txt">Apache</a></li>
+<li><a href="http://nodejs.org/cla.html">NodeJS</a></li>
+</ul>
+
+
+<h3>Methods of Recording a CLA</h3>
+
+<p>There are many ways to record and maintain a <strong>CLA</strong>. Some projects require that you print out, complete and sign a document then mail that document back to them. Some projects allow for scanning in a signed agreement then emailing in PDF form to a specific email address while other projects have embraced contributors signing electronically.</p>
+
+<p>Smaller Open Source projects have used electronic signature providers such as:</p>
+
+<ul>
+<li><a href="https://www.echosign.adobe.com/en/home.html">Echosign</a></li>
+<li><a href="http://www.docusign.com/">DocuSign</a></li>
+</ul>
+
+
+<p>While larger projects have rolled their own online solution.</p>
+
+<ul>
+<li><a href="https://forms.canonical.com/contributor/">Canonical</a></li>
+<li><a href="http://nodejs.org/cla.html">NodeJS</a></li>
+</ul>
+
+
+<p>You can also use <a href="http://www.harmonyagreements.org/">Harmony Agreements</a> to assist you in selecting the right <strong>CLA</strong> for your Open Source project.</p>
+
+<h3>My experience with CLAs</h3>
+
+<p>For a year, I was the Director of Developer Relations at <a href="http://www.appcelerator.com">Appcelerator</a> and part of my job was to be the default company representative and signer for the <strong>CLA</strong> we had in place. We happened to use <a href="https://www.echosign.adobe.com/en/home.html">Echosign</a> as our electronic signing tool of choice. As I haven&rsquo;t used Echosign (plus they&rsquo;ve been purchased by Adobe since then) in over a year I won&rsquo;t go into details as to whether or not it&rsquo;s any good.</p>
+
+<h4>Appcelerator CLA Workflow</h4>
+
+<p>At Appcelerator a vast majority of our work was Open Source and was hosted in public repositories over on <a href="https://github.com/appcelerator">GitHub</a>. The workflow pretty much operated like this:</p>
+
+<ol>
+<li>Fork the project.</li>
+<li>Make one or more well commented and clean commits to the forked repository.</li>
+<li>Perform a pull request in github&rsquo;s web interface.</li>
+<li>Project stakeholder would review the pull request and choose to accept/reject.</li>
+<li>If project stakeholder chose to accept, stakeholder would email me to verify if we had a signed <strong>CLA</strong> on file for the contributor.</li>
+<li>I&rsquo;d logon to Echosign and verify if there was a <strong>CLA</strong> on file for said contributor.</li>
+<li>I&rsquo;d email the project stakeholder and let him/her know if there was or wasn&rsquo;t a <strong>CLA</strong> on file.</li>
+<li>Project stakeholder would accept the pull request if we had a <strong>CLA</strong> on file or if we didn&rsquo;t they&rsquo;d reach out to the contributor and get them to sign the <strong>CLA</strong>.</li>
+<li>Once the contributor signed the <strong>CLA</strong> we had to go through steps 6-8 all over again.</li>
+</ol>
+
+
+<p>As you can imagine, this was rather inefficient and created quite a bit of friction at times. Which brings me to <a href="https://github.com/jasonm/clahub">CLAHub</a></p>
+
+<h3>CLAHub</h3>
+
+<p>I found about <a href="https://github.com/jasonm/clahub">CLAHub</a> while perusing the <a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">Octopress Sites Wiki</a> and checking out other people&rsquo;s <a href="http://octopress.org">Octopress</a> installs and themes. One of the sites I visited was the website of <a href="http://jayunit.net/">Jason Morrison</a> who is the author of CLAHub.</p>
+
+<p>I read through his <a href="http://jayunit.net/2013/01/09/clahub-easy-contributor-agreements-on-github/">blog post</a> and fell in love with the idea and the concept.</p>
+
+<p><strong>This is how Jason describes it:</strong></p>
+
+<blockquote><p>With CLAHub and an open source project on GitHub you can:</p>
+
+<ul>
+<li>Sign in with GitHub and create a CLA for your project.</li>
+<li>Ask contributors to sign in with GitHub to electronically sign the CLA.</li>
+<li>See on each pull request whether the contributors have all signed your CLA. This uses the handy Commit Status API, similar to what CI tools do.</li>
+</ul>
+</blockquote>
+
+<p>As a bonus Jason has released it as Open Source under the permissive <a href="https://raw.github.com/jasonm/clahub/master/LICENSE">MIT license</a>.</p>
+
+<p>To find out more about the project then please visit these links:</p>
+
+<ul>
+<li><a href="http://www.clahub.com/">CLAHub Site</a></li>
+<li><a href="https://github.com/jasonm/clahub">GitHub Code</a></li>
+<li><a href="https://github.com/jasonm/clahub/issues">GitHub Issues</a></li>
+<li><a href="http://jayunit.net/2013/01/09/clahub-easy-contributor-agreements-on-github/">Jason&rsquo;s Original Blog Post</a></li>
+</ul>
+
+
+<p>One thing to note is that CLAHub currently only works for <strong>public</strong> repositories and <strong>NOT private</strong> repositories.</p>
+
+<h3>Conclusion</h3>
+
+<p>If CLAHub had been available during my time at Appcelerator we definitely would have used it as it removes almost <strong>ALL</strong> of the friction points listed above.</p>
+
+<p>If you&rsquo;re a developer with an Open Source project hosted on GitHub or an organization that&rsquo;s doing the same then you should really take the time to evaluate CLAHub as it just integrates nicely with the existing tools and methods that you are more than likely already using.</p>
+]]></content>
+  </entry>
+  
+</feed>
