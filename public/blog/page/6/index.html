@@ -12,7 +12,7 @@
     <title>Tony Guntharp</title>
     <meta name="author" content="fusion94">
     
-    <meta name="description" content="Phillip Fulmer & UT Dec 17th, 2008 Football University of Tennessee Volunteers Comments Many years ago I was lucky enough to attend Phillip Fulmer& &hellip;">
+    <meta name="description" content="Zend Framework and svn:externals Dec 17th, 2008 PHP SVN Snippets Software Engineering Zend Framework Comments The majority of the work I&rsquo;ve &hellip;">
     
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://fusion94.org/blog/page/6">
@@ -69,6 +69,156 @@ window.analytics.page();
           
 
   
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2008/12/17/zend-framework-and-svn-externals/">Zend Framework and svn:externals</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2008-12-17T23:41:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Dec 17<span>th</span>, 2008</time>
+    
+
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      
+        <li><a class='category' href='/blog/categories/php/'>PHP</a></li>
+      
+        <li><a class='category' href='/blog/categories/svn/'>SVN</a></li>
+      
+        <li><a class='category' href='/blog/categories/snippets/'>Snippets</a></li>
+      
+        <li><a class='category' href='/blog/categories/software-engineering/'>Software Engineering</a></li>
+      
+        <li><a class='category' href='/blog/categories/zend-framework/'>Zend Framework</a></li>
+      
+    
+    </ul>
+  </div>
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2008/12/17/zend-framework-and-svn-externals/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>The majority of the work I&rsquo;ve been involved with at <a href="http://www.skyfire.com">Skyfire</a> has involved the <a href="http://framework.zend.com/">Zend Framework</a>. When I first got there they were downloading the latest copy from the Zend website and checking into their repository.</p>
+
+<p>I had used svn:externals quite a bit while at <a href="http://contentcircles.com">Content Circles</a> to pull down vendor branches and decided to re-implement this at <a href="http://www.skyfire.com">Skyfire</a>.</p>
+
+<p>In case you aren&rsquo;t aware of <a href="http://svnbook.red-bean.com/nightly/en/svn-book.html#svn.advanced.externals">svn:externals</a> here&rsquo;s a bit of a description.</p>
+
+<blockquote><p>An externals definition is a mapping of a local directory to the URL—and ideally a particular revision—of a versioned directory. In Subversion, you declare externals definitions in groups using the svn:externals property. You can create or modify this property using svn propset or svn propedit. It can be set on any versioned directory, and its value describes both the external repository location and the client-side directory to which that location should be checked out.</p>
+
+<p>The convenience of the svn:externals property is that once it is set on a versioned directory, everyone who checks out a working copy with that directory also gets the benefit of the externals definition. In other words, once one person has made the effort to define the nested working copy structure, no one else has to bother—Subversion will, after checking out the original working copy, automatically also check out the external working copies.</p></blockquote>
+
+<p>To implement this is fairly easy and straightforward. Lets say that we have two (2) Zend Framework projects that we want to implement this with and our project repository layout looks like this:</p>
+
+<pre>code/
+    branches/
+        reporting/
+            application/
+            library/
+            web/
+        corporate/
+            application/
+            library/
+            web/
+    tags/
+    trunk/
+</pre>
+
+
+
+
+<ol>
+<li>Navigate to the top level of the branches directory and run:
+
+<code>svn propedit svn:externals reporting/library/.</code>
+
+<li>This will open an editor session. To pull in the external revision of Zend Framework just type in:
+
+<code>Zend http://framework.zend.com/svn/framework/standard/tags/release-1.7.1/library/Zend/</code>
+
+<li>Save and exit.
+<li>Now update the repository and commit:
+<code>svn update
+svn commit
+</code>
+</ol>
+
+
+<p>Now our project repository will look something like this:</p>
+
+<pre>code/
+    branches/
+        reporting/
+            application/
+            library/
+                Zend/
+            web/
+        corporate/
+            application/
+            library/
+            web/
+    tags/
+    trunk/
+</pre>
+
+
+<p>With the tagged release of the 1.7.1 version of Zend Framework nestled inside the library directory of the reporting branch.</p>
+
+<p>Also to note is that using this method you can set different branches to pull in different versions of the Zend Framework for production or legacy sake. For example the reporting branch pulls down the 1.7.1 version for use but we could pull in the 1.0.1 version for the corporate branch by executing this:</p>
+
+<ol>
+<li>Navigate to the top level of the branches directory and run:
+
+<code>svn propedit svn:externals corporate/library/.</code>
+
+<li>This will open an editor session. To pull in the external revision of Zend Framework just type in:
+
+<code>Zend http://framework.zend.com/svn/framework/standard/tags/release-1.0.1/library/Zend/</code>
+
+<li>Save and exit.
+<li>Now update the repository and commit:
+<code>svn update
+svn commit
+</code>
+</ol>
+
+
+<p>We now have Zend Framework 1.0.1 pulled down for use for the corporate branch.</p>
+
+<p>If you ever get confused as to which version you&rsquo;ve got pulled down you can just open up Zend/Version.php and take a look at the <code>const VERSION = &ldquo;x.x.x &rdquo;;</code> string.</p>
+
+
+  </article>
+  <hr>
+
   
   <article class="listing">
     <header>
@@ -662,65 +812,6 @@ window.analytics.page();
   </article>
   <hr>
 
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2008/02/14/comcast-and-the-airport-extreme-base-station/">Comcast and the Airport Extreme Base Station</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2008-02-14T20:01:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Feb 14<span>th</span>, 2008</time>
-    
-
-  <div class="pull-left">
-    <i class="icon-tags"></i>
-    <ul class="tags unstyled">
-    
-      
-        <li><a class='category' href='/blog/categories/apple/'>Apple</a></li>
-      
-        <li><a class='category' href='/blog/categories/comcast/'>Comcast</a></li>
-      
-    
-    </ul>
-  </div>
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2008/02/14/comcast-and-the-airport-extreme-base-station/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>Awhile back I picked up an Airport Extreme Base Station to replace a Linksys Wireless Access Point. Unfortunately I was brain-dead while getting everything setup and couldn&rsquo;t get it to talk to the Comcast Cable Modem so I ended up putting it behind the Linksys WAP and turning off the Wireless on the Linksys device.</p>
-
-<p>Tonight I fixed the issue. Turns out I needed to turn off the Cable Modem (as well as remove the built-in battery backup) for a few minutes while keeping the AEBS turned off. This allowed for the Comcast Modem to clear both the MAC address of the Linksys and the IP addresses. Next I turned on the Cable modem, waited till it had a good connection then turned on the AEBS. The AEBS was then able to pick up a valid IP address and everything was good to go.</p>
-
-
-  </article>
-  <hr>
-
 
   <div class="pagination">
     
@@ -764,6 +855,10 @@ window.analytics.page();
   <ul class="divided">
     
       <li class="post">
+        <a href="/blog/2015/09/09/essential-tools-for-makers/">Essential Tools for Makers</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/17/xbox-360-controller-and-osx/">Xbox 360 Controller and OSX</a>
       </li>
     
@@ -777,10 +872,6 @@ window.analytics.page();
     
       <li class="post">
         <a href="/blog/2014/02/26/increasing-the-odds/">Increasing The Odds</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/26/elder-scrolls-online/">Elder Scrolls Online</a>
       </li>
     
   </ul>

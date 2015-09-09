@@ -12,7 +12,7 @@
     <title>Tony Guntharp</title>
     <meta name="author" content="fusion94">
     
-    <meta name="description" content="Wankr BETA Jan 15th, 2006 Comments wankr beta Wordpress 2.0 Jan 14th, 2006 Comments Well I finally got around to upgrading the site to WordPress 2.0 &hellip;">
+    <meta name="description" content="Adding Metadata Tags to iPod Videos Jan 15th, 2006 Comments In an earlier post I linked to an excellent guide that showed video iPod users how to &hellip;">
     
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://fusion94.org/blog/page/27">
@@ -69,6 +69,64 @@ window.analytics.page();
           
 
   
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2006/01/15/adding-metadata-tags-to-ipod-videos/">Adding Metadata Tags to iPod Videos</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2006-01-15T21:56:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Jan 15<span>th</span>, 2006</time>
+    
+
+    
+      <a class="pull-right" href="http://fusion94.org/blog/2006/01/15/adding-metadata-tags-to-ipod-videos/#disqus_thread">
+        Comments <i class="icon-comment"></i>
+      </a>
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>In an <a href="http://fusion94.org/blog/video-ipod-guide.htm">earlier post</a> I linked to an <a href="http://plasticbugs.com/?p=305">excellent guide</a> that showed video iPod users how to convert their existing movies over to iPod compatible video.</p>
+
+<p>While this is an excellent guide it was lacking in how to read, parse, and set iTunes-style metadata into mpeg4 containers (m4a, m4b, m4p, m4v, mp4).</p>
+
+<p>The video type is stored in the file as an ATOM (metadata for QuickTime and MPEG4) called stik. You can use a hex editor to modify the ATOM directly, but this is very clunky and dangerous (I repeat it&rsquo;s dangerous).</p>
+
+<p>Instead you can use a tool such as <a href="http://atomicparsley.sourceforge.net/">AtomicParsley</a> to do this for you. Once you&rsquo;ve dowloaded and installed AtomicParsley you can run the tool from the command line to set the metadata tags properly. For example once I ripped Stargate Atlantis &ndash; Season One &ndash; Episode 101 to mp4 I ran the following command from the terminal to set the tags.
+<code>
+<strong><em>/bin/AtomicParsley RisingPart1.mp4 &mdash;title &ldquo;Rising Part 1&rdquo; &mdash;TVEpisode &ldquo;101&rdquo; &mdash;TVEpisodeNum 101 &mdash;tracknum &ldquo;1/20&rdquo; &mdash;description &ldquo;The discovery of an amazing city left behind by the Ancients in the most unlikely of places, leads a new Stargate team to the distant Pegasus galaxy. Once there, the new team encounters a planet of primitive humans being decimated by a terrible alien race &ndash; the Wraith.&rdquo; &mdash;year 2004 &mdash;genre &ldquo;TV Shows&rdquo; &mdash;stik &ldquo;TV Show&rdquo; &mdash;TVNetwork &ldquo;SciFi&rdquo; &mdash;TVShowName &ldquo;Stargate Atlantis&rdquo; &mdash;TVSeasonNum 1 &mdash;artist &ldquo;Stargate Atlantis&rdquo; &mdash;album &ldquo;Stargate Atlantis, Season 1&rdquo;</em></strong></code></p>
+
+<p>The only downside that I see to AtomicParsley is that instead of altering the mp4 directly it copies the file and makes the changes into a temp file which is written to disk.</p>
+
+<p>If you aren&rsquo;t comfortable with using the command line at all you can also download <a href="http://home.comcast.net/~lowellstewart/lostify/">Lostify</a> which is a &ldquo;gui-wrapper&rdquo; to AtomicParsley.</p>
+
+<p>Anyways, I hope this helps some of you out. Have fun.</p>
+
+
+  </article>
+  <hr>
+
   
   <article class="listing">
     <header>
@@ -506,56 +564,6 @@ window.analytics.page();
   </article>
   <hr>
 
-  
-  <article class="listing">
-    <header>
-  
-  <h1 class="beta">
-    <a href="/blog/2006/01/12/firefox-bookmark-synchronization/">Firefox Bookmark Synchronization</a>
-  </h1>
-  
-
-  
-  <div class="meta clearfix">
-    
-
-
-
-
-
-
-
-
-  
-
-
-<time class="pull-left" datetime="2006-01-12T07:52:00-08:00" pubdate data-updated="true"><i class="icon-calendar"></i> Jan 12<span>th</span>, 2006</time>
-    
-
-    
-      <a class="pull-right" href="http://fusion94.org/blog/2006/01/12/firefox-bookmark-synchronization/#disqus_thread">
-        Comments <i class="icon-comment"></i>
-      </a>
-    
-  </div>
-  
-</header>
-
-
-
-
-  <p>One of the issue&rsquo;s I&rsquo;ve had for awhile now is synchronization of my firefox bookmarks across multiple computers. Luckily for me I&rsquo;ve just located <a href="http://www.foxcloud.com/wiki/Main_Page">Foxmarks</a>.</p>
-
-<p><a href="http://www.foxcloud.com/wiki/Main_Page">Foxmarks</a> is an extension for Firefox that synchronizes bookmarks across multiple machines and so far is working perfectly for me.</p>
-
-<p>You can download it from <a href="http://www.foxcloud.com/wiki/Foxmarks:_Getting_Started">here</a>.</p>
-
-<p>You should also give the <a href="http://blog.foxcloud.com/">Foxcloud Blog</a> a read as well.</p>
-
-
-  </article>
-  <hr>
-
 
   <div class="pagination">
     
@@ -599,6 +607,10 @@ window.analytics.page();
   <ul class="divided">
     
       <li class="post">
+        <a href="/blog/2015/09/09/essential-tools-for-makers/">Essential Tools for Makers</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/17/xbox-360-controller-and-osx/">Xbox 360 Controller and OSX</a>
       </li>
     
@@ -612,10 +624,6 @@ window.analytics.page();
     
       <li class="post">
         <a href="/blog/2014/02/26/increasing-the-odds/">Increasing The Odds</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/26/elder-scrolls-online/">Elder Scrolls Online</a>
       </li>
     
   </ul>
